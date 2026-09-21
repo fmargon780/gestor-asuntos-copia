@@ -1,0 +1,188 @@
+/* ============================================================
+   hitos.css — los hitos dentro de la ficha de un asunto, y el
+   bloque "Hitos" de Ajustes (16-sep-2026).
+
+   La lista de hitos vive dentro de .ficha-bloque (css/ficha-asunto.css),
+   así que ya llega al mismo borde que el resto de la ficha: aquí no
+   hace falta ningún ancho especial para "aprovechar el ancho".
+   ============================================================ */
+
+.hitos-cuenta { margin-bottom: 10px; }
+
+.lista-hitos {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.hito {
+  border: 1px solid var(--linea);
+  border-left: 4px solid var(--azul);
+  border-radius: 8px;
+  background: var(--papel);
+  padding: 10px 14px;
+}
+.hito-hecho { border-left-color: #1e7a46; background: var(--verde); }
+.hito-hecho .hito-titulo { text-decoration: line-through; opacity: .75; }
+.hito-encurso { border-left-color: var(--ambar-linea); box-shadow: 0 0 0 2px rgba(224, 179, 74, .18); }
+.hito-noaplica { border-left-color: #b9c6d6; opacity: .7; }
+.hito-decision { border-left-color: var(--ambar-linea); }
+
+.hito-linea {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+}
+.hito-casilla { width: 16px; height: 16px; flex: none; cursor: pointer; }
+.hito-titulo { font-weight: 600; flex: 1; word-break: break-word; }
+.hito-meta { display: flex; gap: 8px; align-items: center; flex: none; }
+.hito-fecha, .hito-resp {
+  font-size: 12px;
+  border-radius: 20px;
+  padding: 2px 9px;
+  white-space: nowrap;
+}
+.hito-fecha { background: var(--azul-claro); color: var(--azul); border: 1px solid #c3d8ec; }
+.hito-resp { background: var(--fondo); color: var(--tinta-suave); border: 1px solid var(--linea); }
+.hito-resp-sinresolver { color: #9aa7b4; font-style: italic; }
+
+.hito-desplegar {
+  border: 0; background: none; font-size: 13px; color: var(--tinta-suave);
+  cursor: pointer; flex: none; padding: 2px 4px;
+}
+
+.hito-cuerpo {
+  margin: 10px 0 0 26px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.hito-cuerpo.oculto { display: none; }
+.hito-cuerpo .etiqueta { margin: 4px 0 0; font-size: 12px; }
+.hito-explicacion { color: var(--tinta-suave); font-size: 14px; line-height: 1.5; }
+.hito-explicacion p { margin: 0 0 6px; }
+
+.hito-notas { display: flex; flex-direction: column; gap: 6px; }
+.hito-nota {
+  background: var(--fondo); border-radius: 8px; padding: 6px 10px; font-size: 13px;
+}
+.hito-nota-texto { min-height: 44px; }
+
+.hito-documentos { display: flex; flex-wrap: wrap; gap: 6px; }
+.hito-documento {
+  font-size: 12px; background: var(--fondo); border: 1px solid var(--linea);
+  border-radius: 20px; padding: 3px 6px 3px 10px; display: inline-flex; align-items: center; gap: 6px;
+}
+.hito-doc-quitar { border: 0; background: none; cursor: pointer; color: var(--tinta-suave); font-size: 11px; }
+.hito-doc-abrir {
+  border: 0; background: none; cursor: pointer; color: var(--tinta); font-size: 12px;
+  padding: 0; text-decoration: underline;
+}
+.hito-doc-abrir.hito-doc-falta { color: var(--tinta-suave); text-decoration: none; cursor: default; }
+
+.hito-botones { display: flex; gap: 8px; flex-wrap: wrap; padding-top: 4px; }
+
+/* ---------- "lo que hay que reunir" (18-sep-2026, fila 59) ---------- */
+
+.hito-requisitos {
+  border: 1px solid var(--linea);
+  border-radius: 8px;
+  padding: 8px 10px;
+  background: var(--fondo);
+}
+.hito-requisitos-cabecera {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+  flex-wrap: wrap;
+  font-size: 13px;
+  color: var(--tinta-suave);
+  margin-bottom: 6px;
+}
+.hito-requisitos-lista { display: flex; flex-direction: column; gap: 4px; }
+
+.hito-requisito-fila {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 4px 2px;
+}
+.hito-requisito-casilla { width: 16px; height: 16px; flex: none; cursor: pointer; }
+.hito-requisito-texto { flex: 1; font-size: 14px; }
+.hito-requisito-obligatorio { font-weight: 600; }
+.hito-requisito-punto {
+  display: inline-block;
+  width: 7px; height: 7px;
+  border-radius: 50%;
+  background: var(--ambar-linea);
+  margin-right: 6px;
+}
+.hito-requisito-hecha .hito-requisito-texto { text-decoration: line-through; opacity: .75; }
+.hito-requisito-valor { font-size: 12px; color: var(--tinta-suave); }
+.boton-copiar-chico { padding: 1px 8px; font-size: 11px; }
+.hito-requisito-valor-campo { flex-basis: 100%; margin-top: 4px; }
+.hito-requisito-menu-boton {
+  border: 0; background: none; cursor: pointer; color: var(--tinta-suave);
+  font-size: 15px; padding: 2px 6px; flex: none;
+}
+
+.hito-requisitos-traer { font-size: 13px; color: var(--tinta-suave); }
+
+/* ---------- el cuadro de "Apuntar un documento" (fila 31, 17-sep-2026) ---------- */
+
+#hitosdoc-lista { display: flex; flex-direction: column; gap: 4px; max-height: 320px; overflow: auto; }
+.hitosdoc-fila { display: flex; align-items: center; gap: 8px; padding: 4px 2px; }
+.hitosdoc-fila-falta { color: var(--tinta-suave); }
+
+/* ---------- las bifurcaciones ---------- */
+
+.hito-marca-pregunta {
+  display: inline-flex; align-items: center; justify-content: center;
+  width: 22px; height: 22px; border-radius: 11px; flex: none;
+  background: var(--ambar); border: 1px solid var(--ambar-linea); color: #8a6100;
+  font-size: 12px; font-weight: 700;
+}
+.hito-opciones { display: flex; flex-wrap: wrap; gap: 8px; margin: 10px 0 0 26px; }
+.hito-opcion.elegida { border-color: #1e7a46; background: var(--verde); }
+
+.hitos-huerfanos { margin-top: 4px; }
+.hitos-huerfanos > summary { cursor: pointer; font-size: 13px; color: var(--tinta-suave); }
+.hitos-huerfanos .lista-hitos { margin-top: 8px; }
+.hitos-huerfanos .hito { opacity: .75; }
+
+/* ---------- el bloque "Hitos" de Ajustes ---------- */
+
+.hitos-subtitulo { margin: 16px 0 4px; font-size: 13px; color: var(--tinta-suave); }
+.hitos-subtitulo:first-child { margin-top: 0; }
+#hitos-no-lectivos { min-height: 110px; font-family: inherit; resize: vertical; }
+
+/* ---------- "solo informativo" y "normativa" (20-sep-2026, fila 79) ---------- */
+
+.hito-informativo { opacity: .8; }
+.hito-informativo .hito-titulo { color: var(--tinta-suave); }
+.etiqueta-informativo {
+  display: inline-block;
+  font-size: 11px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: .3px;
+  color: var(--tinta-suave);
+  background: var(--fondo);
+  border: 1px solid var(--linea);
+  border-radius: 10px;
+  padding: 1px 7px;
+  margin-left: 6px;
+}
+
+.hito-normativa { margin: 8px 0; display: flex; flex-direction: column; gap: 2px; }
+.hito-normativa-titulo {
+  font-size: 12px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: .3px;
+  color: var(--tinta-suave);
+}
+.hito-normativa-linea { font-size: 13px; }
+a.hito-normativa-linea { color: var(--azul); }

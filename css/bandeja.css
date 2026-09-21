@@ -1,0 +1,66 @@
+/* La bandeja de correos, dentro de "Por clasificar" (fila 27,
+   17-sep-2026, docs/CORREOS-DENTRO-DE-POR-CLASIFICAR.md), plegada
+   detrás de una barra.
+
+   Los correos no son ni asuntos ni documentos sueltos, así que llevan
+   su propio color: sobre morado y franja morada. */
+#correos-sin-clasificar { margin-bottom: 18px; }
+#btn-correos-sin-clasificar.correos-sin-clasificar-vacio { color: var(--tinta-suave); }
+#bandeja-correos.bandeja { margin: 10px 0 0; }
+.bandeja-acciones-arriba { display: flex; justify-content: flex-end; margin-bottom: 10px; }
+
+.tarjeta-correo {
+  border-left: 5px solid #5b3fa0;
+  background: #fbfaff;
+}
+.tarjeta-correo .tarjeta-icono { color: #5b3fa0; }
+.tarjeta-correo .propuesta-correo { margin-top: 5px; }
+.tarjeta-correo .marca-tipo { background: #f0eafb; color: #5b3fa0; }
+.tarjeta-correo-pulsable { cursor: pointer; }
+.tarjeta-correo-pulsable:hover { background: var(--azul-claro); border-color: var(--azul); }
+
+#aviso-correo-pendiente .boton { margin-top: 10px; }
+
+/* ---------- elegir el asunto a mano (js/bandeja-enlace.js) ---------- */
+
+.correo-enviado { font-weight: 600; }
+
+.enlace-bloque { margin-top: 14px; }
+.enlace-bloque .etiqueta { margin: 0 0 6px; }
+
+.enlace-lista {
+  max-height: 210px;
+  overflow-y: auto;
+  border: 1px solid #dde3ea;
+  border-radius: 8px;
+  padding: 4px;
+}
+
+.enlace-lista .resultado {
+  display: block;
+  width: 100%;
+  text-align: left;
+  background: none;
+  border: 0;
+  font: inherit;
+  cursor: pointer;
+}
+
+.enlace-archivado { margin-right: 6px; }
+
+/* ---------- "ya está en el asunto" (fila 18, un mismo correo en dos
+   buzones): una línea, no una tarjeta, para que no se confunda con lo
+   que sí hay que atender. ---------- */
+.lista-ya-guardados { margin-top: 10px; }
+.linea-ya-guardado {
+  display: flex; align-items: center; justify-content: space-between;
+  gap: 12px; flex-wrap: wrap;
+  padding: 7px 16px; color: var(--tinta-suave); font-size: 13px;
+  border-top: 1px dashed var(--linea);
+}
+.linea-ya-guardado:first-child { border-top: 0; }
+.linea-ya-guardado .acciones { flex: 0 0 auto; display: flex; gap: 6px; }
+.linea-ya-guardado .boton { padding: 4px 10px; font-size: 12px; }
+
+/* "Último correo recogido", cuando lleva demasiado sin moverse. */
+.aviso-en-linea { color: #8a6100; font-weight: 600; }

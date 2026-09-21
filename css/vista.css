@@ -1,0 +1,155 @@
+/* ============================================================
+   vista.css — que la pantalla se vea bien tanto a lo ancho como
+   con el panel de lectura abierto a la derecha.
+
+   La idea: la zona de trabajo se mide A SÍ MISMA, no a la ventana.
+   Con `container-type` las reglas de abajo miran cuánto sitio le
+   queda de verdad al contenido. Así da igual por qué se ha quedado
+   estrecho —una ventana pequeña, o un correo abierto al lado—: la
+   pantalla se recoloca igual.
+   ============================================================ */
+
+.contenido { container-type: inline-size; }
+
+/* ---------- el ancho de la pantalla ----------
+
+   La zona de trabajo ocupa todo el ancho que tenga el monitor. En el
+   Chromebook eso ya era todo; en el monitor del trabajo sobraba media
+   pantalla en blanco, porque el contenido tenía un tope de 1180
+   píxeles puesto en css/estilos.css. Aquí se le quita.
+
+   Lo que se lee seguido sí conserva un tope: el formulario de Nuevo
+   asunto y los textos de Ajustes. Una línea de mil quinientos píxeles
+   se lee mal. */
+.contenido { max-width: none; }
+#pantalla-nuevo .formulario { max-width: 940px; }
+/* Ajustes, más ancho que antes (11-sep-2026): con muchos tipos, 1040px
+   solo dejaba ver una o dos columnas de la rejilla. Nuevo asunto sigue
+   con su 940, que es texto seguido y se lee peor más ancho. */
+#pantalla-ajustes, #pantalla-tipo-asunto { max-width: 1600px; }
+
+/* ---------- los filtros, plegados ---------- */
+
+/* Ocupan una línea entera de la cabecera, debajo del buscador. */
+.filtros {
+  flex: 1 0 100%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
+  gap: 12px;
+  background: var(--papel);
+  border: 1px solid var(--linea);
+  border-radius: var(--radio);
+  padding: 14px 16px;
+  box-shadow: var(--sombra);
+}
+.filtro { display: flex; flex-direction: column; gap: 5px; min-width: 0; }
+.filtro-rotulo { font-size: 12.5px; font-weight: 600; color: var(--tinta-suave); }
+.filtro .campo { width: 100%; }
+/* Los tres traen su ancho puesto de css/estilos.css, de cuando iban
+   sueltos en la barra. Aquí mandan la rejilla y su rótulo. */
+.filtros #filtro-estado,
+.filtros #filtro-plazo,
+.filtros #orden-abiertos { width: 100%; min-width: 0; }
+
+/* Que se lea entero lo que el buscador ofrece buscar. */
+.cabecera #buscar-abiertos { width: 300px; }
+
+/* El botón avisa cuando hay algo puesto, para que no se quede un
+   filtro escondido dentro del panel cerrado. */
+#btn-filtros.tiene-filtros {
+  border-color: var(--azul); color: var(--azul); font-weight: 600;
+}
+#btn-filtros.tiene-filtros::after {
+  content: ''; display: inline-block; margin-left: 7px;
+  width: 7px; height: 7px; border-radius: 50%; background: var(--azul);
+  vertical-align: middle;
+}
+
+/* ---------- el tablón se quita de en medio ---------- */
+
+/* El tablón se ve siempre; solo se esconde con un correo abierto al
+   lado, o cuando no cabe. Quién lo decide está en js/vista.js. */
+#pantalla-abiertos.con-tablon.sin-tablon { display: block; }
+#pantalla-abiertos.sin-tablon > #tablon { display: none; }
+
+#btn-tablon .cuenta-tablon {
+  display: inline-block; margin-left: 7px;
+  background: var(--ambar); border: 1px solid var(--ambar-linea); color: #8a6100;
+  border-radius: 20px; padding: 0 7px; font-size: 12px; font-weight: 700;
+}
+
+/* ---------- las tarjetas por tipo de asunto ----------
+
+   Una fila de tarjetas pequeñas entre las tres grandes y la lista:
+   una por cada tipo de asunto que haya en el montón. */
+
+.grupos-tipo {
+  display: flex; flex-wrap: wrap; align-items: center; gap: 8px;
+  margin: -8px 0 18px;
+}
+
+.grupos-rotulo {
+  font-size: 13px; font-weight: 600; color: var(--tinta-suave);
+  margin-right: 4px;
+}
+
+.grupo {
+  display: flex; align-items: center; gap: 9px;
+  font: inherit; text-align: left; color: var(--tinta); cursor: pointer;
+  background: var(--papel); border: 1px solid var(--linea);
+  border-radius: var(--radio); padding: 8px 13px; box-shadow: var(--sombra);
+}
+.grupo:hover { border-color: #b9c6d6; }
+.grupo.activo {
+  border-color: var(--azul); box-shadow: 0 0 0 2px var(--azul-claro), var(--sombra);
+}
+
+.grupo-nombre { font-weight: 600; font-size: 14px; }
+
+.grupo-cuenta {
+  background: #eef1f5; border: 1px solid var(--linea); color: var(--tinta);
+  border-radius: 20px; padding: 1px 9px; font-size: 12.5px; font-weight: 700;
+}
+.grupo.activo .grupo-cuenta {
+  background: var(--azul-claro); border-color: #c3d8ec; color: var(--azul);
+}
+
+/* Lo que ya ha vencido se dice en la propia tarjeta: si no, habría que
+   entrar en el montón para enterarse. */
+.grupo-vencidos {
+  color: var(--rojo-linea); font-size: 12px; font-weight: 700;
+}
+
+/* ---------- la zona de trabajo, cuando se queda estrecha ---------- */
+
+/* El tablón se rinde solo cuando de verdad no cabe. Son 320 píxeles
+   más su separación: por debajo de 900 la lista de asuntos se quedaría
+   en nada. Estaba en 1080, y en el Chromebook con la barra abierta el
+   tablón desaparecía sin que se entendiera por qué. */
+@container (max-width: 900px) {
+  #pantalla-abiertos.con-tablon { display: block; }
+  #pantalla-abiertos.con-tablon > #tablon { display: none; }
+}
+
+/* Las tres tarjetas de arriba se quedan en fila, pero sueltan la frase
+   que las explica: con poco sitio, esa frase es lo que las estruja. */
+@container (max-width: 1000px) {
+  .panel-pie { display: none; }
+  .panel { padding: 13px 14px; }
+}
+
+@container (max-width: 900px) {
+  .cabecera { align-items: flex-start; }
+  .cabecera .acciones { flex: 1 0 100%; justify-content: flex-start; }
+  .cabecera #buscar-abiertos { flex: 1 1 200px; width: auto; }
+  .dos-paneles, .dos-columnas { grid-template-columns: 1fr; }
+  .tarjeta .acciones { flex: 1 0 100%; margin-left: 0; }
+}
+
+@container (max-width: 620px) {
+  .paneles { grid-template-columns: 1fr; }
+  .filtros { grid-template-columns: 1fr; }
+  /* Las tarjetas por tipo, una debajo de otra: en fila no cabrían. */
+  .grupos-tipo { flex-direction: column; align-items: stretch; }
+  .grupo { justify-content: space-between; }
+}

@@ -1,0 +1,28 @@
+/* ============================================================
+   tipos-buscador.css — el buscador que va encima de los tipos, y la
+   marca de los resultados que hay que mirar dos veces.
+   ============================================================ */
+
+.buscador-tipos {
+  display: flex; align-items: center; gap: 8px; flex-wrap: wrap;
+  margin: 0 0 10px;
+}
+.buscador-tipos .campo { width: 280px; min-width: 0; }
+.buscador-tipos .boton { padding: 7px 12px; font-size: 13px; }
+
+#tipos-sin-nada { margin-top: 8px; }
+
+/* ---------- los resultados que hay que mirar dos veces ----------
+
+   Un alumno que ya no está matriculado, o alguien del centro que ya
+   cesó, salen marcados en naranja. Sus asuntos viejos siguen ahí, pero
+   abrirle uno nuevo casi siempre es una equivocación, y en una lista de
+   veinte nombres iguales eso se pasa por alto.
+
+   Quién pone la clase: App.claseDeResultado, en js/asuntos-nuevo.js. */
+.resultado-aviso {
+  border-left: 4px solid var(--ambar-linea);
+  background: #fff8ec;
+}
+.resultado-aviso:hover { background: #ffefd6; border-color: var(--ambar-linea); }
+.resultado-aviso .resultado-pie { color: #a4302a; font-weight: 600; }

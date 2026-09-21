@@ -1,0 +1,84 @@
+/* ============================================================
+   lector.css — el panel de la derecha para leer sin dejar de
+   trabajar en la aplicación.
+
+   El ancho lo manda --ancho-lector, que pone js/lector.js al
+   arrastrar el borde. Si todavía no se ha tocado, la mitad y poco.
+   ============================================================ */
+
+:root { --ancho-lector: 46vw; }
+
+#lector {
+  position: fixed; top: 0; right: 0;
+  width: var(--ancho-lector); min-width: 380px; height: 100vh;
+  background: var(--papel);
+  border-left: 1px solid var(--linea);
+  box-shadow: -10px 0 28px rgba(10,25,45,.12);
+  display: flex; flex-direction: column;
+  z-index: 40;
+}
+
+/* Mientras el panel está abierto, la aplicación se estrecha en vez de
+   quedar tapada: la idea es trabajar a la izquierda y leer a la
+   derecha. */
+body.con-lector #aplicacion { margin-right: var(--ancho-lector); }
+body.con-lector .mensajes { right: calc(var(--ancho-lector) + 20px); }
+
+/* El borde que se arrastra. */
+.lector-tirador {
+  position: absolute; top: 0; left: -3px; bottom: 0;
+  width: 9px; cursor: col-resize; z-index: 2;
+  background: transparent;
+}
+.lector-tirador::before {
+  content: ''; position: absolute; top: 50%; left: 3px;
+  width: 3px; height: 42px; margin-top: -21px; border-radius: 3px;
+  background: var(--linea);
+}
+.lector-tirador:hover::before { background: var(--azul); }
+
+/* Mientras se arrastra, que no se seleccione medio programa ni se le
+   escapen los movimientos al documento de dentro. */
+body.estirando-lector { user-select: none; cursor: col-resize; }
+body.estirando-lector #lector-marco { pointer-events: none; }
+
+.lector-cabecera {
+  display: flex; align-items: flex-start; gap: 10px;
+  padding: 12px 14px 12px 18px; border-bottom: 1px solid var(--linea);
+}
+.lector-texto { flex: 1; min-width: 0; }
+.lector-titulo {
+  font-weight: 600; font-size: 15px; line-height: 1.3;
+  word-break: break-word;
+}
+.lector-pie { color: var(--tinta-suave); font-size: 12.5px; margin-top: 3px; }
+.lector-botones { display: flex; align-items: center; gap: 6px; flex: 0 0 auto; flex-wrap: wrap; }
+.lector-botones .boton { padding: 6px 12px; font-size: 13px; }
+
+/* El código de verificación (17-sep-2026, fila 19), al lado del botón
+   de copiarlo: para ver de un vistazo qué se ha copiado. */
+.lector-codigo-verificacion {
+  color: var(--tinta-suave); font-size: 12px; font-family: monospace;
+  word-break: break-all;
+}
+
+.lector-cerrar {
+  flex: 0 0 auto;
+  width: 30px; height: 30px; padding: 0;
+  font-size: 15px; line-height: 1;
+  background: var(--papel); color: var(--tinta-suave);
+  border: 1px solid var(--linea); border-radius: 8px; cursor: pointer;
+}
+.lector-cerrar:hover { background: #f0f3f7; color: var(--tinta); }
+
+.lector-cuerpo { flex: 1; min-height: 0; background: #f4f6f9; }
+#lector-marco { display: block; width: 100%; height: 100%; border: 0; }
+
+/* En pantalla estrecha el panel se pone encima, a lo ancho: partir en
+   dos columnas de 500 píxeles no se lee bien. */
+@media (max-width: 1100px) {
+  #lector { width: 100vw; min-width: 0; }
+  .lector-tirador { display: none; }
+  body.con-lector #aplicacion { margin-right: 0; }
+  body.con-lector .mensajes { right: 20px; }
+}

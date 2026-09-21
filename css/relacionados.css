@@ -1,0 +1,81 @@
+/* ============================================================
+   relacionados.css — el bloque de "Personas y entidades
+   relacionadas" en la ficha de un asunto, y el "Relacionado con"
+   en la ficha de una persona.
+   ============================================================ */
+
+.relacionado-fila {
+  display: flex; align-items: center; gap: 8px;
+  padding: 6px 0; border-bottom: 1px solid #f0f3f7; font-size: 13px;
+}
+.relacionado-fila:last-of-type { border-bottom: 0; }
+.relacionado-fila span:nth-child(2) { flex: 1 1 auto; word-break: break-word; }
+.relacionado-fila .rel-quitar { padding: 4px 10px; font-size: 12px; }
+
+/* El mini-selector de categoría del buscador de terceros, cuando se
+   monta suelto (dentro del cuadro de "Añadir relacionado"), sin las
+   descripciones largas de la pantalla de Nuevo asunto. */
+.categorias-mini { display: flex; flex-wrap: wrap; gap: 6px; margin-bottom: 10px; }
+.categoria-mini-boton {
+  font: inherit; font-size: 13px; padding: 6px 12px;
+  border: 1px solid var(--linea); border-radius: 20px;
+  background: var(--papel); color: var(--tinta); cursor: pointer;
+}
+.categoria-mini-boton:hover { border-color: #b9c6d6; }
+.categoria-mini-boton.elegido {
+  border-color: var(--azul); background: var(--azul-claro); color: var(--azul); font-weight: 600;
+}
+
+/* La lista de casillas al archivar, para elegir a quién se le deja la
+   nota. */
+.rel-confirmar-lista { display: flex; flex-direction: column; gap: 6px; margin-top: 10px; }
+.rel-fila-confirmar { display: flex; align-items: center; gap: 8px; font-size: 14px; }
+
+/* El "Relacionado con" en la ficha de una persona. */
+.ficha-relacionado-de { margin-top: 14px; }
+.ficha-relacionado-de .resultado { margin-bottom: 6px; }
+
+/* Señalar varios terceros a la vez (17-sep-2026, fila 21,
+   docs/GRUPOS-DE-PERSONAS.md): cada resultado es una casilla en vez de
+   pulsarse directamente, y abajo queda fija la barra con la cuenta. */
+.resultado-marcable { padding: 0; }
+.resultado-marcable label {
+  display: flex; align-items: flex-start; gap: 10px; padding: 10px 14px; cursor: pointer;
+}
+.resultado-marcable input[type="checkbox"] { margin-top: 3px; flex: 0 0 auto; }
+
+.marcados-barra {
+  position: sticky; bottom: 0; margin-top: 10px; padding: 10px 12px;
+  background: var(--azul-claro); border: 1px solid #c3d8ec; border-radius: var(--radio);
+}
+.marcados-cabecera { display: flex; align-items: center; gap: 10px; flex-wrap: wrap; }
+.marcados-cuenta { font-weight: 600; color: var(--azul); flex: 0 0 auto; }
+.marcados-cabecera .boton { flex: 0 0 auto; margin-left: auto; }
+.marcados-lista {
+  display: flex; flex-wrap: wrap; gap: 6px; margin-top: 8px;
+  max-height: 6.5em; overflow: auto;
+}
+.marcado-chip {
+  display: inline-flex; align-items: center; gap: 5px;
+  background: var(--papel); border: 1px solid #c3d8ec; border-radius: 14px;
+  padding: 3px 6px 3px 10px; font-size: 12px;
+}
+/* Un miembro de un grupo que ya no está en las listas: se ve, pero
+   distinto, y nunca desaparece solo. */
+.marcado-chip-perdido { background: #f0f0f0; border-color: #d7d7d7; color: var(--tinta-suave); }
+/* Un usuario IdEA ya copiado con "Copiar el siguiente" (js/seneca-destinatarios.js). */
+.marcado-chip-copiado { background: #eaf7ea; border-color: #b9dfb9; }
+.marcado-quitar {
+  border: 0; background: none; color: var(--tinta-suave); cursor: pointer;
+  font-size: 15px; line-height: 1; padding: 0 3px;
+}
+.marcado-quitar:hover { color: var(--rojo-fuerte, #a4302a); }
+
+/* Los atajos de alumnado (unidad, nivel, enseñanza) y el desplegable de
+   grupos propios, encima del buscador. */
+.atajos-grupo { display: flex; flex-direction: column; gap: 8px; margin-bottom: 12px; }
+.atajo-fila { display: flex; align-items: center; gap: 8px; }
+.atajo-fila span { flex: 0 0 140px; font-size: 13px; color: var(--tinta-suave); }
+.atajo-fila select { flex: 1 1 auto; }
+.grupo-fila { margin-bottom: 12px; }
+.grupo-fila .etiqueta { display: block; margin-bottom: 4px; }
