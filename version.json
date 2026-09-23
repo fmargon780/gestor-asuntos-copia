@@ -1,5 +1,5 @@
 {
-  "version": "23-sep-2026 · 20:34",
+  "version": "23-sep-2026 · 20:57",
   "ficheros": {
     "js/lib/pdf.worker.iife.js": "2625d8f61aa344f26e609832fd19f48de2ddbc341de8bbfc39698912e635b1a3",
     "js/lib/pdf.iife.js": "ba8b6dfa292fda90d765bd48329c229f58f347c68b40b6bd9afa008ccbff395c",
@@ -191,7 +191,7 @@
     "js/usuarios.js": "234d062441823a594ba18bc7fad54a542567e693f99e35f1335c3d138dceef23",
     "js/util.js": "e1eba2c807ad802d029788d49b0e852088b67c0db244478ec23d80dc1bfab17a",
     "js/verificacion.js": "7bae57add882f3738d3eb3a75585781d32ed4c5389714339f99708eba5337ccc",
-    "js/version.js": "b6711195865ee92cc79f4d779be10fe104fdd469deb2b190194b784094a34684",
+    "js/version.js": "645ac67be96d42ec4c336b388046cad596b0e68d74b5b8703ab1357b08163cb6",
     "js/via-contacto.js": "c4ff0004c9954b3303515a5c0aa971597b8deb668c48df4069758c60b5487767",
     "js/visor.js": "3a51f38e932d047bb2008a26611681426d5e8bb1ac6889cc78dd542578ed21b5",
     "js/vista.js": "cb32e57f87d5e8a255af1141b5fc1df289df020366262d055740e467c6ba2d4c"
