@@ -1,5 +1,5 @@
 {
-  "version": "21-sep-2026 · 14:49",
+  "version": "23-sep-2026 · 14:28",
   "ficheros": {
     "js/lib/pdf.worker.iife.js": "2625d8f61aa344f26e609832fd19f48de2ddbc341de8bbfc39698912e635b1a3",
     "js/lib/pdf.iife.js": "ba8b6dfa292fda90d765bd48329c229f58f347c68b40b6bd9afa008ccbff395c",
@@ -25,7 +25,7 @@
     "copia-datos/plantillas~diligencia-toma-posesion.docx.js": "1e1f9b0119927a7fe61879dcdabfd39a1f1e04f0334df50bd3f8e570390bc80f",
     "copia-datos/plantillas~pedido-proveedor.docx.js": "1d9442302b08af20f48f234e74664f7dd43ea77620f11d7c65642a3a32015c0f",
     "copia-datos/plantillas~resolucion-sancion.docx.js": "f00ef4b9f7f3fd341329ef6ae306b89a914b43f6c95fb682afe9abbb29633ac8",
-    "ABRIR EL GESTOR.html": "88e851cafb6f44438de462914f9fd539933a3837f34dea6dc6696bde5c893f89",
+    "ABRIR EL GESTOR.html": "faf6d44ec19b2dec9b7fe73d92e98c6ef7184c85d5a999f019bdaaa253576801",
     "css/ajustes.css": "691a5647fea556844b1536d1f17b131ab620a846665d978492a8caa81e1e2d70",
     "css/bandeja.css": "474460af69379be9edd1cffe6fad1a96122c3c6e252482042abcc7058f3f3080",
     "css/barra.css": "dee4ec62da5e7cfa9b94e7a942aa63a2eed57997c88d2befc50244a9377602da",
@@ -61,7 +61,7 @@
     "css/vista.css": "3fa5e02e2839fa1164be920b8207f9440250bc741752203ed95f7565b8e27fcf",
     "favicon.svg": "b19dd6178a27404df9b5b1601a6f484e3e0ab516166e1d81b0ec3d5f6765cbac",
     "index.html": "edfdde8e18a1d3ac184e3a42fc5fdd30720978c46cf08a29b2c5bc4e449e4a54",
-    "js/actualizar-copia.js": "75b6eb3343840013924f1a3e207222225291657e190a2241c3439ba81b79a855",
+    "js/actualizar-copia.js": "477979cfa1ca36d500429fbb374f6e9bec40725f995e70a4739fcb9438e1c815",
     "js/ajustes-centro.js": "0560cccb6193cf5294ed5a352790ba3114e6e2ad54b1ffb49b86d311a7e8dae5",
     "js/ajustes-mantenimiento.js": "ecee92e18f1799f8e91ad5b42cb3dd9c78256a0ec8df4416172b8a75e61cae0e",
     "js/ajustes-tipo-palabras-clave.js": "5b5a3d618015bbd78803851f2d5869463c69cb67955d333983ca02e67a0467f3",
@@ -183,7 +183,7 @@
     "js/usuarios.js": "234d062441823a594ba18bc7fad54a542567e693f99e35f1335c3d138dceef23",
     "js/util.js": "6f839aa972e4dab537f30d63bc859e3a91b00c49dda62a509a9c2f30305e5392",
     "js/verificacion.js": "7bae57add882f3738d3eb3a75585781d32ed4c5389714339f99708eba5337ccc",
-    "js/version.js": "7b36ecd0ac5d3483277696d4702a6ccbf332033dcde54526cda78d43c6995d08",
+    "js/version.js": "54b3075313a879e0fe5538f3fd8b43dac265104ba7782a3d1e2ea6604348c3bd",
     "js/via-contacto.js": "c4ff0004c9954b3303515a5c0aa971597b8deb668c48df4069758c60b5487767",
     "js/visor.js": "a1bf0ff776ef274bf6e8b162775dd3ab1e4b679022f6c74b09dd852d5364be2f",
     "js/vista.js": "cb32e57f87d5e8a255af1141b5fc1df289df020366262d055740e467c6ba2d4c"
