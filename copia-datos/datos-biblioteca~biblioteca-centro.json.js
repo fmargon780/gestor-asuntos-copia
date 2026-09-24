@@ -693,14 +693,7 @@ window.__COPIA__["datos-biblioteca/biblioteca-centro.json"] = {
       "titulo": "Detectar el absentismo",
       "explicacion": "Al llegar a 25 horas de clase sin justificar en un mes. Se comunica a Jefatura de Estudios.",
       "responsable": "Tutoría",
-      "requisitos": [
-        {
-          "id": "r0",
-          "texto": "parte de faltas del mes en Séneca",
-          "clase": "documento",
-          "obligatorio": false
-        }
-      ],
+      "requisitos": [],
       "soloInformativo": false,
       "normativa": [
         {
@@ -756,6 +749,15 @@ window.__COPIA__["datos-biblioteca/biblioteca-centro.json"] = {
           "explicacion": "Con el número de horas y el periodo.",
           "accion": "comunicar",
           "normativa": null
+        },
+        {
+          "id": "reunir-r0",
+          "texto": "parte de faltas del mes en Séneca",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null,
+          "reunir": "documento",
+          "obligatorio": false
         }
       ]
     },
@@ -765,20 +767,7 @@ window.__COPIA__["datos-biblioteca/biblioteca-centro.json"] = {
       "titulo": "Entrevista con la familia",
       "explicacion": "En los días siguientes a la detección. Se comunica a familia, por iPasen y por carta.",
       "responsable": "Tutoría",
-      "requisitos": [
-        {
-          "id": "r0",
-          "texto": "citación con acuse de recibo",
-          "clase": "documento",
-          "obligatorio": false
-        },
-        {
-          "id": "r1",
-          "texto": "acta de la entrevista",
-          "clase": "documento",
-          "obligatorio": false
-        }
-      ],
+      "requisitos": [],
       "soloInformativo": false,
       "normativa": [],
       "guion": [
@@ -823,6 +812,24 @@ window.__COPIA__["datos-biblioteca/biblioteca-centro.json"] = {
           "explicacion": "",
           "accion": "anadir",
           "normativa": null
+        },
+        {
+          "id": "reunir-r0",
+          "texto": "citación con acuse de recibo",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null,
+          "reunir": "documento",
+          "obligatorio": false
+        },
+        {
+          "id": "reunir-r1",
+          "texto": "acta de la entrevista",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null,
+          "reunir": "documento",
+          "obligatorio": false
         }
       ]
     },
@@ -832,20 +839,7 @@ window.__COPIA__["datos-biblioteca/biblioteca-centro.json"] = {
       "titulo": "Citación formal de Jefatura",
       "explicacion": "Si continúa faltando. Se comunica a familia, advirtiendo de la derivación.",
       "responsable": "Jefatura de Estudios",
-      "requisitos": [
-        {
-          "id": "r0",
-          "texto": "carta con acuse de recibo",
-          "clase": "documento",
-          "obligatorio": false
-        },
-        {
-          "id": "r1",
-          "texto": "compromiso de asistencia firmado",
-          "clase": "documento",
-          "obligatorio": false
-        }
-      ],
+      "requisitos": [],
       "soloInformativo": false,
       "normativa": [],
       "guion": [
@@ -883,6 +877,24 @@ window.__COPIA__["datos-biblioteca/biblioteca-centro.json"] = {
           "explicacion": "Si la familia no firma, dejarlo anotado.",
           "accion": "anadir",
           "normativa": null
+        },
+        {
+          "id": "reunir-r0",
+          "texto": "carta con acuse de recibo",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null,
+          "reunir": "documento",
+          "obligatorio": false
+        },
+        {
+          "id": "reunir-r1",
+          "texto": "compromiso de asistencia firmado",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null,
+          "reunir": "documento",
+          "obligatorio": false
         }
       ]
     },
@@ -892,26 +904,7 @@ window.__COPIA__["datos-biblioteca/biblioteca-centro.json"] = {
       "titulo": "Derivación a los Servicios Sociales",
       "explicacion": "Al agotar el mes de actuaciones del centro. Se comunica a Ayuntamiento, con copia a la familia.",
       "responsable": "Dirección",
-      "requisitos": [
-        {
-          "id": "r0",
-          "texto": "informe de absentismo",
-          "clase": "documento",
-          "obligatorio": false
-        },
-        {
-          "id": "r1",
-          "texto": "registro de faltas",
-          "clase": "documento",
-          "obligatorio": false
-        },
-        {
-          "id": "r2",
-          "texto": "actuaciones realizadas",
-          "clase": "documento",
-          "obligatorio": false
-        }
-      ],
+      "requisitos": [],
       "soloInformativo": false,
       "normativa": [],
       "guion": [
@@ -956,6 +949,33 @@ window.__COPIA__["datos-biblioteca/biblioteca-centro.json"] = {
           "explicacion": "",
           "accion": "comunicar",
           "normativa": null
+        },
+        {
+          "id": "reunir-r0",
+          "texto": "informe de absentismo",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null,
+          "reunir": "documento",
+          "obligatorio": false
+        },
+        {
+          "id": "reunir-r1",
+          "texto": "registro de faltas",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null,
+          "reunir": "documento",
+          "obligatorio": false
+        },
+        {
+          "id": "reunir-r2",
+          "texto": "actuaciones realizadas",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null,
+          "reunir": "documento",
+          "obligatorio": false
         }
       ]
     },
@@ -1045,14 +1065,7 @@ window.__COPIA__["datos-biblioteca/biblioteca-centro.json"] = {
       "titulo": "Recoger el parte de incidencia",
       "explicacion": "El mismo día. Se comunica a Jefatura de Estudios.",
       "responsable": "Tutoría",
-      "requisitos": [
-        {
-          "id": "r0",
-          "texto": "parte del profesorado",
-          "clase": "documento",
-          "obligatorio": false
-        }
-      ],
+      "requisitos": [],
       "soloInformativo": false,
       "normativa": [
         {
@@ -1096,6 +1109,15 @@ window.__COPIA__["datos-biblioteca/biblioteca-centro.json"] = {
           "explicacion": "",
           "accion": "comunicar",
           "normativa": null
+        },
+        {
+          "id": "reunir-r0",
+          "texto": "parte del profesorado",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null,
+          "reunir": "documento",
+          "obligatorio": false
         }
       ]
     },
@@ -1105,14 +1127,7 @@ window.__COPIA__["datos-biblioteca/biblioteca-centro.json"] = {
       "titulo": "Audiencia al alumno o alumna",
       "explicacion": "Antes de imponer nada, sin excepción.",
       "responsable": "Jefatura de Estudios",
-      "requisitos": [
-        {
-          "id": "r0",
-          "texto": "acta de audiencia firmada",
-          "clase": "documento",
-          "obligatorio": false
-        }
-      ],
+      "requisitos": [],
       "soloInformativo": true,
       "normativa": [
         {
@@ -1163,6 +1178,15 @@ window.__COPIA__["datos-biblioteca/biblioteca-centro.json"] = {
           "explicacion": "",
           "accion": "anadir",
           "normativa": null
+        },
+        {
+          "id": "reunir-r0",
+          "texto": "acta de audiencia firmada",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null,
+          "reunir": "documento",
+          "obligatorio": false
         }
       ]
     },
@@ -1654,26 +1678,7 @@ window.__COPIA__["datos-biblioteca/biblioteca-centro.json"] = {
       "titulo": "Informe de los hechos",
       "explicacion": "",
       "responsable": "Jefatura de Estudios",
-      "requisitos": [
-        {
-          "id": "r0",
-          "texto": "partes",
-          "clase": "documento",
-          "obligatorio": false
-        },
-        {
-          "id": "r1",
-          "texto": "declaraciones",
-          "clase": "documento",
-          "obligatorio": false
-        },
-        {
-          "id": "r2",
-          "texto": "antecedentes del curso",
-          "clase": "documento",
-          "obligatorio": false
-        }
-      ],
+      "requisitos": [],
       "soloInformativo": false,
       "normativa": [],
       "guion": [
@@ -1711,6 +1716,33 @@ window.__COPIA__["datos-biblioteca/biblioteca-centro.json"] = {
           "explicacion": "",
           "accion": "anadir",
           "normativa": null
+        },
+        {
+          "id": "reunir-r0",
+          "texto": "partes",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null,
+          "reunir": "documento",
+          "obligatorio": false
+        },
+        {
+          "id": "reunir-r1",
+          "texto": "declaraciones",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null,
+          "reunir": "documento",
+          "obligatorio": false
+        },
+        {
+          "id": "reunir-r2",
+          "texto": "antecedentes del curso",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null,
+          "reunir": "documento",
+          "obligatorio": false
         }
       ]
     },
@@ -2281,14 +2313,7 @@ window.__COPIA__["datos-biblioteca/biblioteca-centro.json"] = {
       "titulo": "Notificación fehaciente al alumnado y a la familia",
       "explicacion": "Con las conductas imputadas y el nombre del instructor; 2 días lectivos para alegaciones.",
       "responsable": "Secretaría",
-      "requisitos": [
-        {
-          "id": "r0",
-          "texto": "acuse de recibo",
-          "clase": "documento",
-          "obligatorio": false
-        }
-      ],
+      "requisitos": [],
       "soloInformativo": false,
       "normativa": [
         {
@@ -2349,6 +2374,15 @@ window.__COPIA__["datos-biblioteca/biblioteca-centro.json"] = {
             "clave": "",
             "url": ""
           }
+        },
+        {
+          "id": "reunir-r0",
+          "texto": "acuse de recibo",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null,
+          "reunir": "documento",
+          "obligatorio": false
         }
       ]
     },
@@ -2950,26 +2984,7 @@ window.__COPIA__["datos-biblioteca/biblioteca-centro.json"] = {
       "titulo": "Documentos propios de cada protocolo",
       "explicacion": "",
       "responsable": "Secretaría",
-      "requisitos": [
-        {
-          "id": "r0",
-          "texto": "Hoja de Detección y Notificación del SIMIA en maltrato, conservando el centro el primer ejemplar",
-          "clase": "documento",
-          "obligatorio": false
-        },
-        {
-          "id": "r1",
-          "texto": "parte de lesiones",
-          "clase": "documento",
-          "obligatorio": false
-        },
-        {
-          "id": "r2",
-          "texto": "denuncia a Fiscalía de Menores en agresión al profesorado",
-          "clase": "documento",
-          "obligatorio": false
-        }
-      ],
+      "requisitos": [],
       "soloInformativo": false,
       "normativa": [],
       "guion": [
@@ -3007,6 +3022,33 @@ window.__COPIA__["datos-biblioteca/biblioteca-centro.json"] = {
           "explicacion": "",
           "accion": "registrar",
           "normativa": null
+        },
+        {
+          "id": "reunir-r0",
+          "texto": "Hoja de Detección y Notificación del SIMIA en maltrato, conservando el centro el primer ejemplar",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null,
+          "reunir": "documento",
+          "obligatorio": false
+        },
+        {
+          "id": "reunir-r1",
+          "texto": "parte de lesiones",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null,
+          "reunir": "documento",
+          "obligatorio": false
+        },
+        {
+          "id": "reunir-r2",
+          "texto": "denuncia a Fiscalía de Menores en agresión al profesorado",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null,
+          "reunir": "documento",
+          "obligatorio": false
         }
       ]
     },
@@ -3256,32 +3298,7 @@ window.__COPIA__["datos-biblioteca/biblioteca-centro.json"] = {
       "titulo": "Suscribirlo por escrito",
       "explicacion": "",
       "responsable": "Tutoría",
-      "requisitos": [
-        {
-          "id": "r0",
-          "texto": "modelo del Anexo V o del Anexo VI",
-          "clase": "documento",
-          "obligatorio": false
-        },
-        {
-          "id": "r1",
-          "texto": "medidas concretas",
-          "clase": "documento",
-          "obligatorio": false
-        },
-        {
-          "id": "r2",
-          "texto": "fecha y cauces de evaluación",
-          "clase": "documento",
-          "obligatorio": false
-        },
-        {
-          "id": "r3",
-          "texto": "mención escrita de que puede modificarse si se incumple",
-          "clase": "documento",
-          "obligatorio": false
-        }
-      ],
+      "requisitos": [],
       "soloInformativo": false,
       "normativa": [
         {
@@ -3342,6 +3359,42 @@ window.__COPIA__["datos-biblioteca/biblioteca-centro.json"] = {
           "explicacion": "",
           "accion": "anadir",
           "normativa": null
+        },
+        {
+          "id": "reunir-r0",
+          "texto": "modelo del Anexo V o del Anexo VI",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null,
+          "reunir": "documento",
+          "obligatorio": false
+        },
+        {
+          "id": "reunir-r1",
+          "texto": "medidas concretas",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null,
+          "reunir": "documento",
+          "obligatorio": false
+        },
+        {
+          "id": "reunir-r2",
+          "texto": "fecha y cauces de evaluación",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null,
+          "reunir": "documento",
+          "obligatorio": false
+        },
+        {
+          "id": "reunir-r3",
+          "texto": "mención escrita de que puede modificarse si se incumple",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null,
+          "reunir": "documento",
+          "obligatorio": false
         }
       ]
     },
@@ -3648,26 +3701,7 @@ window.__COPIA__["datos-biblioteca/biblioteca-centro.json"] = {
       "titulo": "Acuerdo por escrito",
       "explicacion": "",
       "responsable": "Secretaría",
-      "requisitos": [
-        {
-          "id": "r0",
-          "texto": "aceptación de las condiciones por todas las partes",
-          "clase": "documento",
-          "obligatorio": false
-        },
-        {
-          "id": "r1",
-          "texto": "compromisos asumidos",
-          "clase": "documento",
-          "obligatorio": false
-        },
-        {
-          "id": "r2",
-          "texto": "plazo para cumplirlos",
-          "clase": "documento",
-          "obligatorio": false
-        }
-      ],
+      "requisitos": [],
       "soloInformativo": false,
       "normativa": [
         {
@@ -3721,6 +3755,33 @@ window.__COPIA__["datos-biblioteca/biblioteca-centro.json"] = {
           "explicacion": "",
           "accion": "anadir",
           "normativa": null
+        },
+        {
+          "id": "reunir-r0",
+          "texto": "aceptación de las condiciones por todas las partes",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null,
+          "reunir": "documento",
+          "obligatorio": false
+        },
+        {
+          "id": "reunir-r1",
+          "texto": "compromisos asumidos",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null,
+          "reunir": "documento",
+          "obligatorio": false
+        },
+        {
+          "id": "reunir-r2",
+          "texto": "plazo para cumplirlos",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null,
+          "reunir": "documento",
+          "obligatorio": false
         }
       ]
     },
@@ -4079,44 +4140,7 @@ window.__COPIA__["datos-biblioteca/biblioteca-centro.json"] = {
       "titulo": "Recoger el impreso y sus anexos",
       "explicacion": "",
       "responsable": "Secretaría",
-      "requisitos": [
-        {
-          "id": "r0",
-          "texto": "impreso de matrícula",
-          "clase": "documento",
-          "obligatorio": false
-        },
-        {
-          "id": "r1",
-          "texto": "cuestionario de fondos europeos",
-          "clase": "documento",
-          "obligatorio": false
-        },
-        {
-          "id": "r2",
-          "texto": "consentimiento de imagen y voz, que firma el propio alumnado si tiene 14 años o más",
-          "clase": "documento",
-          "obligatorio": false
-        },
-        {
-          "id": "r3",
-          "texto": "cuestionario de contexto solo en 1.º de ESO",
-          "clase": "documento",
-          "obligatorio": false
-        },
-        {
-          "id": "r4",
-          "texto": "Anexo III si tiene transporte",
-          "clase": "documento",
-          "obligatorio": false
-        },
-        {
-          "id": "r5",
-          "texto": "solicitud de Religión solo en la primera matrícula",
-          "clase": "documento",
-          "obligatorio": false
-        }
-      ],
+      "requisitos": [],
       "soloInformativo": false,
       "normativa": [
         {
@@ -4182,6 +4206,60 @@ window.__COPIA__["datos-biblioteca/biblioteca-centro.json"] = {
           "explicacion": "",
           "accion": "anadir",
           "normativa": null
+        },
+        {
+          "id": "reunir-r0",
+          "texto": "impreso de matrícula",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null,
+          "reunir": "documento",
+          "obligatorio": false
+        },
+        {
+          "id": "reunir-r1",
+          "texto": "cuestionario de fondos europeos",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null,
+          "reunir": "documento",
+          "obligatorio": false
+        },
+        {
+          "id": "reunir-r2",
+          "texto": "consentimiento de imagen y voz, que firma el propio alumnado si tiene 14 años o más",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null,
+          "reunir": "documento",
+          "obligatorio": false
+        },
+        {
+          "id": "reunir-r3",
+          "texto": "cuestionario de contexto solo en 1.º de ESO",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null,
+          "reunir": "documento",
+          "obligatorio": false
+        },
+        {
+          "id": "reunir-r4",
+          "texto": "Anexo III si tiene transporte",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null,
+          "reunir": "documento",
+          "obligatorio": false
+        },
+        {
+          "id": "reunir-r5",
+          "texto": "solicitud de Religión solo en la primera matrícula",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null,
+          "reunir": "documento",
+          "obligatorio": false
         }
       ]
     },
@@ -4460,14 +4538,7 @@ window.__COPIA__["datos-biblioteca/biblioteca-centro.json"] = {
       "titulo": "Recoger la solicitud",
       "explicacion": "",
       "responsable": "Secretaría",
-      "requisitos": [
-        {
-          "id": "r0",
-          "texto": "solicitud firmada por la familia o por el alumnado mayor de edad",
-          "clase": "documento",
-          "obligatorio": false
-        }
-      ],
+      "requisitos": [],
       "soloInformativo": false,
       "normativa": [],
       "guion": [
@@ -4498,6 +4569,15 @@ window.__COPIA__["datos-biblioteca/biblioteca-centro.json"] = {
           "explicacion": "",
           "accion": "anadir",
           "normativa": null
+        },
+        {
+          "id": "reunir-r0",
+          "texto": "solicitud firmada por la familia o por el alumnado mayor de edad",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null,
+          "reunir": "documento",
+          "obligatorio": false
         }
       ]
     },
@@ -4686,14 +4766,7 @@ window.__COPIA__["datos-biblioteca/biblioteca-centro.json"] = {
       "titulo": "Valorar la petición",
       "explicacion": "",
       "responsable": "Jefatura de Estudios",
-      "requisitos": [
-        {
-          "id": "r0",
-          "texto": "informe de la tutoría",
-          "clase": "documento",
-          "obligatorio": false
-        }
-      ],
+      "requisitos": [],
       "soloInformativo": true,
       "normativa": [],
       "guion": [
@@ -4724,6 +4797,15 @@ window.__COPIA__["datos-biblioteca/biblioteca-centro.json"] = {
           "explicacion": "",
           "accion": "",
           "normativa": null
+        },
+        {
+          "id": "reunir-r0",
+          "texto": "informe de la tutoría",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null,
+          "reunir": "documento",
+          "obligatorio": false
         }
       ]
     },
@@ -5037,20 +5119,7 @@ window.__COPIA__["datos-biblioteca/biblioteca-centro.json"] = {
       "titulo": "Recoger la solicitud en plazo",
       "explicacion": "",
       "responsable": "Secretaría",
-      "requisitos": [
-        {
-          "id": "r0",
-          "texto": "solicitud",
-          "clase": "documento",
-          "obligatorio": false
-        },
-        {
-          "id": "r1",
-          "texto": "documentación acreditativa de los criterios alegados",
-          "clase": "documento",
-          "obligatorio": false
-        }
-      ],
+      "requisitos": [],
       "soloInformativo": false,
       "normativa": [
         {
@@ -5104,6 +5173,24 @@ window.__COPIA__["datos-biblioteca/biblioteca-centro.json"] = {
           "explicacion": "",
           "accion": "anadir",
           "normativa": null
+        },
+        {
+          "id": "reunir-r0",
+          "texto": "solicitud",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null,
+          "reunir": "documento",
+          "obligatorio": false
+        },
+        {
+          "id": "reunir-r1",
+          "texto": "documentación acreditativa de los criterios alegados",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null,
+          "reunir": "documento",
+          "obligatorio": false
         }
       ]
     },
@@ -5396,26 +5483,7 @@ window.__COPIA__["datos-biblioteca/biblioteca-centro.json"] = {
       "titulo": "Remitir los dos documentos",
       "explicacion": "10 días hábiles, plazo del Plan de Centro; la norma no fija ninguno. Se comunica a centro de destino.",
       "responsable": "Secretaría",
-      "requisitos": [
-        {
-          "id": "r0",
-          "texto": "informe personal por traslado",
-          "clase": "documento",
-          "obligatorio": false
-        },
-        {
-          "id": "r1",
-          "texto": "copia del historial académico",
-          "clase": "documento",
-          "obligatorio": false
-        },
-        {
-          "id": "r2",
-          "texto": "firma del director acreditando que concuerdan con el expediente",
-          "clase": "documento",
-          "obligatorio": false
-        }
-      ],
+      "requisitos": [],
       "soloInformativo": false,
       "normativa": [
         {
@@ -5478,6 +5546,33 @@ window.__COPIA__["datos-biblioteca/biblioteca-centro.json"] = {
             "clave": "",
             "url": ""
           }
+        },
+        {
+          "id": "reunir-r0",
+          "texto": "informe personal por traslado",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null,
+          "reunir": "documento",
+          "obligatorio": false
+        },
+        {
+          "id": "reunir-r1",
+          "texto": "copia del historial académico",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null,
+          "reunir": "documento",
+          "obligatorio": false
+        },
+        {
+          "id": "reunir-r2",
+          "texto": "firma del director acreditando que concuerdan con el expediente",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null,
+          "reunir": "documento",
+          "obligatorio": false
         }
       ]
     },
@@ -5936,14 +6031,7 @@ window.__COPIA__["datos-biblioteca/biblioteca-centro.json"] = {
       "titulo": "Expedir la certificación de estudios cursados",
       "explicacion": "Anexo X en ESO, Anexo VIII en Bachillerato.",
       "responsable": "Secretaría",
-      "requisitos": [
-        {
-          "id": "r0",
-          "texto": "datos de Séneca comprobados",
-          "clase": "documento",
-          "obligatorio": false
-        }
-      ],
+      "requisitos": [],
       "soloInformativo": false,
       "normativa": [
         {
@@ -5992,6 +6080,15 @@ window.__COPIA__["datos-biblioteca/biblioteca-centro.json"] = {
           "explicacion": "",
           "accion": "",
           "normativa": null
+        },
+        {
+          "id": "reunir-r0",
+          "texto": "datos de Séneca comprobados",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null,
+          "reunir": "documento",
+          "obligatorio": false
         }
       ]
     },
@@ -6574,20 +6671,7 @@ window.__COPIA__["datos-biblioteca/biblioteca-centro.json"] = {
       "titulo": "Registrar la solicitud de revisión",
       "explicacion": "2 días hábiles desde el boletín o desde la fecha de publicación que el centro haya fijado.",
       "responsable": "Secretaría",
-      "requisitos": [
-        {
-          "id": "r0",
-          "texto": "solicitud por escrito con las alegaciones",
-          "clase": "documento",
-          "obligatorio": false
-        },
-        {
-          "id": "r1",
-          "texto": "fecha exacta de entrada",
-          "clase": "documento",
-          "obligatorio": false
-        }
-      ],
+      "requisitos": [],
       "soloInformativo": false,
       "normativa": [
         {
@@ -6643,6 +6727,24 @@ window.__COPIA__["datos-biblioteca/biblioteca-centro.json"] = {
           "explicacion": "",
           "accion": "anadir",
           "normativa": null
+        },
+        {
+          "id": "reunir-r0",
+          "texto": "solicitud por escrito con las alegaciones",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null,
+          "reunir": "documento",
+          "obligatorio": false
+        },
+        {
+          "id": "reunir-r1",
+          "texto": "fecha exacta de entrada",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null,
+          "reunir": "documento",
+          "obligatorio": false
         }
       ]
     },
@@ -6986,26 +7088,7 @@ window.__COPIA__["datos-biblioteca/biblioteca-centro.json"] = {
       "titulo": "Remitir el expediente a la Delegación Territorial",
       "explicacion": "Máximo 3 días hábiles.",
       "responsable": "Dirección",
-      "requisitos": [
-        {
-          "id": "r0",
-          "texto": "informe del departamento",
-          "clase": "documento",
-          "obligatorio": false
-        },
-        {
-          "id": "r1",
-          "texto": "acta de la sesión extraordinaria",
-          "clase": "documento",
-          "obligatorio": false
-        },
-        {
-          "id": "r2",
-          "texto": "datos del proceso de evaluación",
-          "clase": "documento",
-          "obligatorio": false
-        }
-      ],
+      "requisitos": [],
       "soloInformativo": false,
       "normativa": [
         {
@@ -7066,6 +7149,33 @@ window.__COPIA__["datos-biblioteca/biblioteca-centro.json"] = {
             "clave": "",
             "url": ""
           }
+        },
+        {
+          "id": "reunir-r0",
+          "texto": "informe del departamento",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null,
+          "reunir": "documento",
+          "obligatorio": false
+        },
+        {
+          "id": "reunir-r1",
+          "texto": "acta de la sesión extraordinaria",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null,
+          "reunir": "documento",
+          "obligatorio": false
+        },
+        {
+          "id": "reunir-r2",
+          "texto": "datos del proceso de evaluación",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null,
+          "reunir": "documento",
+          "obligatorio": false
         }
       ]
     },
@@ -7414,20 +7524,7 @@ window.__COPIA__["datos-biblioteca/biblioteca-centro.json"] = {
       "titulo": "Recoger las solicitudes",
       "explicacion": "",
       "responsable": "Secretaría",
-      "requisitos": [
-        {
-          "id": "r0",
-          "texto": "solicitud",
-          "clase": "documento",
-          "obligatorio": false
-        },
-        {
-          "id": "r1",
-          "texto": "documentación que pida la convocatoria",
-          "clase": "documento",
-          "obligatorio": false
-        }
-      ],
+      "requisitos": [],
       "soloInformativo": false,
       "normativa": [],
       "guion": [
@@ -7458,6 +7555,24 @@ window.__COPIA__["datos-biblioteca/biblioteca-centro.json"] = {
           "explicacion": "",
           "accion": "anadir",
           "normativa": null
+        },
+        {
+          "id": "reunir-r0",
+          "texto": "solicitud",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null,
+          "reunir": "documento",
+          "obligatorio": false
+        },
+        {
+          "id": "reunir-r1",
+          "texto": "documentación que pida la convocatoria",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null,
+          "reunir": "documento",
+          "obligatorio": false
         }
       ]
     },
@@ -7766,26 +7881,7 @@ window.__COPIA__["datos-biblioteca/biblioteca-centro.json"] = {
       "titulo": "Parte de accidente",
       "explicacion": "",
       "responsable": "Secretaría",
-      "requisitos": [
-        {
-          "id": "r0",
-          "texto": "relato de los hechos",
-          "clase": "documento",
-          "obligatorio": false
-        },
-        {
-          "id": "r1",
-          "texto": "testigos",
-          "clase": "documento",
-          "obligatorio": false
-        },
-        {
-          "id": "r2",
-          "texto": "parte médico si lo hay",
-          "clase": "documento",
-          "obligatorio": false
-        }
-      ],
+      "requisitos": [],
       "soloInformativo": false,
       "normativa": [],
       "guion": [
@@ -7823,6 +7919,33 @@ window.__COPIA__["datos-biblioteca/biblioteca-centro.json"] = {
           "explicacion": "",
           "accion": "",
           "normativa": null
+        },
+        {
+          "id": "reunir-r0",
+          "texto": "relato de los hechos",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null,
+          "reunir": "documento",
+          "obligatorio": false
+        },
+        {
+          "id": "reunir-r1",
+          "texto": "testigos",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null,
+          "reunir": "documento",
+          "obligatorio": false
+        },
+        {
+          "id": "reunir-r2",
+          "texto": "parte médico si lo hay",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null,
+          "reunir": "documento",
+          "obligatorio": false
         }
       ]
     },
@@ -8257,14 +8380,7 @@ window.__COPIA__["datos-biblioteca/biblioteca-centro.json"] = {
       "titulo": "Recoger la documentación",
       "explicacion": "",
       "responsable": "Secretaría",
-      "requisitos": [
-        {
-          "id": "r0",
-          "texto": "resolución judicial o documento que acredite el cambio",
-          "clase": "documento",
-          "obligatorio": false
-        }
-      ],
+      "requisitos": [],
       "soloInformativo": false,
       "normativa": [],
       "guion": [
@@ -8288,6 +8404,15 @@ window.__COPIA__["datos-biblioteca/biblioteca-centro.json"] = {
           "explicacion": "",
           "accion": "anadir",
           "normativa": null
+        },
+        {
+          "id": "reunir-r0",
+          "texto": "resolución judicial o documento que acredite el cambio",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null,
+          "reunir": "documento",
+          "obligatorio": false
         }
       ]
     },
@@ -8833,14 +8958,7 @@ window.__COPIA__["datos-biblioteca/biblioteca-centro.json"] = {
       "titulo": "Recibir el parte de baja",
       "explicacion": "Si es funcionario docente de carrera va por MUFACE; si es interino, laboral o funcionario no adscrito, por el Régimen General.",
       "responsable": "Secretaría",
-      "requisitos": [
-        {
-          "id": "r0",
-          "texto": "parte de baja",
-          "clase": "documento",
-          "obligatorio": false
-        }
-      ],
+      "requisitos": [],
       "soloInformativo": false,
       "normativa": [],
       "guion": [
@@ -8871,6 +8989,15 @@ window.__COPIA__["datos-biblioteca/biblioteca-centro.json"] = {
           "explicacion": "",
           "accion": "anadir",
           "normativa": null
+        },
+        {
+          "id": "reunir-r0",
+          "texto": "parte de baja",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null,
+          "reunir": "documento",
+          "obligatorio": false
         }
       ]
     },
@@ -9052,20 +9179,7 @@ window.__COPIA__["datos-biblioteca/biblioteca-centro.json"] = {
       "titulo": "Ausencia prevista",
       "explicacion": "",
       "responsable": "la persona avisa antes y presenta el justificante",
-      "requisitos": [
-        {
-          "id": "r0",
-          "texto": "solicitud o aviso previo",
-          "clase": "documento",
-          "obligatorio": false
-        },
-        {
-          "id": "r1",
-          "texto": "justificante",
-          "clase": "documento",
-          "obligatorio": false
-        }
-      ],
+      "requisitos": [],
       "soloInformativo": false,
       "normativa": [],
       "guion": [
@@ -9089,6 +9203,24 @@ window.__COPIA__["datos-biblioteca/biblioteca-centro.json"] = {
           "explicacion": "",
           "accion": "anadir",
           "normativa": null
+        },
+        {
+          "id": "reunir-r0",
+          "texto": "solicitud o aviso previo",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null,
+          "reunir": "documento",
+          "obligatorio": false
+        },
+        {
+          "id": "reunir-r1",
+          "texto": "justificante",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null,
+          "reunir": "documento",
+          "obligatorio": false
         }
       ]
     },
@@ -9098,14 +9230,7 @@ window.__COPIA__["datos-biblioteca/biblioteca-centro.json"] = {
       "titulo": "Ausencia imprevista",
       "explicacion": "",
       "responsable": "aviso inmediato y justificante después",
-      "requisitos": [
-        {
-          "id": "r0",
-          "texto": "justificante",
-          "clase": "documento",
-          "obligatorio": false
-        }
-      ],
+      "requisitos": [],
       "soloInformativo": false,
       "normativa": [],
       "guion": [
@@ -9129,6 +9254,15 @@ window.__COPIA__["datos-biblioteca/biblioteca-centro.json"] = {
           "explicacion": "",
           "accion": "anadir",
           "normativa": null
+        },
+        {
+          "id": "reunir-r0",
+          "texto": "justificante",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null,
+          "reunir": "documento",
+          "obligatorio": false
         }
       ]
     },
@@ -9620,14 +9754,7 @@ window.__COPIA__["datos-biblioteca/biblioteca-centro.json"] = {
       "titulo": "Recibir la credencial o el nombramiento",
       "explicacion": "",
       "responsable": "Secretaría",
-      "requisitos": [
-        {
-          "id": "r0",
-          "texto": "credencial o nombramiento",
-          "clase": "documento",
-          "obligatorio": false
-        }
-      ],
+      "requisitos": [],
       "soloInformativo": false,
       "normativa": [],
       "guion": [
@@ -9651,6 +9778,15 @@ window.__COPIA__["datos-biblioteca/biblioteca-centro.json"] = {
           "explicacion": "",
           "accion": "anadir",
           "normativa": null
+        },
+        {
+          "id": "reunir-r0",
+          "texto": "credencial o nombramiento",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null,
+          "reunir": "documento",
+          "obligatorio": false
         }
       ]
     },
@@ -9660,14 +9796,7 @@ window.__COPIA__["datos-biblioteca/biblioteca-centro.json"] = {
       "titulo": "Firmar la toma de posesión",
       "explicacion": "Con la fecha exacta, que es la que cuenta para la nómina.",
       "responsable": "Secretaría",
-      "requisitos": [
-        {
-          "id": "r0",
-          "texto": "diligencia firmada por la persona y por la dirección",
-          "clase": "documento",
-          "obligatorio": false
-        }
-      ],
+      "requisitos": [],
       "soloInformativo": false,
       "normativa": [],
       "guion": [
@@ -9691,6 +9820,15 @@ window.__COPIA__["datos-biblioteca/biblioteca-centro.json"] = {
           "explicacion": "",
           "accion": "anadir",
           "normativa": null
+        },
+        {
+          "id": "reunir-r0",
+          "texto": "diligencia firmada por la persona y por la dirección",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null,
+          "reunir": "documento",
+          "obligatorio": false
         }
       ]
     },
@@ -9700,32 +9838,7 @@ window.__COPIA__["datos-biblioteca/biblioteca-centro.json"] = {
       "titulo": "Alta de datos",
       "explicacion": "",
       "responsable": "Secretaría",
-      "requisitos": [
-        {
-          "id": "r0",
-          "texto": "cuenta corriente",
-          "clase": "documento",
-          "obligatorio": false
-        },
-        {
-          "id": "r1",
-          "texto": "datos de IRPF",
-          "clase": "documento",
-          "obligatorio": false
-        },
-        {
-          "id": "r2",
-          "texto": "situación familiar",
-          "clase": "documento",
-          "obligatorio": false
-        },
-        {
-          "id": "r3",
-          "texto": "correo del centro",
-          "clase": "documento",
-          "obligatorio": false
-        }
-      ],
+      "requisitos": [],
       "soloInformativo": false,
       "normativa": [],
       "guion": [
@@ -9756,6 +9869,42 @@ window.__COPIA__["datos-biblioteca/biblioteca-centro.json"] = {
           "explicacion": "",
           "accion": "anadir",
           "normativa": null
+        },
+        {
+          "id": "reunir-r0",
+          "texto": "cuenta corriente",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null,
+          "reunir": "documento",
+          "obligatorio": false
+        },
+        {
+          "id": "reunir-r1",
+          "texto": "datos de IRPF",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null,
+          "reunir": "documento",
+          "obligatorio": false
+        },
+        {
+          "id": "reunir-r2",
+          "texto": "situación familiar",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null,
+          "reunir": "documento",
+          "obligatorio": false
+        },
+        {
+          "id": "reunir-r3",
+          "texto": "correo del centro",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null,
+          "reunir": "documento",
+          "obligatorio": false
         }
       ]
     },
@@ -9871,32 +10020,7 @@ window.__COPIA__["datos-biblioteca/biblioteca-centro.json"] = {
       "titulo": "Cerrar lo pendiente",
       "explicacion": "",
       "responsable": "Secretaría",
-      "requisitos": [
-        {
-          "id": "r0",
-          "texto": "llaves",
-          "clase": "documento",
-          "obligatorio": false
-        },
-        {
-          "id": "r1",
-          "texto": "material",
-          "clase": "documento",
-          "obligatorio": false
-        },
-        {
-          "id": "r2",
-          "texto": "claves",
-          "clase": "documento",
-          "obligatorio": false
-        },
-        {
-          "id": "r3",
-          "texto": "correo del centro",
-          "clase": "documento",
-          "obligatorio": false
-        }
-      ],
+      "requisitos": [],
       "soloInformativo": false,
       "normativa": [],
       "guion": [
@@ -9927,6 +10051,42 @@ window.__COPIA__["datos-biblioteca/biblioteca-centro.json"] = {
           "explicacion": "",
           "accion": "",
           "normativa": null
+        },
+        {
+          "id": "reunir-r0",
+          "texto": "llaves",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null,
+          "reunir": "documento",
+          "obligatorio": false
+        },
+        {
+          "id": "reunir-r1",
+          "texto": "material",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null,
+          "reunir": "documento",
+          "obligatorio": false
+        },
+        {
+          "id": "reunir-r2",
+          "texto": "claves",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null,
+          "reunir": "documento",
+          "obligatorio": false
+        },
+        {
+          "id": "reunir-r3",
+          "texto": "correo del centro",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null,
+          "reunir": "documento",
+          "obligatorio": false
         }
       ]
     },
@@ -9976,32 +10136,7 @@ window.__COPIA__["datos-biblioteca/biblioteca-centro.json"] = {
       "titulo": "Recoger los datos",
       "explicacion": "",
       "responsable": "Secretaría",
-      "requisitos": [
-        {
-          "id": "r0",
-          "texto": "documento de identidad",
-          "clase": "documento",
-          "obligatorio": false
-        },
-        {
-          "id": "r1",
-          "texto": "cuenta corriente",
-          "clase": "documento",
-          "obligatorio": false
-        },
-        {
-          "id": "r2",
-          "texto": "datos de IRPF",
-          "clase": "documento",
-          "obligatorio": false
-        },
-        {
-          "id": "r3",
-          "texto": "situación familiar",
-          "clase": "documento",
-          "obligatorio": false
-        }
-      ],
+      "requisitos": [],
       "soloInformativo": false,
       "normativa": [],
       "guion": [
@@ -10032,6 +10167,42 @@ window.__COPIA__["datos-biblioteca/biblioteca-centro.json"] = {
           "explicacion": "",
           "accion": "anadir",
           "normativa": null
+        },
+        {
+          "id": "reunir-r0",
+          "texto": "documento de identidad",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null,
+          "reunir": "documento",
+          "obligatorio": false
+        },
+        {
+          "id": "reunir-r1",
+          "texto": "cuenta corriente",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null,
+          "reunir": "documento",
+          "obligatorio": false
+        },
+        {
+          "id": "reunir-r2",
+          "texto": "datos de IRPF",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null,
+          "reunir": "documento",
+          "obligatorio": false
+        },
+        {
+          "id": "reunir-r3",
+          "texto": "situación familiar",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null,
+          "reunir": "documento",
+          "obligatorio": false
         }
       ]
     },
@@ -10411,14 +10582,7 @@ window.__COPIA__["datos-biblioteca/biblioteca-centro.json"] = {
       "titulo": "Recoger el certificado al terminar",
       "explicacion": "",
       "responsable": "Secretaría",
-      "requisitos": [
-        {
-          "id": "r0",
-          "texto": "certificado de aprovechamiento",
-          "clase": "documento",
-          "obligatorio": false
-        }
-      ],
+      "requisitos": [],
       "soloInformativo": false,
       "normativa": [],
       "guion": [
@@ -10442,6 +10606,15 @@ window.__COPIA__["datos-biblioteca/biblioteca-centro.json"] = {
           "explicacion": "",
           "accion": "anadir",
           "normativa": null
+        },
+        {
+          "id": "reunir-r0",
+          "texto": "certificado de aprovechamiento",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null,
+          "reunir": "documento",
+          "obligatorio": false
         }
       ]
     },
@@ -10517,14 +10690,7 @@ window.__COPIA__["datos-biblioteca/biblioteca-centro.json"] = {
       "titulo": "Comunicar a la persona interesada",
       "explicacion": "",
       "responsable": "Secretaría",
-      "requisitos": [
-        {
-          "id": "r0",
-          "texto": "escrito de designación firmado",
-          "clase": "documento",
-          "obligatorio": false
-        }
-      ],
+      "requisitos": [],
       "soloInformativo": false,
       "normativa": [],
       "guion": [
@@ -10548,6 +10714,15 @@ window.__COPIA__["datos-biblioteca/biblioteca-centro.json"] = {
           "explicacion": "",
           "accion": "comunicar",
           "normativa": null
+        },
+        {
+          "id": "reunir-r0",
+          "texto": "escrito de designación firmado",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null,
+          "reunir": "documento",
+          "obligatorio": false
         }
       ]
     },
@@ -11093,14 +11268,7 @@ window.__COPIA__["datos-biblioteca/biblioteca-centro.json"] = {
       "titulo": "Pedido al proveedor",
       "explicacion": "",
       "responsable": "Secretaría",
-      "requisitos": [
-        {
-          "id": "r0",
-          "texto": "pedido",
-          "clase": "documento",
-          "obligatorio": false
-        }
-      ],
+      "requisitos": [],
       "soloInformativo": false,
       "normativa": [],
       "guion": [
@@ -11124,6 +11292,15 @@ window.__COPIA__["datos-biblioteca/biblioteca-centro.json"] = {
           "explicacion": "",
           "accion": "anadir",
           "normativa": null
+        },
+        {
+          "id": "reunir-r0",
+          "texto": "pedido",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null,
+          "reunir": "documento",
+          "obligatorio": false
         }
       ]
     },
@@ -11133,14 +11310,7 @@ window.__COPIA__["datos-biblioteca/biblioteca-centro.json"] = {
       "titulo": "Recepción y conformidad",
       "explicacion": "",
       "responsable": "Secretaría",
-      "requisitos": [
-        {
-          "id": "r0",
-          "texto": "albarán firmado",
-          "clase": "documento",
-          "obligatorio": false
-        }
-      ],
+      "requisitos": [],
       "soloInformativo": false,
       "normativa": [],
       "guion": [
@@ -11164,6 +11334,15 @@ window.__COPIA__["datos-biblioteca/biblioteca-centro.json"] = {
           "explicacion": "",
           "accion": "anadir",
           "normativa": null
+        },
+        {
+          "id": "reunir-r0",
+          "texto": "albarán firmado",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null,
+          "reunir": "documento",
+          "obligatorio": false
         }
       ]
     },
@@ -11173,14 +11352,7 @@ window.__COPIA__["datos-biblioteca/biblioteca-centro.json"] = {
       "titulo": "Registrar la factura",
       "explicacion": "Factura simplificada solo hasta 400 € con IVA; desde 5.000 € impuestos incluidos, la de papel no vale.",
       "responsable": "Secretaría",
-      "requisitos": [
-        {
-          "id": "r0",
-          "texto": "factura completa",
-          "clase": "documento",
-          "obligatorio": false
-        }
-      ],
+      "requisitos": [],
       "soloInformativo": false,
       "normativa": [
         {
@@ -11236,6 +11408,15 @@ window.__COPIA__["datos-biblioteca/biblioteca-centro.json"] = {
           "explicacion": "",
           "accion": "anadir",
           "normativa": null
+        },
+        {
+          "id": "reunir-r0",
+          "texto": "factura completa",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null,
+          "reunir": "documento",
+          "obligatorio": false
         }
       ]
     },
@@ -11394,14 +11575,7 @@ window.__COPIA__["datos-biblioteca/biblioteca-centro.json"] = {
       "titulo": "Contrato o encargo",
       "explicacion": "",
       "responsable": "Secretaría",
-      "requisitos": [
-        {
-          "id": "r0",
-          "texto": "contrato o encargo con objeto, duración y precio sin IVA",
-          "clase": "documento",
-          "obligatorio": false
-        }
-      ],
+      "requisitos": [],
       "soloInformativo": false,
       "normativa": [],
       "guion": [
@@ -11432,6 +11606,15 @@ window.__COPIA__["datos-biblioteca/biblioteca-centro.json"] = {
           "explicacion": "",
           "accion": "anadir",
           "normativa": null
+        },
+        {
+          "id": "reunir-r0",
+          "texto": "contrato o encargo con objeto, duración y precio sin IVA",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null,
+          "reunir": "documento",
+          "obligatorio": false
         }
       ]
     },
@@ -11626,20 +11809,7 @@ window.__COPIA__["datos-biblioteca/biblioteca-centro.json"] = {
       "titulo": "Guardar los papeles",
       "explicacion": "",
       "responsable": "Secretaría",
-      "requisitos": [
-        {
-          "id": "r0",
-          "texto": "factura",
-          "clase": "documento",
-          "obligatorio": false
-        },
-        {
-          "id": "r1",
-          "texto": "documento de garantía",
-          "clase": "documento",
-          "obligatorio": false
-        }
-      ],
+      "requisitos": [],
       "soloInformativo": false,
       "normativa": [],
       "guion": [
@@ -11663,6 +11833,24 @@ window.__COPIA__["datos-biblioteca/biblioteca-centro.json"] = {
           "explicacion": "",
           "accion": "",
           "normativa": null
+        },
+        {
+          "id": "reunir-r0",
+          "texto": "factura",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null,
+          "reunir": "documento",
+          "obligatorio": false
+        },
+        {
+          "id": "reunir-r1",
+          "texto": "documento de garantía",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null,
+          "reunir": "documento",
+          "obligatorio": false
         }
       ]
     },
@@ -11818,26 +12006,7 @@ window.__COPIA__["datos-biblioteca/biblioteca-centro.json"] = {
       "titulo": "Elaborar el proyecto",
       "explicacion": "",
       "responsable": "Secretaría",
-      "requisitos": [
-        {
-          "id": "r0",
-          "texto": "estado de ingresos",
-          "clase": "documento",
-          "obligatorio": false
-        },
-        {
-          "id": "r1",
-          "texto": "estado de gastos",
-          "clase": "documento",
-          "obligatorio": false
-        },
-        {
-          "id": "r2",
-          "texto": "Anexos I, II y III",
-          "clase": "documento",
-          "obligatorio": false
-        }
-      ],
+      "requisitos": [],
       "soloInformativo": false,
       "normativa": [
         {
@@ -11891,6 +12060,33 @@ window.__COPIA__["datos-biblioteca/biblioteca-centro.json"] = {
           "explicacion": "",
           "accion": "anadir",
           "normativa": null
+        },
+        {
+          "id": "reunir-r0",
+          "texto": "estado de ingresos",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null,
+          "reunir": "documento",
+          "obligatorio": false
+        },
+        {
+          "id": "reunir-r1",
+          "texto": "estado de gastos",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null,
+          "reunir": "documento",
+          "obligatorio": false
+        },
+        {
+          "id": "reunir-r2",
+          "texto": "Anexos I, II y III",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null,
+          "reunir": "documento",
+          "obligatorio": false
         }
       ]
     },
@@ -12079,14 +12275,7 @@ window.__COPIA__["datos-biblioteca/biblioteca-centro.json"] = {
       "titulo": "Montar la cuenta de gestión",
       "explicacion": "",
       "responsable": "Secretaría",
-      "requisitos": [
-        {
-          "id": "r0",
-          "texto": "anexos de la Orden de 10 de mayo de 2006",
-          "clase": "documento",
-          "obligatorio": false
-        }
-      ],
+      "requisitos": [],
       "soloInformativo": false,
       "normativa": [],
       "guion": [
@@ -12117,6 +12306,15 @@ window.__COPIA__["datos-biblioteca/biblioteca-centro.json"] = {
           "explicacion": "",
           "accion": "anadir",
           "normativa": null
+        },
+        {
+          "id": "reunir-r0",
+          "texto": "anexos de la Orden de 10 de mayo de 2006",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null,
+          "reunir": "documento",
+          "obligatorio": false
         }
       ]
     },
@@ -13364,20 +13562,7 @@ window.__COPIA__["datos-biblioteca/biblioteca-centro.json"] = {
       "titulo": "Presentar la solicitud en plazo",
       "explicacion": "",
       "responsable": "Secretaría",
-      "requisitos": [
-        {
-          "id": "r0",
-          "texto": "solicitud",
-          "clase": "documento",
-          "obligatorio": false
-        },
-        {
-          "id": "r1",
-          "texto": "documentación de la convocatoria",
-          "clase": "documento",
-          "obligatorio": false
-        }
-      ],
+      "requisitos": [],
       "soloInformativo": false,
       "normativa": [],
       "guion": [
@@ -13408,6 +13593,24 @@ window.__COPIA__["datos-biblioteca/biblioteca-centro.json"] = {
           "explicacion": "",
           "accion": "anadir",
           "normativa": null
+        },
+        {
+          "id": "reunir-r0",
+          "texto": "solicitud",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null,
+          "reunir": "documento",
+          "obligatorio": false
+        },
+        {
+          "id": "reunir-r1",
+          "texto": "documentación de la convocatoria",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null,
+          "reunir": "documento",
+          "obligatorio": false
         }
       ]
     },
@@ -13589,14 +13792,7 @@ window.__COPIA__["datos-biblioteca/biblioteca-centro.json"] = {
       "titulo": "Autorizaciones de las familias",
       "explicacion": "",
       "responsable": "Secretaría",
-      "requisitos": [
-        {
-          "id": "r0",
-          "texto": "autorización firmada de cada alumno",
-          "clase": "documento",
-          "obligatorio": false
-        }
-      ],
+      "requisitos": [],
       "soloInformativo": false,
       "normativa": [],
       "guion": [
@@ -13627,6 +13823,15 @@ window.__COPIA__["datos-biblioteca/biblioteca-centro.json"] = {
           "explicacion": "",
           "accion": "anadir",
           "normativa": null
+        },
+        {
+          "id": "reunir-r0",
+          "texto": "autorización firmada de cada alumno",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null,
+          "reunir": "documento",
+          "obligatorio": false
         }
       ]
     },
@@ -13669,20 +13874,7 @@ window.__COPIA__["datos-biblioteca/biblioteca-centro.json"] = {
       "titulo": "Liquidación al volver",
       "explicacion": "",
       "responsable": "Secretaría",
-      "requisitos": [
-        {
-          "id": "r0",
-          "texto": "facturas",
-          "clase": "documento",
-          "obligatorio": false
-        },
-        {
-          "id": "r1",
-          "texto": "justificantes de gasto",
-          "clase": "documento",
-          "obligatorio": false
-        }
-      ],
+      "requisitos": [],
       "soloInformativo": false,
       "normativa": [],
       "guion": [
@@ -13713,6 +13905,24 @@ window.__COPIA__["datos-biblioteca/biblioteca-centro.json"] = {
           "explicacion": "",
           "accion": "anadir",
           "normativa": null
+        },
+        {
+          "id": "reunir-r0",
+          "texto": "facturas",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null,
+          "reunir": "documento",
+          "obligatorio": false
+        },
+        {
+          "id": "reunir-r1",
+          "texto": "justificantes de gasto",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null,
+          "reunir": "documento",
+          "obligatorio": false
         }
       ]
     },
@@ -13887,14 +14097,7 @@ window.__COPIA__["datos-biblioteca/biblioteca-centro.json"] = {
       "titulo": "Firma",
       "explicacion": "",
       "responsable": "Secretaría",
-      "requisitos": [
-        {
-          "id": "r0",
-          "texto": "convenio firmado",
-          "clase": "documento",
-          "obligatorio": false
-        }
-      ],
+      "requisitos": [],
       "soloInformativo": false,
       "normativa": [],
       "guion": [
@@ -13918,6 +14121,15 @@ window.__COPIA__["datos-biblioteca/biblioteca-centro.json"] = {
           "explicacion": "",
           "accion": "anadir",
           "normativa": null
+        },
+        {
+          "id": "reunir-r0",
+          "texto": "convenio firmado",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null,
+          "reunir": "documento",
+          "obligatorio": false
         }
       ]
     },
@@ -13960,20 +14172,7 @@ window.__COPIA__["datos-biblioteca/biblioteca-centro.json"] = {
       "titulo": "Memoria final",
       "explicacion": "",
       "responsable": "Secretaría",
-      "requisitos": [
-        {
-          "id": "r0",
-          "texto": "memoria",
-          "clase": "documento",
-          "obligatorio": false
-        },
-        {
-          "id": "r1",
-          "texto": "justificación del gasto si lo hubo",
-          "clase": "documento",
-          "obligatorio": false
-        }
-      ],
+      "requisitos": [],
       "soloInformativo": false,
       "normativa": [],
       "guion": [
@@ -14004,6 +14203,24 @@ window.__COPIA__["datos-biblioteca/biblioteca-centro.json"] = {
           "explicacion": "",
           "accion": "anadir",
           "normativa": null
+        },
+        {
+          "id": "reunir-r0",
+          "texto": "memoria",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null,
+          "reunir": "documento",
+          "obligatorio": false
+        },
+        {
+          "id": "reunir-r1",
+          "texto": "justificación del gasto si lo hubo",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null,
+          "reunir": "documento",
+          "obligatorio": false
         }
       ]
     },
