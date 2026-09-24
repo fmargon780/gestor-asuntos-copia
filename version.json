@@ -1,5 +1,5 @@
 {
-  "version": "24-sep-2026 · 13:37",
+  "version": "24-sep-2026 · 14:04",
   "ficheros": {
     "js/lib/pdf.worker.iife.js": "2625d8f61aa344f26e609832fd19f48de2ddbc341de8bbfc39698912e635b1a3",
     "js/lib/pdf.iife.js": "ba8b6dfa292fda90d765bd48329c229f58f347c68b40b6bd9afa008ccbff395c",
@@ -182,13 +182,13 @@
     "js/lib/pdf.min.mjs": "c3caae2cf1fe9d6e25588d0d239d02454422778ed5897314981496a4656eab82",
     "js/lib/pdf.worker.min.mjs": "ee61de6dd3effd826b7083739409e50bae43c2e41a896f27ea8dd2d77e2f349b",
     "js/lo-pide.js": "f4941e2e3d7bcd5147035d07535aa6d1dc90f679a09de1e64ce9ef4971088888",
-    "js/membrete.js": "b03ed888f10b97a4b6e6f07cd6dee4a9ac8af71b0bf2761c64b1293649f708da",
+    "js/membrete.js": "049249ea3365f45aaadcace219aef2525c217e0a6485a253b22f8e65d61e800b",
     "js/navegacion.js": "9f922385762d4dc80799967bdd8c79bda0d88f336babeff0147b818be286d84b",
     "js/nombres.js": "79aebf669267c6f027d9e55b4e09e4a9cf2cad0a02bb122daa558feff9180f46",
     "js/notas.js": "86aafa64af84c626794a5cea6edb16d0d9d05778b076fb28e4d9ec28729eb338",
     "js/nucleo.js": "a55001bb8882cdc9ae81b601154d6c1172bbc0424522a5b2b1490a254165589e",
     "js/otros-del-tercero.js": "617c52fd4f9636f8aa1b202abbb7b9986eecbdb7b4f9e8a3b85b655c165725b0",
-    "js/papelera.js": "97f822f8acc8bddefcfc18d693ba99e21b8fb9cbe2de20f71dde16b438483035",
+    "js/papelera.js": "743c69e14acb13d9f56eddcc4a4b73179a703e50a0e81a5f0dbd1e5046817c99",
     "js/pdf-herramientas.js": "03581fba8ad426191088956911889bf833da82bf12f18f78dc0ea5fc39824cdd",
     "js/pdf-margenes.js": "6caacfdcb38795e7cca2b32318b0f7b8806f7de5e25355828f886a4ea5aedfc8",
     "js/pdf-separar-unir.js": "64d1dfd49b4a7317bddc685d1e5729391fb03bedb0a7e4809108937fdd7a09be",
@@ -227,7 +227,7 @@
     "js/usuarios.js": "234d062441823a594ba18bc7fad54a542567e693f99e35f1335c3d138dceef23",
     "js/util.js": "fbb904f9fd4f28b214e670e60a4d3fdb742f61bea66ff9e557012908dcc314cd",
     "js/verificacion.js": "7bae57add882f3738d3eb3a75585781d32ed4c5389714339f99708eba5337ccc",
-    "js/version.js": "74a0672f85a6c5a70267bf4503d5ad016d29977f183c3131919de12cc0d89c82",
+    "js/version.js": "a69893b1e53cdd69a42c761b83ee11a7c63a39b7821e64cdefbf1842f6b46541",
     "js/via-contacto.js": "c4ff0004c9954b3303515a5c0aa971597b8deb668c48df4069758c60b5487767",
     "js/visor.js": "87ae0f938a8fd2c3ff7f8c183b8f1373d68da7729cd0c9b66a9f86a4cc3fbd13",
     "js/vista.js": "cb32e57f87d5e8a255af1141b5fc1df289df020366262d055740e467c6ba2d4c"
