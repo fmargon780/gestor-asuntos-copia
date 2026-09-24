@@ -30,6 +30,17 @@ window.__COPIA__["plantillas/indice.json"] = [
     "vistoBueno": "direccion"
   },
   {
+    "nombre": "Certificado de función tutorial",
+    "categoria": "PERSONAL",
+    "tipo": "CERTIFICADO PERSONAL",
+    "clase": "documento",
+    "fichero": "certificado-funcion-tutorial.docx",
+    "tipoDocumento": "CERTIFICADO",
+    "texto": "tutorias",
+    "firmante": "direccion",
+    "vistoBueno": ""
+  },
+  {
     "nombre": "Certificación académica",
     "categoria": "ALUMNADO",
     "tipo": "CERTIFICADO",
