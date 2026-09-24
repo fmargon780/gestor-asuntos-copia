@@ -285,6 +285,12 @@ window.__COPIA__["datos-biblioteca/biblioteca-centro.json"] = {
       "nuevo": false
     },
     {
+      "nombreCorto": "DESEMPEÑO FUNCIÓN TUTORIAL",
+      "nombreLargo": "Certificado de desempeño de la función tutorial",
+      "categoria": "PERSONAL",
+      "nuevo": false
+    },
+    {
       "nombreCorto": "INSUFICIENCIA HORARIA",
       "nombreLargo": "Insuficiencia de horario y reubicación",
       "categoria": "PERSONAL",
@@ -668,6 +674,13 @@ window.__COPIA__["datos-biblioteca/biblioteca-centro.json"] = {
     "Subvención": [
       {
         "nombre": "Convocatoria",
+        "clase": "texto",
+        "valores": []
+      }
+    ],
+    "Certificado de desempeño de la función tutorial": [
+      {
+        "nombre": "Cursos que pide",
         "clase": "texto",
         "valores": []
       }
