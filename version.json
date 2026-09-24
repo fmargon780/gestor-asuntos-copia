@@ -1,5 +1,5 @@
 {
-  "version": "24-sep-2026 · 05:45",
+  "version": "24-sep-2026 · 05:53",
   "ficheros": {
     "js/lib/pdf.worker.iife.js": "2625d8f61aa344f26e609832fd19f48de2ddbc341de8bbfc39698912e635b1a3",
     "js/lib/pdf.iife.js": "ba8b6dfa292fda90d765bd48329c229f58f347c68b40b6bd9afa008ccbff395c",
@@ -37,7 +37,7 @@
     "css/duplicados.css": "efefe4fa5800475362a239ee2f43655a15d1eb66ce777e31c563dddbb16b4830",
     "css/estilos.css": "6522d6701ddd060f3465df2e9588954be2f5aec989110499efe2d7417ed1e294",
     "css/ficha-asunto.css": "0592469ab0971133891315ae58cb68fc248938816139d9b0e0ec722a124c1a43",
-    "css/ficha-tarjetas.css": "6496ac57c1370a042665858afe0db5386d2195b4a16e104b9e881c8af97de417",
+    "css/ficha-tarjetas.css": "a3bdb6359918b31e7bbafe34bfad252b63eac9384ae890a62bac2b504cfac9dd",
     "css/ficha-tercero.css": "41f704a8c1aa2a31e698626fc190dc8b935620ad41c93d1a6db10753fadd81c6",
     "css/filas.css": "7f3a335a0414abf8a99710adc538198ae3da3b958a70bb9fc687f121455cdaae",
     "css/formularios.css": "f72243986af3e2e75a5767275796639c339eac9642965bdc93cdc8466d2714da",
@@ -64,7 +64,7 @@
     "css/visor.css": "bb4e1a0873ad889f445697266af24dde3e29676d1dbe1b5d65274a65cdf15c77",
     "css/vista.css": "3fa5e02e2839fa1164be920b8207f9440250bc741752203ed95f7565b8e27fcf",
     "favicon.svg": "b19dd6178a27404df9b5b1601a6f484e3e0ab516166e1d81b0ec3d5f6765cbac",
-    "index.html": "b0e5840abe57b72dc623138c2193d1616a3e7a872878e3cd2f6e4d57d689d25c",
+    "index.html": "d7a7282d1617be586d8d6cc60f6eb400e80fde77c79e213cc89af71215415d3e",
     "js/actualizar-copia.js": "ffd5e2e7f84f4087d268b2079d9df2308e365d1d5ab2fbb5625826c264431ff5",
     "js/ajustes-centro.js": "30e05ef98ad567876e21e14048fa58e2b05376fbd083710574df54bda8fe631b",
     "js/ajustes-mantenimiento.js": "2fe01143f46e4b4754dcf93beec0a396d8321870baf4816f881ab2d767dad8d1",
@@ -127,7 +127,8 @@
     "js/ficha-documentos.js": "947ddf5bf5ff0b27198b94ccbfaa3abe8faeee4281b96fbbca21e697a3e5a3dc",
     "js/ficha-menus.js": "476230d56f10622782c34a5ee5d8963dda49f0f124e94c8885d2381dd0188370",
     "js/ficha-nombre-acciones.js": "3c93f3b00c5567ec8c517dd49a8ccaf4b2bde5ec983801bb2073dd141841c343",
-    "js/ficha-tarjetas.js": "139b51422b1fa26d525feb59dd8c6455e669a87f8b76be053f088f5b41349093",
+    "js/ficha-tarjetas-resumen.js": "e92202b6cd143d974436304698d98d46b4d4ee9048103bf4e6604c79967198b7",
+    "js/ficha-tarjetas.js": "633fec56e324fcbf7860a141a6012005877cb9af845cbe49da89d984c12296ed",
     "js/ficha-tercero-alumno.js": "f69725ec3ab8ff80416e7b258f896b2822a284b794d55a1c0b4e180fa8fb706b",
     "js/ficha-tercero.js": "79d9b891527e443578c73940a6946c39ca2b7395a374e3e1dd3740016d5f524c",
     "js/fichas-huerfanas.js": "fa36f9f7da15993cf0665f0f3d09c67de57c2b8284dab3b0fac811e1c6db5c85",
@@ -213,7 +214,7 @@
     "js/usuarios.js": "234d062441823a594ba18bc7fad54a542567e693f99e35f1335c3d138dceef23",
     "js/util.js": "e1eba2c807ad802d029788d49b0e852088b67c0db244478ec23d80dc1bfab17a",
     "js/verificacion.js": "7bae57add882f3738d3eb3a75585781d32ed4c5389714339f99708eba5337ccc",
-    "js/version.js": "3e427ff71cd3d348c10fab4b982d589a21e5612ea4f0845b613261a584ea4bd0",
+    "js/version.js": "4da675a118cabdc074924a24f5bc9b2f1084e2283d1952f57aff4cc39e908db6",
     "js/via-contacto.js": "c4ff0004c9954b3303515a5c0aa971597b8deb668c48df4069758c60b5487767",
     "js/visor.js": "87ae0f938a8fd2c3ff7f8c183b8f1373d68da7729cd0c9b66a9f86a4cc3fbd13",
     "js/vista.js": "cb32e57f87d5e8a255af1141b5fc1df289df020366262d055740e467c6ba2d4c"
