@@ -1,5 +1,5 @@
 {
-  "version": "24-sep-2026 · 10:44",
+  "version": "24-sep-2026 · 11:23",
   "ficheros": {
     "js/lib/pdf.worker.iife.js": "2625d8f61aa344f26e609832fd19f48de2ddbc341de8bbfc39698912e635b1a3",
     "js/lib/pdf.iife.js": "ba8b6dfa292fda90d765bd48329c229f58f347c68b40b6bd9afa008ccbff395c",
@@ -65,7 +65,7 @@
     "css/vista.css": "3fa5e02e2839fa1164be920b8207f9440250bc741752203ed95f7565b8e27fcf",
     "favicon.svg": "b19dd6178a27404df9b5b1601a6f484e3e0ab516166e1d81b0ec3d5f6765cbac",
     "index.html": "b86e7743c3185e0986c0614f0f9b486a71e88fd5714ec623aba8616c45174292",
-    "js/actualizar-copia.js": "ffd5e2e7f84f4087d268b2079d9df2308e365d1d5ab2fbb5625826c264431ff5",
+    "js/actualizar-copia.js": "5abe5f78e99e76f95fccc84e20f443c0b223d27c76eb8173d02bdb338b468685",
     "js/ajustes-centro.js": "30e05ef98ad567876e21e14048fa58e2b05376fbd083710574df54bda8fe631b",
     "js/ajustes-mantenimiento.js": "2fe01143f46e4b4754dcf93beec0a396d8321870baf4816f881ab2d767dad8d1",
     "js/ajustes-plegado.js": "18228fd69e1f13ef93f3e06ac4cf2aa71f66cdd839d2ab814e4f3f5ff8258a1f",
@@ -217,7 +217,7 @@
     "js/usuarios.js": "234d062441823a594ba18bc7fad54a542567e693f99e35f1335c3d138dceef23",
     "js/util.js": "fbb904f9fd4f28b214e670e60a4d3fdb742f61bea66ff9e557012908dcc314cd",
     "js/verificacion.js": "7bae57add882f3738d3eb3a75585781d32ed4c5389714339f99708eba5337ccc",
-    "js/version.js": "6ef8726862864518ea8a334e921bfcd04c205b04d3f4e7d0069ee14dcc3ea678",
+    "js/version.js": "9d747be9f8c6ee8dc20c9a67c1278678b5c97162539b1bd56ed30a45a0d6f0ad",
     "js/via-contacto.js": "c4ff0004c9954b3303515a5c0aa971597b8deb668c48df4069758c60b5487767",
     "js/visor.js": "87ae0f938a8fd2c3ff7f8c183b8f1373d68da7729cd0c9b66a9f86a4cc3fbd13",
     "js/vista.js": "cb32e57f87d5e8a255af1141b5fc1df289df020366262d055740e467c6ba2d4c"
