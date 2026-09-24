@@ -1,5 +1,5 @@
 {
-  "version": "24-sep-2026 · 05:53",
+  "version": "24-sep-2026 · 06:27",
   "ficheros": {
     "js/lib/pdf.worker.iife.js": "2625d8f61aa344f26e609832fd19f48de2ddbc341de8bbfc39698912e635b1a3",
     "js/lib/pdf.iife.js": "ba8b6dfa292fda90d765bd48329c229f58f347c68b40b6bd9afa008ccbff395c",
@@ -104,8 +104,9 @@
     "js/copiar-ruta.js": "3c5bd92dc9cdc3414a5240b3a0007d588c060ecfa5cb9c41c76b676a20a98be3",
     "js/copiar.js": "b740878ca84d3a920739064001dd0fd133532f853f03f03cbe9acd8144a0a44d",
     "js/copias.js": "7f05485f3674fa83794390b3569273c7df0511ee1c1b3ad615368fb8fc273d16",
-    "js/correo-adjuntos.js": "e89bc8fa8e7566be3ae4241e6c475fdc0239ab6bf42a66a6df34f90cb903ab1a",
+    "js/correo-adjuntos.js": "d292c998dc763860991ef418085b7bcf2cda585fb78ce234a8c1d507c03c779e",
     "js/correo-cuadro.js": "6e98bb56de27ce09d184eab96ce499ed36ec11f8e4eff8f2833f10673de44a8d",
+    "js/correo-enviar.js": "ae3843e037ad3e5d6b987730556396184cb235659e57af62c115638ee662b7eb",
     "js/correo.js": "36b6ffd2d9cf5518e4e993c390246e14721febcfb52c42af34df43283bda5fe4",
     "js/cuentas.js": "b1ddd0fb1459e35fb24a0302cd4bb50a5ae1e01d01b3fd10501e2d84c950ba48",
     "js/datos-tutores.js": "05fa1d6a656aee6107e39ef878338320b61281835bec3020f53784e1a5f9f498",
@@ -214,7 +215,7 @@
     "js/usuarios.js": "234d062441823a594ba18bc7fad54a542567e693f99e35f1335c3d138dceef23",
     "js/util.js": "e1eba2c807ad802d029788d49b0e852088b67c0db244478ec23d80dc1bfab17a",
     "js/verificacion.js": "7bae57add882f3738d3eb3a75585781d32ed4c5389714339f99708eba5337ccc",
-    "js/version.js": "4da675a118cabdc074924a24f5bc9b2f1084e2283d1952f57aff4cc39e908db6",
+    "js/version.js": "e040ba79fa1b768db46b8d0eb6d1cb5ea1734ed86894bfd4041204a369a144a6",
     "js/via-contacto.js": "c4ff0004c9954b3303515a5c0aa971597b8deb668c48df4069758c60b5487767",
     "js/visor.js": "87ae0f938a8fd2c3ff7f8c183b8f1373d68da7729cd0c9b66a9f86a4cc3fbd13",
     "js/vista.js": "cb32e57f87d5e8a255af1141b5fc1df289df020366262d055740e467c6ba2d4c"
