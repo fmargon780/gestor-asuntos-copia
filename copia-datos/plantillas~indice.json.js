@@ -92,6 +92,18 @@ window.__COPIA__["plantillas/indice.json"] = [
     "vistoBueno": "direccion"
   },
   {
+    "nombre": "Renuncia a formar parte de la Junta Electoral",
+    "categoria": "OTROS",
+    "tipo": "ELECCIONES CONSEJO ESCOLAR",
+    "clase": "documento",
+    "id": "pd-centro-renuncia-junta-electoral",
+    "fichero": "renuncia-junta-electoral.docx",
+    "tipoDocumento": "RENUNCIA",
+    "texto": "junta electoral",
+    "firmante": "direccion",
+    "vistoBueno": ""
+  },
+  {
     "nombre": "Reclamación al proveedor",
     "categoria": "EMPRESAS",
     "tipo": "GARANTIA",

@@ -12824,6 +12824,14 @@ window.__COPIA__["datos-biblioteca/biblioteca-centro.json"] = {
           "normativa": null
         },
         {
+          "id": "g-renuncias",
+          "texto": "Recoger las renuncias y avisar al suplente que corresponda",
+          "explicacion": "",
+          "accion": "generar",
+          "normativa": null,
+          "nueva": true
+        },
+        {
           "id": "g2",
           "texto": "Generar la convocatoria de constitución",
           "explicacion": "",
@@ -12837,6 +12845,9 @@ window.__COPIA__["datos-biblioteca/biblioteca-centro.json"] = {
           "accion": "",
           "normativa": null
         }
+      ],
+      "plantillasDocumento": [
+        "pd-centro-renuncia-junta-electoral"
       ]
     },
     {
