@@ -1,5 +1,5 @@
 {
-  "version": "25-sep-2026 · 01:52",
+  "version": "25-sep-2026 · 01:58",
   "ficheros": {
     "js/lib/pdf.worker.iife.js": "1b783f0bbc7559bda0640fbd1c77cf122cec3d4c6d8f3ddb55c6bc430bab5af7",
     "js/lib/pdf.iife.js": "0569af2aad6e5236994a94dbc68e309d38b95af43c4fe42eb66d16c982f4a96b",
@@ -38,7 +38,7 @@
     "css/correo.css": "e6a9645cf07abae199ab7d42423b7b65eac98710fe6c00f848469b12becf1bc1",
     "css/duplicados.css": "efefe4fa5800475362a239ee2f43655a15d1eb66ce777e31c563dddbb16b4830",
     "css/estado-hito.css": "3792e581de34388d60f6112e42f5510d3c3e04a9271900e52c10778d9f17e645",
-    "css/estilos.css": "12c10d0177728bf6eac5db98437ecbafc4092c53f6d4101fd0c45e54ec6c04ad",
+    "css/estilos.css": "a9b1450a0bfda3b82ac9aa969c52df896ed7c9efc76a6bdb015036da9dcfbff5",
     "css/ficha-asunto.css": "0592469ab0971133891315ae58cb68fc248938816139d9b0e0ec722a124c1a43",
     "css/ficha-tarjetas.css": "a3bdb6359918b31e7bbafe34bfad252b63eac9384ae890a62bac2b504cfac9dd",
     "css/ficha-tercero.css": "41f704a8c1aa2a31e698626fc190dc8b935620ad41c93d1a6db10753fadd81c6",
@@ -71,7 +71,7 @@
     "css/visor.css": "bb4e1a0873ad889f445697266af24dde3e29676d1dbe1b5d65274a65cdf15c77",
     "css/vista.css": "3fa5e02e2839fa1164be920b8207f9440250bc741752203ed95f7565b8e27fcf",
     "favicon.svg": "b19dd6178a27404df9b5b1601a6f484e3e0ab516166e1d81b0ec3d5f6765cbac",
-    "index.html": "aa521be9cb21fd12a4d5aa6f142d3b5ebec7dede54b08edc7321cec5cbb83c47",
+    "index.html": "ae3f8af3100b2dfdc96b6ccccf2fbb5b0c78aa6b4965c4693644ce71a050fe99",
     "js/actualizar-copia.js": "5abe5f78e99e76f95fccc84e20f443c0b223d27c76eb8173d02bdb338b468685",
     "js/ajustes-centro.js": "c57b36eba7cf4c4b2e9c49781dd808cd6b32b1e12cd952353459bf5e0a6c4010",
     "js/ajustes-mantenimiento.js": "e48356c2245baf8de9a6289b81563cfe5566435c49dac6047e2e79eb927ae091",
@@ -127,7 +127,8 @@
     "js/correo-grupos.js": "ccb599d7383c0a45b692f09aa017c4eeccbbe80a7d242e3e99eb6880b0cc7c95",
     "js/correo-rastro.js": "48490805b157cfb26e2d23fd3812efb686ac9d26d1863a91e4a025725073b532",
     "js/correo.js": "e499823799aafd62995fde0df9678fc28817970cc7ececf7ddd20e1b57f92961",
-    "js/cuentas.js": "187d0d760766c19e8e07350fdd0156bef44cd51c9ff5b2409c5744c62c8bacb3",
+    "js/cuentas-tiempos.js": "c08daca33f3005f70df7e742464a237a9a5e4e0f4657dce64744e39f7706631b",
+    "js/cuentas.js": "3c6ec6d608c233efa59e4931210e8461a25af3129c26a5acd6f9d55e4d9a4132",
     "js/datos-alumnado.js": "7f8f515e6623d2606919ebb19904d0dcad8168f97b70adb1127a550ec501d9c8",
     "js/datos-listas.js": "afb56356d909f2baea34afc22cf2e5e035f109fc6418607e78242ecb4d124193",
     "js/datos-personal.js": "dd4cffe1b88d0be9358d330601e4d79d296436d55e7d99244996ac284e494eae",
@@ -280,7 +281,7 @@
     "js/util-parecidos.js": "c64ece65fd235e6b3e0b45c9b9d9a2ca3074100e905571bd7ff4fb2b6078af97",
     "js/util.js": "a2173328a8178f8ed4a12d5cf6e3c7ef1a34c82819a4ded592e94149a75e01bd",
     "js/verificacion.js": "7bae57add882f3738d3eb3a75585781d32ed4c5389714339f99708eba5337ccc",
-    "js/version.js": "fe78d37e2f0840f7a016980cc7a745f185f9dba8064d82c4522032e066325a35",
+    "js/version.js": "a0c7846787bca250f58acc46a6875a9fe79515e9ac2ce8b16f19992c30731c00",
     "js/via-contacto.js": "c4ff0004c9954b3303515a5c0aa971597b8deb668c48df4069758c60b5487767",
     "js/visor.js": "87ae0f938a8fd2c3ff7f8c183b8f1373d68da7729cd0c9b66a9f86a4cc3fbd13",
     "js/vista.js": "fbfb0b4769b4ba34ff19da051556d2c3851efb79a80d2b0bbef9779da0281587"
