@@ -1,5 +1,5 @@
 {
-  "version": "24-sep-2026 · 03:25",
+  "version": "24-sep-2026 · 03:26",
   "ficheros": {
     "js/lib/pdf.worker.iife.js": "2625d8f61aa344f26e609832fd19f48de2ddbc341de8bbfc39698912e635b1a3",
     "js/lib/pdf.iife.js": "ba8b6dfa292fda90d765bd48329c229f58f347c68b40b6bd9afa008ccbff395c",
@@ -35,7 +35,7 @@
     "css/correo.css": "e6a9645cf07abae199ab7d42423b7b65eac98710fe6c00f848469b12becf1bc1",
     "css/duplicados.css": "efefe4fa5800475362a239ee2f43655a15d1eb66ce777e31c563dddbb16b4830",
     "css/estilos.css": "6522d6701ddd060f3465df2e9588954be2f5aec989110499efe2d7417ed1e294",
-    "css/ficha-asunto.css": "6b5bf5dab3a239cd647fe611ab30216235cf24d90136be5d007b28ea9bf8f36c",
+    "css/ficha-asunto.css": "26623861d59d492f4f011e9f4123447fe8ff49e9efba1258662182883562a2b9",
     "css/ficha-tercero.css": "bc783c28334934d1947fad1658e242ac085b9e0c159363265f2844493b82a6ab",
     "css/filas.css": "7f3a335a0414abf8a99710adc538198ae3da3b958a70bb9fc687f121455cdaae",
     "css/formularios.css": "f72243986af3e2e75a5767275796639c339eac9642965bdc93cdc8466d2714da",
@@ -116,7 +116,7 @@
     "js/elegir-asunto.js": "f162fe663c35adb5dca9dcc3b3e370a44aaa9e6e2d2616025bfad286d526b9f3",
     "js/envolturas-esperadas.js": "22e7aadbf0c56fa8acd68eb1a6fe87b68c64773189c9ec45b98a8ea190cf8148",
     "js/ficha-archivo.js": "b00340a43387d8aebd6a7fb96fafbecd5f8339f60c880bfde1b54842b1c49fac",
-    "js/ficha-asunto.js": "79c620e566abb394d62c4741bb2b51e3c8163b551e036cd1fcf87f9ee10ea806",
+    "js/ficha-asunto.js": "483f239886930c9ddb263c20f7f578e2ff84b91b99560354fecb601cd4101638",
     "js/ficha-documentos.js": "947ddf5bf5ff0b27198b94ccbfaa3abe8faeee4281b96fbbca21e697a3e5a3dc",
     "js/ficha-menus.js": "476230d56f10622782c34a5ee5d8963dda49f0f124e94c8885d2381dd0188370",
     "js/ficha-nombre-acciones.js": "df9b31c71a8323d6e2941e7a1d615fda5ac313b40d28f455ef41148121cbe5f6",
@@ -156,7 +156,7 @@
     "js/lib/pdf-lib.min.js": "278627f3a5e3efa95e77ab565f10831d3cdb9cbb617ef8388d6ff4bf962d4887",
     "js/lib/pdf.min.mjs": "c3caae2cf1fe9d6e25588d0d239d02454422778ed5897314981496a4656eab82",
     "js/lib/pdf.worker.min.mjs": "ee61de6dd3effd826b7083739409e50bae43c2e41a896f27ea8dd2d77e2f349b",
-    "js/lo-pide.js": "c12f5368f01eaaae3f8b272c6d99c111be425642b17c2ee965b506001e2c87c2",
+    "js/lo-pide.js": "f4941e2e3d7bcd5147035d07535aa6d1dc90f679a09de1e64ce9ef4971088888",
     "js/membrete.js": "b03ed888f10b97a4b6e6f07cd6dee4a9ac8af71b0bf2761c64b1293649f708da",
     "js/nombres.js": "79aebf669267c6f027d9e55b4e09e4a9cf2cad0a02bb122daa558feff9180f46",
     "js/notas.js": "86aafa64af84c626794a5cea6edb16d0d9d05778b076fb28e4d9ec28729eb338",
@@ -193,7 +193,7 @@
     "js/usuarios.js": "234d062441823a594ba18bc7fad54a542567e693f99e35f1335c3d138dceef23",
     "js/util.js": "e1eba2c807ad802d029788d49b0e852088b67c0db244478ec23d80dc1bfab17a",
     "js/verificacion.js": "7bae57add882f3738d3eb3a75585781d32ed4c5389714339f99708eba5337ccc",
-    "js/version.js": "8a933b57c029bab50a349cd78e3e31da5e3c8fa927e7b5b286efa18d2446617a",
+    "js/version.js": "883f6f17873183d24456a8b2024c8275dd4d8db49e3243b2562e5335ec0b5a2c",
     "js/via-contacto.js": "c4ff0004c9954b3303515a5c0aa971597b8deb668c48df4069758c60b5487767",
     "js/visor.js": "3a51f38e932d047bb2008a26611681426d5e8bb1ac6889cc78dd542578ed21b5",
     "js/vista.js": "cb32e57f87d5e8a255af1141b5fc1df289df020366262d055740e467c6ba2d4c"
