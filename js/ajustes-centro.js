@@ -56,17 +56,20 @@ App.pintarTablaEstados = function () {
     etiqueta.className = 'interruptor interruptor-fila';
     var casilla = document.createElement('input');
     casilla.type = 'checkbox';
-    casilla.checked = !!estado.espera;
+    /* Fila 104: la misma marca de siempre (`espera`), enseñada al
+       revés, igual que la de los responsables de Ajustes › Hitos. */
+    casilla.checked = !estado.espera;
     casilla.onchange = async function () {
-      estado.espera = casilla.checked;
+      estado.espera = !casilla.checked;
       await App.guardarEstados();
       App.pintarTablaEstados();
       App.pintarAbiertos();
     };
     etiqueta.appendChild(casilla);
     var texto = document.createElement('span');
-    texto.textContent = 'Depende de otros';
-    texto.title = 'Con esto marcado, el asunto sale en "A la espera de terceros"';
+    texto.textContent = 'Administración';
+    texto.title = 'Un asunto SIN hitos en este estado sale en "Pendiente de Administración" si está ' +
+      'marcado, y en "Pendiente de terceros" si no. Con hitos, manda el hito abierto.';
     etiqueta.appendChild(texto);
     linea2.appendChild(etiqueta);
 
@@ -213,7 +216,7 @@ $('btn-anadir-estado').onclick = async function () {
   var hay = App.E.estados.map(function (e) { return e.nombre; });
   if (!await U.dejaCrear(nombre, hay, 'estado')) return;
   await Borrados.revivir(App.E.gestor, 'estados', nombre);
-  App.E.estados.push({ nombre: nombre, espera: false });
+  App.E.estados.push({ nombre: nombre, espera: App.esperaPorNombre(nombre) });
   await App.guardarEstados();
   $('nuevo-estado').value = '';
   $('nuevo-estado').oninput();
@@ -726,4 +729,6 @@ App.pintarAjustesCentro = async function () {
   if (window.Membrete && Membrete.pintarEnAjustes) await Membrete.pintarEnAjustes();
   /* 20-sep-2026, fila 84, docs/FORMULARIOS-CON-LOS-DATOS-DEL-CENTRO.md. */
   if (window.FormulariosRellenar) await FormulariosRellenar.pintarPantallaImpresos();
+  /* Fila 105: el orden de más a menos uso y el resumen de cada título. */
+  if (window.AjustesPlegado) AjustesPlegado.ordenarCentro();
 };
