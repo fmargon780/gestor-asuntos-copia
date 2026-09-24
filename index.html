@@ -763,6 +763,8 @@
 
 <!-- Piezas sueltas: cada una hace su trabajo y no sabe de las demás. -->
 <script src="js/util.js"></script>
+<script src="js/util-parecidos.js"></script>
+<script src="js/util-pantalla.js"></script>
 <script src="js/almacen.js"></script>
 <!-- Fila 90, docs/ARCHIVAR-SIN-AVISOS-FALSOS.md: reintentar una
      escritura que tropieza con Dropbox sincronizando. Antes de
@@ -784,6 +786,9 @@
 <script src="js/guias-toca.js"></script>
 <script src="js/guias-plazo.js"></script>
 <script src="js/guias.js"></script>
+<script src="js/guias-vista.js"></script>
+<script src="js/guias-paso-bloques.js"></script>
+<script src="js/guias-editor.js"></script>
 <script src="js/guias-plegado.js"></script>
 <script src="js/guias-opciones-editor.js"></script>
 <script src="js/guias-mapa.js"></script>
@@ -797,6 +802,9 @@
 <script src="js/hitos-normativa.js"></script>
 <script src="js/guias-biblioteca.js"></script>
 <script src="js/datos.js"></script>
+<script src="js/datos-alumnado.js"></script>
+<script src="js/datos-personal.js"></script>
+<script src="js/datos-resumen.js"></script>
 <script src="js/datos-listas.js"></script>
 <!-- Fila 108: los tutores legales de un alumno, sacados de js/datos.js (Datos.tutoresDe). -->
 <script src="js/datos-tutores.js"></script>
@@ -809,6 +817,9 @@
      nombre y Ajustes → Tipos de documento. -->
 <script src="js/documentos-campos.js"></script>
 <script src="js/documentos.js"></script>
+<script src="js/documentos-formulario.js"></script>
+<script src="js/documentos-tipo-nuevo.js"></script>
+<script src="js/documentos-guardar.js"></script>
 <script src="js/grupos.js"></script>
 <!-- js/idea.js (fila 47, docs/DESTINATARIOS-EN-SENECA.md): el usuario
      IdEA de una persona, leído por el título de columna del CSV, como
@@ -831,7 +842,11 @@
 <script src="js/borrados-fusion.js"></script>
 <script src="js/version.js"></script>
 <script src="js/asuntos-lista.js"></script>
+<script src="js/asuntos-lista-montones.js"></script>
+<script src="js/asuntos-lista-pintar.js"></script>
 <script src="js/unir-asuntos.js"></script>
+<script src="js/unir-asuntos-pantalla.js"></script>
+<script src="js/unir-asuntos-unir.js"></script>
 <script src="js/asuntos-editar.js"></script>
 <!-- El cuadro de elegir asunto, compartido por "Por clasificar" y por la
      bandeja de correos. Va antes que sus dos usuarios, y antes que
@@ -847,6 +862,9 @@
      (usa LoPide.datosDeTutor). -->
 <script src="js/lo-pide.js"></script>
 <script src="js/asuntos-nuevo.js"></script>
+<script src="js/asuntos-nuevo-campos.js"></script>
+<script src="js/asuntos-nuevo-crear.js"></script>
+<script src="js/asuntos-nuevo-alta.js"></script>
 <script src="js/archivo-personas.js"></script>
 <script src="js/ajustes.js"></script>
 <script src="js/tipos-nombre.js"></script>
@@ -904,6 +922,11 @@
 <script src="js/preparar-documento.js"></script>
 <script src="js/pdf-separar-unir.js"></script>
 <script src="js/ficha-asunto.js"></script>
+<script src="js/ficha-huella.js"></script>
+<script src="js/ficha-en-la-lista.js"></script>
+<script src="js/ficha-consulta.js"></script>
+<script src="js/ficha-sellos.js"></script>
+<script src="js/ficha-bloques.js"></script>
 <!-- Fila 119: de qué pantalla se viene a una ficha, y la altura de la lista. -->
 <script src="js/navegacion.js"></script>
 <!-- El menú pequeño reutilizable de la cabecera (fila 52, 18-sep-2026,
@@ -941,6 +964,8 @@
 <script src="js/hitos-documentos.js"></script>
 <script src="js/duplicados.js"></script>
 <script src="js/relacionados.js"></script>
+<script src="js/relacionados-ficha.js"></script>
+<script src="js/relacionados-archivar.js"></script>
 <!-- Saltar a otro asunto del mismo tercero, y volver (fila 40,
      17-sep-2026): se lleva el bloque "Otros asuntos de este tercero"
      de js/ficha-asunto.js. Va después de js/ficha-asunto.js (cuelga el
@@ -986,12 +1011,15 @@
      Plantillas.cargar/deTipo/rellenar/valoresDeAsunto para su desplegable
      "Plantilla" (docs/PLANTILLAS-DE-CORREO.md, 2.3). -->
 <script src="js/plantillas.js"></script>
+<script src="js/plantillas-valores.js"></script>
 <!-- js/huecos-buscador.js va antes que quien lo use: el botón "Insertar
      hueco" del editor de plantillas (docs/HUECOS-INSERTAR.md, fila 35). -->
 <script src="js/huecos-buscador.js"></script>
 <script src="js/plantillas-ajustes.js"></script>
 <script src="js/destinatarios.js"></script>
 <script src="js/correo.js"></script>
+<script src="js/correo-grupos.js"></script>
+<script src="js/correo-rastro.js"></script>
 <script src="js/hitos-comunicar.js"></script>
 <!-- js/seneca-destinatarios.js (fila 47, docs/DESTINATARIOS-EN-SENECA.md):
      la lista de usuarios IdEA del cuadro de Séneca, en chips. Va
@@ -1028,6 +1056,7 @@
 <script src="js/docx-imagen.js"></script>
 <script src="js/docx-tabla.js"></script>
 <script src="js/plantillas-documento.js"></script>
+<script src="js/plantillas-documento-ajustes.js"></script>
 <script src="js/plantillas-centro.js"></script>
 <script src="js/plantilla-buscar.js"></script>
 <!-- Fila 110, docs/TABLAS-DE-DATOS.md: las tablas de datos (tutorías, Tablas/) y sus huecos. -->
@@ -1062,6 +1091,10 @@
 <script src="js/traer-datos.js"></script>
 <script src="js/lector.js"></script>
 <script src="js/bandeja-correos.js"></script>
+<script src="js/bandeja-huella.js"></script>
+<script src="js/bandeja-propuesta.js"></script>
+<script src="js/bandeja-guardar.js"></script>
+<script src="js/bandeja-ajustes.js"></script>
 <!-- La bandeja en pantalla (fila 27, 17-sep-2026): necesita
      window.Bandeja, así que va después de js/bandeja-correos.js, y
      antes de js/bandeja-enlace.js y js/correo-adjuntos.js. -->
@@ -1110,6 +1143,8 @@
 <script src="js/presencia.js"></script>
 <script src="js/asunto-renombrar.js"></script>
 <script src="js/papelera.js"></script>
+<script src="js/papelera-devolver.js"></script>
+<script src="js/papelera-ajustes.js"></script>
 <!-- Fila 68 (docs/AVISOS-QUE-FALTAN.md), 1 y 3: va después de
      js/papelera.js (Papelera.leer/_diasDesde/DIAS_AVISO/tamanoDeViejas)
      y de js/archivo-indice.js (window.IndiceArchivo), y envuelve
