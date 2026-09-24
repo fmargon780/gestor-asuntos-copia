@@ -697,6 +697,53 @@ window.__COPIA__["datos-biblioteca/biblioteca-centro.json"] = {
           "clave": "",
           "url": ""
         }
+      ],
+      "guion": [
+        {
+          "id": "g1",
+          "texto": "Descargar el parte de faltas del mes en Séneca",
+          "explicacion": "Filtrar por el alumno o alumna y el mes en curso.",
+          "accion": "",
+          "normativa": {
+            "cita": "Orden de 19 de septiembre de 2005, Plan Integral de Absentismo",
+            "bloque": "",
+            "clave": "",
+            "url": ""
+          }
+        },
+        {
+          "id": "g2",
+          "texto": "Sumar las horas sin justificar y comprobar si llegan a 25",
+          "explicacion": "Umbral del Plan Integral de Absentismo.",
+          "accion": "",
+          "normativa": {
+            "cita": "Orden de 19 de septiembre de 2005, Plan Integral de Absentismo",
+            "bloque": "",
+            "clave": "",
+            "url": ""
+          }
+        },
+        {
+          "id": "g3",
+          "texto": "Revisar si hay justificantes pendientes de grabar",
+          "explicacion": "Hablar con la tutoría antes de dar el caso por abierto.",
+          "accion": "",
+          "normativa": null
+        },
+        {
+          "id": "g4",
+          "texto": "Añadir el parte de faltas al asunto",
+          "explicacion": "",
+          "accion": "anadir",
+          "normativa": null
+        },
+        {
+          "id": "g5",
+          "texto": "Comunicar el caso a Jefatura de Estudios",
+          "explicacion": "Con el número de horas y el periodo.",
+          "accion": "comunicar",
+          "normativa": null
+        }
       ]
     },
     {
@@ -720,7 +767,51 @@ window.__COPIA__["datos-biblioteca/biblioteca-centro.json"] = {
         }
       ],
       "soloInformativo": false,
-      "normativa": []
+      "normativa": [],
+      "guion": [
+        {
+          "id": "g1",
+          "texto": "Generar la citación a la familia con acuse de recibo",
+          "explicacion": "",
+          "accion": "generar",
+          "normativa": null
+        },
+        {
+          "id": "g2",
+          "texto": "Enviar la citación por iPasen",
+          "explicacion": "Además de la carta en papel.",
+          "accion": "comunicar",
+          "normativa": null
+        },
+        {
+          "id": "g3",
+          "texto": "Registrar la salida de la carta en Séneca",
+          "explicacion": "",
+          "accion": "registrar",
+          "normativa": null
+        },
+        {
+          "id": "g4",
+          "texto": "Celebrar la entrevista con la familia en la fecha fijada",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        },
+        {
+          "id": "g5",
+          "texto": "Redactar el acta de la entrevista y recoger las firmas",
+          "explicacion": "",
+          "accion": "generar",
+          "normativa": null
+        },
+        {
+          "id": "g6",
+          "texto": "Añadir al asunto el acuse de recibo y el acta firmada",
+          "explicacion": "",
+          "accion": "anadir",
+          "normativa": null
+        }
+      ]
     },
     {
       "id": "b3",
@@ -743,7 +834,44 @@ window.__COPIA__["datos-biblioteca/biblioteca-centro.json"] = {
         }
       ],
       "soloInformativo": false,
-      "normativa": []
+      "normativa": [],
+      "guion": [
+        {
+          "id": "g1",
+          "texto": "Comprobar en Séneca que las faltas continúan tras la entrevista",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        },
+        {
+          "id": "g2",
+          "texto": "Generar la carta de citación de Jefatura advirtiendo de la derivación",
+          "explicacion": "",
+          "accion": "generar",
+          "normativa": null
+        },
+        {
+          "id": "g3",
+          "texto": "Registrar la salida de la carta y enviarla con acuse de recibo",
+          "explicacion": "",
+          "accion": "registrar",
+          "normativa": null
+        },
+        {
+          "id": "g4",
+          "texto": "Celebrar la reunión y proponer el compromiso de asistencia",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        },
+        {
+          "id": "g5",
+          "texto": "Añadir al asunto el acuse y el compromiso firmado",
+          "explicacion": "Si la familia no firma, dejarlo anotado.",
+          "accion": "anadir",
+          "normativa": null
+        }
+      ]
     },
     {
       "id": "b4",
@@ -772,7 +900,51 @@ window.__COPIA__["datos-biblioteca/biblioteca-centro.json"] = {
         }
       ],
       "soloInformativo": false,
-      "normativa": []
+      "normativa": [],
+      "guion": [
+        {
+          "id": "g1",
+          "texto": "Comprobar que ha pasado el mes de actuaciones del centro",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        },
+        {
+          "id": "g2",
+          "texto": "Generar el informe de absentismo",
+          "explicacion": "Con el registro de faltas y las actuaciones realizadas.",
+          "accion": "generar",
+          "normativa": null
+        },
+        {
+          "id": "g3",
+          "texto": "Recoger la firma de la dirección",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        },
+        {
+          "id": "g4",
+          "texto": "Registrar la salida del informe en Séneca",
+          "explicacion": "",
+          "accion": "registrar",
+          "normativa": null
+        },
+        {
+          "id": "g5",
+          "texto": "Remitir el informe a los Servicios Sociales del Ayuntamiento",
+          "explicacion": "",
+          "accion": "comunicar",
+          "normativa": null
+        },
+        {
+          "id": "g6",
+          "texto": "Enviar copia a la familia",
+          "explicacion": "",
+          "accion": "comunicar",
+          "normativa": null
+        }
+      ]
     },
     {
       "id": "b5",
@@ -782,7 +954,37 @@ window.__COPIA__["datos-biblioteca/biblioteca-centro.json"] = {
       "responsable": "Dirección",
       "requisitos": [],
       "soloInformativo": true,
-      "normativa": []
+      "normativa": [],
+      "guion": [
+        {
+          "id": "g1",
+          "texto": "Comprobar en Séneca que el absentismo persiste tras la derivación",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        },
+        {
+          "id": "g2",
+          "texto": "Preparar el escrito de remisión con el expediente completo",
+          "explicacion": "",
+          "accion": "generar",
+          "normativa": null
+        },
+        {
+          "id": "g3",
+          "texto": "Registrar la salida del escrito en Séneca",
+          "explicacion": "",
+          "accion": "registrar",
+          "normativa": null
+        },
+        {
+          "id": "g4",
+          "texto": "Remitirlo al Equipo Técnico de Absentismo y al Servicio de Inspección",
+          "explicacion": "",
+          "accion": "comunicar",
+          "normativa": null
+        }
+      ]
     },
     {
       "id": "b6",
@@ -792,7 +994,37 @@ window.__COPIA__["datos-biblioteca/biblioteca-centro.json"] = {
       "responsable": "Administración",
       "requisitos": [],
       "soloInformativo": false,
-      "normativa": []
+      "normativa": [],
+      "guion": [
+        {
+          "id": "g1",
+          "texto": "Abrir el seguimiento del absentismo del alumno o alumna en Séneca",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        },
+        {
+          "id": "g2",
+          "texto": "Grabar cada actuación con su fecha",
+          "explicacion": "Entrevistas, citaciones, derivaciones.",
+          "accion": "",
+          "normativa": null
+        },
+        {
+          "id": "g3",
+          "texto": "Adjuntar en Séneca o en el asunto los documentos de cada actuación",
+          "explicacion": "",
+          "accion": "anadir",
+          "normativa": null
+        },
+        {
+          "id": "g4",
+          "texto": "Comprobar que el registro de Séneca coincide con el del asunto",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        }
+      ]
     },
     {
       "id": "b7",
@@ -816,6 +1048,41 @@ window.__COPIA__["datos-biblioteca/biblioteca-centro.json"] = {
           "bloque": "convivencia",
           "clave": "ROC-11.2",
           "url": ""
+        }
+      ],
+      "guion": [
+        {
+          "id": "g1",
+          "texto": "Recoger el parte de incidencia del profesor o profesora el mismo día",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        },
+        {
+          "id": "g2",
+          "texto": "Comprobar que el parte lleva fecha, hora, hechos y firma",
+          "explicacion": "Tiene presunción de veracidad.",
+          "accion": "",
+          "normativa": {
+            "cita": "Decreto 327/2010, art. 11.2, presunción de veracidad",
+            "bloque": "",
+            "clave": "",
+            "url": ""
+          }
+        },
+        {
+          "id": "g3",
+          "texto": "Añadir el parte al asunto",
+          "explicacion": "",
+          "accion": "anadir",
+          "normativa": null
+        },
+        {
+          "id": "g4",
+          "texto": "Comunicar la incidencia a Jefatura de Estudios",
+          "explicacion": "",
+          "accion": "comunicar",
+          "normativa": null
         }
       ]
     },
@@ -842,6 +1109,48 @@ window.__COPIA__["datos-biblioteca/biblioteca-centro.json"] = {
           "clave": "ROC-40.1",
           "url": ""
         }
+      ],
+      "guion": [
+        {
+          "id": "g1",
+          "texto": "Citar al alumno o alumna antes de imponer ninguna corrección",
+          "explicacion": "Sin excepción.",
+          "accion": "",
+          "normativa": {
+            "cita": "Decreto 327/2010, art. 40.1",
+            "bloque": "",
+            "clave": "",
+            "url": ""
+          }
+        },
+        {
+          "id": "g2",
+          "texto": "Generar el acta de audiencia",
+          "explicacion": "",
+          "accion": "generar",
+          "normativa": null
+        },
+        {
+          "id": "g3",
+          "texto": "Celebrar la audiencia y recoger lo que alega",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        },
+        {
+          "id": "g4",
+          "texto": "Recoger la firma del acta de audiencia",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        },
+        {
+          "id": "g5",
+          "texto": "Añadir el acta firmada al asunto",
+          "explicacion": "",
+          "accion": "anadir",
+          "normativa": null
+        }
       ]
     },
     {
@@ -860,6 +1169,41 @@ window.__COPIA__["datos-biblioteca/biblioteca-centro.json"] = {
           "clave": "ROC-40.1",
           "url": ""
         }
+      ],
+      "guion": [
+        {
+          "id": "g1",
+          "texto": "Comprobar si la corrección son tareas o una suspensión",
+          "explicacion": "Si no lo es, este hito no hace falta.",
+          "accion": "",
+          "normativa": {
+            "cita": "Decreto 327/2010, art. 40.1",
+            "bloque": "",
+            "clave": "",
+            "url": ""
+          }
+        },
+        {
+          "id": "g2",
+          "texto": "Pedir su parecer al profesor o profesora y a la tutoría",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        },
+        {
+          "id": "g3",
+          "texto": "Dejar constancia por escrito de lo que dicen",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        },
+        {
+          "id": "g4",
+          "texto": "Añadir esa constancia al asunto",
+          "explicacion": "",
+          "accion": "anadir",
+          "normativa": null
+        }
       ]
     },
     {
@@ -877,6 +1221,48 @@ window.__COPIA__["datos-biblioteca/biblioteca-centro.json"] = {
           "bloque": "convivencia",
           "clave": "ROC-40.1",
           "url": ""
+        }
+      ],
+      "guion": [
+        {
+          "id": "g1",
+          "texto": "Comprobar si es suspensión de asistencia y si el alumno es menor",
+          "explicacion": "Solo entonces es obligatoria.",
+          "accion": "",
+          "normativa": {
+            "cita": "Decreto 327/2010, art. 40.1",
+            "bloque": "",
+            "clave": "",
+            "url": ""
+          }
+        },
+        {
+          "id": "g2",
+          "texto": "Generar la citación de audiencia a la familia",
+          "explicacion": "",
+          "accion": "generar",
+          "normativa": null
+        },
+        {
+          "id": "g3",
+          "texto": "Enviar la citación por iPasen",
+          "explicacion": "",
+          "accion": "comunicar",
+          "normativa": null
+        },
+        {
+          "id": "g4",
+          "texto": "Celebrar la audiencia y levantar acta firmada",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        },
+        {
+          "id": "g5",
+          "texto": "Añadir el acta al asunto",
+          "explicacion": "",
+          "accion": "anadir",
+          "normativa": null
         }
       ]
     },
@@ -903,6 +1289,53 @@ window.__COPIA__["datos-biblioteca/biblioteca-centro.json"] = {
           "clave": "ROC-36",
           "url": ""
         }
+      ],
+      "guion": [
+        {
+          "id": "g1",
+          "texto": "Determinar qué corrección corresponde y quién la impone",
+          "explicacion": "Amonestación, apercibimiento, tareas o suspensión.",
+          "accion": "",
+          "normativa": {
+            "cita": "Decreto 327/2010, arts. 35 y 36",
+            "bloque": "",
+            "clave": "",
+            "url": ""
+          }
+        },
+        {
+          "id": "g2",
+          "texto": "Comprobar que las suspensiones no pasan de 3 días lectivos",
+          "explicacion": "",
+          "accion": "",
+          "normativa": {
+            "cita": "Decreto 327/2010, art. 36",
+            "bloque": "",
+            "clave": "",
+            "url": ""
+          }
+        },
+        {
+          "id": "g3",
+          "texto": "Generar el escrito de corrección",
+          "explicacion": "Con los hechos, la corrección y las fechas.",
+          "accion": "generar",
+          "normativa": null
+        },
+        {
+          "id": "g4",
+          "texto": "Recoger la firma de quien la impone",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        },
+        {
+          "id": "g5",
+          "texto": "Añadir el escrito firmado al asunto",
+          "explicacion": "",
+          "accion": "anadir",
+          "normativa": null
+        }
       ]
     },
     {
@@ -920,6 +1353,46 @@ window.__COPIA__["datos-biblioteca/biblioteca-centro.json"] = {
           "bloque": "convivencia",
           "clave": "ROC-35.2",
           "url": ""
+        }
+      ],
+      "guion": [
+        {
+          "id": "g1",
+          "texto": "Pedir al equipo docente las actividades formativas por materia",
+          "explicacion": "",
+          "accion": "",
+          "normativa": {
+            "cita": "Decreto 327/2010, art. 35.2",
+            "bloque": "",
+            "clave": "",
+            "url": ""
+          }
+        },
+        {
+          "id": "g2",
+          "texto": "Reunir las actividades antes del primer día de suspensión",
+          "explicacion": "",
+          "accion": "",
+          "normativa": {
+            "cita": "Decreto 327/2010, art. 35.2",
+            "bloque": "",
+            "clave": "",
+            "url": ""
+          }
+        },
+        {
+          "id": "g3",
+          "texto": "Hacer llegar las actividades a la familia o al alumno o alumna",
+          "explicacion": "",
+          "accion": "comunicar",
+          "normativa": null
+        },
+        {
+          "id": "g4",
+          "texto": "Añadir la relación de actividades al asunto",
+          "explicacion": "",
+          "accion": "anadir",
+          "normativa": null
         }
       ]
     },
@@ -939,6 +1412,53 @@ window.__COPIA__["datos-biblioteca/biblioteca-centro.json"] = {
           "clave": "ROC-40.3",
           "url": ""
         }
+      ],
+      "guion": [
+        {
+          "id": "g1",
+          "texto": "Generar la comunicación de la corrección a la familia",
+          "explicacion": "",
+          "accion": "generar",
+          "normativa": {
+            "cita": "Decreto 327/2010, art. 40.3",
+            "bloque": "",
+            "clave": "",
+            "url": ""
+          }
+        },
+        {
+          "id": "g2",
+          "texto": "Enviarla por iPasen",
+          "explicacion": "",
+          "accion": "comunicar",
+          "normativa": {
+            "cita": "Decreto 327/2010, art. 40.3",
+            "bloque": "",
+            "clave": "",
+            "url": ""
+          }
+        },
+        {
+          "id": "g3",
+          "texto": "Registrar la salida de la carta en Séneca",
+          "explicacion": "",
+          "accion": "registrar",
+          "normativa": null
+        },
+        {
+          "id": "g4",
+          "texto": "Enviar la carta en papel y guardar la constancia de recepción",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        },
+        {
+          "id": "g5",
+          "texto": "Añadir el justificante de envío al asunto",
+          "explicacion": "",
+          "accion": "anadir",
+          "normativa": null
+        }
       ]
     },
     {
@@ -956,6 +1476,41 @@ window.__COPIA__["datos-biblioteca/biblioteca-centro.json"] = {
           "bloque": "convivencia",
           "clave": "ROC-36.2.d)",
           "url": ""
+        }
+      ],
+      "guion": [
+        {
+          "id": "g1",
+          "texto": "Comprobar si la corrección fue suspensión de asistencia al centro",
+          "explicacion": "Si no, no hace falta dar cuenta.",
+          "accion": "",
+          "normativa": {
+            "cita": "Decreto 327/2010, art. 36.2.d)",
+            "bloque": "",
+            "clave": "",
+            "url": ""
+          }
+        },
+        {
+          "id": "g2",
+          "texto": "Preparar el informe para la comisión de convivencia",
+          "explicacion": "",
+          "accion": "generar",
+          "normativa": null
+        },
+        {
+          "id": "g3",
+          "texto": "Enviarlo a los miembros de la comisión",
+          "explicacion": "",
+          "accion": "comunicar",
+          "normativa": null
+        },
+        {
+          "id": "g4",
+          "texto": "Añadir al asunto la constancia de que se dio cuenta",
+          "explicacion": "",
+          "accion": "anadir",
+          "normativa": null
         }
       ]
     },
@@ -975,6 +1530,51 @@ window.__COPIA__["datos-biblioteca/biblioteca-centro.json"] = {
           "clave": "ROC-41.1",
           "url": ""
         }
+      ],
+      "guion": [
+        {
+          "id": "g1",
+          "texto": "Anotar la fecha de la comunicación a la familia",
+          "explicacion": "El plazo cuenta desde ahí.",
+          "accion": "",
+          "normativa": {
+            "cita": "Decreto 327/2010, art. 41.1",
+            "bloque": "",
+            "clave": "",
+            "url": ""
+          }
+        },
+        {
+          "id": "g2",
+          "texto": "Fijar como fecha límite 2 días lectivos después",
+          "explicacion": "",
+          "accion": "",
+          "normativa": {
+            "cita": "Decreto 327/2010, art. 41.1",
+            "bloque": "",
+            "clave": "",
+            "url": ""
+          }
+        },
+        {
+          "id": "g3",
+          "texto": "Registrar la reclamación si llega",
+          "explicacion": "",
+          "accion": "registrar",
+          "normativa": null
+        },
+        {
+          "id": "g4",
+          "texto": "Pasar la reclamación a quien impuso la corrección o medida",
+          "explicacion": "",
+          "accion": "comunicar",
+          "normativa": {
+            "cita": "Decreto 327/2010, art. 41.1",
+            "bloque": "",
+            "clave": "",
+            "url": ""
+          }
+        }
       ]
     },
     {
@@ -992,6 +1592,46 @@ window.__COPIA__["datos-biblioteca/biblioteca-centro.json"] = {
           "bloque": "convivencia",
           "clave": "O11-12.3",
           "url": ""
+        }
+      ],
+      "guion": [
+        {
+          "id": "g1",
+          "texto": "Comprobar que no han pasado 30 días hábiles desde los hechos",
+          "explicacion": "",
+          "accion": "",
+          "normativa": {
+            "cita": "Orden de 20 de junio de 2011, art. 12.3",
+            "bloque": "",
+            "clave": "",
+            "url": ""
+          }
+        },
+        {
+          "id": "g2",
+          "texto": "Grabar la conducta y la corrección o medida en el módulo de convivencia de Séneca",
+          "explicacion": "",
+          "accion": "",
+          "normativa": {
+            "cita": "Orden de 20 de junio de 2011, art. 12.3",
+            "bloque": "",
+            "clave": "",
+            "url": ""
+          }
+        },
+        {
+          "id": "g3",
+          "texto": "Revisar que los datos grabados coinciden con el escrito firmado",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        },
+        {
+          "id": "g4",
+          "texto": "Anotar en el asunto la fecha de grabación",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
         }
       ]
     },
@@ -1022,7 +1662,44 @@ window.__COPIA__["datos-biblioteca/biblioteca-centro.json"] = {
         }
       ],
       "soloInformativo": false,
-      "normativa": []
+      "normativa": [],
+      "guion": [
+        {
+          "id": "g1",
+          "texto": "Reunir los partes de incidencia del caso",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        },
+        {
+          "id": "g2",
+          "texto": "Recoger las declaraciones de las personas implicadas",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        },
+        {
+          "id": "g3",
+          "texto": "Consultar en Séneca los antecedentes del curso",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        },
+        {
+          "id": "g4",
+          "texto": "Generar el informe de los hechos",
+          "explicacion": "",
+          "accion": "generar",
+          "normativa": null
+        },
+        {
+          "id": "g5",
+          "texto": "Añadir el informe y los documentos al asunto",
+          "explicacion": "",
+          "accion": "anadir",
+          "normativa": null
+        }
+      ]
     },
     {
       "id": "b18",
@@ -1039,6 +1716,41 @@ window.__COPIA__["datos-biblioteca/biblioteca-centro.json"] = {
           "bloque": "convivencia",
           "clave": "ROC-40.1",
           "url": ""
+        }
+      ],
+      "guion": [
+        {
+          "id": "g1",
+          "texto": "Citar al alumno o alumna a la audiencia",
+          "explicacion": "Siempre, en todas las medidas.",
+          "accion": "",
+          "normativa": {
+            "cita": "Decreto 327/2010, art. 40.1",
+            "bloque": "",
+            "clave": "",
+            "url": ""
+          }
+        },
+        {
+          "id": "g2",
+          "texto": "Generar el acta de audiencia",
+          "explicacion": "",
+          "accion": "generar",
+          "normativa": null
+        },
+        {
+          "id": "g3",
+          "texto": "Celebrar la audiencia y recoger lo que alega",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        },
+        {
+          "id": "g4",
+          "texto": "Añadir el acta firmada al asunto",
+          "explicacion": "",
+          "accion": "anadir",
+          "normativa": null
         }
       ]
     },
@@ -1057,6 +1769,48 @@ window.__COPIA__["datos-biblioteca/biblioteca-centro.json"] = {
           "bloque": "convivencia",
           "clave": "ROC-40.1",
           "url": ""
+        }
+      ],
+      "guion": [
+        {
+          "id": "g1",
+          "texto": "Comprobar si el alumno o alumna es menor de edad",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        },
+        {
+          "id": "g2",
+          "texto": "Generar la citación de audiencia a la familia",
+          "explicacion": "",
+          "accion": "generar",
+          "normativa": {
+            "cita": "Decreto 327/2010, art. 40.1",
+            "bloque": "",
+            "clave": "",
+            "url": ""
+          }
+        },
+        {
+          "id": "g3",
+          "texto": "Enviar la citación por iPasen",
+          "explicacion": "",
+          "accion": "comunicar",
+          "normativa": null
+        },
+        {
+          "id": "g4",
+          "texto": "Celebrar la audiencia y levantar acta firmada",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        },
+        {
+          "id": "g5",
+          "texto": "Añadir el acta al asunto",
+          "explicacion": "",
+          "accion": "anadir",
+          "normativa": null
         }
       ]
     },
@@ -1083,6 +1837,53 @@ window.__COPIA__["datos-biblioteca/biblioteca-centro.json"] = {
           "clave": "ROC-39",
           "url": ""
         }
+      ],
+      "guion": [
+        {
+          "id": "g1",
+          "texto": "Determinar la medida y su duración",
+          "explicacion": "Extraescolares, determinadas clases o asistencia al centro.",
+          "accion": "",
+          "normativa": {
+            "cita": "Decreto 327/2010, art. 38.1",
+            "bloque": "",
+            "clave": "",
+            "url": ""
+          }
+        },
+        {
+          "id": "g2",
+          "texto": "Comprobar que la duración está dentro de los límites",
+          "explicacion": "",
+          "accion": "",
+          "normativa": {
+            "cita": "Decreto 327/2010, art. 38.1",
+            "bloque": "",
+            "clave": "",
+            "url": ""
+          }
+        },
+        {
+          "id": "g3",
+          "texto": "Generar la resolución del director",
+          "explicacion": "",
+          "accion": "generar",
+          "normativa": null
+        },
+        {
+          "id": "g4",
+          "texto": "Recoger la firma de la dirección",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        },
+        {
+          "id": "g5",
+          "texto": "Añadir la resolución firmada al asunto",
+          "explicacion": "",
+          "accion": "anadir",
+          "normativa": null
+        }
       ]
     },
     {
@@ -1108,6 +1909,58 @@ window.__COPIA__["datos-biblioteca/biblioteca-centro.json"] = {
           "clave": "ROC-40.3",
           "url": ""
         }
+      ],
+      "guion": [
+        {
+          "id": "g1",
+          "texto": "Generar la notificación de la medida a la familia",
+          "explicacion": "",
+          "accion": "generar",
+          "normativa": {
+            "cita": "Decreto 327/2010, art. 40.2",
+            "bloque": "",
+            "clave": "",
+            "url": ""
+          }
+        },
+        {
+          "id": "g2",
+          "texto": "Enviarla por iPasen",
+          "explicacion": "",
+          "accion": "comunicar",
+          "normativa": {
+            "cita": "Decreto 327/2010, art. 40.3",
+            "bloque": "",
+            "clave": "",
+            "url": ""
+          }
+        },
+        {
+          "id": "g3",
+          "texto": "Registrar la salida en Séneca",
+          "explicacion": "",
+          "accion": "registrar",
+          "normativa": null
+        },
+        {
+          "id": "g4",
+          "texto": "Entregar la notificación y recoger el acuse de recibo",
+          "explicacion": "La medida es inmediatamente ejecutiva.",
+          "accion": "",
+          "normativa": {
+            "cita": "Decreto 327/2010, art. 40.2",
+            "bloque": "",
+            "clave": "",
+            "url": ""
+          }
+        },
+        {
+          "id": "g5",
+          "texto": "Añadir el acuse de recibo al asunto",
+          "explicacion": "",
+          "accion": "anadir",
+          "normativa": null
+        }
       ]
     },
     {
@@ -1125,6 +1978,34 @@ window.__COPIA__["datos-biblioteca/biblioteca-centro.json"] = {
           "bloque": "convivencia",
           "clave": "ROC-39",
           "url": ""
+        }
+      ],
+      "guion": [
+        {
+          "id": "g1",
+          "texto": "Preparar el informe de la medida para la comisión de convivencia",
+          "explicacion": "",
+          "accion": "generar",
+          "normativa": {
+            "cita": "Decreto 327/2010, art. 39",
+            "bloque": "",
+            "clave": "",
+            "url": ""
+          }
+        },
+        {
+          "id": "g2",
+          "texto": "Enviarlo a los miembros de la comisión",
+          "explicacion": "",
+          "accion": "comunicar",
+          "normativa": null
+        },
+        {
+          "id": "g3",
+          "texto": "Añadir al asunto la constancia del traslado",
+          "explicacion": "",
+          "accion": "anadir",
+          "normativa": null
         }
       ]
     },
@@ -1151,6 +2032,65 @@ window.__COPIA__["datos-biblioteca/biblioteca-centro.json"] = {
           "clave": "ROC-52.3",
           "url": ""
         }
+      ],
+      "guion": [
+        {
+          "id": "g1",
+          "texto": "Registrar la solicitud de revisión de la familia con su fecha",
+          "explicacion": "",
+          "accion": "registrar",
+          "normativa": null
+        },
+        {
+          "id": "g2",
+          "texto": "Fijar la sesión extraordinaria en 2 días lectivos como máximo",
+          "explicacion": "",
+          "accion": "",
+          "normativa": {
+            "cita": "Decreto 327/2010, art. 41.2",
+            "bloque": "",
+            "clave": "",
+            "url": ""
+          }
+        },
+        {
+          "id": "g3",
+          "texto": "Generar la convocatoria del Consejo Escolar",
+          "explicacion": "Con 48 horas de antelación.",
+          "accion": "generar",
+          "normativa": {
+            "cita": "Decreto 327/2010, art. 52.3",
+            "bloque": "",
+            "clave": "",
+            "url": ""
+          }
+        },
+        {
+          "id": "g4",
+          "texto": "Enviar la convocatoria a los miembros del Consejo Escolar",
+          "explicacion": "",
+          "accion": "comunicar",
+          "normativa": {
+            "cita": "Decreto 327/2010, art. 52.3",
+            "bloque": "",
+            "clave": "",
+            "url": ""
+          }
+        },
+        {
+          "id": "g5",
+          "texto": "Celebrar la sesión y levantar acta",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        },
+        {
+          "id": "g6",
+          "texto": "Comunicar a la familia el resultado de la revisión",
+          "explicacion": "",
+          "accion": "comunicar",
+          "normativa": null
+        }
       ]
     },
     {
@@ -1168,6 +2108,46 @@ window.__COPIA__["datos-biblioteca/biblioteca-centro.json"] = {
           "bloque": "convivencia",
           "clave": "ROC-42",
           "url": ""
+        }
+      ],
+      "guion": [
+        {
+          "id": "g1",
+          "texto": "Reunir los partes y la información disponible sobre la conducta",
+          "explicacion": "",
+          "accion": "",
+          "normativa": {
+            "cita": "Decreto 327/2010, art. 42",
+            "bloque": "",
+            "clave": "",
+            "url": ""
+          }
+        },
+        {
+          "id": "g2",
+          "texto": "Recoger declaraciones si hace falta",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        },
+        {
+          "id": "g3",
+          "texto": "Añadir al asunto lo recogido",
+          "explicacion": "",
+          "accion": "anadir",
+          "normativa": null
+        },
+        {
+          "id": "g4",
+          "texto": "Decidir si procede iniciar el expediente",
+          "explicacion": "",
+          "accion": "",
+          "normativa": {
+            "cita": "Decreto 327/2010, art. 42",
+            "bloque": "",
+            "clave": "",
+            "url": ""
+          }
         }
       ]
     },
@@ -1187,6 +2167,46 @@ window.__COPIA__["datos-biblioteca/biblioteca-centro.json"] = {
           "clave": "ROC-42",
           "url": ""
         }
+      ],
+      "guion": [
+        {
+          "id": "g1",
+          "texto": "Anotar la fecha en que se conoció la conducta",
+          "explicacion": "El plazo es de 2 días.",
+          "accion": "",
+          "normativa": {
+            "cita": "Decreto 327/2010, art. 42",
+            "bloque": "",
+            "clave": "",
+            "url": ""
+          }
+        },
+        {
+          "id": "g2",
+          "texto": "Generar el acuerdo de iniciación",
+          "explicacion": "",
+          "accion": "generar",
+          "normativa": {
+            "cita": "Decreto 327/2010, art. 42",
+            "bloque": "",
+            "clave": "",
+            "url": ""
+          }
+        },
+        {
+          "id": "g3",
+          "texto": "Recoger la firma de la dirección",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        },
+        {
+          "id": "g4",
+          "texto": "Añadir el acuerdo firmado al asunto",
+          "explicacion": "",
+          "accion": "anadir",
+          "normativa": null
+        }
       ]
     },
     {
@@ -1204,6 +2224,41 @@ window.__COPIA__["datos-biblioteca/biblioteca-centro.json"] = {
           "bloque": "convivencia",
           "clave": "ROC-43.1",
           "url": ""
+        }
+      ],
+      "guion": [
+        {
+          "id": "g1",
+          "texto": "Elegir al instructor entre el profesorado del centro",
+          "explicacion": "",
+          "accion": "",
+          "normativa": {
+            "cita": "Decreto 327/2010, art. 43.1",
+            "bloque": "",
+            "clave": "",
+            "url": ""
+          }
+        },
+        {
+          "id": "g2",
+          "texto": "Generar el escrito de nombramiento del instructor",
+          "explicacion": "",
+          "accion": "generar",
+          "normativa": null
+        },
+        {
+          "id": "g3",
+          "texto": "Recoger la firma de la dirección y del instructor",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        },
+        {
+          "id": "g4",
+          "texto": "Comunicar el nombramiento al instructor",
+          "explicacion": "",
+          "accion": "comunicar",
+          "normativa": null
         }
       ]
     },
@@ -1230,6 +2285,58 @@ window.__COPIA__["datos-biblioteca/biblioteca-centro.json"] = {
           "clave": "ROC-43.2",
           "url": ""
         }
+      ],
+      "guion": [
+        {
+          "id": "g1",
+          "texto": "Generar la notificación con las conductas imputadas y el instructor",
+          "explicacion": "",
+          "accion": "generar",
+          "normativa": {
+            "cita": "Decreto 327/2010, art. 43.2",
+            "bloque": "",
+            "clave": "",
+            "url": ""
+          }
+        },
+        {
+          "id": "g2",
+          "texto": "Registrar la salida en Séneca",
+          "explicacion": "",
+          "accion": "registrar",
+          "normativa": null
+        },
+        {
+          "id": "g3",
+          "texto": "Entregarla al alumno o alumna y a la familia con acuse de recibo",
+          "explicacion": "",
+          "accion": "",
+          "normativa": {
+            "cita": "Decreto 327/2010, art. 43.2",
+            "bloque": "",
+            "clave": "",
+            "url": ""
+          }
+        },
+        {
+          "id": "g4",
+          "texto": "Añadir el acuse de recibo al asunto",
+          "explicacion": "",
+          "accion": "anadir",
+          "normativa": null
+        },
+        {
+          "id": "g5",
+          "texto": "Anotar el fin del plazo de alegaciones",
+          "explicacion": "2 días lectivos.",
+          "accion": "",
+          "normativa": {
+            "cita": "Decreto 327/2010, art. 43.2",
+            "bloque": "",
+            "clave": "",
+            "url": ""
+          }
+        }
       ]
     },
     {
@@ -1247,6 +2354,51 @@ window.__COPIA__["datos-biblioteca/biblioteca-centro.json"] = {
           "bloque": "convivencia",
           "clave": "ROC-43.3",
           "url": ""
+        }
+      ],
+      "guion": [
+        {
+          "id": "g1",
+          "texto": "Generar el escrito de comunicación del inicio",
+          "explicacion": "",
+          "accion": "generar",
+          "normativa": {
+            "cita": "Decreto 327/2010, art. 43.3",
+            "bloque": "",
+            "clave": "",
+            "url": ""
+          }
+        },
+        {
+          "id": "g2",
+          "texto": "Registrar la salida en Séneca",
+          "explicacion": "",
+          "accion": "registrar",
+          "normativa": null
+        },
+        {
+          "id": "g3",
+          "texto": "Enviarlo al Servicio de Inspección",
+          "explicacion": "",
+          "accion": "comunicar",
+          "normativa": {
+            "cita": "Decreto 327/2010, art. 43.3",
+            "bloque": "",
+            "clave": "",
+            "url": ""
+          }
+        },
+        {
+          "id": "g4",
+          "texto": "Anotar que hay que informar a Inspección hasta la resolución",
+          "explicacion": "",
+          "accion": "",
+          "normativa": {
+            "cita": "Decreto 327/2010, art. 43.3",
+            "bloque": "",
+            "clave": "",
+            "url": ""
+          }
         }
       ]
     },
@@ -1266,6 +2418,46 @@ window.__COPIA__["datos-biblioteca/biblioteca-centro.json"] = {
           "clave": "ROC-45",
           "url": ""
         }
+      ],
+      "guion": [
+        {
+          "id": "g1",
+          "texto": "Decidir si procede la medida provisional",
+          "explicacion": "",
+          "accion": "",
+          "normativa": {
+            "cita": "Decreto 327/2010, art. 45",
+            "bloque": "",
+            "clave": "",
+            "url": ""
+          }
+        },
+        {
+          "id": "g2",
+          "texto": "Generar la resolución de la medida provisional",
+          "explicacion": "De 4 días lectivos a menos de un mes.",
+          "accion": "generar",
+          "normativa": {
+            "cita": "Decreto 327/2010, art. 45",
+            "bloque": "",
+            "clave": "",
+            "url": ""
+          }
+        },
+        {
+          "id": "g3",
+          "texto": "Comunicar la medida a la familia",
+          "explicacion": "",
+          "accion": "comunicar",
+          "normativa": null
+        },
+        {
+          "id": "g4",
+          "texto": "Añadir la resolución firmada al asunto",
+          "explicacion": "",
+          "accion": "anadir",
+          "normativa": null
+        }
       ]
     },
     {
@@ -1283,6 +2475,53 @@ window.__COPIA__["datos-biblioteca/biblioteca-centro.json"] = {
           "bloque": "convivencia",
           "clave": "ROC-43.4",
           "url": ""
+        }
+      ],
+      "guion": [
+        {
+          "id": "g1",
+          "texto": "Generar la vista del expediente con la sanción que podrá imponerse",
+          "explicacion": "",
+          "accion": "generar",
+          "normativa": {
+            "cita": "Decreto 327/2010, art. 43.4",
+            "bloque": "",
+            "clave": "",
+            "url": ""
+          }
+        },
+        {
+          "id": "g2",
+          "texto": "Registrar la salida en Séneca",
+          "explicacion": "",
+          "accion": "registrar",
+          "normativa": null
+        },
+        {
+          "id": "g3",
+          "texto": "Entregarla con acuse de recibo",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        },
+        {
+          "id": "g4",
+          "texto": "Anotar el fin del plazo de alegaciones",
+          "explicacion": "3 días lectivos.",
+          "accion": "",
+          "normativa": {
+            "cita": "Decreto 327/2010, art. 43.4",
+            "bloque": "",
+            "clave": "",
+            "url": ""
+          }
+        },
+        {
+          "id": "g5",
+          "texto": "Añadir las alegaciones al asunto, si llegan",
+          "explicacion": "",
+          "accion": "anadir",
+          "normativa": null
         }
       ]
     },
@@ -1309,6 +2548,46 @@ window.__COPIA__["datos-biblioteca/biblioteca-centro.json"] = {
           "clave": "ROC-46.2",
           "url": ""
         }
+      ],
+      "guion": [
+        {
+          "id": "g1",
+          "texto": "Comprobar que se está dentro de los 20 días desde la iniciación",
+          "explicacion": "Ampliables otros 20.",
+          "accion": "",
+          "normativa": {
+            "cita": "Decreto 327/2010, art. 46.1",
+            "bloque": "",
+            "clave": "",
+            "url": ""
+          }
+        },
+        {
+          "id": "g2",
+          "texto": "Generar la resolución",
+          "explicacion": "Hechos probados, atenuantes, agravantes, medida y fecha de efectos.",
+          "accion": "generar",
+          "normativa": {
+            "cita": "Decreto 327/2010, art. 46.2",
+            "bloque": "",
+            "clave": "",
+            "url": ""
+          }
+        },
+        {
+          "id": "g3",
+          "texto": "Recoger la firma de la dirección",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        },
+        {
+          "id": "g4",
+          "texto": "Añadir la resolución firmada al asunto",
+          "explicacion": "",
+          "accion": "anadir",
+          "normativa": null
+        }
       ]
     },
     {
@@ -1327,6 +2606,48 @@ window.__COPIA__["datos-biblioteca/biblioteca-centro.json"] = {
           "clave": "ROC-47",
           "url": ""
         }
+      ],
+      "guion": [
+        {
+          "id": "g1",
+          "texto": "Generar la notificación de la resolución con el pie de recurso",
+          "explicacion": "Alzada en un mes ante la Delegación Territorial.",
+          "accion": "generar",
+          "normativa": {
+            "cita": "Decreto 327/2010, art. 47",
+            "bloque": "",
+            "clave": "",
+            "url": ""
+          }
+        },
+        {
+          "id": "g2",
+          "texto": "Registrar la salida en Séneca",
+          "explicacion": "",
+          "accion": "registrar",
+          "normativa": null
+        },
+        {
+          "id": "g3",
+          "texto": "Entregarla al alumno o alumna y a la familia con acuse de recibo",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        },
+        {
+          "id": "g4",
+          "texto": "Comunicar la resolución al Servicio de Inspección",
+          "explicacion": "",
+          "accion": "comunicar",
+          "normativa": null
+        },
+        {
+          "id": "g5",
+          "texto": "Añadir el acuse de recibo al asunto",
+          "explicacion": "",
+          "accion": "anadir",
+          "normativa": null
+        }
       ]
     },
     {
@@ -1337,7 +2658,37 @@ window.__COPIA__["datos-biblioteca/biblioteca-centro.json"] = {
       "responsable": "quien lo detecta",
       "requisitos": [],
       "soloInformativo": false,
-      "normativa": []
+      "normativa": [],
+      "guion": [
+        {
+          "id": "g1",
+          "texto": "Recibir el aviso de quien detecta la situación el mismo día",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        },
+        {
+          "id": "g2",
+          "texto": "Anotar en el asunto la fecha, la hora y lo que se ha observado",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        },
+        {
+          "id": "g3",
+          "texto": "Avisar a la dirección",
+          "explicacion": "El mismo día.",
+          "accion": "comunicar",
+          "normativa": null
+        },
+        {
+          "id": "g4",
+          "texto": "Indicar en el asunto qué protocolo se activa",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        }
+      ]
     },
     {
       "id": "b34",
@@ -1354,6 +2705,46 @@ window.__COPIA__["datos-biblioteca/biblioteca-centro.json"] = {
           "bloque": "convivencia",
           "clave": "O11-Anexo",
           "url": ""
+        }
+      ],
+      "guion": [
+        {
+          "id": "g1",
+          "texto": "Convocar a la tutoría y a la orientación",
+          "explicacion": "",
+          "accion": "comunicar",
+          "normativa": null
+        },
+        {
+          "id": "g2",
+          "texto": "Celebrar la reunión de actuaciones inmediatas",
+          "explicacion": "",
+          "accion": "",
+          "normativa": {
+            "cita": "Orden de 20 de junio de 2011, anexos",
+            "bloque": "",
+            "clave": "",
+            "url": ""
+          }
+        },
+        {
+          "id": "g3",
+          "texto": "Levantar acta de la reunión con el modelo del anexo",
+          "explicacion": "",
+          "accion": "generar",
+          "normativa": {
+            "cita": "Orden de 20 de junio de 2011, anexos",
+            "bloque": "",
+            "clave": "",
+            "url": ""
+          }
+        },
+        {
+          "id": "g4",
+          "texto": "Añadir el acta al asunto",
+          "explicacion": "",
+          "accion": "anadir",
+          "normativa": null
         }
       ]
     },
@@ -1373,6 +2764,51 @@ window.__COPIA__["datos-biblioteca/biblioteca-centro.json"] = {
           "clave": "O26-27",
           "url": ""
         }
+      ],
+      "guion": [
+        {
+          "id": "g1",
+          "texto": "Abrir el protocolo en el módulo de Séneca",
+          "explicacion": "Es distinto del registro de incidencias.",
+          "accion": "",
+          "normativa": {
+            "cita": "Orden de 31 de agosto de 2026, art. 27",
+            "bloque": "",
+            "clave": "",
+            "url": ""
+          }
+        },
+        {
+          "id": "g2",
+          "texto": "Grabar los datos del caso y el tipo de protocolo",
+          "explicacion": "",
+          "accion": "",
+          "normativa": {
+            "cita": "Orden de 31 de agosto de 2026, art. 27",
+            "bloque": "",
+            "clave": "",
+            "url": ""
+          }
+        },
+        {
+          "id": "g3",
+          "texto": "Comprobar que la incidencia también está grabada",
+          "explicacion": "Los dos registros son obligatorios.",
+          "accion": "",
+          "normativa": {
+            "cita": "Orden de 31 de agosto de 2026, art. 27",
+            "bloque": "",
+            "clave": "",
+            "url": ""
+          }
+        },
+        {
+          "id": "g4",
+          "texto": "Anotar en el asunto la fecha de grabación",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        }
       ]
     },
     {
@@ -1383,7 +2819,37 @@ window.__COPIA__["datos-biblioteca/biblioteca-centro.json"] = {
       "responsable": "Dirección",
       "requisitos": [],
       "soloInformativo": true,
-      "normativa": []
+      "normativa": [],
+      "guion": [
+        {
+          "id": "g1",
+          "texto": "Decidir las medidas de protección de la persona afectada",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        },
+        {
+          "id": "g2",
+          "texto": "Decidir las medidas cautelares, si proceden",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        },
+        {
+          "id": "g3",
+          "texto": "Dejar constancia escrita de las medidas tomadas",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        },
+        {
+          "id": "g4",
+          "texto": "Añadir ese escrito al asunto",
+          "explicacion": "",
+          "accion": "anadir",
+          "normativa": null
+        }
+      ]
     },
     {
       "id": "b37",
@@ -1393,7 +2859,37 @@ window.__COPIA__["datos-biblioteca/biblioteca-centro.json"] = {
       "responsable": "Dirección",
       "requisitos": [],
       "soloInformativo": true,
-      "normativa": []
+      "normativa": [],
+      "guion": [
+        {
+          "id": "g1",
+          "texto": "Reunir la información recogida en el protocolo",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        },
+        {
+          "id": "g2",
+          "texto": "Generar el informe de la dirección",
+          "explicacion": "",
+          "accion": "generar",
+          "normativa": null
+        },
+        {
+          "id": "g3",
+          "texto": "Recoger la firma de la dirección",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        },
+        {
+          "id": "g4",
+          "texto": "Añadir el informe firmado al asunto",
+          "explicacion": "",
+          "accion": "anadir",
+          "normativa": null
+        }
+      ]
     },
     {
       "id": "b38",
@@ -1403,7 +2899,37 @@ window.__COPIA__["datos-biblioteca/biblioteca-centro.json"] = {
       "responsable": "Secretaría",
       "requisitos": [],
       "soloInformativo": false,
-      "normativa": []
+      "normativa": [],
+      "guion": [
+        {
+          "id": "g1",
+          "texto": "Preparar el escrito de traslado con el informe de la dirección",
+          "explicacion": "",
+          "accion": "generar",
+          "normativa": null
+        },
+        {
+          "id": "g2",
+          "texto": "Registrar la salida en Séneca",
+          "explicacion": "",
+          "accion": "registrar",
+          "normativa": null
+        },
+        {
+          "id": "g3",
+          "texto": "Enviarlo al Servicio de Inspección",
+          "explicacion": "",
+          "accion": "comunicar",
+          "normativa": null
+        },
+        {
+          "id": "g4",
+          "texto": "Informar a la comisión de convivencia",
+          "explicacion": "",
+          "accion": "comunicar",
+          "normativa": null
+        }
+      ]
     },
     {
       "id": "b39",
@@ -1432,7 +2958,44 @@ window.__COPIA__["datos-biblioteca/biblioteca-centro.json"] = {
         }
       ],
       "soloInformativo": false,
-      "normativa": []
+      "normativa": [],
+      "guion": [
+        {
+          "id": "g1",
+          "texto": "Comprobar qué documentos exige el protocolo activado",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        },
+        {
+          "id": "g2",
+          "texto": "En maltrato, añadir la Hoja de Detección y Notificación del SIMIA",
+          "explicacion": "El centro conserva el primer ejemplar.",
+          "accion": "anadir",
+          "normativa": null
+        },
+        {
+          "id": "g3",
+          "texto": "Añadir el parte de lesiones, si lo hay",
+          "explicacion": "",
+          "accion": "anadir",
+          "normativa": null
+        },
+        {
+          "id": "g4",
+          "texto": "En agresión al profesorado, preparar la denuncia a Fiscalía de Menores",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        },
+        {
+          "id": "g5",
+          "texto": "Registrar la salida de lo que se envíe fuera",
+          "explicacion": "",
+          "accion": "registrar",
+          "normativa": null
+        }
+      ]
     },
     {
       "id": "b40",
@@ -1449,6 +3012,39 @@ window.__COPIA__["datos-biblioteca/biblioteca-centro.json"] = {
           "bloque": "convivencia",
           "clave": "ROC-25.1",
           "url": ""
+        }
+      ],
+      "guion": [
+        {
+          "id": "g1",
+          "texto": "Comprobar que el alumno o alumna tiene una corrección o medida que le priva de ir a clase",
+          "explicacion": "Es requisito.",
+          "accion": "",
+          "normativa": {
+            "cita": "Decreto 327/2010, art. 25.1",
+            "bloque": "",
+            "clave": "",
+            "url": ""
+          }
+        },
+        {
+          "id": "g2",
+          "texto": "Generar la propuesta de derivación al aula de convivencia",
+          "explicacion": "",
+          "accion": "generar",
+          "normativa": {
+            "cita": "Decreto 327/2010, art. 25.1",
+            "bloque": "",
+            "clave": "",
+            "url": ""
+          }
+        },
+        {
+          "id": "g3",
+          "texto": "Añadir la propuesta al asunto",
+          "explicacion": "",
+          "accion": "anadir",
+          "normativa": null
         }
       ]
     },
@@ -1468,6 +3064,46 @@ window.__COPIA__["datos-biblioteca/biblioteca-centro.json"] = {
           "clave": "ROC-25.2",
           "url": ""
         }
+      ],
+      "guion": [
+        {
+          "id": "g1",
+          "texto": "Generar la citación de audiencia a la familia",
+          "explicacion": "",
+          "accion": "generar",
+          "normativa": {
+            "cita": "Decreto 327/2010, art. 25.2",
+            "bloque": "",
+            "clave": "",
+            "url": ""
+          }
+        },
+        {
+          "id": "g2",
+          "texto": "Enviar la citación por iPasen",
+          "explicacion": "",
+          "accion": "comunicar",
+          "normativa": null
+        },
+        {
+          "id": "g3",
+          "texto": "Celebrar la audiencia antes de resolver",
+          "explicacion": "",
+          "accion": "",
+          "normativa": {
+            "cita": "Decreto 327/2010, art. 25.2",
+            "bloque": "",
+            "clave": "",
+            "url": ""
+          }
+        },
+        {
+          "id": "g4",
+          "texto": "Añadir el acta firmada al asunto",
+          "explicacion": "",
+          "accion": "anadir",
+          "normativa": null
+        }
       ]
     },
     {
@@ -1478,7 +3114,37 @@ window.__COPIA__["datos-biblioteca/biblioteca-centro.json"] = {
       "responsable": "Orientación",
       "requisitos": [],
       "soloInformativo": true,
-      "normativa": []
+      "normativa": [],
+      "guion": [
+        {
+          "id": "g1",
+          "texto": "Fijar con orientación las fechas de las sesiones",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        },
+        {
+          "id": "g2",
+          "texto": "Celebrar la sesión de reflexión a la llegada",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        },
+        {
+          "id": "g3",
+          "texto": "Celebrar la sesión de reflexión al terminar",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        },
+        {
+          "id": "g4",
+          "texto": "Añadir al asunto las notas de las sesiones",
+          "explicacion": "",
+          "accion": "anadir",
+          "normativa": null
+        }
+      ]
     },
     {
       "id": "b43",
@@ -1496,6 +3162,39 @@ window.__COPIA__["datos-biblioteca/biblioteca-centro.json"] = {
           "clave": "O11-12.1",
           "url": ""
         }
+      ],
+      "guion": [
+        {
+          "id": "g1",
+          "texto": "Abrir el aula de convivencia en Séneca",
+          "explicacion": "",
+          "accion": "",
+          "normativa": {
+            "cita": "Orden de 20 de junio de 2011, art. 12.1",
+            "bloque": "",
+            "clave": "",
+            "url": ""
+          }
+        },
+        {
+          "id": "g2",
+          "texto": "Grabar la asistencia de cada día",
+          "explicacion": "",
+          "accion": "",
+          "normativa": {
+            "cita": "Orden de 20 de junio de 2011, art. 12.1",
+            "bloque": "",
+            "clave": "",
+            "url": ""
+          }
+        },
+        {
+          "id": "g3",
+          "texto": "Comprobar que los días coinciden con la resolución",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        }
       ]
     },
     {
@@ -1506,7 +3205,37 @@ window.__COPIA__["datos-biblioteca/biblioteca-centro.json"] = {
       "responsable": "Tutoría",
       "requisitos": [],
       "soloInformativo": true,
-      "normativa": []
+      "normativa": [],
+      "guion": [
+        {
+          "id": "g1",
+          "texto": "Valorar con la tutoría si procede el compromiso",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        },
+        {
+          "id": "g2",
+          "texto": "Citar a la familia",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        },
+        {
+          "id": "g3",
+          "texto": "Explicar a la familia el compromiso y las medidas que propone",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        },
+        {
+          "id": "g4",
+          "texto": "Anotar en el asunto si la familia acepta",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        }
+      ]
     },
     {
       "id": "b45",
@@ -1549,6 +3278,58 @@ window.__COPIA__["datos-biblioteca/biblioteca-centro.json"] = {
           "clave": "O11-20.3",
           "url": ""
         }
+      ],
+      "guion": [
+        {
+          "id": "g1",
+          "texto": "Generar el compromiso con el modelo del Anexo V o del Anexo VI",
+          "explicacion": "Educativo o de convivencia.",
+          "accion": "generar",
+          "normativa": {
+            "cita": "Orden de 20 de junio de 2011, art. 20.3",
+            "bloque": "",
+            "clave": "",
+            "url": ""
+          }
+        },
+        {
+          "id": "g2",
+          "texto": "Incluir las medidas concretas, la fecha y los cauces de evaluación",
+          "explicacion": "",
+          "accion": "",
+          "normativa": {
+            "cita": "Orden de 20 de junio de 2011, art. 20.3",
+            "bloque": "",
+            "clave": "",
+            "url": ""
+          }
+        },
+        {
+          "id": "g3",
+          "texto": "Incluir que puede modificarse si se incumple",
+          "explicacion": "",
+          "accion": "",
+          "normativa": {
+            "cita": "Orden de 20 de junio de 2011, art. 20.3",
+            "bloque": "",
+            "clave": "",
+            "url": ""
+          }
+        },
+        {
+          "id": "g4",
+          "texto": "Recoger las firmas de la familia y de la tutoría",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        },
+        {
+          "id": "g5",
+          "texto": "Añadir el compromiso firmado al asunto",
+          "explicacion": "",
+          "accion": "anadir",
+          "normativa": null
+        }
       ]
     },
     {
@@ -1566,6 +3347,39 @@ window.__COPIA__["datos-biblioteca/biblioteca-centro.json"] = {
           "bloque": "convivencia",
           "clave": "O11-20.4",
           "url": ""
+        }
+      ],
+      "guion": [
+        {
+          "id": "g1",
+          "texto": "Hacer copia del compromiso firmado",
+          "explicacion": "",
+          "accion": "",
+          "normativa": {
+            "cita": "Orden de 20 de junio de 2011, art. 20.4",
+            "bloque": "",
+            "clave": "",
+            "url": ""
+          }
+        },
+        {
+          "id": "g2",
+          "texto": "Entregarlo o enviarlo a la dirección",
+          "explicacion": "",
+          "accion": "comunicar",
+          "normativa": {
+            "cita": "Orden de 20 de junio de 2011, art. 20.4",
+            "bloque": "",
+            "clave": "",
+            "url": ""
+          }
+        },
+        {
+          "id": "g3",
+          "texto": "Anotar en el asunto la fecha de traslado",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
         }
       ]
     },
@@ -1585,6 +3399,39 @@ window.__COPIA__["datos-biblioteca/biblioteca-centro.json"] = {
           "clave": "O11-20.4",
           "url": ""
         }
+      ],
+      "guion": [
+        {
+          "id": "g1",
+          "texto": "Incluir el compromiso en la información para el Consejo Escolar",
+          "explicacion": "",
+          "accion": "",
+          "normativa": {
+            "cita": "Orden de 20 de junio de 2011, art. 20.4",
+            "bloque": "",
+            "clave": "",
+            "url": ""
+          }
+        },
+        {
+          "id": "g2",
+          "texto": "Comunicarlo al Consejo Escolar",
+          "explicacion": "",
+          "accion": "comunicar",
+          "normativa": {
+            "cita": "Orden de 20 de junio de 2011, art. 20.4",
+            "bloque": "",
+            "clave": "",
+            "url": ""
+          }
+        },
+        {
+          "id": "g3",
+          "texto": "Anotar en el asunto la sesión en que se comunicó",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        }
       ]
     },
     {
@@ -1602,6 +3449,41 @@ window.__COPIA__["datos-biblioteca/biblioteca-centro.json"] = {
           "bloque": "convivencia",
           "clave": "ROC-51.f)",
           "url": ""
+        }
+      ],
+      "guion": [
+        {
+          "id": "g1",
+          "texto": "Anotar las fechas de evaluación del compromiso",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        },
+        {
+          "id": "g2",
+          "texto": "Recoger de la tutoría cómo se está cumpliendo",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        },
+        {
+          "id": "g3",
+          "texto": "Si se incumple, pasarlo al Consejo Escolar para que proponga medidas",
+          "explicacion": "",
+          "accion": "",
+          "normativa": {
+            "cita": "Decreto 327/2010, art. 51.f)",
+            "bloque": "",
+            "clave": "",
+            "url": ""
+          }
+        },
+        {
+          "id": "g4",
+          "texto": "Añadir al asunto las notas de seguimiento",
+          "explicacion": "",
+          "accion": "anadir",
+          "normativa": null
         }
       ]
     },
@@ -1621,6 +3503,39 @@ window.__COPIA__["datos-biblioteca/biblioteca-centro.json"] = {
           "clave": "O11-13.5.a)",
           "url": ""
         }
+      ],
+      "guion": [
+        {
+          "id": "g1",
+          "texto": "Comprobar que las partes aceptan la mediación",
+          "explicacion": "Es voluntaria.",
+          "accion": "",
+          "normativa": {
+            "cita": "Orden de 20 de junio de 2011, art. 13.5.a)",
+            "bloque": "",
+            "clave": "",
+            "url": ""
+          }
+        },
+        {
+          "id": "g2",
+          "texto": "Generar el escrito de derivación a mediación",
+          "explicacion": "",
+          "accion": "generar",
+          "normativa": {
+            "cita": "Orden de 20 de junio de 2011, art. 13.5.a)",
+            "bloque": "",
+            "clave": "",
+            "url": ""
+          }
+        },
+        {
+          "id": "g3",
+          "texto": "Añadir la derivación al asunto",
+          "explicacion": "",
+          "accion": "anadir",
+          "normativa": null
+        }
       ]
     },
     {
@@ -1639,6 +3554,39 @@ window.__COPIA__["datos-biblioteca/biblioteca-centro.json"] = {
           "clave": "O11-13.7",
           "url": ""
         }
+      ],
+      "guion": [
+        {
+          "id": "g1",
+          "texto": "Elegir a las personas mediadoras",
+          "explicacion": "",
+          "accion": "",
+          "normativa": {
+            "cita": "Orden de 20 de junio de 2011, art. 13.7",
+            "bloque": "",
+            "clave": "",
+            "url": ""
+          }
+        },
+        {
+          "id": "g2",
+          "texto": "Recoger la aceptación de las partes",
+          "explicacion": "",
+          "accion": "",
+          "normativa": {
+            "cita": "Orden de 20 de junio de 2011, art. 13.7",
+            "bloque": "",
+            "clave": "",
+            "url": ""
+          }
+        },
+        {
+          "id": "g3",
+          "texto": "Comunicar la designación a las personas mediadoras",
+          "explicacion": "",
+          "accion": "comunicar",
+          "normativa": null
+        }
       ]
     },
     {
@@ -1649,7 +3597,37 @@ window.__COPIA__["datos-biblioteca/biblioteca-centro.json"] = {
       "responsable": "equipo de mediación",
       "requisitos": [],
       "soloInformativo": true,
-      "normativa": []
+      "normativa": [],
+      "guion": [
+        {
+          "id": "g1",
+          "texto": "Fijar la fecha y el lugar de la sesión",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        },
+        {
+          "id": "g2",
+          "texto": "Citar a las partes",
+          "explicacion": "",
+          "accion": "comunicar",
+          "normativa": null
+        },
+        {
+          "id": "g3",
+          "texto": "Celebrar la sesión de mediación",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        },
+        {
+          "id": "g4",
+          "texto": "Anotar en el asunto si hay acuerdo",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        }
+      ]
     },
     {
       "id": "b52",
@@ -1686,6 +3664,51 @@ window.__COPIA__["datos-biblioteca/biblioteca-centro.json"] = {
           "clave": "O11-13.9",
           "url": ""
         }
+      ],
+      "guion": [
+        {
+          "id": "g1",
+          "texto": "Generar el acuerdo de mediación",
+          "explicacion": "",
+          "accion": "generar",
+          "normativa": {
+            "cita": "Orden de 20 de junio de 2011, art. 13.9",
+            "bloque": "",
+            "clave": "",
+            "url": ""
+          }
+        },
+        {
+          "id": "g2",
+          "texto": "Incluir los compromisos asumidos y el plazo para cumplirlos",
+          "explicacion": "",
+          "accion": "",
+          "normativa": {
+            "cita": "Orden de 20 de junio de 2011, art. 13.9",
+            "bloque": "",
+            "clave": "",
+            "url": ""
+          }
+        },
+        {
+          "id": "g3",
+          "texto": "Recoger la firma de aceptación de todas las partes",
+          "explicacion": "",
+          "accion": "",
+          "normativa": {
+            "cita": "Orden de 20 de junio de 2011, art. 13.9",
+            "bloque": "",
+            "clave": "",
+            "url": ""
+          }
+        },
+        {
+          "id": "g4",
+          "texto": "Añadir el acuerdo firmado al asunto",
+          "explicacion": "",
+          "accion": "anadir",
+          "normativa": null
+        }
       ]
     },
     {
@@ -1704,6 +3727,51 @@ window.__COPIA__["datos-biblioteca/biblioteca-centro.json"] = {
           "clave": "O11-13.3",
           "url": ""
         }
+      ],
+      "guion": [
+        {
+          "id": "g1",
+          "texto": "Comunicar el acuerdo a la comisión de convivencia",
+          "explicacion": "",
+          "accion": "comunicar",
+          "normativa": {
+            "cita": "Orden de 20 de junio de 2011, art. 13.3",
+            "bloque": "",
+            "clave": "",
+            "url": ""
+          }
+        },
+        {
+          "id": "g2",
+          "texto": "Comunicarlo a la tutoría",
+          "explicacion": "",
+          "accion": "comunicar",
+          "normativa": {
+            "cita": "Orden de 20 de junio de 2011, art. 13.3",
+            "bloque": "",
+            "clave": "",
+            "url": ""
+          }
+        },
+        {
+          "id": "g3",
+          "texto": "Comunicarlo a las familias",
+          "explicacion": "",
+          "accion": "comunicar",
+          "normativa": {
+            "cita": "Orden de 20 de junio de 2011, art. 13.3",
+            "bloque": "",
+            "clave": "",
+            "url": ""
+          }
+        },
+        {
+          "id": "g4",
+          "texto": "Anotar en el asunto las fechas de comunicación",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        }
       ]
     },
     {
@@ -1714,7 +3782,44 @@ window.__COPIA__["datos-biblioteca/biblioteca-centro.json"] = {
       "responsable": "Tutoría",
       "requisitos": [],
       "soloInformativo": true,
-      "normativa": []
+      "normativa": [],
+      "guion": [
+        {
+          "id": "g1",
+          "texto": "Recoger de la tutoría las dificultades detectadas",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        },
+        {
+          "id": "g2",
+          "texto": "Preparar la solicitud de evaluación psicopedagógica",
+          "explicacion": "",
+          "accion": "generar",
+          "normativa": null
+        },
+        {
+          "id": "g3",
+          "texto": "Recoger la firma de la tutoría",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        },
+        {
+          "id": "g4",
+          "texto": "Pasar la solicitud a Orientación",
+          "explicacion": "",
+          "accion": "comunicar",
+          "normativa": null
+        },
+        {
+          "id": "g5",
+          "texto": "Añadir la solicitud al asunto",
+          "explicacion": "",
+          "accion": "anadir",
+          "normativa": null
+        }
+      ]
     },
     {
       "id": "b55",
@@ -1724,7 +3829,30 @@ window.__COPIA__["datos-biblioteca/biblioteca-centro.json"] = {
       "responsable": "Orientación",
       "requisitos": [],
       "soloInformativo": true,
-      "normativa": []
+      "normativa": [],
+      "guion": [
+        {
+          "id": "g1",
+          "texto": "Confirmar que Orientación ha iniciado la evaluación",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        },
+        {
+          "id": "g2",
+          "texto": "Informar a la familia del inicio de la evaluación",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        },
+        {
+          "id": "g3",
+          "texto": "Anotar en el asunto las fechas de las pruebas",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        }
+      ]
     },
     {
       "id": "b56",
@@ -1734,7 +3862,30 @@ window.__COPIA__["datos-biblioteca/biblioteca-centro.json"] = {
       "responsable": "Orientación",
       "requisitos": [],
       "soloInformativo": true,
-      "normativa": []
+      "normativa": [],
+      "guion": [
+        {
+          "id": "g1",
+          "texto": "Recibir de Orientación el informe de evaluación psicopedagógica",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        },
+        {
+          "id": "g2",
+          "texto": "Comprobar que está grabado en Séneca",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        },
+        {
+          "id": "g3",
+          "texto": "Añadir el informe al asunto",
+          "explicacion": "",
+          "accion": "anadir",
+          "normativa": null
+        }
+      ]
     },
     {
       "id": "b57",
@@ -1744,7 +3895,37 @@ window.__COPIA__["datos-biblioteca/biblioteca-centro.json"] = {
       "responsable": "Orientación",
       "requisitos": [],
       "soloInformativo": true,
-      "normativa": []
+      "normativa": [],
+      "guion": [
+        {
+          "id": "g1",
+          "texto": "Comprobar si procede el dictamen de escolarización",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        },
+        {
+          "id": "g2",
+          "texto": "Recibir el dictamen de Orientación",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        },
+        {
+          "id": "g3",
+          "texto": "Pedir el informe de Inspección",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        },
+        {
+          "id": "g4",
+          "texto": "Añadir el dictamen y el informe al asunto",
+          "explicacion": "",
+          "accion": "anadir",
+          "normativa": null
+        }
+      ]
     },
     {
       "id": "b58",
@@ -1754,7 +3935,37 @@ window.__COPIA__["datos-biblioteca/biblioteca-centro.json"] = {
       "responsable": "Orientación",
       "requisitos": [],
       "soloInformativo": true,
-      "normativa": []
+      "normativa": [],
+      "guion": [
+        {
+          "id": "g1",
+          "texto": "Citar a la familia con Orientación",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        },
+        {
+          "id": "g2",
+          "texto": "Informar a la familia del resultado de la evaluación",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        },
+        {
+          "id": "g3",
+          "texto": "Dejar constancia firmada de la comunicación",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        },
+        {
+          "id": "g4",
+          "texto": "Añadir la constancia al asunto",
+          "explicacion": "",
+          "accion": "anadir",
+          "normativa": null
+        }
+      ]
     },
     {
       "id": "b59",
@@ -1764,7 +3975,37 @@ window.__COPIA__["datos-biblioteca/biblioteca-centro.json"] = {
       "responsable": "Administración",
       "requisitos": [],
       "soloInformativo": false,
-      "normativa": []
+      "normativa": [],
+      "guion": [
+        {
+          "id": "g1",
+          "texto": "Abrir el censo de alumnado NEAE en Séneca",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        },
+        {
+          "id": "g2",
+          "texto": "Grabar al alumno o alumna con sus necesidades",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        },
+        {
+          "id": "g3",
+          "texto": "Comprobar que el informe psicopedagógico está asociado",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        },
+        {
+          "id": "g4",
+          "texto": "Anotar en el asunto la fecha de grabación",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        }
+      ]
     },
     {
       "id": "b60",
@@ -1781,6 +4022,41 @@ window.__COPIA__["datos-biblioteca/biblioteca-centro.json"] = {
           "bloque": "matricula",
           "clave": "O20-27.3",
           "url": ""
+        }
+      ],
+      "guion": [
+        {
+          "id": "g1",
+          "texto": "Comprobar las fechas del plazo de matrícula",
+          "explicacion": "Del 1 al 10 de julio.",
+          "accion": "",
+          "normativa": {
+            "cita": "Orden de 20 de febrero de 2020, art. 27.3",
+            "bloque": "",
+            "clave": "",
+            "url": ""
+          }
+        },
+        {
+          "id": "g2",
+          "texto": "Preparar el aviso de apertura del plazo",
+          "explicacion": "",
+          "accion": "generar",
+          "normativa": null
+        },
+        {
+          "id": "g3",
+          "texto": "Publicar el aviso en la web y enviarlo por iPasen",
+          "explicacion": "",
+          "accion": "comunicar",
+          "normativa": null
+        },
+        {
+          "id": "g4",
+          "texto": "Preparar los impresos en la Secretaría",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
         }
       ]
     },
@@ -1837,6 +4113,63 @@ window.__COPIA__["datos-biblioteca/biblioteca-centro.json"] = {
           "clave": "IB-Tercera",
           "url": ""
         }
+      ],
+      "guion": [
+        {
+          "id": "g1",
+          "texto": "Recoger el impreso de matrícula firmado",
+          "explicacion": "",
+          "accion": "",
+          "normativa": {
+            "cita": "Instrucciones de 23 de junio de 2026",
+            "bloque": "",
+            "clave": "",
+            "url": ""
+          }
+        },
+        {
+          "id": "g2",
+          "texto": "Recoger el cuestionario de fondos europeos",
+          "explicacion": "",
+          "accion": "",
+          "normativa": {
+            "cita": "Instrucciones de 23 de junio de 2026",
+            "bloque": "",
+            "clave": "",
+            "url": ""
+          }
+        },
+        {
+          "id": "g3",
+          "texto": "Recoger el consentimiento de imagen y voz",
+          "explicacion": "Si tiene 14 años o más, lo firma el propio alumnado.",
+          "accion": "",
+          "normativa": {
+            "cita": "Instrucciones de 23 de junio de 2026",
+            "bloque": "",
+            "clave": "",
+            "url": ""
+          }
+        },
+        {
+          "id": "g4",
+          "texto": "Recoger los anexos que correspondan",
+          "explicacion": "Contexto en 1.º ESO, Anexo III si hay transporte, Religión en la primera matrícula.",
+          "accion": "",
+          "normativa": {
+            "cita": "Instrucciones de 23 de junio de 2026",
+            "bloque": "",
+            "clave": "",
+            "url": ""
+          }
+        },
+        {
+          "id": "g5",
+          "texto": "Añadir el impreso y los anexos al asunto",
+          "explicacion": "",
+          "accion": "anadir",
+          "normativa": null
+        }
       ]
     },
     {
@@ -1854,6 +4187,39 @@ window.__COPIA__["datos-biblioteca/biblioteca-centro.json"] = {
           "bloque": "matricula",
           "clave": "O26-22.Uno",
           "url": ""
+        }
+      ],
+      "guion": [
+        {
+          "id": "g1",
+          "texto": "Buscar en Séneca la solicitud de admisión que sostiene la plaza",
+          "explicacion": "",
+          "accion": "",
+          "normativa": {
+            "cita": "Orden de 31 de agosto de 2026, art. 22.Uno",
+            "bloque": "",
+            "clave": "",
+            "url": ""
+          }
+        },
+        {
+          "id": "g2",
+          "texto": "Comprobar que es la última registrada en plazo",
+          "explicacion": "",
+          "accion": "",
+          "normativa": {
+            "cita": "Orden de 31 de agosto de 2026, art. 22.Uno",
+            "bloque": "",
+            "clave": "",
+            "url": ""
+          }
+        },
+        {
+          "id": "g3",
+          "texto": "Anotar en el asunto cualquier discrepancia",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
         }
       ]
     },
@@ -1873,6 +4239,51 @@ window.__COPIA__["datos-biblioteca/biblioteca-centro.json"] = {
           "clave": "IB-Primera",
           "url": ""
         }
+      ],
+      "guion": [
+        {
+          "id": "g1",
+          "texto": "Comprobar que el alumno o alumna tiene pendientes las extraordinarias",
+          "explicacion": "",
+          "accion": "",
+          "normativa": {
+            "cita": "Instrucciones de 23 de junio de 2026",
+            "bloque": "",
+            "clave": "",
+            "url": ""
+          }
+        },
+        {
+          "id": "g2",
+          "texto": "Grabar en Séneca solo el curso, sin materias",
+          "explicacion": "",
+          "accion": "",
+          "normativa": {
+            "cita": "Instrucciones de 23 de junio de 2026",
+            "bloque": "",
+            "clave": "",
+            "url": ""
+          }
+        },
+        {
+          "id": "g3",
+          "texto": "Añadir la leyenda del Anexo VIII",
+          "explicacion": "",
+          "accion": "",
+          "normativa": {
+            "cita": "Instrucciones de 23 de junio de 2026",
+            "bloque": "",
+            "clave": "",
+            "url": ""
+          }
+        },
+        {
+          "id": "g4",
+          "texto": "Anotar que hay que completar la matrícula tras las extraordinarias",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        }
       ]
     },
     {
@@ -1890,6 +4301,41 @@ window.__COPIA__["datos-biblioteca/biblioteca-centro.json"] = {
           "bloque": "matricula",
           "clave": "O20-27.3",
           "url": ""
+        }
+      ],
+      "guion": [
+        {
+          "id": "g1",
+          "texto": "Comprobar el resultado de la evaluación",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        },
+        {
+          "id": "g2",
+          "texto": "Grabar en Séneca el curso y las materias definitivas",
+          "explicacion": "Antes del 9 de septiembre.",
+          "accion": "",
+          "normativa": {
+            "cita": "Orden de 20 de febrero de 2020, art. 27.3",
+            "bloque": "",
+            "clave": "",
+            "url": ""
+          }
+        },
+        {
+          "id": "g3",
+          "texto": "Revisar optativas y Religión",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        },
+        {
+          "id": "g4",
+          "texto": "Anotar en el asunto la fecha de matrícula definitiva",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
         }
       ]
     },
@@ -1909,6 +4355,39 @@ window.__COPIA__["datos-biblioteca/biblioteca-centro.json"] = {
           "clave": "O20-27.6",
           "url": ""
         }
+      ],
+      "guion": [
+        {
+          "id": "g1",
+          "texto": "Comprobar que todas las matrículas del periodo están grabadas",
+          "explicacion": "",
+          "accion": "",
+          "normativa": {
+            "cita": "Orden de 20 de febrero de 2020, art. 27.6",
+            "bloque": "",
+            "clave": "",
+            "url": ""
+          }
+        },
+        {
+          "id": "g2",
+          "texto": "Hacer constar en Séneca que están todas",
+          "explicacion": "2 días hábiles desde que acaba el periodo.",
+          "accion": "",
+          "normativa": {
+            "cita": "Orden de 20 de febrero de 2020, art. 27.6",
+            "bloque": "",
+            "clave": "",
+            "url": ""
+          }
+        },
+        {
+          "id": "g3",
+          "texto": "Anotar en el asunto la fecha de la constancia",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        }
       ]
     },
     {
@@ -1927,6 +4406,39 @@ window.__COPIA__["datos-biblioteca/biblioteca-centro.json"] = {
           "clave": "IB-Tercera",
           "url": ""
         }
+      ],
+      "guion": [
+        {
+          "id": "g1",
+          "texto": "Reunir los cuestionarios de fondos europeos del curso",
+          "explicacion": "",
+          "accion": "",
+          "normativa": {
+            "cita": "Instrucciones de 23 de junio de 2026",
+            "bloque": "",
+            "clave": "",
+            "url": ""
+          }
+        },
+        {
+          "id": "g2",
+          "texto": "Archivarlos juntos, separados del resto de la matrícula",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        },
+        {
+          "id": "g3",
+          "texto": "Anotar la fecha hasta la que hay que guardarlos",
+          "explicacion": "Cinco años desde el 31 de diciembre del ejercicio en que acaba el curso.",
+          "accion": "",
+          "normativa": {
+            "cita": "Instrucciones de 23 de junio de 2026",
+            "bloque": "",
+            "clave": "",
+            "url": ""
+          }
+        }
       ]
     },
     {
@@ -1944,7 +4456,37 @@ window.__COPIA__["datos-biblioteca/biblioteca-centro.json"] = {
         }
       ],
       "soloInformativo": false,
-      "normativa": []
+      "normativa": [],
+      "guion": [
+        {
+          "id": "g1",
+          "texto": "Registrar la entrada de la solicitud en Séneca",
+          "explicacion": "Con su fecha exacta.",
+          "accion": "registrar",
+          "normativa": null
+        },
+        {
+          "id": "g2",
+          "texto": "Comprobar que está firmada por quien corresponde",
+          "explicacion": "La familia, el alumnado mayor de edad o la persona interesada.",
+          "accion": "",
+          "normativa": null
+        },
+        {
+          "id": "g3",
+          "texto": "Comprobar que trae la documentación necesaria",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        },
+        {
+          "id": "g4",
+          "texto": "Añadir la solicitud al asunto",
+          "explicacion": "",
+          "accion": "anadir",
+          "normativa": null
+        }
+      ]
     },
     {
       "id": "b68",
@@ -1954,7 +4496,30 @@ window.__COPIA__["datos-biblioteca/biblioteca-centro.json"] = {
       "responsable": "Jefatura de Estudios",
       "requisitos": [],
       "soloInformativo": true,
-      "normativa": []
+      "normativa": [],
+      "guion": [
+        {
+          "id": "g1",
+          "texto": "Pasar la solicitud a Jefatura de Estudios",
+          "explicacion": "",
+          "accion": "comunicar",
+          "normativa": null
+        },
+        {
+          "id": "g2",
+          "texto": "Recibir el informe sobre disponibilidad de grupo y horario",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        },
+        {
+          "id": "g3",
+          "texto": "Añadir el informe al asunto",
+          "explicacion": "",
+          "accion": "anadir",
+          "normativa": null
+        }
+      ]
     },
     {
       "id": "b69",
@@ -1964,7 +4529,37 @@ window.__COPIA__["datos-biblioteca/biblioteca-centro.json"] = {
       "responsable": "Dirección",
       "requisitos": [],
       "soloInformativo": false,
-      "normativa": []
+      "normativa": [],
+      "guion": [
+        {
+          "id": "g1",
+          "texto": "Reunir la solicitud y los informes",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        },
+        {
+          "id": "g2",
+          "texto": "Generar la resolución",
+          "explicacion": "",
+          "accion": "generar",
+          "normativa": null
+        },
+        {
+          "id": "g3",
+          "texto": "Recoger la firma de la dirección",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        },
+        {
+          "id": "g4",
+          "texto": "Añadir la resolución firmada al asunto",
+          "explicacion": "",
+          "accion": "anadir",
+          "normativa": null
+        }
+      ]
     },
     {
       "id": "b70",
@@ -1974,7 +4569,30 @@ window.__COPIA__["datos-biblioteca/biblioteca-centro.json"] = {
       "responsable": "Secretaría",
       "requisitos": [],
       "soloInformativo": false,
-      "normativa": []
+      "normativa": [],
+      "guion": [
+        {
+          "id": "g1",
+          "texto": "Abrir la matrícula del alumno o alumna en Séneca",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        },
+        {
+          "id": "g2",
+          "texto": "Cambiar la materia optativa",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        },
+        {
+          "id": "g3",
+          "texto": "Comprobar que el cambio aparece en el horario y en el grupo",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        }
+      ]
     },
     {
       "id": "b71",
@@ -1984,7 +4602,37 @@ window.__COPIA__["datos-biblioteca/biblioteca-centro.json"] = {
       "responsable": "Secretaría",
       "requisitos": [],
       "soloInformativo": false,
-      "normativa": []
+      "normativa": [],
+      "guion": [
+        {
+          "id": "g1",
+          "texto": "Generar la comunicación de la resolución",
+          "explicacion": "",
+          "accion": "generar",
+          "normativa": null
+        },
+        {
+          "id": "g2",
+          "texto": "Enviarla a la familia por iPasen",
+          "explicacion": "",
+          "accion": "comunicar",
+          "normativa": null
+        },
+        {
+          "id": "g3",
+          "texto": "Avisar a la tutoría",
+          "explicacion": "",
+          "accion": "comunicar",
+          "normativa": null
+        },
+        {
+          "id": "g4",
+          "texto": "Registrar la salida si se envía en papel",
+          "explicacion": "",
+          "accion": "registrar",
+          "normativa": null
+        }
+      ]
     },
     {
       "id": "b72",
@@ -1994,7 +4642,30 @@ window.__COPIA__["datos-biblioteca/biblioteca-centro.json"] = {
       "responsable": "Secretaría",
       "requisitos": [],
       "soloInformativo": false,
-      "normativa": []
+      "normativa": [],
+      "guion": [
+        {
+          "id": "g1",
+          "texto": "Registrar la entrada de la solicitud o la propuesta",
+          "explicacion": "",
+          "accion": "registrar",
+          "normativa": null
+        },
+        {
+          "id": "g2",
+          "texto": "Comprobar quién la hace y el motivo",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        },
+        {
+          "id": "g3",
+          "texto": "Añadir la solicitud al asunto",
+          "explicacion": "",
+          "accion": "anadir",
+          "normativa": null
+        }
+      ]
     },
     {
       "id": "b73",
@@ -2011,7 +4682,37 @@ window.__COPIA__["datos-biblioteca/biblioteca-centro.json"] = {
         }
       ],
       "soloInformativo": true,
-      "normativa": []
+      "normativa": [],
+      "guion": [
+        {
+          "id": "g1",
+          "texto": "Pedir el informe a la tutoría",
+          "explicacion": "",
+          "accion": "comunicar",
+          "normativa": null
+        },
+        {
+          "id": "g2",
+          "texto": "Recibir el informe",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        },
+        {
+          "id": "g3",
+          "texto": "Añadir el informe al asunto",
+          "explicacion": "",
+          "accion": "anadir",
+          "normativa": null
+        },
+        {
+          "id": "g4",
+          "texto": "Pasar la petición a Jefatura de Estudios para su valoración",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        }
+      ]
     },
     {
       "id": "b74",
@@ -2021,7 +4722,37 @@ window.__COPIA__["datos-biblioteca/biblioteca-centro.json"] = {
       "responsable": "Jefatura de Estudios",
       "requisitos": [],
       "soloInformativo": false,
-      "normativa": []
+      "normativa": [],
+      "guion": [
+        {
+          "id": "g1",
+          "texto": "Recoger la decisión de Jefatura de Estudios",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        },
+        {
+          "id": "g2",
+          "texto": "Generar la resolución del cambio de grupo",
+          "explicacion": "",
+          "accion": "generar",
+          "normativa": null
+        },
+        {
+          "id": "g3",
+          "texto": "Recoger la firma de Jefatura de Estudios",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        },
+        {
+          "id": "g4",
+          "texto": "Añadir la resolución firmada al asunto",
+          "explicacion": "",
+          "accion": "anadir",
+          "normativa": null
+        }
+      ]
     },
     {
       "id": "b75",
@@ -2031,7 +4762,30 @@ window.__COPIA__["datos-biblioteca/biblioteca-centro.json"] = {
       "responsable": "Secretaría",
       "requisitos": [],
       "soloInformativo": false,
-      "normativa": []
+      "normativa": [],
+      "guion": [
+        {
+          "id": "g1",
+          "texto": "Abrir la matrícula del alumno o alumna en Séneca",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        },
+        {
+          "id": "g2",
+          "texto": "Cambiar el grupo con la fecha de efectos",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        },
+        {
+          "id": "g3",
+          "texto": "Comprobar las materias y el horario del nuevo grupo",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        }
+      ]
     },
     {
       "id": "b76",
@@ -2041,7 +4795,30 @@ window.__COPIA__["datos-biblioteca/biblioteca-centro.json"] = {
       "responsable": "Secretaría",
       "requisitos": [],
       "soloInformativo": false,
-      "normativa": []
+      "normativa": [],
+      "guion": [
+        {
+          "id": "g1",
+          "texto": "Comunicar el cambio a la familia por iPasen",
+          "explicacion": "",
+          "accion": "comunicar",
+          "normativa": null
+        },
+        {
+          "id": "g2",
+          "texto": "Avisar a las dos tutorías",
+          "explicacion": "",
+          "accion": "comunicar",
+          "normativa": null
+        },
+        {
+          "id": "g3",
+          "texto": "Avisar al equipo docente del nuevo grupo",
+          "explicacion": "",
+          "accion": "comunicar",
+          "normativa": null
+        }
+      ]
     },
     {
       "id": "b77",
@@ -2051,7 +4828,30 @@ window.__COPIA__["datos-biblioteca/biblioteca-centro.json"] = {
       "responsable": "Secretaría",
       "requisitos": [],
       "soloInformativo": false,
-      "normativa": []
+      "normativa": [],
+      "guion": [
+        {
+          "id": "g1",
+          "texto": "Comprobar que la resolución de anulación está firmada",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        },
+        {
+          "id": "g2",
+          "texto": "Anular la matrícula en Séneca",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        },
+        {
+          "id": "g3",
+          "texto": "Comprobar que el alumno o alumna ya no figura en el grupo",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        }
+      ]
     },
     {
       "id": "b78",
@@ -2061,7 +4861,30 @@ window.__COPIA__["datos-biblioteca/biblioteca-centro.json"] = {
       "responsable": "Secretaría",
       "requisitos": [],
       "soloInformativo": false,
-      "normativa": []
+      "normativa": [],
+      "guion": [
+        {
+          "id": "g1",
+          "texto": "Reunir la solicitud, la resolución y las comunicaciones",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        },
+        {
+          "id": "g2",
+          "texto": "Comprobar que no falta ningún documento",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        },
+        {
+          "id": "g3",
+          "texto": "Archivar el expediente",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        }
+      ]
     },
     {
       "id": "b79",
@@ -2071,7 +4894,30 @@ window.__COPIA__["datos-biblioteca/biblioteca-centro.json"] = {
       "responsable": "Secretaría",
       "requisitos": [],
       "soloInformativo": false,
-      "normativa": []
+      "normativa": [],
+      "guion": [
+        {
+          "id": "g1",
+          "texto": "Recoger el motivo de la baja",
+          "explicacion": "Traslado, fin de escolarización u otro.",
+          "accion": "",
+          "normativa": null
+        },
+        {
+          "id": "g2",
+          "texto": "Añadir el documento que lo acredite",
+          "explicacion": "",
+          "accion": "anadir",
+          "normativa": null
+        },
+        {
+          "id": "g3",
+          "texto": "Anotar en el asunto el motivo y la fecha",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        }
+      ]
     },
     {
       "id": "b80",
@@ -2081,7 +4927,30 @@ window.__COPIA__["datos-biblioteca/biblioteca-centro.json"] = {
       "responsable": "Secretaría",
       "requisitos": [],
       "soloInformativo": false,
-      "normativa": []
+      "normativa": [],
+      "guion": [
+        {
+          "id": "g1",
+          "texto": "Abrir la matrícula del alumno o alumna en Séneca",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        },
+        {
+          "id": "g2",
+          "texto": "Dar la baja con su fecha y su motivo",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        },
+        {
+          "id": "g3",
+          "texto": "Comprobar que la baja aparece grabada",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        }
+      ]
     },
     {
       "id": "b81",
@@ -2091,7 +4960,30 @@ window.__COPIA__["datos-biblioteca/biblioteca-centro.json"] = {
       "responsable": "Secretaría",
       "requisitos": [],
       "soloInformativo": false,
-      "normativa": []
+      "normativa": [],
+      "guion": [
+        {
+          "id": "g1",
+          "texto": "Abrir el expediente académico del alumno o alumna",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        },
+        {
+          "id": "g2",
+          "texto": "Anotar la baja con su fecha y su motivo",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        },
+        {
+          "id": "g3",
+          "texto": "Firmar la anotación",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        }
+      ]
     },
     {
       "id": "b82",
@@ -2101,7 +4993,30 @@ window.__COPIA__["datos-biblioteca/biblioteca-centro.json"] = {
       "responsable": "Secretaría",
       "requisitos": [],
       "soloInformativo": false,
-      "normativa": []
+      "normativa": [],
+      "guion": [
+        {
+          "id": "g1",
+          "texto": "Comunicar la baja a la tutoría",
+          "explicacion": "",
+          "accion": "comunicar",
+          "normativa": null
+        },
+        {
+          "id": "g2",
+          "texto": "Anotar en el asunto la fecha de la comunicación",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        },
+        {
+          "id": "g3",
+          "texto": "Indicar si hay material o libros pendientes de devolver",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        }
+      ]
     },
     {
       "id": "b83",
@@ -2132,6 +5047,51 @@ window.__COPIA__["datos-biblioteca/biblioteca-centro.json"] = {
           "clave": "D-43",
           "url": ""
         }
+      ],
+      "guion": [
+        {
+          "id": "g1",
+          "texto": "Comprobar que la solicitud llega dentro de plazo",
+          "explicacion": "",
+          "accion": "",
+          "normativa": {
+            "cita": "Decreto 21/2020",
+            "bloque": "",
+            "clave": "",
+            "url": ""
+          }
+        },
+        {
+          "id": "g2",
+          "texto": "Registrar la entrada de la solicitud con su fecha",
+          "explicacion": "",
+          "accion": "registrar",
+          "normativa": {
+            "cita": "Decreto 21/2020",
+            "bloque": "",
+            "clave": "",
+            "url": ""
+          }
+        },
+        {
+          "id": "g3",
+          "texto": "Comprobar la documentación de los criterios alegados",
+          "explicacion": "",
+          "accion": "",
+          "normativa": {
+            "cita": "Decreto 21/2020",
+            "bloque": "",
+            "clave": "",
+            "url": ""
+          }
+        },
+        {
+          "id": "g4",
+          "texto": "Añadir la solicitud y la documentación al asunto",
+          "explicacion": "",
+          "accion": "anadir",
+          "normativa": null
+        }
       ]
     },
     {
@@ -2142,7 +5102,37 @@ window.__COPIA__["datos-biblioteca/biblioteca-centro.json"] = {
       "responsable": "Secretaría",
       "requisitos": [],
       "soloInformativo": false,
-      "normativa": []
+      "normativa": [],
+      "guion": [
+        {
+          "id": "g1",
+          "texto": "Abrir el módulo de Séneca que corresponda",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        },
+        {
+          "id": "g2",
+          "texto": "Grabar los datos del documento",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        },
+        {
+          "id": "g3",
+          "texto": "Revisar que lo grabado coincide con el papel",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        },
+        {
+          "id": "g4",
+          "texto": "Anotar en el asunto la fecha de grabación",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        }
+      ]
     },
     {
       "id": "b85",
@@ -2152,7 +5142,37 @@ window.__COPIA__["datos-biblioteca/biblioteca-centro.json"] = {
       "responsable": "Dirección",
       "requisitos": [],
       "soloInformativo": true,
-      "normativa": []
+      "normativa": [],
+      "guion": [
+        {
+          "id": "g1",
+          "texto": "Comprobar la baremación de cada solicitud en Séneca",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        },
+        {
+          "id": "g2",
+          "texto": "Generar desde Séneca las listas de admitidos y no admitidos",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        },
+        {
+          "id": "g3",
+          "texto": "Publicarlas en el tablón y en la web",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        },
+        {
+          "id": "g4",
+          "texto": "Anotar la fecha de publicación",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        }
+      ]
     },
     {
       "id": "b86",
@@ -2162,7 +5182,37 @@ window.__COPIA__["datos-biblioteca/biblioteca-centro.json"] = {
       "responsable": "Secretaría",
       "requisitos": [],
       "soloInformativo": false,
-      "normativa": []
+      "normativa": [],
+      "guion": [
+        {
+          "id": "g1",
+          "texto": "Registrar la entrada de cada alegación o recurso",
+          "explicacion": "",
+          "accion": "registrar",
+          "normativa": null
+        },
+        {
+          "id": "g2",
+          "texto": "Comprobar si está en plazo",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        },
+        {
+          "id": "g3",
+          "texto": "Pasarlos a la dirección o al Consejo Escolar para que resuelvan",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        },
+        {
+          "id": "g4",
+          "texto": "Comunicar la respuesta a la familia",
+          "explicacion": "",
+          "accion": "comunicar",
+          "normativa": null
+        }
+      ]
     },
     {
       "id": "b87",
@@ -2172,7 +5222,30 @@ window.__COPIA__["datos-biblioteca/biblioteca-centro.json"] = {
       "responsable": "Secretaría",
       "requisitos": [],
       "soloInformativo": false,
-      "normativa": []
+      "normativa": [],
+      "guion": [
+        {
+          "id": "g1",
+          "texto": "Generar la adjudicación desde Séneca",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        },
+        {
+          "id": "g2",
+          "texto": "Publicarla en el tablón y en la web",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        },
+        {
+          "id": "g3",
+          "texto": "Anotar la fecha de publicación",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        }
+      ]
     },
     {
       "id": "b88",
@@ -2182,7 +5255,30 @@ window.__COPIA__["datos-biblioteca/biblioteca-centro.json"] = {
       "responsable": "Secretaría",
       "requisitos": [],
       "soloInformativo": false,
-      "normativa": []
+      "normativa": [],
+      "guion": [
+        {
+          "id": "g1",
+          "texto": "Comprobar la lista de admitidos que deben matricularse",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        },
+        {
+          "id": "g2",
+          "texto": "Abrir el asunto de matrícula de cada alumno o alumna",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        },
+        {
+          "id": "g3",
+          "texto": "Anotar en este asunto el enlace con la matrícula",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        }
+      ]
     },
     {
       "id": "b89",
@@ -2199,6 +5295,34 @@ window.__COPIA__["datos-biblioteca/biblioteca-centro.json"] = {
           "bloque": "matricula",
           "clave": "OESO-25.3",
           "url": ""
+        }
+      ],
+      "guion": [
+        {
+          "id": "g1",
+          "texto": "Registrar la entrada de la petición del centro de destino",
+          "explicacion": "Nada se envía de oficio.",
+          "accion": "registrar",
+          "normativa": {
+            "cita": "Orden de evaluación de ESO, art. 25.3",
+            "bloque": "",
+            "clave": "",
+            "url": ""
+          }
+        },
+        {
+          "id": "g2",
+          "texto": "Comprobar los datos del alumno o alumna y del centro de destino",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        },
+        {
+          "id": "g3",
+          "texto": "Añadir la petición al asunto",
+          "explicacion": "",
+          "accion": "anadir",
+          "normativa": null
         }
       ]
     },
@@ -2217,6 +5341,39 @@ window.__COPIA__["datos-biblioteca/biblioteca-centro.json"] = {
           "bloque": "matricula",
           "clave": "OESO-25.2",
           "url": ""
+        }
+      ],
+      "guion": [
+        {
+          "id": "g1",
+          "texto": "Pedir a la tutoría el informe personal por traslado",
+          "explicacion": "",
+          "accion": "comunicar",
+          "normativa": {
+            "cita": "Orden de evaluación de ESO, art. 25.2",
+            "bloque": "",
+            "clave": "",
+            "url": ""
+          }
+        },
+        {
+          "id": "g2",
+          "texto": "Recordar que lo redacta con la información del equipo docente",
+          "explicacion": "",
+          "accion": "",
+          "normativa": {
+            "cita": "Orden de evaluación de ESO, art. 25.2",
+            "bloque": "",
+            "clave": "",
+            "url": ""
+          }
+        },
+        {
+          "id": "g3",
+          "texto": "Añadir el informe al asunto cuando llegue",
+          "explicacion": "",
+          "accion": "anadir",
+          "normativa": null
         }
       ]
     },
@@ -2262,6 +5419,53 @@ window.__COPIA__["datos-biblioteca/biblioteca-centro.json"] = {
           "clave": "OBAC-27.3",
           "url": ""
         }
+      ],
+      "guion": [
+        {
+          "id": "g1",
+          "texto": "Sacar de Séneca la copia del historial académico",
+          "explicacion": "",
+          "accion": "",
+          "normativa": {
+            "cita": "Orden de evaluación de ESO, art. 25.3",
+            "bloque": "",
+            "clave": "",
+            "url": ""
+          }
+        },
+        {
+          "id": "g2",
+          "texto": "Comprobar el informe personal por traslado",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        },
+        {
+          "id": "g3",
+          "texto": "Generar la diligencia de concordancia con el expediente",
+          "explicacion": "La firma el director.",
+          "accion": "generar",
+          "normativa": null
+        },
+        {
+          "id": "g4",
+          "texto": "Registrar la salida en Séneca",
+          "explicacion": "",
+          "accion": "registrar",
+          "normativa": null
+        },
+        {
+          "id": "g5",
+          "texto": "Remitir los dos documentos al centro de destino",
+          "explicacion": "10 días hábiles, plazo del Plan de Centro.",
+          "accion": "comunicar",
+          "normativa": {
+            "cita": "Orden de evaluación de ESO, art. 25.3",
+            "bloque": "",
+            "clave": "",
+            "url": ""
+          }
+        }
       ]
     },
     {
@@ -2272,7 +5476,30 @@ window.__COPIA__["datos-biblioteca/biblioteca-centro.json"] = {
       "responsable": "Secretaría",
       "requisitos": [],
       "soloInformativo": false,
-      "normativa": []
+      "normativa": [],
+      "guion": [
+        {
+          "id": "g1",
+          "texto": "Abrir el expediente académico del alumno o alumna",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        },
+        {
+          "id": "g2",
+          "texto": "Rellenar el apartado TRASLADO DE CENTRO",
+          "explicacion": "Fecha, centro de destino y casilla de curso empezado.",
+          "accion": "",
+          "normativa": null
+        },
+        {
+          "id": "g3",
+          "texto": "Firmar la anotación",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        }
+      ]
     },
     {
       "id": "b93",
@@ -2282,7 +5509,30 @@ window.__COPIA__["datos-biblioteca/biblioteca-centro.json"] = {
       "responsable": "Secretaría",
       "requisitos": [],
       "soloInformativo": false,
-      "normativa": []
+      "normativa": [],
+      "guion": [
+        {
+          "id": "g1",
+          "texto": "Grabar la matrícula en Séneca como provisional",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        },
+        {
+          "id": "g2",
+          "texto": "Anotar en el asunto que la matrícula no es definitiva",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        },
+        {
+          "id": "g3",
+          "texto": "Comprobar qué centro de origen tiene el expediente",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        }
+      ]
     },
     {
       "id": "b94",
@@ -2292,7 +5542,37 @@ window.__COPIA__["datos-biblioteca/biblioteca-centro.json"] = {
       "responsable": "Secretaría",
       "requisitos": [],
       "soloInformativo": false,
-      "normativa": []
+      "normativa": [],
+      "guion": [
+        {
+          "id": "g1",
+          "texto": "Generar la petición de documentos al centro de origen",
+          "explicacion": "Informe personal por traslado y copia del historial.",
+          "accion": "generar",
+          "normativa": null
+        },
+        {
+          "id": "g2",
+          "texto": "Registrar la salida en Séneca",
+          "explicacion": "",
+          "accion": "registrar",
+          "normativa": null
+        },
+        {
+          "id": "g3",
+          "texto": "Enviarla al centro de origen",
+          "explicacion": "",
+          "accion": "comunicar",
+          "normativa": null
+        },
+        {
+          "id": "g4",
+          "texto": "Anotar la fecha para reclamar si no llegan",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        }
+      ]
     },
     {
       "id": "b95",
@@ -2310,6 +5590,34 @@ window.__COPIA__["datos-biblioteca/biblioteca-centro.json"] = {
           "clave": "OESO-25.3",
           "url": ""
         }
+      ],
+      "guion": [
+        {
+          "id": "g1",
+          "texto": "Añadir al asunto el informe personal y la copia del historial",
+          "explicacion": "",
+          "accion": "anadir",
+          "normativa": null
+        },
+        {
+          "id": "g2",
+          "texto": "Comprobar que los dos están bien cumplimentados",
+          "explicacion": "",
+          "accion": "",
+          "normativa": {
+            "cita": "Orden de evaluación de ESO, art. 25.3",
+            "bloque": "",
+            "clave": "",
+            "url": ""
+          }
+        },
+        {
+          "id": "g3",
+          "texto": "Pasar la matrícula a definitiva en Séneca",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        }
       ]
     },
     {
@@ -2320,7 +5628,30 @@ window.__COPIA__["datos-biblioteca/biblioteca-centro.json"] = {
       "responsable": "Secretaría",
       "requisitos": [],
       "soloInformativo": false,
-      "normativa": []
+      "normativa": [],
+      "guion": [
+        {
+          "id": "g1",
+          "texto": "Abrir el expediente académico con los datos del historial",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        },
+        {
+          "id": "g2",
+          "texto": "Comprobar los datos personales y académicos",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        },
+        {
+          "id": "g3",
+          "texto": "Firmar la apertura y archivar el expediente",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        }
+      ]
     },
     {
       "id": "b97",
@@ -2337,6 +5668,51 @@ window.__COPIA__["datos-biblioteca/biblioteca-centro.json"] = {
           "bloque": "matricula",
           "clave": "O20-DAtercera",
           "url": ""
+        }
+      ],
+      "guion": [
+        {
+          "id": "g1",
+          "texto": "Comprobar que la solicitud se presenta en el primer trimestre",
+          "explicacion": "",
+          "accion": "",
+          "normativa": {
+            "cita": "Orden de 20 de febrero de 2020, disposición adicional tercera",
+            "bloque": "",
+            "clave": "",
+            "url": ""
+          }
+        },
+        {
+          "id": "g2",
+          "texto": "Generar la autorización del director",
+          "explicacion": "",
+          "accion": "generar",
+          "normativa": {
+            "cita": "Orden de 20 de febrero de 2020, disposición adicional tercera",
+            "bloque": "",
+            "clave": "",
+            "url": ""
+          }
+        },
+        {
+          "id": "g3",
+          "texto": "Recoger la firma de la dirección",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        },
+        {
+          "id": "g4",
+          "texto": "Comunicar la autorización al órgano territorial provincial",
+          "explicacion": "",
+          "accion": "comunicar",
+          "normativa": {
+            "cita": "Orden de 20 de febrero de 2020, disposición adicional tercera",
+            "bloque": "",
+            "clave": "",
+            "url": ""
+          }
         }
       ]
     },
@@ -2356,6 +5732,56 @@ window.__COPIA__["datos-biblioteca/biblioteca-centro.json"] = {
           "clave": "O20-DAtercera",
           "url": ""
         }
+      ],
+      "guion": [
+        {
+          "id": "g1",
+          "texto": "Comprobar si el traslado es dentro de la provincia o entre provincias",
+          "explicacion": "",
+          "accion": "",
+          "normativa": {
+            "cita": "Orden de 20 de febrero de 2020, disposición adicional tercera",
+            "bloque": "",
+            "clave": "",
+            "url": ""
+          }
+        },
+        {
+          "id": "g2",
+          "texto": "Preparar el escrito de remisión de la solicitud",
+          "explicacion": "",
+          "accion": "generar",
+          "normativa": {
+            "cita": "Orden de 20 de febrero de 2020, disposición adicional tercera",
+            "bloque": "",
+            "clave": "",
+            "url": ""
+          }
+        },
+        {
+          "id": "g3",
+          "texto": "Pedir el informe preceptivo de Inspección",
+          "explicacion": "",
+          "accion": "comunicar",
+          "normativa": {
+            "cita": "Orden de 20 de febrero de 2020, disposición adicional tercera",
+            "bloque": "",
+            "clave": "",
+            "url": ""
+          }
+        },
+        {
+          "id": "g4",
+          "texto": "Remitir la solicitud al órgano que autoriza",
+          "explicacion": "",
+          "accion": "comunicar",
+          "normativa": {
+            "cita": "Orden de 20 de febrero de 2020, disposición adicional tercera",
+            "bloque": "",
+            "clave": "",
+            "url": ""
+          }
+        }
       ]
     },
     {
@@ -2366,7 +5792,37 @@ window.__COPIA__["datos-biblioteca/biblioteca-centro.json"] = {
       "responsable": "Dirección General",
       "requisitos": [],
       "soloInformativo": true,
-      "normativa": []
+      "normativa": [],
+      "guion": [
+        {
+          "id": "g1",
+          "texto": "Comprobar la comunidad autónoma de origen",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        },
+        {
+          "id": "g2",
+          "texto": "Preparar el escrito de remisión a la Dirección General",
+          "explicacion": "",
+          "accion": "generar",
+          "normativa": null
+        },
+        {
+          "id": "g3",
+          "texto": "Remitir la solicitud a la Dirección General",
+          "explicacion": "",
+          "accion": "comunicar",
+          "normativa": null
+        },
+        {
+          "id": "g4",
+          "texto": "Anotar en el asunto la fecha de remisión",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        }
+      ]
     },
     {
       "id": "b100",
@@ -2376,7 +5832,37 @@ window.__COPIA__["datos-biblioteca/biblioteca-centro.json"] = {
       "responsable": "Secretaría",
       "requisitos": [],
       "soloInformativo": false,
-      "normativa": []
+      "normativa": [],
+      "guion": [
+        {
+          "id": "g1",
+          "texto": "Recibir la resolución",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        },
+        {
+          "id": "g2",
+          "texto": "Añadir la resolución al asunto",
+          "explicacion": "",
+          "accion": "anadir",
+          "normativa": null
+        },
+        {
+          "id": "g3",
+          "texto": "Comunicarla a la persona interesada",
+          "explicacion": "",
+          "accion": "comunicar",
+          "normativa": null
+        },
+        {
+          "id": "g4",
+          "texto": "Registrar la salida si se notifica en papel",
+          "explicacion": "",
+          "accion": "registrar",
+          "normativa": null
+        }
+      ]
     },
     {
       "id": "b101",
@@ -2393,6 +5879,41 @@ window.__COPIA__["datos-biblioteca/biblioteca-centro.json"] = {
           "bloque": "convivencia",
           "clave": "ROC-77.d)",
           "url": ""
+        }
+      ],
+      "guion": [
+        {
+          "id": "g1",
+          "texto": "Registrar la entrada de la solicitud con su fecha",
+          "explicacion": "",
+          "accion": "registrar",
+          "normativa": null
+        },
+        {
+          "id": "g2",
+          "texto": "Comprobar que la pide el alumnado mayor de edad o quien ejerza la tutela legal",
+          "explicacion": "",
+          "accion": "",
+          "normativa": {
+            "cita": "Decreto 327/2010, art. 77.d)",
+            "bloque": "",
+            "clave": "",
+            "url": ""
+          }
+        },
+        {
+          "id": "g3",
+          "texto": "Comprobar el documento de identidad de quien la pide",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        },
+        {
+          "id": "g4",
+          "texto": "Añadir la solicitud al asunto",
+          "explicacion": "",
+          "accion": "anadir",
+          "normativa": null
         }
       ]
     },
@@ -2419,6 +5940,46 @@ window.__COPIA__["datos-biblioteca/biblioteca-centro.json"] = {
           "clave": "OESO-20.1",
           "url": ""
         }
+      ],
+      "guion": [
+        {
+          "id": "g1",
+          "texto": "Comprobar en Séneca los datos académicos del alumno o alumna",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        },
+        {
+          "id": "g2",
+          "texto": "Elegir el modelo que corresponde",
+          "explicacion": "Anexo X en ESO, Anexo VIII en Bachillerato.",
+          "accion": "",
+          "normativa": {
+            "cita": "Orden de evaluación de ESO, art. 20.1",
+            "bloque": "",
+            "clave": "",
+            "url": ""
+          }
+        },
+        {
+          "id": "g3",
+          "texto": "Generar la certificación de estudios cursados",
+          "explicacion": "",
+          "accion": "generar",
+          "normativa": {
+            "cita": "Orden de evaluación de ESO, art. 20.1",
+            "bloque": "",
+            "clave": "",
+            "url": ""
+          }
+        },
+        {
+          "id": "g4",
+          "texto": "Revisar la certificación antes de pasarla a la firma",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        }
       ]
     },
     {
@@ -2429,7 +5990,30 @@ window.__COPIA__["datos-biblioteca/biblioteca-centro.json"] = {
       "responsable": "Secretaría firma, Dirección visa",
       "requisitos": [],
       "soloInformativo": false,
-      "normativa": []
+      "normativa": [],
+      "guion": [
+        {
+          "id": "g1",
+          "texto": "Firmar la certificación por la secretaría",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        },
+        {
+          "id": "g2",
+          "texto": "Pasarla a la dirección para el visto bueno",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        },
+        {
+          "id": "g3",
+          "texto": "Sellarla",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        }
+      ]
     },
     {
       "id": "b104",
@@ -2439,7 +6023,37 @@ window.__COPIA__["datos-biblioteca/biblioteca-centro.json"] = {
       "responsable": "Secretaría",
       "requisitos": [],
       "soloInformativo": false,
-      "normativa": []
+      "normativa": [],
+      "guion": [
+        {
+          "id": "g1",
+          "texto": "Avisar a la persona interesada de que está lista",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        },
+        {
+          "id": "g2",
+          "texto": "Entregarla y recoger la firma del recibí",
+          "explicacion": "O enviarla por el medio que haya pedido.",
+          "accion": "",
+          "normativa": null
+        },
+        {
+          "id": "g3",
+          "texto": "Registrar la salida en Séneca",
+          "explicacion": "",
+          "accion": "registrar",
+          "normativa": null
+        },
+        {
+          "id": "g4",
+          "texto": "Añadir al asunto el recibí o el justificante de envío",
+          "explicacion": "",
+          "accion": "anadir",
+          "normativa": null
+        }
+      ]
     },
     {
       "id": "b105",
@@ -2456,6 +6070,34 @@ window.__COPIA__["datos-biblioteca/biblioteca-centro.json"] = {
           "bloque": "matricula",
           "clave": "IB-Octava",
           "url": ""
+        }
+      ],
+      "guion": [
+        {
+          "id": "g1",
+          "texto": "Comprobar que todas las matrículas están grabadas y revisadas",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        },
+        {
+          "id": "g2",
+          "texto": "Certificar las matrículas en Séneca con la firma digital de la dirección",
+          "explicacion": "Del 1 al 14 de julio y del 1 al 9 de septiembre.",
+          "accion": "",
+          "normativa": {
+            "cita": "Instrucciones de 23 de junio de 2026",
+            "bloque": "",
+            "clave": "",
+            "url": ""
+          }
+        },
+        {
+          "id": "g3",
+          "texto": "Anotar en el asunto la fecha de certificación",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
         }
       ]
     },
@@ -2475,6 +6117,46 @@ window.__COPIA__["datos-biblioteca/biblioteca-centro.json"] = {
           "clave": "IB-Novena",
           "url": ""
         }
+      ],
+      "guion": [
+        {
+          "id": "g1",
+          "texto": "Abrir la pantalla \"Religión en Centros de Secundaria\" de Séneca",
+          "explicacion": "",
+          "accion": "",
+          "normativa": {
+            "cita": "Instrucciones de 23 de junio de 2026",
+            "bloque": "",
+            "clave": "",
+            "url": ""
+          }
+        },
+        {
+          "id": "g2",
+          "texto": "Comprobar el alumnado matriculado en Religión",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        },
+        {
+          "id": "g3",
+          "texto": "Certificarlo con la firma digital de la dirección",
+          "explicacion": "Del 14 al 16 de julio.",
+          "accion": "",
+          "normativa": {
+            "cita": "Instrucciones de 23 de junio de 2026",
+            "bloque": "",
+            "clave": "",
+            "url": ""
+          }
+        },
+        {
+          "id": "g4",
+          "texto": "Anotar en el asunto la fecha de certificación",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        }
       ]
     },
     {
@@ -2492,6 +6174,46 @@ window.__COPIA__["datos-biblioteca/biblioteca-centro.json"] = {
           "bloque": "matricula",
           "clave": "RES22-Primero",
           "url": ""
+        }
+      ],
+      "guion": [
+        {
+          "id": "g1",
+          "texto": "Localizar el modelo normalizado del procedimiento 2188 en la Secretaría Virtual",
+          "explicacion": "",
+          "accion": "",
+          "normativa": {
+            "cita": "Resolución de 2022, modelo de solicitud de título",
+            "bloque": "",
+            "clave": "",
+            "url": ""
+          }
+        },
+        {
+          "id": "g2",
+          "texto": "Entregar el modelo a la persona interesada o indicarle dónde está",
+          "explicacion": "",
+          "accion": "",
+          "normativa": {
+            "cita": "Resolución de 2022, modelo de solicitud de título",
+            "bloque": "",
+            "clave": "",
+            "url": ""
+          }
+        },
+        {
+          "id": "g3",
+          "texto": "Explicarle que antes tiene que pagar la tasa",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        },
+        {
+          "id": "g4",
+          "texto": "Registrar la entrada de la solicitud cuando la presente",
+          "explicacion": "",
+          "accion": "registrar",
+          "normativa": null
         }
       ]
     },
@@ -2511,6 +6233,51 @@ window.__COPIA__["datos-biblioteca/biblioteca-centro.json"] = {
           "clave": "RD1850-3.1",
           "url": ""
         }
+      ],
+      "guion": [
+        {
+          "id": "g1",
+          "texto": "Indicar a la persona interesada que pague la tasa con el modelo 046",
+          "explicacion": "",
+          "accion": "",
+          "normativa": {
+            "cita": "Real Decreto 1850/2009, art. 3.1",
+            "bloque": "",
+            "clave": "",
+            "url": ""
+          }
+        },
+        {
+          "id": "g2",
+          "texto": "Recoger el justificante de pago con su número de validación",
+          "explicacion": "",
+          "accion": "",
+          "normativa": {
+            "cita": "Real Decreto 1850/2009, art. 3.1",
+            "bloque": "",
+            "clave": "",
+            "url": ""
+          }
+        },
+        {
+          "id": "g3",
+          "texto": "Comprobar que el importe es el que corresponde",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        },
+        {
+          "id": "g4",
+          "texto": "Añadir el justificante de pago al asunto",
+          "explicacion": "Sin pago no se tramita.",
+          "accion": "anadir",
+          "normativa": {
+            "cita": "Real Decreto 1850/2009, art. 3.1",
+            "bloque": "",
+            "clave": "",
+            "url": ""
+          }
+        }
       ]
     },
     {
@@ -2528,6 +6295,51 @@ window.__COPIA__["datos-biblioteca/biblioteca-centro.json"] = {
           "bloque": "matricula",
           "clave": "TASA-119",
           "url": ""
+        }
+      ],
+      "guion": [
+        {
+          "id": "g1",
+          "texto": "Preguntar si alega exención o bonificación",
+          "explicacion": "",
+          "accion": "",
+          "normativa": {
+            "cita": "Ley 10/2021, art. 119",
+            "bloque": "",
+            "clave": "",
+            "url": ""
+          }
+        },
+        {
+          "id": "g2",
+          "texto": "Comprobar el documento que la acredita",
+          "explicacion": "Familia numerosa, discapacidad, víctima, ingreso mínimo vital u otra.",
+          "accion": "",
+          "normativa": {
+            "cita": "Ley 10/2021, art. 119",
+            "bloque": "",
+            "clave": "",
+            "url": ""
+          }
+        },
+        {
+          "id": "g3",
+          "texto": "Aplicar la bonificación que corresponda",
+          "explicacion": "50 % en familia numerosa general, 10 % por medios electrónicos.",
+          "accion": "",
+          "normativa": {
+            "cita": "Ley 10/2021, art. 119",
+            "bloque": "",
+            "clave": "",
+            "url": ""
+          }
+        },
+        {
+          "id": "g4",
+          "texto": "Añadir el documento acreditativo al asunto",
+          "explicacion": "",
+          "accion": "anadir",
+          "normativa": null
         }
       ]
     },
@@ -2547,6 +6359,51 @@ window.__COPIA__["datos-biblioteca/biblioteca-centro.json"] = {
           "clave": "RD1850-3.2",
           "url": ""
         }
+      ],
+      "guion": [
+        {
+          "id": "g1",
+          "texto": "Comprobar en Séneca que el alumno o alumna cumple los requisitos del título",
+          "explicacion": "",
+          "accion": "",
+          "normativa": {
+            "cita": "Real Decreto 1850/2009, art. 3.2",
+            "bloque": "",
+            "clave": "",
+            "url": ""
+          }
+        },
+        {
+          "id": "g2",
+          "texto": "Comprobar que la tasa está abonada o exenta",
+          "explicacion": "",
+          "accion": "",
+          "normativa": {
+            "cita": "Real Decreto 1850/2009, art. 3.2",
+            "bloque": "",
+            "clave": "",
+            "url": ""
+          }
+        },
+        {
+          "id": "g3",
+          "texto": "Grabar la propuesta de expedición en Séneca",
+          "explicacion": "",
+          "accion": "",
+          "normativa": {
+            "cita": "Real Decreto 1850/2009, art. 3.2",
+            "bloque": "",
+            "clave": "",
+            "url": ""
+          }
+        },
+        {
+          "id": "g4",
+          "texto": "Anotar en el asunto la fecha de la propuesta",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        }
       ]
     },
     {
@@ -2565,6 +6422,46 @@ window.__COPIA__["datos-biblioteca/biblioteca-centro.json"] = {
           "clave": "RD1850-3.4",
           "url": ""
         }
+      ],
+      "guion": [
+        {
+          "id": "g1",
+          "texto": "Comprobar que la persona interesada la ha pedido",
+          "explicacion": "No se expide de oficio.",
+          "accion": "",
+          "normativa": {
+            "cita": "Real Decreto 1850/2009, art. 3.4",
+            "bloque": "",
+            "clave": "",
+            "url": ""
+          }
+        },
+        {
+          "id": "g2",
+          "texto": "Generar la certificación supletoria provisional",
+          "explicacion": "",
+          "accion": "generar",
+          "normativa": {
+            "cita": "Real Decreto 1850/2009, art. 3.4",
+            "bloque": "",
+            "clave": "",
+            "url": ""
+          }
+        },
+        {
+          "id": "g3",
+          "texto": "Recoger la firma de la secretaría y el visto bueno de la dirección",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        },
+        {
+          "id": "g4",
+          "texto": "Entregarla y recoger el recibí",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        }
       ]
     },
     {
@@ -2575,7 +6472,37 @@ window.__COPIA__["datos-biblioteca/biblioteca-centro.json"] = {
       "responsable": "Secretaría",
       "requisitos": [],
       "soloInformativo": false,
-      "normativa": []
+      "normativa": [],
+      "guion": [
+        {
+          "id": "g1",
+          "texto": "Avisar a la persona interesada de que el título ha llegado",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        },
+        {
+          "id": "g2",
+          "texto": "Comprobar su identidad al entregarlo",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        },
+        {
+          "id": "g3",
+          "texto": "Anotar la entrega en el libro-registro de títulos",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        },
+        {
+          "id": "g4",
+          "texto": "Recoger la firma del recibí",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        }
+      ]
     },
     {
       "id": "b113",
@@ -2592,6 +6519,39 @@ window.__COPIA__["datos-biblioteca/biblioteca-centro.json"] = {
           "bloque": "evaluacion",
           "clave": "OESO-27",
           "url": ""
+        }
+      ],
+      "guion": [
+        {
+          "id": "g1",
+          "texto": "Informar a la familia de que puede pedir aclaraciones a la tutoría o al profesorado",
+          "explicacion": "",
+          "accion": "",
+          "normativa": {
+            "cita": "Orden de evaluación de ESO, art. 27",
+            "bloque": "",
+            "clave": "",
+            "url": ""
+          }
+        },
+        {
+          "id": "g2",
+          "texto": "Anotar la fecha y el resultado de las aclaraciones",
+          "explicacion": "Es paso obligatorio antes de la revisión.",
+          "accion": "",
+          "normativa": {
+            "cita": "Orden de evaluación de ESO, art. 27",
+            "bloque": "",
+            "clave": "",
+            "url": ""
+          }
+        },
+        {
+          "id": "g3",
+          "texto": "Añadir al asunto la constancia de las aclaraciones",
+          "explicacion": "",
+          "accion": "anadir",
+          "normativa": null
         }
       ]
     },
@@ -2631,6 +6591,46 @@ window.__COPIA__["datos-biblioteca/biblioteca-centro.json"] = {
           "clave": "OBAC-29.2",
           "url": ""
         }
+      ],
+      "guion": [
+        {
+          "id": "g1",
+          "texto": "Comprobar que la solicitud llega en los 2 días hábiles",
+          "explicacion": "",
+          "accion": "",
+          "normativa": {
+            "cita": "Orden de evaluación de ESO, art. 28.2",
+            "bloque": "",
+            "clave": "",
+            "url": ""
+          }
+        },
+        {
+          "id": "g2",
+          "texto": "Registrar la entrada con la fecha exacta",
+          "explicacion": "",
+          "accion": "registrar",
+          "normativa": {
+            "cita": "Orden de evaluación de Bachillerato, art. 29.2",
+            "bloque": "",
+            "clave": "",
+            "url": ""
+          }
+        },
+        {
+          "id": "g3",
+          "texto": "Comprobar que la solicitud trae las alegaciones por escrito",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        },
+        {
+          "id": "g4",
+          "texto": "Añadir la solicitud al asunto",
+          "explicacion": "",
+          "accion": "anadir",
+          "normativa": null
+        }
       ]
     },
     {
@@ -2648,6 +6648,34 @@ window.__COPIA__["datos-biblioteca/biblioteca-centro.json"] = {
           "bloque": "evaluacion",
           "clave": "OESO-28.3",
           "url": ""
+        }
+      ],
+      "guion": [
+        {
+          "id": "g1",
+          "texto": "Pasar la solicitud a Jefatura de Estudios en el mismo día",
+          "explicacion": "",
+          "accion": "comunicar",
+          "normativa": {
+            "cita": "Orden de evaluación de ESO, art. 28.3",
+            "bloque": "",
+            "clave": "",
+            "url": ""
+          }
+        },
+        {
+          "id": "g2",
+          "texto": "Avisar a la jefatura del departamento afectado",
+          "explicacion": "",
+          "accion": "comunicar",
+          "normativa": null
+        },
+        {
+          "id": "g3",
+          "texto": "Anotar en el asunto la fecha y la hora del traslado",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
         }
       ]
     },
@@ -2667,6 +6695,39 @@ window.__COPIA__["datos-biblioteca/biblioteca-centro.json"] = {
           "clave": "OESO-28.4",
           "url": ""
         }
+      ],
+      "guion": [
+        {
+          "id": "g1",
+          "texto": "Pasar la solicitud al departamento que corresponde",
+          "explicacion": "",
+          "accion": "comunicar",
+          "normativa": {
+            "cita": "Orden de evaluación de ESO, art. 28.4",
+            "bloque": "",
+            "clave": "",
+            "url": ""
+          }
+        },
+        {
+          "id": "g2",
+          "texto": "Recordar que el informe vence el primer día hábil tras el fin del plazo",
+          "explicacion": "",
+          "accion": "",
+          "normativa": {
+            "cita": "Orden de evaluación de ESO, art. 28.4",
+            "bloque": "",
+            "clave": "",
+            "url": ""
+          }
+        },
+        {
+          "id": "g3",
+          "texto": "Añadir el informe del departamento al asunto",
+          "explicacion": "",
+          "accion": "anadir",
+          "normativa": null
+        }
       ]
     },
     {
@@ -2684,6 +6745,46 @@ window.__COPIA__["datos-biblioteca/biblioteca-centro.json"] = {
           "bloque": "evaluacion",
           "clave": "OESO-28.7",
           "url": ""
+        }
+      ],
+      "guion": [
+        {
+          "id": "g1",
+          "texto": "Comprobar si se discute la promoción o la titulación",
+          "explicacion": "",
+          "accion": "",
+          "normativa": {
+            "cita": "Orden de evaluación de ESO, art. 28.7",
+            "bloque": "",
+            "clave": "",
+            "url": ""
+          }
+        },
+        {
+          "id": "g2",
+          "texto": "Convocar al equipo docente a la sesión extraordinaria",
+          "explicacion": "2 días hábiles desde el fin del plazo.",
+          "accion": "comunicar",
+          "normativa": {
+            "cita": "Orden de evaluación de ESO, art. 28.7",
+            "bloque": "",
+            "clave": "",
+            "url": ""
+          }
+        },
+        {
+          "id": "g3",
+          "texto": "Celebrar la sesión y levantar acta",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        },
+        {
+          "id": "g4",
+          "texto": "Añadir el acta al asunto",
+          "explicacion": "",
+          "accion": "anadir",
+          "normativa": null
         }
       ]
     },
@@ -2703,6 +6804,53 @@ window.__COPIA__["datos-biblioteca/biblioteca-centro.json"] = {
           "clave": "OESO-28.9",
           "url": ""
         }
+      ],
+      "guion": [
+        {
+          "id": "g1",
+          "texto": "Generar la resolución del centro sobre la reclamación",
+          "explicacion": "",
+          "accion": "generar",
+          "normativa": {
+            "cita": "Orden de evaluación de ESO, art. 28.9",
+            "bloque": "",
+            "clave": "",
+            "url": ""
+          }
+        },
+        {
+          "id": "g2",
+          "texto": "Recoger la firma de Jefatura de Estudios",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        },
+        {
+          "id": "g3",
+          "texto": "Registrar la salida en Séneca",
+          "explicacion": "",
+          "accion": "registrar",
+          "normativa": null
+        },
+        {
+          "id": "g4",
+          "texto": "Comunicarla a la familia",
+          "explicacion": "Máximo 4 días hábiles desde la entrada.",
+          "accion": "comunicar",
+          "normativa": {
+            "cita": "Orden de evaluación de ESO, art. 28.9",
+            "bloque": "",
+            "clave": "",
+            "url": ""
+          }
+        },
+        {
+          "id": "g5",
+          "texto": "Añadir el justificante de la comunicación al asunto",
+          "explicacion": "",
+          "accion": "anadir",
+          "normativa": null
+        }
       ]
     },
     {
@@ -2721,6 +6869,51 @@ window.__COPIA__["datos-biblioteca/biblioteca-centro.json"] = {
           "clave": "OESO-28.10",
           "url": ""
         }
+      ],
+      "guion": [
+        {
+          "id": "g1",
+          "texto": "Comprobar si la calificación ha cambiado",
+          "explicacion": "",
+          "accion": "",
+          "normativa": {
+            "cita": "Orden de evaluación de ESO, art. 28.10",
+            "bloque": "",
+            "clave": "",
+            "url": ""
+          }
+        },
+        {
+          "id": "g2",
+          "texto": "Generar la diligencia para el acta y, si procede, el expediente y el historial",
+          "explicacion": "",
+          "accion": "generar",
+          "normativa": {
+            "cita": "Orden de evaluación de ESO, art. 28.10",
+            "bloque": "",
+            "clave": "",
+            "url": ""
+          }
+        },
+        {
+          "id": "g3",
+          "texto": "Firmarla por la secretaría y pasarla a la dirección para el visto bueno",
+          "explicacion": "",
+          "accion": "",
+          "normativa": {
+            "cita": "Orden de evaluación de ESO, art. 28.10",
+            "bloque": "",
+            "clave": "",
+            "url": ""
+          }
+        },
+        {
+          "id": "g4",
+          "texto": "Modificar la calificación en Séneca",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        }
       ]
     },
     {
@@ -2738,6 +6931,39 @@ window.__COPIA__["datos-biblioteca/biblioteca-centro.json"] = {
           "bloque": "evaluacion",
           "clave": "OESO-29.2",
           "url": ""
+        }
+      ],
+      "guion": [
+        {
+          "id": "g1",
+          "texto": "Comprobar que llega en los 2 días hábiles desde la comunicación del centro",
+          "explicacion": "",
+          "accion": "",
+          "normativa": {
+            "cita": "Orden de evaluación de ESO, art. 29.2",
+            "bloque": "",
+            "clave": "",
+            "url": ""
+          }
+        },
+        {
+          "id": "g2",
+          "texto": "Registrar la entrada de la reclamación con su fecha",
+          "explicacion": "",
+          "accion": "registrar",
+          "normativa": {
+            "cita": "Orden de evaluación de ESO, art. 29.2",
+            "bloque": "",
+            "clave": "",
+            "url": ""
+          }
+        },
+        {
+          "id": "g3",
+          "texto": "Añadir la reclamación al asunto",
+          "explicacion": "",
+          "accion": "anadir",
+          "normativa": null
         }
       ]
     },
@@ -2776,6 +7002,58 @@ window.__COPIA__["datos-biblioteca/biblioteca-centro.json"] = {
           "clave": "OESO-29.2",
           "url": ""
         }
+      ],
+      "guion": [
+        {
+          "id": "g1",
+          "texto": "Reunir el informe del departamento y el acta de la sesión extraordinaria",
+          "explicacion": "",
+          "accion": "",
+          "normativa": {
+            "cita": "Orden de evaluación de ESO, art. 29.2",
+            "bloque": "",
+            "clave": "",
+            "url": ""
+          }
+        },
+        {
+          "id": "g2",
+          "texto": "Añadir los datos del proceso de evaluación",
+          "explicacion": "",
+          "accion": "",
+          "normativa": {
+            "cita": "Orden de evaluación de ESO, art. 29.2",
+            "bloque": "",
+            "clave": "",
+            "url": ""
+          }
+        },
+        {
+          "id": "g3",
+          "texto": "Generar el escrito de remisión a la Delegación Territorial",
+          "explicacion": "",
+          "accion": "generar",
+          "normativa": null
+        },
+        {
+          "id": "g4",
+          "texto": "Registrar la salida en Séneca",
+          "explicacion": "",
+          "accion": "registrar",
+          "normativa": null
+        },
+        {
+          "id": "g5",
+          "texto": "Remitir el expediente a la Delegación",
+          "explicacion": "Máximo 3 días hábiles.",
+          "accion": "comunicar",
+          "normativa": {
+            "cita": "Orden de evaluación de ESO, art. 29.2",
+            "bloque": "",
+            "clave": "",
+            "url": ""
+          }
+        }
       ]
     },
     {
@@ -2793,6 +7071,34 @@ window.__COPIA__["datos-biblioteca/biblioteca-centro.json"] = {
           "bloque": "evaluacion",
           "clave": "OESO-29.5",
           "url": ""
+        }
+      ],
+      "guion": [
+        {
+          "id": "g1",
+          "texto": "Anotar en el asunto la fecha de remisión a la Delegación",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        },
+        {
+          "id": "g2",
+          "texto": "Esperar el informe de la Comisión Técnica Provincial",
+          "explicacion": "15 días hábiles desde su constitución.",
+          "accion": "",
+          "normativa": {
+            "cita": "Orden de evaluación de ESO, art. 29.5",
+            "bloque": "",
+            "clave": "",
+            "url": ""
+          }
+        },
+        {
+          "id": "g3",
+          "texto": "Atender lo que pida la Comisión, si pide algo",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
         }
       ]
     },
@@ -2812,6 +7118,46 @@ window.__COPIA__["datos-biblioteca/biblioteca-centro.json"] = {
           "clave": "OESO-29.6",
           "url": ""
         }
+      ],
+      "guion": [
+        {
+          "id": "g1",
+          "texto": "Recibir la resolución del Delegado",
+          "explicacion": "",
+          "accion": "",
+          "normativa": {
+            "cita": "Orden de evaluación de ESO, art. 29.6",
+            "bloque": "",
+            "clave": "",
+            "url": ""
+          }
+        },
+        {
+          "id": "g2",
+          "texto": "Registrar la entrada en Séneca",
+          "explicacion": "",
+          "accion": "registrar",
+          "normativa": null
+        },
+        {
+          "id": "g3",
+          "texto": "Añadir la resolución al asunto",
+          "explicacion": "",
+          "accion": "anadir",
+          "normativa": null
+        },
+        {
+          "id": "g4",
+          "texto": "Comunicarla a la familia",
+          "explicacion": "Pone fin a la vía administrativa.",
+          "accion": "comunicar",
+          "normativa": {
+            "cita": "Orden de evaluación de ESO, art. 29.6",
+            "bloque": "",
+            "clave": "",
+            "url": ""
+          }
+        }
       ]
     },
     {
@@ -2830,6 +7176,63 @@ window.__COPIA__["datos-biblioteca/biblioteca-centro.json"] = {
           "clave": "OESO-29.8",
           "url": ""
         }
+      ],
+      "guion": [
+        {
+          "id": "g1",
+          "texto": "Comprobar si la resolución estima la reclamación",
+          "explicacion": "",
+          "accion": "",
+          "normativa": {
+            "cita": "Orden de evaluación de ESO, art. 29.8",
+            "bloque": "",
+            "clave": "",
+            "url": ""
+          }
+        },
+        {
+          "id": "g2",
+          "texto": "Generar la diligencia de corrección",
+          "explicacion": "",
+          "accion": "generar",
+          "normativa": {
+            "cita": "Orden de evaluación de ESO, art. 29.8",
+            "bloque": "",
+            "clave": "",
+            "url": ""
+          }
+        },
+        {
+          "id": "g3",
+          "texto": "Firmarla por la secretaría y pasarla a la dirección para el visto bueno",
+          "explicacion": "",
+          "accion": "",
+          "normativa": {
+            "cita": "Orden de evaluación de ESO, art. 29.8",
+            "bloque": "",
+            "clave": "",
+            "url": ""
+          }
+        },
+        {
+          "id": "g4",
+          "texto": "Corregir la calificación en Séneca",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        },
+        {
+          "id": "g5",
+          "texto": "Si cambia la titulación, revisar la propuesta de título y la nota media",
+          "explicacion": "",
+          "accion": "",
+          "normativa": {
+            "cita": "Orden de evaluación de ESO, art. 29.8",
+            "bloque": "",
+            "clave": "",
+            "url": ""
+          }
+        }
       ]
     },
     {
@@ -2840,7 +7243,37 @@ window.__COPIA__["datos-biblioteca/biblioteca-centro.json"] = {
       "responsable": "Tutoría",
       "requisitos": [],
       "soloInformativo": true,
-      "normativa": []
+      "normativa": [],
+      "guion": [
+        {
+          "id": "g1",
+          "texto": "Citar a la familia con la tutoría y el profesorado de la materia",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        },
+        {
+          "id": "g2",
+          "texto": "Celebrar la entrevista previa",
+          "explicacion": "Requisito del centro para la copia de un examen.",
+          "accion": "",
+          "normativa": null
+        },
+        {
+          "id": "g3",
+          "texto": "Dejar constancia de la entrevista",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        },
+        {
+          "id": "g4",
+          "texto": "Añadir la constancia al asunto",
+          "explicacion": "",
+          "accion": "anadir",
+          "normativa": null
+        }
+      ]
     },
     {
       "id": "b126",
@@ -2850,7 +7283,37 @@ window.__COPIA__["datos-biblioteca/biblioteca-centro.json"] = {
       "responsable": "Secretaría",
       "requisitos": [],
       "soloInformativo": false,
-      "normativa": []
+      "normativa": [],
+      "guion": [
+        {
+          "id": "g1",
+          "texto": "Pedir el documento al profesorado o al departamento",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        },
+        {
+          "id": "g2",
+          "texto": "Hacer la copia",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        },
+        {
+          "id": "g3",
+          "texto": "Añadir la leyenda de prohibición de difusión a terceras personas",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        },
+        {
+          "id": "g4",
+          "texto": "Añadir una copia al asunto",
+          "explicacion": "",
+          "accion": "anadir",
+          "normativa": null
+        }
+      ]
     },
     {
       "id": "b127",
@@ -2860,7 +7323,37 @@ window.__COPIA__["datos-biblioteca/biblioteca-centro.json"] = {
       "responsable": "Jefatura de Estudios",
       "requisitos": [],
       "soloInformativo": false,
-      "normativa": []
+      "normativa": [],
+      "guion": [
+        {
+          "id": "g1",
+          "texto": "Avisar a la persona interesada de que la copia está lista",
+          "explicacion": "7 días hábiles, plazo del Plan de Centro.",
+          "accion": "",
+          "normativa": null
+        },
+        {
+          "id": "g2",
+          "texto": "Entregarla en mano",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        },
+        {
+          "id": "g3",
+          "texto": "Recoger la firma del recibí",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        },
+        {
+          "id": "g4",
+          "texto": "Añadir el recibí al asunto",
+          "explicacion": "",
+          "accion": "anadir",
+          "normativa": null
+        }
+      ]
     },
     {
       "id": "b128",
@@ -2870,7 +7363,37 @@ window.__COPIA__["datos-biblioteca/biblioteca-centro.json"] = {
       "responsable": "Secretaría",
       "requisitos": [],
       "soloInformativo": false,
-      "normativa": []
+      "normativa": [],
+      "guion": [
+        {
+          "id": "g1",
+          "texto": "Añadir la convocatoria al asunto",
+          "explicacion": "",
+          "accion": "anadir",
+          "normativa": null
+        },
+        {
+          "id": "g2",
+          "texto": "Anotar los plazos que fija la convocatoria",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        },
+        {
+          "id": "g3",
+          "texto": "Publicarla en el tablón y en la web",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        },
+        {
+          "id": "g4",
+          "texto": "Enviar el aviso a las familias por iPasen",
+          "explicacion": "",
+          "accion": "comunicar",
+          "normativa": null
+        }
+      ]
     },
     {
       "id": "b129",
@@ -2893,7 +7416,37 @@ window.__COPIA__["datos-biblioteca/biblioteca-centro.json"] = {
         }
       ],
       "soloInformativo": false,
-      "normativa": []
+      "normativa": [],
+      "guion": [
+        {
+          "id": "g1",
+          "texto": "Recoger las solicitudes dentro del plazo",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        },
+        {
+          "id": "g2",
+          "texto": "Comprobar que traen la documentación de la convocatoria",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        },
+        {
+          "id": "g3",
+          "texto": "Registrar la entrada de cada solicitud",
+          "explicacion": "",
+          "accion": "registrar",
+          "normativa": null
+        },
+        {
+          "id": "g4",
+          "texto": "Añadir las solicitudes al asunto",
+          "explicacion": "",
+          "accion": "anadir",
+          "normativa": null
+        }
+      ]
     },
     {
       "id": "b130",
@@ -2903,7 +7456,37 @@ window.__COPIA__["datos-biblioteca/biblioteca-centro.json"] = {
       "responsable": "Secretaría",
       "requisitos": [],
       "soloInformativo": false,
-      "normativa": []
+      "normativa": [],
+      "guion": [
+        {
+          "id": "g1",
+          "texto": "Grabar las solicitudes en la plataforma de la convocatoria",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        },
+        {
+          "id": "g2",
+          "texto": "Revisar lo grabado",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        },
+        {
+          "id": "g3",
+          "texto": "Registrar la salida de la remisión",
+          "explicacion": "",
+          "accion": "registrar",
+          "normativa": null
+        },
+        {
+          "id": "g4",
+          "texto": "Anotar la fecha de remisión en el asunto",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        }
+      ]
     },
     {
       "id": "b131",
@@ -2913,7 +7496,37 @@ window.__COPIA__["datos-biblioteca/biblioteca-centro.json"] = {
       "responsable": "Secretaría",
       "requisitos": [],
       "soloInformativo": false,
-      "normativa": []
+      "normativa": [],
+      "guion": [
+        {
+          "id": "g1",
+          "texto": "Comprobar en Séneca la matrícula y los datos académicos",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        },
+        {
+          "id": "g2",
+          "texto": "Generar el certificado de matrícula y datos académicos",
+          "explicacion": "",
+          "accion": "generar",
+          "normativa": null
+        },
+        {
+          "id": "g3",
+          "texto": "Firmarlo por la secretaría con el visto bueno de la dirección",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        },
+        {
+          "id": "g4",
+          "texto": "Enviarlo por el medio que pida la convocatoria",
+          "explicacion": "",
+          "accion": "comunicar",
+          "normativa": null
+        }
+      ]
     },
     {
       "id": "b132",
@@ -2923,7 +7536,37 @@ window.__COPIA__["datos-biblioteca/biblioteca-centro.json"] = {
       "responsable": "Secretaría",
       "requisitos": [],
       "soloInformativo": false,
-      "normativa": []
+      "normativa": [],
+      "guion": [
+        {
+          "id": "g1",
+          "texto": "Recibir la resolución de la convocatoria",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        },
+        {
+          "id": "g2",
+          "texto": "Añadir la resolución al asunto",
+          "explicacion": "",
+          "accion": "anadir",
+          "normativa": null
+        },
+        {
+          "id": "g3",
+          "texto": "Comunicar la resolución a las familias",
+          "explicacion": "",
+          "accion": "comunicar",
+          "normativa": null
+        },
+        {
+          "id": "g4",
+          "texto": "Publicarla en el tablón, si procede",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        }
+      ]
     },
     {
       "id": "b133",
@@ -2933,7 +7576,30 @@ window.__COPIA__["datos-biblioteca/biblioteca-centro.json"] = {
       "responsable": "Secretaría",
       "requisitos": [],
       "soloInformativo": false,
-      "normativa": []
+      "normativa": [],
+      "guion": [
+        {
+          "id": "g1",
+          "texto": "Comprobar la edad y el curso del alumno o alumna",
+          "explicacion": "Según su edad y curso.",
+          "accion": "",
+          "normativa": null
+        },
+        {
+          "id": "g2",
+          "texto": "Comprobar que la cuota está abonada con la matrícula",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        },
+        {
+          "id": "g3",
+          "texto": "Anotar en el asunto si hay cobertura",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        }
+      ]
     },
     {
       "id": "b134",
@@ -2943,7 +7609,37 @@ window.__COPIA__["datos-biblioteca/biblioteca-centro.json"] = {
       "responsable": "Secretaría",
       "requisitos": [],
       "soloInformativo": false,
-      "normativa": []
+      "normativa": [],
+      "guion": [
+        {
+          "id": "g1",
+          "texto": "Hacer la lista de documentos que hacen falta",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        },
+        {
+          "id": "g2",
+          "texto": "Pedir lo que falte a quien lo tenga",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        },
+        {
+          "id": "g3",
+          "texto": "Añadir al asunto cada documento que llegue",
+          "explicacion": "",
+          "accion": "anadir",
+          "normativa": null
+        },
+        {
+          "id": "g4",
+          "texto": "Comprobar que no falta nada",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        }
+      ]
     },
     {
       "id": "b135",
@@ -2953,7 +7649,37 @@ window.__COPIA__["datos-biblioteca/biblioteca-centro.json"] = {
       "responsable": "Secretaría",
       "requisitos": [],
       "soloInformativo": false,
-      "normativa": []
+      "normativa": [],
+      "guion": [
+        {
+          "id": "g1",
+          "texto": "Rellenar el impreso de la prestación",
+          "explicacion": "",
+          "accion": "generar",
+          "normativa": null
+        },
+        {
+          "id": "g2",
+          "texto": "Recoger las firmas que hagan falta",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        },
+        {
+          "id": "g3",
+          "texto": "Presentarlo ante la entidad que corresponde",
+          "explicacion": "",
+          "accion": "comunicar",
+          "normativa": null
+        },
+        {
+          "id": "g4",
+          "texto": "Anotar en el asunto la fecha de presentación",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        }
+      ]
     },
     {
       "id": "b136",
@@ -2963,7 +7689,30 @@ window.__COPIA__["datos-biblioteca/biblioteca-centro.json"] = {
       "responsable": "Secretaría",
       "requisitos": [],
       "soloInformativo": false,
-      "normativa": []
+      "normativa": [],
+      "guion": [
+        {
+          "id": "g1",
+          "texto": "Generar la comunicación a la familia",
+          "explicacion": "",
+          "accion": "generar",
+          "normativa": null
+        },
+        {
+          "id": "g2",
+          "texto": "Enviarla por iPasen",
+          "explicacion": "",
+          "accion": "comunicar",
+          "normativa": null
+        },
+        {
+          "id": "g3",
+          "texto": "Registrar la salida si va en papel",
+          "explicacion": "",
+          "accion": "registrar",
+          "normativa": null
+        }
+      ]
     },
     {
       "id": "b137",
@@ -2973,7 +7722,30 @@ window.__COPIA__["datos-biblioteca/biblioteca-centro.json"] = {
       "responsable": "Jefatura de Estudios",
       "requisitos": [],
       "soloInformativo": false,
-      "normativa": []
+      "normativa": [],
+      "guion": [
+        {
+          "id": "g1",
+          "texto": "Atender al alumno o alumna y pedir asistencia sanitaria si hace falta",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        },
+        {
+          "id": "g2",
+          "texto": "Avisar a la familia el mismo día",
+          "explicacion": "",
+          "accion": "comunicar",
+          "normativa": null
+        },
+        {
+          "id": "g3",
+          "texto": "Anotar la hora, el lugar y quién lo atendió",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        }
+      ]
     },
     {
       "id": "b138",
@@ -3002,7 +7774,44 @@ window.__COPIA__["datos-biblioteca/biblioteca-centro.json"] = {
         }
       ],
       "soloInformativo": false,
-      "normativa": []
+      "normativa": [],
+      "guion": [
+        {
+          "id": "g1",
+          "texto": "Recoger el relato de los hechos",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        },
+        {
+          "id": "g2",
+          "texto": "Anotar los nombres de los testigos",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        },
+        {
+          "id": "g3",
+          "texto": "Añadir el parte médico, si lo hay",
+          "explicacion": "",
+          "accion": "anadir",
+          "normativa": null
+        },
+        {
+          "id": "g4",
+          "texto": "Generar el parte de accidente",
+          "explicacion": "",
+          "accion": "generar",
+          "normativa": null
+        },
+        {
+          "id": "g5",
+          "texto": "Recoger las firmas",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        }
+      ]
     },
     {
       "id": "b139",
@@ -3012,7 +7821,30 @@ window.__COPIA__["datos-biblioteca/biblioteca-centro.json"] = {
       "responsable": "Secretaría",
       "requisitos": [],
       "soloInformativo": false,
-      "normativa": []
+      "normativa": [],
+      "guion": [
+        {
+          "id": "g1",
+          "texto": "Comprobar si lo cubre el seguro escolar o la aseguradora",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        },
+        {
+          "id": "g2",
+          "texto": "Enviar el parte de accidente a quien corresponda",
+          "explicacion": "",
+          "accion": "comunicar",
+          "normativa": null
+        },
+        {
+          "id": "g3",
+          "texto": "Anotar en el asunto la fecha de envío y la referencia",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        }
+      ]
     },
     {
       "id": "b140",
@@ -3022,7 +7854,37 @@ window.__COPIA__["datos-biblioteca/biblioteca-centro.json"] = {
       "responsable": "Dirección",
       "requisitos": [],
       "soloInformativo": true,
-      "normativa": []
+      "normativa": [],
+      "guion": [
+        {
+          "id": "g1",
+          "texto": "Valorar la gravedad con la dirección",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        },
+        {
+          "id": "g2",
+          "texto": "Generar el informe al Servicio de Inspección",
+          "explicacion": "",
+          "accion": "generar",
+          "normativa": null
+        },
+        {
+          "id": "g3",
+          "texto": "Registrar la salida en Séneca",
+          "explicacion": "",
+          "accion": "registrar",
+          "normativa": null
+        },
+        {
+          "id": "g4",
+          "texto": "Enviarlo al Servicio de Inspección",
+          "explicacion": "",
+          "accion": "comunicar",
+          "normativa": null
+        }
+      ]
     },
     {
       "id": "b141",
@@ -3032,7 +7894,30 @@ window.__COPIA__["datos-biblioteca/biblioteca-centro.json"] = {
       "responsable": "Secretaría",
       "requisitos": [],
       "soloInformativo": false,
-      "normativa": []
+      "normativa": [],
+      "guion": [
+        {
+          "id": "g1",
+          "texto": "Comprobar que el asunto tiene todos sus documentos",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        },
+        {
+          "id": "g2",
+          "texto": "Guardar el papel en la carpeta que corresponde",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        },
+        {
+          "id": "g3",
+          "texto": "Anotar en el asunto dónde queda archivado",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        }
+      ]
     },
     {
       "id": "b142",
@@ -3049,6 +7934,39 @@ window.__COPIA__["datos-biblioteca/biblioteca-centro.json"] = {
           "bloque": "matricula",
           "clave": "IB-Sexta",
           "url": ""
+        }
+      ],
+      "guion": [
+        {
+          "id": "g1",
+          "texto": "Comprobar si el alumno o alumna usa el transporte escolar",
+          "explicacion": "",
+          "accion": "",
+          "normativa": {
+            "cita": "Instrucciones de 23 de junio de 2026",
+            "bloque": "",
+            "clave": "",
+            "url": ""
+          }
+        },
+        {
+          "id": "g2",
+          "texto": "Recoger el Anexo III firmado junto con la matrícula",
+          "explicacion": "",
+          "accion": "",
+          "normativa": {
+            "cita": "Instrucciones de 23 de junio de 2026",
+            "bloque": "",
+            "clave": "",
+            "url": ""
+          }
+        },
+        {
+          "id": "g3",
+          "texto": "Añadir el Anexo III al asunto",
+          "explicacion": "",
+          "accion": "anadir",
+          "normativa": null
         }
       ]
     },
@@ -3068,6 +7986,44 @@ window.__COPIA__["datos-biblioteca/biblioteca-centro.json"] = {
           "clave": "D287-10",
           "url": ""
         }
+      ],
+      "guion": [
+        {
+          "id": "g1",
+          "texto": "Esperar a que la matrícula esté consolidada",
+          "explicacion": "",
+          "accion": "",
+          "normativa": {
+            "cita": "Decreto 287/2009, art. 10",
+            "bloque": "",
+            "clave": "",
+            "url": ""
+          }
+        },
+        {
+          "id": "g2",
+          "texto": "Validar en Séneca el derecho al transporte",
+          "explicacion": "",
+          "accion": "",
+          "normativa": {
+            "cita": "Decreto 287/2009, art. 10",
+            "bloque": "",
+            "clave": "",
+            "url": ""
+          }
+        },
+        {
+          "id": "g3",
+          "texto": "Si no tiene derecho, indicar el motivo",
+          "explicacion": "",
+          "accion": "",
+          "normativa": {
+            "cita": "Decreto 287/2009, art. 10",
+            "bloque": "",
+            "clave": "",
+            "url": ""
+          }
+        }
       ]
     },
     {
@@ -3078,7 +8034,44 @@ window.__COPIA__["datos-biblioteca/biblioteca-centro.json"] = {
       "responsable": "Dirección",
       "requisitos": [],
       "soloInformativo": false,
-      "normativa": []
+      "normativa": [],
+      "guion": [
+        {
+          "id": "g1",
+          "texto": "Comprobar el supuesto y quién tiene que resolver",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        },
+        {
+          "id": "g2",
+          "texto": "Generar la resolución o el escrito de remisión",
+          "explicacion": "",
+          "accion": "generar",
+          "normativa": null
+        },
+        {
+          "id": "g3",
+          "texto": "Recoger la firma de la dirección",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        },
+        {
+          "id": "g4",
+          "texto": "Registrar la salida en Séneca, si se remite",
+          "explicacion": "",
+          "accion": "registrar",
+          "normativa": null
+        },
+        {
+          "id": "g5",
+          "texto": "Añadir el documento firmado al asunto",
+          "explicacion": "",
+          "accion": "anadir",
+          "normativa": null
+        }
+      ]
     },
     {
       "id": "b145",
@@ -3088,7 +8081,30 @@ window.__COPIA__["datos-biblioteca/biblioteca-centro.json"] = {
       "responsable": "Secretaría",
       "requisitos": [],
       "soloInformativo": false,
-      "normativa": []
+      "normativa": [],
+      "guion": [
+        {
+          "id": "g1",
+          "texto": "Anotar la convalidación o la exención en el expediente académico",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        },
+        {
+          "id": "g2",
+          "texto": "Grabarla en Séneca",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        },
+        {
+          "id": "g3",
+          "texto": "Comprobar que aparece en el historial",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        }
+      ]
     },
     {
       "id": "b146",
@@ -3098,7 +8114,30 @@ window.__COPIA__["datos-biblioteca/biblioteca-centro.json"] = {
       "responsable": "Secretaría",
       "requisitos": [],
       "soloInformativo": false,
-      "normativa": []
+      "normativa": [],
+      "guion": [
+        {
+          "id": "g1",
+          "texto": "Buscar a la persona en Séneca",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        },
+        {
+          "id": "g2",
+          "texto": "Comprobar el documento de identidad, el correo y el teléfono",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        },
+        {
+          "id": "g3",
+          "texto": "Anotar lo que haya que corregir",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        }
+      ]
     },
     {
       "id": "b147",
@@ -3108,7 +8147,30 @@ window.__COPIA__["datos-biblioteca/biblioteca-centro.json"] = {
       "responsable": "Secretaría",
       "requisitos": [],
       "soloInformativo": false,
-      "normativa": []
+      "normativa": [],
+      "guion": [
+        {
+          "id": "g1",
+          "texto": "Dar de alta a la persona en Séneca o corregir sus datos",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        },
+        {
+          "id": "g2",
+          "texto": "Comprobar que el alta queda activada para iPasen",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        },
+        {
+          "id": "g3",
+          "texto": "Anotar en el asunto lo que se ha cambiado",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        }
+      ]
     },
     {
       "id": "b148",
@@ -3118,7 +8180,30 @@ window.__COPIA__["datos-biblioteca/biblioteca-centro.json"] = {
       "responsable": "Secretaría",
       "requisitos": [],
       "soloInformativo": false,
-      "normativa": []
+      "normativa": [],
+      "guion": [
+        {
+          "id": "g1",
+          "texto": "Generar las claves desde Séneca",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        },
+        {
+          "id": "g2",
+          "texto": "Entregarlas a la persona interesada",
+          "explicacion": "En mano o al correo que conste en Séneca.",
+          "accion": "",
+          "normativa": null
+        },
+        {
+          "id": "g3",
+          "texto": "Anotar la fecha de entrega",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        }
+      ]
     },
     {
       "id": "b149",
@@ -3128,7 +8213,30 @@ window.__COPIA__["datos-biblioteca/biblioteca-centro.json"] = {
       "responsable": "Secretaría",
       "requisitos": [],
       "soloInformativo": false,
-      "normativa": []
+      "normativa": [],
+      "guion": [
+        {
+          "id": "g1",
+          "texto": "Preguntar a la familia si ha podido entrar",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        },
+        {
+          "id": "g2",
+          "texto": "Resolver los problemas de acceso, si los hay",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        },
+        {
+          "id": "g3",
+          "texto": "Cerrar el hito cuando la familia acceda",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        }
+      ]
     },
     {
       "id": "b150",
@@ -3145,7 +8253,30 @@ window.__COPIA__["datos-biblioteca/biblioteca-centro.json"] = {
         }
       ],
       "soloInformativo": false,
-      "normativa": []
+      "normativa": [],
+      "guion": [
+        {
+          "id": "g1",
+          "texto": "Recoger la resolución judicial o el documento que acredite el cambio",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        },
+        {
+          "id": "g2",
+          "texto": "Comprobar que es copia auténtica o cotejarla",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        },
+        {
+          "id": "g3",
+          "texto": "Añadir el documento al asunto",
+          "explicacion": "",
+          "accion": "anadir",
+          "normativa": null
+        }
+      ]
     },
     {
       "id": "b151",
@@ -3155,7 +8286,30 @@ window.__COPIA__["datos-biblioteca/biblioteca-centro.json"] = {
       "responsable": "Secretaría",
       "requisitos": [],
       "soloInformativo": false,
-      "normativa": []
+      "normativa": [],
+      "guion": [
+        {
+          "id": "g1",
+          "texto": "Abrir los datos del alumno o alumna en Séneca",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        },
+        {
+          "id": "g2",
+          "texto": "Actualizar la guarda, la custodia y los datos de contacto",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        },
+        {
+          "id": "g3",
+          "texto": "Revisar quién puede recibir información y comunicaciones",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        }
+      ]
     },
     {
       "id": "b152",
@@ -3165,7 +8319,30 @@ window.__COPIA__["datos-biblioteca/biblioteca-centro.json"] = {
       "responsable": "Secretaría",
       "requisitos": [],
       "soloInformativo": false,
-      "normativa": []
+      "normativa": [],
+      "guion": [
+        {
+          "id": "g1",
+          "texto": "Decidir qué necesita saber la tutoría",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        },
+        {
+          "id": "g2",
+          "texto": "Comunicarlo a la tutoría",
+          "explicacion": "",
+          "accion": "comunicar",
+          "normativa": null
+        },
+        {
+          "id": "g3",
+          "texto": "Anotar en el asunto la fecha de la comunicación",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        }
+      ]
     },
     {
       "id": "b153",
@@ -3175,7 +8352,30 @@ window.__COPIA__["datos-biblioteca/biblioteca-centro.json"] = {
       "responsable": "Secretaría",
       "requisitos": [],
       "soloInformativo": false,
-      "normativa": []
+      "normativa": [],
+      "guion": [
+        {
+          "id": "g1",
+          "texto": "Guardar los documentos en la carpeta de acceso restringido",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        },
+        {
+          "id": "g2",
+          "texto": "Marcar el asunto como confidencial",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        },
+        {
+          "id": "g3",
+          "texto": "Anotar quién puede consultarlo",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        }
+      ]
     },
     {
       "id": "b154",
@@ -3185,7 +8385,30 @@ window.__COPIA__["datos-biblioteca/biblioteca-centro.json"] = {
       "responsable": "Secretaría",
       "requisitos": [],
       "soloInformativo": false,
-      "normativa": []
+      "normativa": [],
+      "guion": [
+        {
+          "id": "g1",
+          "texto": "Registrar la entrada de la solicitud con la fecha exacta",
+          "explicacion": "",
+          "accion": "registrar",
+          "normativa": null
+        },
+        {
+          "id": "g2",
+          "texto": "Añadir la solicitud al asunto",
+          "explicacion": "",
+          "accion": "anadir",
+          "normativa": null
+        },
+        {
+          "id": "g3",
+          "texto": "Anotar el vencimiento del plazo de un mes",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        }
+      ]
     },
     {
       "id": "b155",
@@ -3195,7 +8418,30 @@ window.__COPIA__["datos-biblioteca/biblioteca-centro.json"] = {
       "responsable": "Secretaría",
       "requisitos": [],
       "soloInformativo": false,
-      "normativa": []
+      "normativa": [],
+      "guion": [
+        {
+          "id": "g1",
+          "texto": "Comprobar el documento de identidad de quien la pide",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        },
+        {
+          "id": "g2",
+          "texto": "Si actúa en nombre de otro, comprobar la representación",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        },
+        {
+          "id": "g3",
+          "texto": "Pedir lo que falte, si falta algo",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        }
+      ]
     },
     {
       "id": "b156",
@@ -3205,7 +8451,30 @@ window.__COPIA__["datos-biblioteca/biblioteca-centro.json"] = {
       "responsable": "Secretaría",
       "requisitos": [],
       "soloInformativo": false,
-      "normativa": []
+      "normativa": [],
+      "guion": [
+        {
+          "id": "g1",
+          "texto": "Reunir los datos personales que se piden",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        },
+        {
+          "id": "g2",
+          "texto": "Redactar la respuesta",
+          "explicacion": "",
+          "accion": "generar",
+          "normativa": null
+        },
+        {
+          "id": "g3",
+          "texto": "Pasarla a la dirección para su visto bueno",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        }
+      ]
     },
     {
       "id": "b157",
@@ -3223,6 +8492,53 @@ window.__COPIA__["datos-biblioteca/biblioteca-centro.json"] = {
           "clave": "RGPD-12",
           "url": ""
         }
+      ],
+      "guion": [
+        {
+          "id": "g1",
+          "texto": "Comprobar que se está dentro del mes desde la entrada",
+          "explicacion": "",
+          "accion": "",
+          "normativa": {
+            "cita": "Reglamento General de Protección de Datos, art. 12",
+            "bloque": "",
+            "clave": "",
+            "url": ""
+          }
+        },
+        {
+          "id": "g2",
+          "texto": "Si hace falta prorrogar, avisar dentro del primer mes",
+          "explicacion": "Hasta dos meses más.",
+          "accion": "",
+          "normativa": {
+            "cita": "Reglamento General de Protección de Datos, art. 12",
+            "bloque": "",
+            "clave": "",
+            "url": ""
+          }
+        },
+        {
+          "id": "g3",
+          "texto": "Recoger la firma de la dirección",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        },
+        {
+          "id": "g4",
+          "texto": "Registrar la salida de la respuesta en Séneca",
+          "explicacion": "",
+          "accion": "registrar",
+          "normativa": null
+        },
+        {
+          "id": "g5",
+          "texto": "Enviar la respuesta a la persona interesada",
+          "explicacion": "",
+          "accion": "comunicar",
+          "normativa": null
+        }
       ]
     },
     {
@@ -3233,7 +8549,30 @@ window.__COPIA__["datos-biblioteca/biblioteca-centro.json"] = {
       "responsable": "Secretaría",
       "requisitos": [],
       "soloInformativo": false,
-      "normativa": []
+      "normativa": [],
+      "guion": [
+        {
+          "id": "g1",
+          "texto": "Añadir al asunto la respuesta firmada",
+          "explicacion": "",
+          "accion": "anadir",
+          "normativa": null
+        },
+        {
+          "id": "g2",
+          "texto": "Añadir el justificante de envío o de recepción",
+          "explicacion": "",
+          "accion": "anadir",
+          "normativa": null
+        },
+        {
+          "id": "g3",
+          "texto": "Archivar el asunto",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        }
+      ]
     },
     {
       "id": "b159",
@@ -3243,7 +8582,37 @@ window.__COPIA__["datos-biblioteca/biblioteca-centro.json"] = {
       "responsable": "Secretaría",
       "requisitos": [],
       "soloInformativo": false,
-      "normativa": []
+      "normativa": [],
+      "guion": [
+        {
+          "id": "g1",
+          "texto": "Comprobar el colectivo de la persona",
+          "explicacion": "Docente, administración general o laboral.",
+          "accion": "",
+          "normativa": null
+        },
+        {
+          "id": "g2",
+          "texto": "Comprobar qué documentación exige ese permiso",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        },
+        {
+          "id": "g3",
+          "texto": "Revisar la documentación entregada",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        },
+        {
+          "id": "g4",
+          "texto": "Pedir lo que falte",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        }
+      ]
     },
     {
       "id": "b160",
@@ -3253,7 +8622,37 @@ window.__COPIA__["datos-biblioteca/biblioteca-centro.json"] = {
       "responsable": "Dirección o Delegación Territorial, según el permiso",
       "requisitos": [],
       "soloInformativo": true,
-      "normativa": []
+      "normativa": [],
+      "guion": [
+        {
+          "id": "g1",
+          "texto": "Comprobar quién firma ese permiso",
+          "explicacion": "La dirección o la Delegación Territorial.",
+          "accion": "",
+          "normativa": null
+        },
+        {
+          "id": "g2",
+          "texto": "Generar la resolución o el escrito de remisión",
+          "explicacion": "",
+          "accion": "generar",
+          "normativa": null
+        },
+        {
+          "id": "g3",
+          "texto": "Recoger la firma de la dirección",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        },
+        {
+          "id": "g4",
+          "texto": "Registrar la salida si se remite a la Delegación",
+          "explicacion": "",
+          "accion": "registrar",
+          "normativa": null
+        }
+      ]
     },
     {
       "id": "b161",
@@ -3263,7 +8662,37 @@ window.__COPIA__["datos-biblioteca/biblioteca-centro.json"] = {
       "responsable": "Dirección",
       "requisitos": [],
       "soloInformativo": true,
-      "normativa": []
+      "normativa": [],
+      "guion": [
+        {
+          "id": "g1",
+          "texto": "Reunir la solicitud y la documentación",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        },
+        {
+          "id": "g2",
+          "texto": "Generar el informe de la dirección",
+          "explicacion": "",
+          "accion": "generar",
+          "normativa": null
+        },
+        {
+          "id": "g3",
+          "texto": "Recoger la firma de la dirección",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        },
+        {
+          "id": "g4",
+          "texto": "Añadir el informe al asunto",
+          "explicacion": "",
+          "accion": "anadir",
+          "normativa": null
+        }
+      ]
     },
     {
       "id": "b162",
@@ -3273,7 +8702,37 @@ window.__COPIA__["datos-biblioteca/biblioteca-centro.json"] = {
       "responsable": "Secretaría",
       "requisitos": [],
       "soloInformativo": false,
-      "normativa": []
+      "normativa": [],
+      "guion": [
+        {
+          "id": "g1",
+          "texto": "Generar el escrito de remisión a la Delegación Territorial",
+          "explicacion": "",
+          "accion": "generar",
+          "normativa": null
+        },
+        {
+          "id": "g2",
+          "texto": "Registrar la salida en Séneca",
+          "explicacion": "",
+          "accion": "registrar",
+          "normativa": null
+        },
+        {
+          "id": "g3",
+          "texto": "Enviarlo a la Delegación con la documentación",
+          "explicacion": "",
+          "accion": "comunicar",
+          "normativa": null
+        },
+        {
+          "id": "g4",
+          "texto": "Anotar la fecha de remisión en el asunto",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        }
+      ]
     },
     {
       "id": "b163",
@@ -3283,7 +8742,37 @@ window.__COPIA__["datos-biblioteca/biblioteca-centro.json"] = {
       "responsable": "Secretaría",
       "requisitos": [],
       "soloInformativo": false,
-      "normativa": []
+      "normativa": [],
+      "guion": [
+        {
+          "id": "g1",
+          "texto": "Recibir la resolución de la Delegación",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        },
+        {
+          "id": "g2",
+          "texto": "Registrar la entrada en Séneca",
+          "explicacion": "",
+          "accion": "registrar",
+          "normativa": null
+        },
+        {
+          "id": "g3",
+          "texto": "Añadir la resolución al asunto",
+          "explicacion": "",
+          "accion": "anadir",
+          "normativa": null
+        },
+        {
+          "id": "g4",
+          "texto": "Comunicarla a la persona interesada",
+          "explicacion": "",
+          "accion": "comunicar",
+          "normativa": null
+        }
+      ]
     },
     {
       "id": "b164",
@@ -3293,7 +8782,37 @@ window.__COPIA__["datos-biblioteca/biblioteca-centro.json"] = {
       "responsable": "el mismo día",
       "requisitos": [],
       "soloInformativo": false,
-      "normativa": []
+      "normativa": [],
+      "guion": [
+        {
+          "id": "g1",
+          "texto": "Recibir el aviso de la persona el mismo día",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        },
+        {
+          "id": "g2",
+          "texto": "Avisar a la dirección y a la secretaría",
+          "explicacion": "",
+          "accion": "comunicar",
+          "normativa": null
+        },
+        {
+          "id": "g3",
+          "texto": "Anotar la fecha de inicio de la ausencia",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        },
+        {
+          "id": "g4",
+          "texto": "Avisar a Jefatura de Estudios para cubrir las clases",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        }
+      ]
     },
     {
       "id": "b165",
@@ -3310,7 +8829,37 @@ window.__COPIA__["datos-biblioteca/biblioteca-centro.json"] = {
         }
       ],
       "soloInformativo": false,
-      "normativa": []
+      "normativa": [],
+      "guion": [
+        {
+          "id": "g1",
+          "texto": "Comprobar el colectivo y el régimen de la persona",
+          "explicacion": "MUFACE si es docente de carrera; Régimen General en los demás casos.",
+          "accion": "",
+          "normativa": null
+        },
+        {
+          "id": "g2",
+          "texto": "Recibir el parte de baja",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        },
+        {
+          "id": "g3",
+          "texto": "Comprobar las fechas y los datos del parte",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        },
+        {
+          "id": "g4",
+          "texto": "Añadir el parte de baja al asunto",
+          "explicacion": "",
+          "accion": "anadir",
+          "normativa": null
+        }
+      ]
     },
     {
       "id": "b166",
@@ -3320,7 +8869,30 @@ window.__COPIA__["datos-biblioteca/biblioteca-centro.json"] = {
       "responsable": "Secretaría",
       "requisitos": [],
       "soloInformativo": false,
-      "normativa": []
+      "normativa": [],
+      "guion": [
+        {
+          "id": "g1",
+          "texto": "Generar el escrito de remisión del parte",
+          "explicacion": "",
+          "accion": "generar",
+          "normativa": null
+        },
+        {
+          "id": "g2",
+          "texto": "Registrar la salida en Séneca",
+          "explicacion": "",
+          "accion": "registrar",
+          "normativa": null
+        },
+        {
+          "id": "g3",
+          "texto": "Enviar el parte a la Delegación Territorial",
+          "explicacion": "",
+          "accion": "comunicar",
+          "normativa": null
+        }
+      ]
     },
     {
       "id": "b167",
@@ -3330,7 +8902,30 @@ window.__COPIA__["datos-biblioteca/biblioteca-centro.json"] = {
       "responsable": "Secretaría",
       "requisitos": [],
       "soloInformativo": false,
-      "normativa": []
+      "normativa": [],
+      "guion": [
+        {
+          "id": "g1",
+          "texto": "Anotar la fecha prevista de cada parte de confirmación",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        },
+        {
+          "id": "g2",
+          "texto": "Añadir cada parte de confirmación al asunto",
+          "explicacion": "",
+          "accion": "anadir",
+          "normativa": null
+        },
+        {
+          "id": "g3",
+          "texto": "Remitir cada parte a la Delegación Territorial",
+          "explicacion": "",
+          "accion": "comunicar",
+          "normativa": null
+        }
+      ]
     },
     {
       "id": "b168",
@@ -3340,7 +8935,37 @@ window.__COPIA__["datos-biblioteca/biblioteca-centro.json"] = {
       "responsable": "Secretaría",
       "requisitos": [],
       "soloInformativo": false,
-      "normativa": []
+      "normativa": [],
+      "guion": [
+        {
+          "id": "g1",
+          "texto": "Añadir el parte de alta al asunto",
+          "explicacion": "",
+          "accion": "anadir",
+          "normativa": null
+        },
+        {
+          "id": "g2",
+          "texto": "Remitirlo a la Delegación Territorial",
+          "explicacion": "",
+          "accion": "comunicar",
+          "normativa": null
+        },
+        {
+          "id": "g3",
+          "texto": "Anotar la fecha de incorporación",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        },
+        {
+          "id": "g4",
+          "texto": "Avisar a Jefatura de Estudios",
+          "explicacion": "",
+          "accion": "comunicar",
+          "normativa": null
+        }
+      ]
     },
     {
       "id": "b169",
@@ -3350,7 +8975,30 @@ window.__COPIA__["datos-biblioteca/biblioteca-centro.json"] = {
       "responsable": "Delegación Territorial",
       "requisitos": [],
       "soloInformativo": true,
-      "normativa": []
+      "normativa": [],
+      "guion": [
+        {
+          "id": "g1",
+          "texto": "Esperar la resolución de la licencia de la Delegación",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        },
+        {
+          "id": "g2",
+          "texto": "Añadir la resolución al asunto",
+          "explicacion": "",
+          "accion": "anadir",
+          "normativa": null
+        },
+        {
+          "id": "g3",
+          "texto": "Comprobar que las fechas coinciden con los partes",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        }
+      ]
     },
     {
       "id": "b170",
@@ -3360,7 +9008,30 @@ window.__COPIA__["datos-biblioteca/biblioteca-centro.json"] = {
       "responsable": "Dirección",
       "requisitos": [],
       "soloInformativo": false,
-      "normativa": []
+      "normativa": [],
+      "guion": [
+        {
+          "id": "g1",
+          "texto": "Valorar con la dirección si procede pedir sustitución",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        },
+        {
+          "id": "g2",
+          "texto": "Si procede, abrir el asunto de petición de sustitución",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        },
+        {
+          "id": "g3",
+          "texto": "Anotar en este asunto el enlace con la sustitución",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        }
+      ]
     },
     {
       "id": "b171",
@@ -3383,7 +9054,30 @@ window.__COPIA__["datos-biblioteca/biblioteca-centro.json"] = {
         }
       ],
       "soloInformativo": false,
-      "normativa": []
+      "normativa": [],
+      "guion": [
+        {
+          "id": "g1",
+          "texto": "Recoger la solicitud o el aviso previo de la persona",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        },
+        {
+          "id": "g2",
+          "texto": "Recoger el justificante",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        },
+        {
+          "id": "g3",
+          "texto": "Añadir los dos al asunto",
+          "explicacion": "",
+          "accion": "anadir",
+          "normativa": null
+        }
+      ]
     },
     {
       "id": "b172",
@@ -3400,7 +9094,30 @@ window.__COPIA__["datos-biblioteca/biblioteca-centro.json"] = {
         }
       ],
       "soloInformativo": false,
-      "normativa": []
+      "normativa": [],
+      "guion": [
+        {
+          "id": "g1",
+          "texto": "Anotar el aviso de la persona y la hora",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        },
+        {
+          "id": "g2",
+          "texto": "Pedirle el justificante a su vuelta",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        },
+        {
+          "id": "g3",
+          "texto": "Añadir el justificante al asunto cuando llegue",
+          "explicacion": "",
+          "accion": "anadir",
+          "normativa": null
+        }
+      ]
     },
     {
       "id": "b173",
@@ -3410,7 +9127,37 @@ window.__COPIA__["datos-biblioteca/biblioteca-centro.json"] = {
       "responsable": "Secretaría",
       "requisitos": [],
       "soloInformativo": false,
-      "normativa": []
+      "normativa": [],
+      "guion": [
+        {
+          "id": "g1",
+          "texto": "Comprobar el colectivo de la persona",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        },
+        {
+          "id": "g2",
+          "texto": "Comprobar que el justificante cubre las fechas y horas de la ausencia",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        },
+        {
+          "id": "g3",
+          "texto": "Comprobar que es un justificante válido",
+          "explicacion": "No todo vale como justificante.",
+          "accion": "",
+          "normativa": null
+        },
+        {
+          "id": "g4",
+          "texto": "Anotar si se da por justificada",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        }
+      ]
     },
     {
       "id": "b174",
@@ -3420,7 +9167,30 @@ window.__COPIA__["datos-biblioteca/biblioteca-centro.json"] = {
       "responsable": "Secretaría",
       "requisitos": [],
       "soloInformativo": false,
-      "normativa": []
+      "normativa": [],
+      "guion": [
+        {
+          "id": "g1",
+          "texto": "Abrir el módulo de control de presencia de Séneca",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        },
+        {
+          "id": "g2",
+          "texto": "Grabar la ausencia del día y si está justificada",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        },
+        {
+          "id": "g3",
+          "texto": "Comprobar que coincide con el justificante",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        }
+      ]
     },
     {
       "id": "b175",
@@ -3430,7 +9200,44 @@ window.__COPIA__["datos-biblioteca/biblioteca-centro.json"] = {
       "responsable": "Dirección",
       "requisitos": [],
       "soloInformativo": false,
-      "normativa": []
+      "normativa": [],
+      "guion": [
+        {
+          "id": "g1",
+          "texto": "Generar el requerimiento de justificación",
+          "explicacion": "",
+          "accion": "generar",
+          "normativa": null
+        },
+        {
+          "id": "g2",
+          "texto": "Recoger la firma de la dirección",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        },
+        {
+          "id": "g3",
+          "texto": "Registrar la salida en Séneca",
+          "explicacion": "",
+          "accion": "registrar",
+          "normativa": null
+        },
+        {
+          "id": "g4",
+          "texto": "Enviarlo a la persona interesada con constancia de recepción",
+          "explicacion": "",
+          "accion": "comunicar",
+          "normativa": null
+        },
+        {
+          "id": "g5",
+          "texto": "Anotar el plazo que se le da",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        }
+      ]
     },
     {
       "id": "b176",
@@ -3440,7 +9247,37 @@ window.__COPIA__["datos-biblioteca/biblioteca-centro.json"] = {
       "responsable": "deducción de haberes y, en su caso, efecto disciplinario, previo paso por la Comisión Provincial de Valoración de Faltas de Asistencia",
       "requisitos": [],
       "soloInformativo": true,
-      "normativa": []
+      "normativa": [],
+      "guion": [
+        {
+          "id": "g1",
+          "texto": "Comprobar que la ausencia sigue sin justificarse",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        },
+        {
+          "id": "g2",
+          "texto": "Reunir el requerimiento y la constancia de recepción",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        },
+        {
+          "id": "g3",
+          "texto": "Preparar la comunicación para la Comisión Provincial de Valoración de Faltas de Asistencia",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        },
+        {
+          "id": "g4",
+          "texto": "Remitirla a la Delegación Territorial",
+          "explicacion": "",
+          "accion": "comunicar",
+          "normativa": null
+        }
+      ]
     },
     {
       "id": "b177",
@@ -3450,7 +9287,30 @@ window.__COPIA__["datos-biblioteca/biblioteca-centro.json"] = {
       "responsable": "Secretaría",
       "requisitos": [],
       "soloInformativo": false,
-      "normativa": []
+      "normativa": [],
+      "guion": [
+        {
+          "id": "g1",
+          "texto": "Revisar las ausencias del mes en el módulo de presencia de Séneca",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        },
+        {
+          "id": "g2",
+          "texto": "Comprobar que están grabados todos los justificantes",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        },
+        {
+          "id": "g3",
+          "texto": "Cerrar el mes en Séneca",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        }
+      ]
     },
     {
       "id": "b178",
@@ -3460,7 +9320,30 @@ window.__COPIA__["datos-biblioteca/biblioteca-centro.json"] = {
       "responsable": "Secretaría",
       "requisitos": [],
       "soloInformativo": false,
-      "normativa": []
+      "normativa": [],
+      "guion": [
+        {
+          "id": "g1",
+          "texto": "Generar el estadillo mensual desde Séneca",
+          "explicacion": "Hasta el día 5 del mes siguiente.",
+          "accion": "",
+          "normativa": null
+        },
+        {
+          "id": "g2",
+          "texto": "Comprobar que incluye a los tres colectivos",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        },
+        {
+          "id": "g3",
+          "texto": "Revisar las cifras antes de la firma",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        }
+      ]
     },
     {
       "id": "b179",
@@ -3470,7 +9353,30 @@ window.__COPIA__["datos-biblioteca/biblioteca-centro.json"] = {
       "responsable": "Dirección",
       "requisitos": [],
       "soloInformativo": false,
-      "normativa": []
+      "normativa": [],
+      "guion": [
+        {
+          "id": "g1",
+          "texto": "Pasar el estadillo a la dirección",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        },
+        {
+          "id": "g2",
+          "texto": "Recoger la firma de la dirección",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        },
+        {
+          "id": "g3",
+          "texto": "Añadir el estadillo firmado al asunto",
+          "explicacion": "",
+          "accion": "anadir",
+          "normativa": null
+        }
+      ]
     },
     {
       "id": "b180",
@@ -3480,7 +9386,37 @@ window.__COPIA__["datos-biblioteca/biblioteca-centro.json"] = {
       "responsable": "Secretaría",
       "requisitos": [],
       "soloInformativo": false,
-      "normativa": []
+      "normativa": [],
+      "guion": [
+        {
+          "id": "g1",
+          "texto": "Comprobar dónde hay que publicarlo o a quién remitirlo",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        },
+        {
+          "id": "g2",
+          "texto": "Publicarlo en la sala del profesorado, si procede",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        },
+        {
+          "id": "g3",
+          "texto": "Registrar la salida, si se remite",
+          "explicacion": "",
+          "accion": "registrar",
+          "normativa": null
+        },
+        {
+          "id": "g4",
+          "texto": "Remitirlo a quien corresponda",
+          "explicacion": "",
+          "accion": "comunicar",
+          "normativa": null
+        }
+      ]
     },
     {
       "id": "b181",
@@ -3490,7 +9426,30 @@ window.__COPIA__["datos-biblioteca/biblioteca-centro.json"] = {
       "responsable": "Secretaría",
       "requisitos": [],
       "soloInformativo": false,
-      "normativa": []
+      "normativa": [],
+      "guion": [
+        {
+          "id": "g1",
+          "texto": "Consultar en Séneca el presupuesto de jornadas de sustitución",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        },
+        {
+          "id": "g2",
+          "texto": "Comprobar cuántas quedan del cupo anual",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        },
+        {
+          "id": "g3",
+          "texto": "Anotar el dato en el asunto",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        }
+      ]
     },
     {
       "id": "b182",
@@ -3500,7 +9459,30 @@ window.__COPIA__["datos-biblioteca/biblioteca-centro.json"] = {
       "responsable": "Dirección",
       "requisitos": [],
       "soloInformativo": true,
-      "normativa": []
+      "normativa": [],
+      "guion": [
+        {
+          "id": "g1",
+          "texto": "Comprobar que la ausencia está justificada",
+          "explicacion": "No se sustituye a quien está ausente sin justificar.",
+          "accion": "",
+          "normativa": null
+        },
+        {
+          "id": "g2",
+          "texto": "Valorar la duración prevista y el cupo disponible",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        },
+        {
+          "id": "g3",
+          "texto": "Anotar la decisión de la dirección en el asunto",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        }
+      ]
     },
     {
       "id": "b183",
@@ -3518,6 +9500,39 @@ window.__COPIA__["datos-biblioteca/biblioteca-centro.json"] = {
           "clave": "",
           "url": ""
         }
+      ],
+      "guion": [
+        {
+          "id": "g1",
+          "texto": "Grabar la petición de sustitución en Séneca",
+          "explicacion": "",
+          "accion": "",
+          "normativa": {
+            "cita": "Orden de 8 de septiembre de 2010, de sustituciones",
+            "bloque": "",
+            "clave": "",
+            "url": ""
+          }
+        },
+        {
+          "id": "g2",
+          "texto": "Comprobar la fecha de la convocatoria telemática semanal",
+          "explicacion": "",
+          "accion": "",
+          "normativa": {
+            "cita": "Orden de 8 de septiembre de 2010, de sustituciones",
+            "bloque": "",
+            "clave": "",
+            "url": ""
+          }
+        },
+        {
+          "id": "g3",
+          "texto": "Anotar en el asunto la fecha de la petición",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        }
       ]
     },
     {
@@ -3528,7 +9543,30 @@ window.__COPIA__["datos-biblioteca/biblioteca-centro.json"] = {
       "responsable": "Jefatura de Estudios",
       "requisitos": [],
       "soloInformativo": true,
-      "normativa": []
+      "normativa": [],
+      "guion": [
+        {
+          "id": "g1",
+          "texto": "Organizar con Jefatura de Estudios la atención del grupo",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        },
+        {
+          "id": "g2",
+          "texto": "Preparar las guardias que hagan falta",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        },
+        {
+          "id": "g3",
+          "texto": "Anotar en el asunto cómo se cubre",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        }
+      ]
     },
     {
       "id": "b185",
@@ -3538,7 +9576,30 @@ window.__COPIA__["datos-biblioteca/biblioteca-centro.json"] = {
       "responsable": "Secretaría",
       "requisitos": [],
       "soloInformativo": false,
-      "normativa": []
+      "normativa": [],
+      "guion": [
+        {
+          "id": "g1",
+          "texto": "Anotar quién es la persona sustituta y la fecha de incorporación",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        },
+        {
+          "id": "g2",
+          "texto": "Abrir el asunto de toma de posesión",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        },
+        {
+          "id": "g3",
+          "texto": "Anotar en este asunto el enlace con la toma de posesión",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        }
+      ]
     },
     {
       "id": "b186",
@@ -3555,7 +9616,30 @@ window.__COPIA__["datos-biblioteca/biblioteca-centro.json"] = {
         }
       ],
       "soloInformativo": false,
-      "normativa": []
+      "normativa": [],
+      "guion": [
+        {
+          "id": "g1",
+          "texto": "Recibir la credencial o el nombramiento",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        },
+        {
+          "id": "g2",
+          "texto": "Comprobar los datos de la persona y del puesto",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        },
+        {
+          "id": "g3",
+          "texto": "Añadir la credencial o el nombramiento al asunto",
+          "explicacion": "",
+          "accion": "anadir",
+          "normativa": null
+        }
+      ]
     },
     {
       "id": "b187",
@@ -3572,7 +9656,30 @@ window.__COPIA__["datos-biblioteca/biblioteca-centro.json"] = {
         }
       ],
       "soloInformativo": false,
-      "normativa": []
+      "normativa": [],
+      "guion": [
+        {
+          "id": "g1",
+          "texto": "Generar la diligencia de toma de posesión con la fecha exacta",
+          "explicacion": "La fecha cuenta para la nómina.",
+          "accion": "generar",
+          "normativa": null
+        },
+        {
+          "id": "g2",
+          "texto": "Recoger la firma de la persona y de la dirección",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        },
+        {
+          "id": "g3",
+          "texto": "Añadir la diligencia firmada al asunto",
+          "explicacion": "",
+          "accion": "anadir",
+          "normativa": null
+        }
+      ]
     },
     {
       "id": "b188",
@@ -3607,7 +9714,37 @@ window.__COPIA__["datos-biblioteca/biblioteca-centro.json"] = {
         }
       ],
       "soloInformativo": false,
-      "normativa": []
+      "normativa": [],
+      "guion": [
+        {
+          "id": "g1",
+          "texto": "Recoger el documento de identidad y la cuenta corriente",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        },
+        {
+          "id": "g2",
+          "texto": "Recoger los datos de IRPF y la situación familiar",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        },
+        {
+          "id": "g3",
+          "texto": "Dar de alta el correo del centro",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        },
+        {
+          "id": "g4",
+          "texto": "Añadir los documentos al asunto",
+          "explicacion": "",
+          "accion": "anadir",
+          "normativa": null
+        }
+      ]
     },
     {
       "id": "b189",
@@ -3617,7 +9754,37 @@ window.__COPIA__["datos-biblioteca/biblioteca-centro.json"] = {
       "responsable": "Jefatura de Estudios",
       "requisitos": [],
       "soloInformativo": true,
-      "normativa": []
+      "normativa": [],
+      "guion": [
+        {
+          "id": "g1",
+          "texto": "Pedir el horario a Jefatura de Estudios",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        },
+        {
+          "id": "g2",
+          "texto": "Entregar el horario y la documentación del centro",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        },
+        {
+          "id": "g3",
+          "texto": "Entregar llaves y claves que hagan falta",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        },
+        {
+          "id": "g4",
+          "texto": "Anotar la fecha de entrega",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        }
+      ]
     },
     {
       "id": "b190",
@@ -3627,7 +9794,30 @@ window.__COPIA__["datos-biblioteca/biblioteca-centro.json"] = {
       "responsable": "Dirección",
       "requisitos": [],
       "soloInformativo": true,
-      "normativa": []
+      "normativa": [],
+      "guion": [
+        {
+          "id": "g1",
+          "texto": "Generar el documento de cese con su fecha",
+          "explicacion": "",
+          "accion": "generar",
+          "normativa": null
+        },
+        {
+          "id": "g2",
+          "texto": "Recoger la firma de la dirección y de la persona",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        },
+        {
+          "id": "g3",
+          "texto": "Añadir el documento firmado al asunto",
+          "explicacion": "",
+          "accion": "anadir",
+          "normativa": null
+        }
+      ]
     },
     {
       "id": "b191",
@@ -3637,7 +9827,30 @@ window.__COPIA__["datos-biblioteca/biblioteca-centro.json"] = {
       "responsable": "Secretaría",
       "requisitos": [],
       "soloInformativo": false,
-      "normativa": []
+      "normativa": [],
+      "guion": [
+        {
+          "id": "g1",
+          "texto": "Generar el escrito de comunicación del cese",
+          "explicacion": "",
+          "accion": "generar",
+          "normativa": null
+        },
+        {
+          "id": "g2",
+          "texto": "Registrar la salida en Séneca",
+          "explicacion": "",
+          "accion": "registrar",
+          "normativa": null
+        },
+        {
+          "id": "g3",
+          "texto": "Enviarlo a la Delegación Territorial",
+          "explicacion": "",
+          "accion": "comunicar",
+          "normativa": null
+        }
+      ]
     },
     {
       "id": "b192",
@@ -3672,7 +9885,37 @@ window.__COPIA__["datos-biblioteca/biblioteca-centro.json"] = {
         }
       ],
       "soloInformativo": false,
-      "normativa": []
+      "normativa": [],
+      "guion": [
+        {
+          "id": "g1",
+          "texto": "Recoger las llaves y el material",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        },
+        {
+          "id": "g2",
+          "texto": "Dar de baja las claves de acceso",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        },
+        {
+          "id": "g3",
+          "texto": "Dar de baja el correo del centro",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        },
+        {
+          "id": "g4",
+          "texto": "Anotar en el asunto lo devuelto",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        }
+      ]
     },
     {
       "id": "b193",
@@ -3682,7 +9925,37 @@ window.__COPIA__["datos-biblioteca/biblioteca-centro.json"] = {
       "responsable": "Secretaría",
       "requisitos": [],
       "soloInformativo": false,
-      "normativa": []
+      "normativa": [],
+      "guion": [
+        {
+          "id": "g1",
+          "texto": "Comprobar si la persona lo ha pedido",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        },
+        {
+          "id": "g2",
+          "texto": "Generar el certificado de servicios",
+          "explicacion": "",
+          "accion": "generar",
+          "normativa": null
+        },
+        {
+          "id": "g3",
+          "texto": "Recoger la firma de la secretaría y el visto bueno de la dirección",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        },
+        {
+          "id": "g4",
+          "texto": "Entregarlo o enviarlo",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        }
+      ]
     },
     {
       "id": "b194",
@@ -3717,7 +9990,37 @@ window.__COPIA__["datos-biblioteca/biblioteca-centro.json"] = {
         }
       ],
       "soloInformativo": false,
-      "normativa": []
+      "normativa": [],
+      "guion": [
+        {
+          "id": "g1",
+          "texto": "Recoger el documento de identidad",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        },
+        {
+          "id": "g2",
+          "texto": "Recoger la cuenta corriente",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        },
+        {
+          "id": "g3",
+          "texto": "Recoger los datos de IRPF y la situación familiar",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        },
+        {
+          "id": "g4",
+          "texto": "Añadir los documentos al asunto",
+          "explicacion": "",
+          "accion": "anadir",
+          "normativa": null
+        }
+      ]
     },
     {
       "id": "b195",
@@ -3727,7 +10030,30 @@ window.__COPIA__["datos-biblioteca/biblioteca-centro.json"] = {
       "responsable": "Secretaría",
       "requisitos": [],
       "soloInformativo": false,
-      "normativa": []
+      "normativa": [],
+      "guion": [
+        {
+          "id": "g1",
+          "texto": "Revisar la nómina del mes siguiente",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        },
+        {
+          "id": "g2",
+          "texto": "Comprobar que recoge los datos nuevos",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        },
+        {
+          "id": "g3",
+          "texto": "Si hay errores, comunicarlos a la Delegación",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        }
+      ]
     },
     {
       "id": "b196",
@@ -3737,7 +10063,37 @@ window.__COPIA__["datos-biblioteca/biblioteca-centro.json"] = {
       "responsable": "Secretaría",
       "requisitos": [],
       "soloInformativo": false,
-      "normativa": []
+      "normativa": [],
+      "guion": [
+        {
+          "id": "g1",
+          "texto": "Generar el certificado",
+          "explicacion": "",
+          "accion": "generar",
+          "normativa": null
+        },
+        {
+          "id": "g2",
+          "texto": "Firmarlo por la secretaría",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        },
+        {
+          "id": "g3",
+          "texto": "Pasarlo a la dirección para el visto bueno",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        },
+        {
+          "id": "g4",
+          "texto": "Sellarlo",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        }
+      ]
     },
     {
       "id": "b197",
@@ -3747,7 +10103,30 @@ window.__COPIA__["datos-biblioteca/biblioteca-centro.json"] = {
       "responsable": "Secretaría",
       "requisitos": [],
       "soloInformativo": false,
-      "normativa": []
+      "normativa": [],
+      "guion": [
+        {
+          "id": "g1",
+          "texto": "Reunir las altas, bajas, licencias y ausencias del mes",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        },
+        {
+          "id": "g2",
+          "texto": "Revisar el estadillo y los partes de baja",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        },
+        {
+          "id": "g3",
+          "texto": "Hacer la lista de incidencias",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        }
+      ]
     },
     {
       "id": "b198",
@@ -3757,7 +10136,30 @@ window.__COPIA__["datos-biblioteca/biblioteca-centro.json"] = {
       "responsable": "Secretaría",
       "requisitos": [],
       "soloInformativo": false,
-      "normativa": []
+      "normativa": [],
+      "guion": [
+        {
+          "id": "g1",
+          "texto": "Comprobar las altas del mes",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        },
+        {
+          "id": "g2",
+          "texto": "Comprobar las bajas y los ceses",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        },
+        {
+          "id": "g3",
+          "texto": "Comprobar las variaciones de datos y retribuciones",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        }
+      ]
     },
     {
       "id": "b199",
@@ -3767,7 +10169,30 @@ window.__COPIA__["datos-biblioteca/biblioteca-centro.json"] = {
       "responsable": "Secretaría",
       "requisitos": [],
       "soloInformativo": false,
-      "normativa": []
+      "normativa": [],
+      "guion": [
+        {
+          "id": "g1",
+          "texto": "Consultar la fecha de cierre de la nómina",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        },
+        {
+          "id": "g2",
+          "texto": "Grabar las incidencias en el sistema de nóminas",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        },
+        {
+          "id": "g3",
+          "texto": "Remitirlas a la Delegación antes del cierre",
+          "explicacion": "",
+          "accion": "comunicar",
+          "normativa": null
+        }
+      ]
     },
     {
       "id": "b200",
@@ -3777,7 +10202,30 @@ window.__COPIA__["datos-biblioteca/biblioteca-centro.json"] = {
       "responsable": "Secretaría",
       "requisitos": [],
       "soloInformativo": false,
-      "normativa": []
+      "normativa": [],
+      "guion": [
+        {
+          "id": "g1",
+          "texto": "Revisar la nómina publicada",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        },
+        {
+          "id": "g2",
+          "texto": "Comprobar que recoge las incidencias enviadas",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        },
+        {
+          "id": "g3",
+          "texto": "Si hay errores, comunicarlos a la Delegación",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        }
+      ]
     },
     {
       "id": "b201",
@@ -3787,7 +10235,30 @@ window.__COPIA__["datos-biblioteca/biblioteca-centro.json"] = {
       "responsable": "Dirección",
       "requisitos": [],
       "soloInformativo": true,
-      "normativa": []
+      "normativa": [],
+      "guion": [
+        {
+          "id": "g1",
+          "texto": "Recoger la propuesta de la dirección",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        },
+        {
+          "id": "g2",
+          "texto": "Comprobar a quién afecta y por qué concepto",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        },
+        {
+          "id": "g3",
+          "texto": "Añadir la propuesta firmada al asunto",
+          "explicacion": "",
+          "accion": "anadir",
+          "normativa": null
+        }
+      ]
     },
     {
       "id": "b202",
@@ -3797,7 +10268,30 @@ window.__COPIA__["datos-biblioteca/biblioteca-centro.json"] = {
       "responsable": "Secretaría",
       "requisitos": [],
       "soloInformativo": false,
-      "normativa": []
+      "normativa": [],
+      "guion": [
+        {
+          "id": "g1",
+          "texto": "Comprobar los datos de cada persona en Séneca",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        },
+        {
+          "id": "g2",
+          "texto": "Comprobar los periodos y los importes",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        },
+        {
+          "id": "g3",
+          "texto": "Anotar las correcciones que hagan falta",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        }
+      ]
     },
     {
       "id": "b203",
@@ -3807,7 +10301,30 @@ window.__COPIA__["datos-biblioteca/biblioteca-centro.json"] = {
       "responsable": "Secretaría",
       "requisitos": [],
       "soloInformativo": false,
-      "normativa": []
+      "normativa": [],
+      "guion": [
+        {
+          "id": "g1",
+          "texto": "Recibir la resolución",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        },
+        {
+          "id": "g2",
+          "texto": "Añadir la resolución al asunto",
+          "explicacion": "",
+          "accion": "anadir",
+          "normativa": null
+        },
+        {
+          "id": "g3",
+          "texto": "Comunicarla a la persona interesada",
+          "explicacion": "",
+          "accion": "comunicar",
+          "normativa": null
+        }
+      ]
     },
     {
       "id": "b204",
@@ -3817,7 +10334,30 @@ window.__COPIA__["datos-biblioteca/biblioteca-centro.json"] = {
       "responsable": "Secretaría",
       "requisitos": [],
       "soloInformativo": false,
-      "normativa": []
+      "normativa": [],
+      "guion": [
+        {
+          "id": "g1",
+          "texto": "Comunicar el nuevo horario a la persona interesada",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        },
+        {
+          "id": "g2",
+          "texto": "Grabar el horario en Séneca",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        },
+        {
+          "id": "g3",
+          "texto": "Avisar a Jefatura de Estudios del cambio",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        }
+      ]
     },
     {
       "id": "b205",
@@ -3827,7 +10367,30 @@ window.__COPIA__["datos-biblioteca/biblioteca-centro.json"] = {
       "responsable": "Secretaría",
       "requisitos": [],
       "soloInformativo": false,
-      "normativa": []
+      "normativa": [],
+      "guion": [
+        {
+          "id": "g1",
+          "texto": "Comprobar si la actividad formativa exige permiso",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        },
+        {
+          "id": "g2",
+          "texto": "Si lo exige, abrir el asunto de solicitud de permiso",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        },
+        {
+          "id": "g3",
+          "texto": "Anotar en este asunto el enlace con el permiso",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        }
+      ]
     },
     {
       "id": "b206",
@@ -3844,7 +10407,30 @@ window.__COPIA__["datos-biblioteca/biblioteca-centro.json"] = {
         }
       ],
       "soloInformativo": false,
-      "normativa": []
+      "normativa": [],
+      "guion": [
+        {
+          "id": "g1",
+          "texto": "Pedir el certificado de aprovechamiento al terminar la actividad",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        },
+        {
+          "id": "g2",
+          "texto": "Comprobar las horas y las fechas",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        },
+        {
+          "id": "g3",
+          "texto": "Añadir el certificado al asunto",
+          "explicacion": "",
+          "accion": "anadir",
+          "normativa": null
+        }
+      ]
     },
     {
       "id": "b207",
@@ -3854,7 +10440,30 @@ window.__COPIA__["datos-biblioteca/biblioteca-centro.json"] = {
       "responsable": "Secretaría",
       "requisitos": [],
       "soloInformativo": false,
-      "normativa": []
+      "normativa": [],
+      "guion": [
+        {
+          "id": "g1",
+          "texto": "Guardar el certificado en el expediente personal",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        },
+        {
+          "id": "g2",
+          "texto": "Anotar la actividad formativa en el expediente",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        },
+        {
+          "id": "g3",
+          "texto": "Cerrar el asunto",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        }
+      ]
     },
     {
       "id": "b208",
@@ -3864,7 +10473,30 @@ window.__COPIA__["datos-biblioteca/biblioteca-centro.json"] = {
       "responsable": "Dirección",
       "requisitos": [],
       "soloInformativo": true,
-      "normativa": []
+      "normativa": [],
+      "guion": [
+        {
+          "id": "g1",
+          "texto": "Recoger la decisión de la dirección",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        },
+        {
+          "id": "g2",
+          "texto": "Generar el escrito de designación",
+          "explicacion": "",
+          "accion": "generar",
+          "normativa": null
+        },
+        {
+          "id": "g3",
+          "texto": "Recoger la firma de la dirección",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        }
+      ]
     },
     {
       "id": "b209",
@@ -3881,7 +10513,30 @@ window.__COPIA__["datos-biblioteca/biblioteca-centro.json"] = {
         }
       ],
       "soloInformativo": false,
-      "normativa": []
+      "normativa": [],
+      "guion": [
+        {
+          "id": "g1",
+          "texto": "Entregar el escrito de designación firmado",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        },
+        {
+          "id": "g2",
+          "texto": "Recoger la firma del recibí",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        },
+        {
+          "id": "g3",
+          "texto": "Comunicar la designación por correo a la persona interesada",
+          "explicacion": "",
+          "accion": "comunicar",
+          "normativa": null
+        }
+      ]
     },
     {
       "id": "b210",
@@ -3898,6 +10553,46 @@ window.__COPIA__["datos-biblioteca/biblioteca-centro.json"] = {
           "bloque": "",
           "clave": "",
           "url": ""
+        }
+      ],
+      "guion": [
+        {
+          "id": "g1",
+          "texto": "Esperar a que Séneca abra la plantilla de funcionamiento",
+          "explicacion": "A partir de finales de junio.",
+          "accion": "",
+          "normativa": {
+            "cita": "Instrucción 8/2026",
+            "bloque": "",
+            "clave": "",
+            "url": ""
+          }
+        },
+        {
+          "id": "g2",
+          "texto": "Revisar la plantilla de funcionamiento en Séneca",
+          "explicacion": "",
+          "accion": "",
+          "normativa": {
+            "cita": "Instrucción 8/2026",
+            "bloque": "",
+            "clave": "",
+            "url": ""
+          }
+        },
+        {
+          "id": "g3",
+          "texto": "Detectar al personal con horario insuficiente",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        },
+        {
+          "id": "g4",
+          "texto": "Anotar en el asunto a quién afecta",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
         }
       ]
     },
@@ -3917,6 +10612,39 @@ window.__COPIA__["datos-biblioteca/biblioteca-centro.json"] = {
           "clave": "",
           "url": ""
         }
+      ],
+      "guion": [
+        {
+          "id": "g1",
+          "texto": "Fijar la fecha con 48 horas de antelación como mínimo",
+          "explicacion": "",
+          "accion": "",
+          "normativa": {
+            "cita": "Instrucción 8/2026",
+            "bloque": "",
+            "clave": "",
+            "url": ""
+          }
+        },
+        {
+          "id": "g2",
+          "texto": "Generar la convocatoria de la reunión",
+          "explicacion": "",
+          "accion": "generar",
+          "normativa": {
+            "cita": "Instrucción 8/2026",
+            "bloque": "",
+            "clave": "",
+            "url": ""
+          }
+        },
+        {
+          "id": "g3",
+          "texto": "Enviarla al personal afectado, a la dirección y a la jefatura de estudios",
+          "explicacion": "",
+          "accion": "comunicar",
+          "normativa": null
+        }
       ]
     },
     {
@@ -3927,7 +10655,37 @@ window.__COPIA__["datos-biblioteca/biblioteca-centro.json"] = {
       "responsable": "Secretaría",
       "requisitos": [],
       "soloInformativo": false,
-      "normativa": []
+      "normativa": [],
+      "guion": [
+        {
+          "id": "g1",
+          "texto": "Celebrar la reunión en la fecha fijada",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        },
+        {
+          "id": "g2",
+          "texto": "Comprobar que asisten dirección, jefatura de estudios y secretaría",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        },
+        {
+          "id": "g3",
+          "texto": "Recoger las opciones del personal afectado",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        },
+        {
+          "id": "g4",
+          "texto": "Tomar nota de lo acordado",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        }
+      ]
     },
     {
       "id": "b213",
@@ -3945,6 +10703,51 @@ window.__COPIA__["datos-biblioteca/biblioteca-centro.json"] = {
           "clave": "",
           "url": ""
         }
+      ],
+      "guion": [
+        {
+          "id": "g1",
+          "texto": "Grabar los datos de la reunión en Séneca",
+          "explicacion": "",
+          "accion": "",
+          "normativa": {
+            "cita": "Instrucción 8/2026",
+            "bloque": "",
+            "clave": "",
+            "url": ""
+          }
+        },
+        {
+          "id": "g2",
+          "texto": "Generar el acta desde Séneca",
+          "explicacion": "",
+          "accion": "",
+          "normativa": {
+            "cita": "Instrucción 8/2026",
+            "bloque": "",
+            "clave": "",
+            "url": ""
+          }
+        },
+        {
+          "id": "g3",
+          "texto": "Recoger la firma de la dirección y después la del resto",
+          "explicacion": "En 24 horas.",
+          "accion": "",
+          "normativa": {
+            "cita": "Instrucción 8/2026",
+            "bloque": "",
+            "clave": "",
+            "url": ""
+          }
+        },
+        {
+          "id": "g4",
+          "texto": "Añadir el acta firmada al asunto",
+          "explicacion": "",
+          "accion": "anadir",
+          "normativa": null
+        }
       ]
     },
     {
@@ -3955,7 +10758,30 @@ window.__COPIA__["datos-biblioteca/biblioteca-centro.json"] = {
       "responsable": "las actas se cargan solas en SIRhUS",
       "requisitos": [],
       "soloInformativo": true,
-      "normativa": []
+      "normativa": [],
+      "guion": [
+        {
+          "id": "g1",
+          "texto": "Comprobar que el acta se ha cargado en SIRhUS",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        },
+        {
+          "id": "g2",
+          "texto": "Esperar el visado del Servicio de Inspección",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        },
+        {
+          "id": "g3",
+          "texto": "Anotar en el asunto la fecha del visado",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        }
+      ]
     },
     {
       "id": "b215",
@@ -3965,7 +10791,30 @@ window.__COPIA__["datos-biblioteca/biblioteca-centro.json"] = {
       "responsable": "Secretaría",
       "requisitos": [],
       "soloInformativo": false,
-      "normativa": []
+      "normativa": [],
+      "guion": [
+        {
+          "id": "g1",
+          "texto": "Recoger la petición del departamento o de la dirección",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        },
+        {
+          "id": "g2",
+          "texto": "Anotar qué se pide, para qué y el importe aproximado",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        },
+        {
+          "id": "g3",
+          "texto": "Añadir la petición al asunto",
+          "explicacion": "",
+          "accion": "anadir",
+          "normativa": null
+        }
+      ]
     },
     {
       "id": "b216",
@@ -3982,6 +10831,46 @@ window.__COPIA__["datos-biblioteca/biblioteca-centro.json"] = {
           "bloque": "economica",
           "clave": "O2006-3.2.b)",
           "url": ""
+        }
+      ],
+      "guion": [
+        {
+          "id": "g1",
+          "texto": "Consultar el crédito disponible en la aplicación de gestión económica",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        },
+        {
+          "id": "g2",
+          "texto": "Comprobar si es material inventariable",
+          "explicacion": "",
+          "accion": "",
+          "normativa": {
+            "cita": "Orden de 10 de mayo de 2006, art. 3.2.b)",
+            "bloque": "",
+            "clave": "",
+            "url": ""
+          }
+        },
+        {
+          "id": "g3",
+          "texto": "Si lo es, comprobar el techo del 10 % del crédito anual",
+          "explicacion": "El material bibliográfico no computa.",
+          "accion": "",
+          "normativa": {
+            "cita": "Orden de 10 de mayo de 2006, art. 3.2.b)",
+            "bloque": "",
+            "clave": "",
+            "url": ""
+          }
+        },
+        {
+          "id": "g4",
+          "texto": "Anotar en el asunto la partida a la que se carga",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
         }
       ]
     },
@@ -4001,6 +10890,41 @@ window.__COPIA__["datos-biblioteca/biblioteca-centro.json"] = {
           "clave": "LCSP-118.1",
           "url": ""
         }
+      ],
+      "guion": [
+        {
+          "id": "g1",
+          "texto": "Pedir presupuesto al proveedor",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        },
+        {
+          "id": "g2",
+          "texto": "Calcular el importe total sin IVA",
+          "explicacion": "",
+          "accion": "",
+          "normativa": {
+            "cita": "Ley 9/2017, art. 118.1",
+            "bloque": "",
+            "clave": "",
+            "url": ""
+          }
+        },
+        {
+          "id": "g3",
+          "texto": "Sumar lo que se haya comprado para el mismo objeto",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        },
+        {
+          "id": "g4",
+          "texto": "Anotar el valor estimado en el asunto",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        }
       ]
     },
     {
@@ -4018,6 +10942,44 @@ window.__COPIA__["datos-biblioteca/biblioteca-centro.json"] = {
           "bloque": "economica",
           "clave": "LCSP-118.1",
           "url": ""
+        }
+      ],
+      "guion": [
+        {
+          "id": "g1",
+          "texto": "Comprobar el objeto del contrato",
+          "explicacion": "Obra, suministro o servicio.",
+          "accion": "",
+          "normativa": {
+            "cita": "Ley 9/2017, art. 118.1",
+            "bloque": "",
+            "clave": "",
+            "url": ""
+          }
+        },
+        {
+          "id": "g2",
+          "texto": "Comparar el valor estimado con el umbral",
+          "explicacion": "40.000 € en obras; 15.000 € en suministros y servicios.",
+          "accion": "",
+          "normativa": {
+            "cita": "Ley 9/2017, art. 118.1",
+            "bloque": "",
+            "clave": "",
+            "url": ""
+          }
+        },
+        {
+          "id": "g3",
+          "texto": "Si lo supera, parar y avisar a la dirección",
+          "explicacion": "",
+          "accion": "",
+          "normativa": {
+            "cita": "Ley 9/2017, art. 118.1",
+            "bloque": "",
+            "clave": "",
+            "url": ""
+          }
         }
       ]
     },
@@ -4037,6 +10999,46 @@ window.__COPIA__["datos-biblioteca/biblioteca-centro.json"] = {
           "clave": "LCSP-118",
           "url": ""
         }
+      ],
+      "guion": [
+        {
+          "id": "g1",
+          "texto": "Generar el informe de necesidad",
+          "explicacion": "",
+          "accion": "generar",
+          "normativa": {
+            "cita": "Ley 9/2017, art. 118",
+            "bloque": "",
+            "clave": "",
+            "url": ""
+          }
+        },
+        {
+          "id": "g2",
+          "texto": "Explicar por qué hace falta y por qué no se fracciona",
+          "explicacion": "",
+          "accion": "",
+          "normativa": {
+            "cita": "Ley 9/2017, art. 118",
+            "bloque": "",
+            "clave": "",
+            "url": ""
+          }
+        },
+        {
+          "id": "g3",
+          "texto": "Recoger la firma de la dirección",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        },
+        {
+          "id": "g4",
+          "texto": "Añadir el informe firmado al asunto",
+          "explicacion": "",
+          "accion": "anadir",
+          "normativa": null
+        }
       ]
     },
     {
@@ -4047,7 +11049,30 @@ window.__COPIA__["datos-biblioteca/biblioteca-centro.json"] = {
       "responsable": "Dirección",
       "requisitos": [],
       "soloInformativo": true,
-      "normativa": []
+      "normativa": [],
+      "guion": [
+        {
+          "id": "g1",
+          "texto": "Generar el documento de aprobación del gasto",
+          "explicacion": "",
+          "accion": "generar",
+          "normativa": null
+        },
+        {
+          "id": "g2",
+          "texto": "Recoger la firma de la dirección",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        },
+        {
+          "id": "g3",
+          "texto": "Añadir la aprobación al asunto",
+          "explicacion": "",
+          "accion": "anadir",
+          "normativa": null
+        }
+      ]
     },
     {
       "id": "b221",
@@ -4064,7 +11089,30 @@ window.__COPIA__["datos-biblioteca/biblioteca-centro.json"] = {
         }
       ],
       "soloInformativo": false,
-      "normativa": []
+      "normativa": [],
+      "guion": [
+        {
+          "id": "g1",
+          "texto": "Generar el pedido",
+          "explicacion": "",
+          "accion": "generar",
+          "normativa": null
+        },
+        {
+          "id": "g2",
+          "texto": "Enviar el pedido al proveedor",
+          "explicacion": "",
+          "accion": "comunicar",
+          "normativa": null
+        },
+        {
+          "id": "g3",
+          "texto": "Añadir el pedido al asunto",
+          "explicacion": "",
+          "accion": "anadir",
+          "normativa": null
+        }
+      ]
     },
     {
       "id": "b222",
@@ -4081,7 +11129,30 @@ window.__COPIA__["datos-biblioteca/biblioteca-centro.json"] = {
         }
       ],
       "soloInformativo": false,
-      "normativa": []
+      "normativa": [],
+      "guion": [
+        {
+          "id": "g1",
+          "texto": "Comprobar que lo recibido coincide con el pedido",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        },
+        {
+          "id": "g2",
+          "texto": "Firmar el albarán",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        },
+        {
+          "id": "g3",
+          "texto": "Añadir el albarán firmado al asunto",
+          "explicacion": "",
+          "accion": "anadir",
+          "normativa": null
+        }
+      ]
     },
     {
       "id": "b223",
@@ -4113,6 +11184,46 @@ window.__COPIA__["datos-biblioteca/biblioteca-centro.json"] = {
           "clave": "D75-2.4",
           "url": ""
         }
+      ],
+      "guion": [
+        {
+          "id": "g1",
+          "texto": "Comprobar que la factura es completa",
+          "explicacion": "La simplificada solo vale hasta 400 € con IVA.",
+          "accion": "",
+          "normativa": {
+            "cita": "Real Decreto 1619/2012, art. 4.1.a)",
+            "bloque": "",
+            "clave": "",
+            "url": ""
+          }
+        },
+        {
+          "id": "g2",
+          "texto": "Si pasa de 5.000 € con impuestos, comprobar que llega por el Registro Contable",
+          "explicacion": "",
+          "accion": "",
+          "normativa": {
+            "cita": "Decreto 75/2016, art. 2.4",
+            "bloque": "",
+            "clave": "",
+            "url": ""
+          }
+        },
+        {
+          "id": "g3",
+          "texto": "Registrar la factura",
+          "explicacion": "",
+          "accion": "registrar",
+          "normativa": null
+        },
+        {
+          "id": "g4",
+          "texto": "Añadir la factura al asunto",
+          "explicacion": "",
+          "accion": "anadir",
+          "normativa": null
+        }
       ]
     },
     {
@@ -4138,6 +11249,46 @@ window.__COPIA__["datos-biblioteca/biblioteca-centro.json"] = {
           "clave": "D5-4.2",
           "url": ""
         }
+      ],
+      "guion": [
+        {
+          "id": "g1",
+          "texto": "Comprobar el plazo de pago",
+          "explicacion": "30 días naturales, o 20 en determinadas obligaciones educativas.",
+          "accion": "",
+          "normativa": {
+            "cita": "Ley 3/2004, art. 4",
+            "bloque": "",
+            "clave": "",
+            "url": ""
+          }
+        },
+        {
+          "id": "g2",
+          "texto": "Hacer la transferencia desde la cuenta del centro",
+          "explicacion": "",
+          "accion": "",
+          "normativa": {
+            "cita": "Decreto 5/2017, art. 4.2",
+            "bloque": "",
+            "clave": "",
+            "url": ""
+          }
+        },
+        {
+          "id": "g3",
+          "texto": "Anotar el pago en la aplicación de gestión económica",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        },
+        {
+          "id": "g4",
+          "texto": "Añadir el justificante de pago al asunto",
+          "explicacion": "",
+          "accion": "anadir",
+          "normativa": null
+        }
       ]
     },
     {
@@ -4156,6 +11307,39 @@ window.__COPIA__["datos-biblioteca/biblioteca-centro.json"] = {
           "clave": "I1-2021",
           "url": ""
         }
+      ],
+      "guion": [
+        {
+          "id": "g1",
+          "texto": "Comprobar el valor unitario con IVA",
+          "explicacion": "",
+          "accion": "",
+          "normativa": {
+            "cita": "Instrucción 1/2021",
+            "bloque": "",
+            "clave": "",
+            "url": ""
+          }
+        },
+        {
+          "id": "g2",
+          "texto": "Si llega a 300,50 €, darlo de alta en el inventario",
+          "explicacion": "",
+          "accion": "",
+          "normativa": {
+            "cita": "Instrucción 1/2021",
+            "bloque": "",
+            "clave": "",
+            "url": ""
+          }
+        },
+        {
+          "id": "g3",
+          "texto": "Anotar en el asunto el número de inventario",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        }
       ]
     },
     {
@@ -4166,7 +11350,30 @@ window.__COPIA__["datos-biblioteca/biblioteca-centro.json"] = {
       "responsable": "Secretaría",
       "requisitos": [],
       "soloInformativo": false,
-      "normativa": []
+      "normativa": [],
+      "guion": [
+        {
+          "id": "g1",
+          "texto": "Reunir el pedido, el albarán, la factura y el justificante de pago",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        },
+        {
+          "id": "g2",
+          "texto": "Comprobar que no falta ninguno",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        },
+        {
+          "id": "g3",
+          "texto": "Archivar el justificante con la factura",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        }
+      ]
     },
     {
       "id": "b227",
@@ -4183,7 +11390,37 @@ window.__COPIA__["datos-biblioteca/biblioteca-centro.json"] = {
         }
       ],
       "soloInformativo": false,
-      "normativa": []
+      "normativa": [],
+      "guion": [
+        {
+          "id": "g1",
+          "texto": "Redactar el contrato o encargo",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        },
+        {
+          "id": "g2",
+          "texto": "Comprobar que incluye objeto, duración y precio sin IVA",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        },
+        {
+          "id": "g3",
+          "texto": "Recoger las firmas",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        },
+        {
+          "id": "g4",
+          "texto": "Añadir el contrato firmado al asunto",
+          "explicacion": "",
+          "accion": "anadir",
+          "normativa": null
+        }
+      ]
     },
     {
       "id": "b228",
@@ -4193,7 +11430,30 @@ window.__COPIA__["datos-biblioteca/biblioteca-centro.json"] = {
       "responsable": "Secretaría",
       "requisitos": [],
       "soloInformativo": false,
-      "normativa": []
+      "normativa": [],
+      "guion": [
+        {
+          "id": "g1",
+          "texto": "Pedir al proveedor el calendario de revisiones",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        },
+        {
+          "id": "g2",
+          "texto": "Anotar las fechas de las revisiones en el asunto",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        },
+        {
+          "id": "g3",
+          "texto": "Poner avisos antes de cada revisión",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        }
+      ]
     },
     {
       "id": "b229",
@@ -4203,7 +11463,30 @@ window.__COPIA__["datos-biblioteca/biblioteca-centro.json"] = {
       "responsable": "Secretaría",
       "requisitos": [],
       "soloInformativo": false,
-      "normativa": []
+      "normativa": [],
+      "guion": [
+        {
+          "id": "g1",
+          "texto": "Recoger el parte de la revisión",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        },
+        {
+          "id": "g2",
+          "texto": "Comprobar que el trabajo se ha hecho",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        },
+        {
+          "id": "g3",
+          "texto": "Añadir el parte al asunto",
+          "explicacion": "Cada parte, un documento.",
+          "accion": "anadir",
+          "normativa": null
+        }
+      ]
     },
     {
       "id": "b230",
@@ -4221,6 +11504,41 @@ window.__COPIA__["datos-biblioteca/biblioteca-centro.json"] = {
           "clave": "L3-4",
           "url": ""
         }
+      ],
+      "guion": [
+        {
+          "id": "g1",
+          "texto": "Recibir la factura y comprobarla con el contrato",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        },
+        {
+          "id": "g2",
+          "texto": "Registrar la factura",
+          "explicacion": "",
+          "accion": "registrar",
+          "normativa": null
+        },
+        {
+          "id": "g3",
+          "texto": "Pagar dentro del plazo",
+          "explicacion": "30 días naturales, o 20 en obligaciones educativas.",
+          "accion": "",
+          "normativa": {
+            "cita": "Ley 3/2004, art. 4",
+            "bloque": "",
+            "clave": "",
+            "url": ""
+          }
+        },
+        {
+          "id": "g4",
+          "texto": "Añadir el justificante de pago al asunto",
+          "explicacion": "",
+          "accion": "anadir",
+          "normativa": null
+        }
       ]
     },
     {
@@ -4231,7 +11549,30 @@ window.__COPIA__["datos-biblioteca/biblioteca-centro.json"] = {
       "responsable": "Secretaría",
       "requisitos": [],
       "soloInformativo": false,
-      "normativa": []
+      "normativa": [],
+      "guion": [
+        {
+          "id": "g1",
+          "texto": "Anotar la fecha de vencimiento del contrato",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        },
+        {
+          "id": "g2",
+          "texto": "Poner un aviso con antelación suficiente",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        },
+        {
+          "id": "g3",
+          "texto": "Consultar con la dirección si se renueva",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        }
+      ]
     },
     {
       "id": "b232",
@@ -4241,7 +11582,30 @@ window.__COPIA__["datos-biblioteca/biblioteca-centro.json"] = {
       "responsable": "Secretaría",
       "requisitos": [],
       "soloInformativo": false,
-      "normativa": []
+      "normativa": [],
+      "guion": [
+        {
+          "id": "g1",
+          "texto": "Localizar la factura o el acta de recepción",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        },
+        {
+          "id": "g2",
+          "texto": "Anotar en el asunto la fecha de inicio de la garantía",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        },
+        {
+          "id": "g3",
+          "texto": "Anotar la duración de la garantía",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        }
+      ]
     },
     {
       "id": "b233",
@@ -4264,7 +11628,30 @@ window.__COPIA__["datos-biblioteca/biblioteca-centro.json"] = {
         }
       ],
       "soloInformativo": false,
-      "normativa": []
+      "normativa": [],
+      "guion": [
+        {
+          "id": "g1",
+          "texto": "Añadir la factura al asunto",
+          "explicacion": "",
+          "accion": "anadir",
+          "normativa": null
+        },
+        {
+          "id": "g2",
+          "texto": "Añadir el documento de garantía al asunto",
+          "explicacion": "",
+          "accion": "anadir",
+          "normativa": null
+        },
+        {
+          "id": "g3",
+          "texto": "Guardar los originales en la carpeta de garantías",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        }
+      ]
     },
     {
       "id": "b234",
@@ -4274,7 +11661,30 @@ window.__COPIA__["datos-biblioteca/biblioteca-centro.json"] = {
       "responsable": "Secretaría",
       "requisitos": [],
       "soloInformativo": false,
-      "normativa": []
+      "normativa": [],
+      "guion": [
+        {
+          "id": "g1",
+          "texto": "Calcular la fecha de fin",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        },
+        {
+          "id": "g2",
+          "texto": "Ponerla como fecha límite del asunto",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        },
+        {
+          "id": "g3",
+          "texto": "Comprobar que aparece en el calendario",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        }
+      ]
     },
     {
       "id": "b235",
@@ -4284,7 +11694,30 @@ window.__COPIA__["datos-biblioteca/biblioteca-centro.json"] = {
       "responsable": "Secretaría",
       "requisitos": [],
       "soloInformativo": false,
-      "normativa": []
+      "normativa": [],
+      "guion": [
+        {
+          "id": "g1",
+          "texto": "Poner un aviso antes del vencimiento",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        },
+        {
+          "id": "g2",
+          "texto": "Revisar el estado del bien o del servicio",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        },
+        {
+          "id": "g3",
+          "texto": "Consultar con la dirección qué hacer",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        }
+      ]
     },
     {
       "id": "b236",
@@ -4294,7 +11727,44 @@ window.__COPIA__["datos-biblioteca/biblioteca-centro.json"] = {
       "responsable": "Secretaría",
       "requisitos": [],
       "soloInformativo": false,
-      "normativa": []
+      "normativa": [],
+      "guion": [
+        {
+          "id": "g1",
+          "texto": "Describir la incidencia",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        },
+        {
+          "id": "g2",
+          "texto": "Generar la reclamación al proveedor",
+          "explicacion": "",
+          "accion": "generar",
+          "normativa": null
+        },
+        {
+          "id": "g3",
+          "texto": "Registrar la salida en Séneca",
+          "explicacion": "",
+          "accion": "registrar",
+          "normativa": null
+        },
+        {
+          "id": "g4",
+          "texto": "Enviarla con acuse de recibo",
+          "explicacion": "",
+          "accion": "comunicar",
+          "normativa": null
+        },
+        {
+          "id": "g5",
+          "texto": "Añadir el acuse de recibo al asunto",
+          "explicacion": "",
+          "accion": "anadir",
+          "normativa": null
+        }
+      ]
     },
     {
       "id": "b237",
@@ -4304,7 +11774,30 @@ window.__COPIA__["datos-biblioteca/biblioteca-centro.json"] = {
       "responsable": "Secretaría",
       "requisitos": [],
       "soloInformativo": false,
-      "normativa": []
+      "normativa": [],
+      "guion": [
+        {
+          "id": "g1",
+          "texto": "Recibir la comunicación del crédito asignado",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        },
+        {
+          "id": "g2",
+          "texto": "Registrar la entrada en Séneca",
+          "explicacion": "",
+          "accion": "registrar",
+          "normativa": null
+        },
+        {
+          "id": "g3",
+          "texto": "Añadir la comunicación al asunto",
+          "explicacion": "",
+          "accion": "anadir",
+          "normativa": null
+        }
+      ]
     },
     {
       "id": "b238",
@@ -4341,6 +11834,51 @@ window.__COPIA__["datos-biblioteca/biblioteca-centro.json"] = {
           "clave": "O2006-4",
           "url": ""
         }
+      ],
+      "guion": [
+        {
+          "id": "g1",
+          "texto": "Preparar el estado de ingresos",
+          "explicacion": "",
+          "accion": "",
+          "normativa": {
+            "cita": "Orden de 10 de mayo de 2006",
+            "bloque": "",
+            "clave": "",
+            "url": ""
+          }
+        },
+        {
+          "id": "g2",
+          "texto": "Preparar el estado de gastos",
+          "explicacion": "",
+          "accion": "",
+          "normativa": {
+            "cita": "Orden de 10 de mayo de 2006",
+            "bloque": "",
+            "clave": "",
+            "url": ""
+          }
+        },
+        {
+          "id": "g3",
+          "texto": "Rellenar los Anexos I, II y III",
+          "explicacion": "",
+          "accion": "",
+          "normativa": {
+            "cita": "Orden de 10 de mayo de 2006",
+            "bloque": "",
+            "clave": "",
+            "url": ""
+          }
+        },
+        {
+          "id": "g4",
+          "texto": "Añadir el proyecto de presupuesto al asunto",
+          "explicacion": "",
+          "accion": "anadir",
+          "normativa": null
+        }
       ]
     },
     {
@@ -4351,7 +11889,30 @@ window.__COPIA__["datos-biblioteca/biblioteca-centro.json"] = {
       "responsable": "Secretaría",
       "requisitos": [],
       "soloInformativo": false,
-      "normativa": []
+      "normativa": [],
+      "guion": [
+        {
+          "id": "g1",
+          "texto": "Comprobar que los ingresos cubren los gastos",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        },
+        {
+          "id": "g2",
+          "texto": "Incorporar el remanente del ejercicio anterior",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        },
+        {
+          "id": "g3",
+          "texto": "Separar las partidas finalistas",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        }
+      ]
     },
     {
       "id": "b240",
@@ -4361,7 +11922,37 @@ window.__COPIA__["datos-biblioteca/biblioteca-centro.json"] = {
       "responsable": "Dirección",
       "requisitos": [],
       "soloInformativo": false,
-      "normativa": []
+      "normativa": [],
+      "guion": [
+        {
+          "id": "g1",
+          "texto": "Enviar el proyecto de presupuesto a los miembros del Consejo Escolar",
+          "explicacion": "",
+          "accion": "comunicar",
+          "normativa": null
+        },
+        {
+          "id": "g2",
+          "texto": "Presentarlo en la sesión",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        },
+        {
+          "id": "g3",
+          "texto": "Recoger la aprobación en el acta",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        },
+        {
+          "id": "g4",
+          "texto": "Añadir el certificado de aprobación al asunto",
+          "explicacion": "",
+          "accion": "anadir",
+          "normativa": null
+        }
+      ]
     },
     {
       "id": "b241",
@@ -4371,7 +11962,30 @@ window.__COPIA__["datos-biblioteca/biblioteca-centro.json"] = {
       "responsable": "Secretaría",
       "requisitos": [],
       "soloInformativo": false,
-      "normativa": []
+      "normativa": [],
+      "guion": [
+        {
+          "id": "g1",
+          "texto": "Grabar el presupuesto aprobado en Séneca",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        },
+        {
+          "id": "g2",
+          "texto": "Comprobar que las cifras coinciden con las aprobadas",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        },
+        {
+          "id": "g3",
+          "texto": "Anotar la fecha de grabación",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        }
+      ]
     },
     {
       "id": "b242",
@@ -4381,7 +11995,37 @@ window.__COPIA__["datos-biblioteca/biblioteca-centro.json"] = {
       "responsable": "Secretaría",
       "requisitos": [],
       "soloInformativo": false,
-      "normativa": []
+      "normativa": [],
+      "guion": [
+        {
+          "id": "g1",
+          "texto": "Documentar cada modificación con su motivo",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        },
+        {
+          "id": "g2",
+          "texto": "Comprobar que no se mueven partidas finalistas",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        },
+        {
+          "id": "g3",
+          "texto": "Llevar la modificación al Consejo Escolar cuando proceda",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        },
+        {
+          "id": "g4",
+          "texto": "Grabarla en Séneca",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        }
+      ]
     },
     {
       "id": "b243",
@@ -4391,7 +12035,30 @@ window.__COPIA__["datos-biblioteca/biblioteca-centro.json"] = {
       "responsable": "Secretaría",
       "requisitos": [],
       "soloInformativo": false,
-      "normativa": []
+      "normativa": [],
+      "guion": [
+        {
+          "id": "g1",
+          "texto": "Conciliar la cuenta bancaria con los registros",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        },
+        {
+          "id": "g2",
+          "texto": "Comprobar la caja",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        },
+        {
+          "id": "g3",
+          "texto": "Cerrar el ejercicio en la aplicación de gestión económica",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        }
+      ]
     },
     {
       "id": "b244",
@@ -4408,7 +12075,37 @@ window.__COPIA__["datos-biblioteca/biblioteca-centro.json"] = {
         }
       ],
       "soloInformativo": false,
-      "normativa": []
+      "normativa": [],
+      "guion": [
+        {
+          "id": "g1",
+          "texto": "Generar los anexos de la cuenta de gestión",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        },
+        {
+          "id": "g2",
+          "texto": "Comprobar que cuadran con el banco y la caja",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        },
+        {
+          "id": "g3",
+          "texto": "Reunir los justificantes",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        },
+        {
+          "id": "g4",
+          "texto": "Añadir la cuenta de gestión al asunto",
+          "explicacion": "",
+          "accion": "anadir",
+          "normativa": null
+        }
+      ]
     },
     {
       "id": "b245",
@@ -4418,7 +12115,37 @@ window.__COPIA__["datos-biblioteca/biblioteca-centro.json"] = {
       "responsable": "Dirección",
       "requisitos": [],
       "soloInformativo": false,
-      "normativa": []
+      "normativa": [],
+      "guion": [
+        {
+          "id": "g1",
+          "texto": "Enviar la cuenta de gestión a los miembros del Consejo Escolar",
+          "explicacion": "",
+          "accion": "comunicar",
+          "normativa": null
+        },
+        {
+          "id": "g2",
+          "texto": "Presentarla en la sesión",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        },
+        {
+          "id": "g3",
+          "texto": "Recoger la aprobación en el acta",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        },
+        {
+          "id": "g4",
+          "texto": "Añadir el certificado de aprobación al asunto",
+          "explicacion": "",
+          "accion": "anadir",
+          "normativa": null
+        }
+      ]
     },
     {
       "id": "b246",
@@ -4436,6 +12163,39 @@ window.__COPIA__["datos-biblioteca/biblioteca-centro.json"] = {
           "clave": "O2006-15.3",
           "url": ""
         }
+      ],
+      "guion": [
+        {
+          "id": "g1",
+          "texto": "Comprobar la fecha tope",
+          "explicacion": "30 de octubre.",
+          "accion": "",
+          "normativa": {
+            "cita": "Orden de 10 de mayo de 2006, art. 15.3",
+            "bloque": "",
+            "clave": "",
+            "url": ""
+          }
+        },
+        {
+          "id": "g2",
+          "texto": "Remitir la cuenta de gestión por Séneca",
+          "explicacion": "",
+          "accion": "",
+          "normativa": {
+            "cita": "Orden de 10 de mayo de 2006, art. 15.3",
+            "bloque": "",
+            "clave": "",
+            "url": ""
+          }
+        },
+        {
+          "id": "g3",
+          "texto": "Anotar en el asunto la fecha de remisión",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        }
       ]
     },
     {
@@ -4446,7 +12206,37 @@ window.__COPIA__["datos-biblioteca/biblioteca-centro.json"] = {
       "responsable": "Secretaría",
       "requisitos": [],
       "soloInformativo": false,
-      "normativa": []
+      "normativa": [],
+      "guion": [
+        {
+          "id": "g1",
+          "texto": "Reunir las retenciones del trimestre",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        },
+        {
+          "id": "g2",
+          "texto": "Rellenar el modelo 095",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        },
+        {
+          "id": "g3",
+          "texto": "Presentarlo en plazo",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        },
+        {
+          "id": "g4",
+          "texto": "Añadir el justificante de presentación al asunto",
+          "explicacion": "",
+          "accion": "anadir",
+          "normativa": null
+        }
+      ]
     },
     {
       "id": "b248",
@@ -4456,7 +12246,37 @@ window.__COPIA__["datos-biblioteca/biblioteca-centro.json"] = {
       "responsable": "Secretaría",
       "requisitos": [],
       "soloInformativo": false,
-      "normativa": []
+      "normativa": [],
+      "guion": [
+        {
+          "id": "g1",
+          "texto": "Reunir las retenciones del año",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        },
+        {
+          "id": "g2",
+          "texto": "Rellenar el modelo 190",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        },
+        {
+          "id": "g3",
+          "texto": "Presentarlo en plazo",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        },
+        {
+          "id": "g4",
+          "texto": "Añadir el justificante de presentación al asunto",
+          "explicacion": "",
+          "accion": "anadir",
+          "normativa": null
+        }
+      ]
     },
     {
       "id": "b249",
@@ -4466,7 +12286,37 @@ window.__COPIA__["datos-biblioteca/biblioteca-centro.json"] = {
       "responsable": "Secretaría",
       "requisitos": [],
       "soloInformativo": false,
-      "normativa": []
+      "normativa": [],
+      "guion": [
+        {
+          "id": "g1",
+          "texto": "Reunir todas las operaciones con terceros del ejercicio",
+          "explicacion": "Superen o no los 3.005,06 €.",
+          "accion": "",
+          "normativa": null
+        },
+        {
+          "id": "g2",
+          "texto": "Grabarlas en Séneca",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        },
+        {
+          "id": "g3",
+          "texto": "Remitir la declaración",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        },
+        {
+          "id": "g4",
+          "texto": "Añadir el justificante al asunto",
+          "explicacion": "",
+          "accion": "anadir",
+          "normativa": null
+        }
+      ]
     },
     {
       "id": "b250",
@@ -4484,6 +12334,46 @@ window.__COPIA__["datos-biblioteca/biblioteca-centro.json"] = {
           "clave": "I1-2021",
           "url": ""
         }
+      ],
+      "guion": [
+        {
+          "id": "g1",
+          "texto": "Comprobar el valor unitario con IVA",
+          "explicacion": "",
+          "accion": "",
+          "normativa": {
+            "cita": "Instrucción 1/2021",
+            "bloque": "",
+            "clave": "",
+            "url": ""
+          }
+        },
+        {
+          "id": "g2",
+          "texto": "Si llega a 300,50 €, dar de alta el bien",
+          "explicacion": "Por debajo, es potestativo.",
+          "accion": "",
+          "normativa": {
+            "cita": "Instrucción 1/2021",
+            "bloque": "",
+            "clave": "",
+            "url": ""
+          }
+        },
+        {
+          "id": "g3",
+          "texto": "Etiquetar el bien con su número",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        },
+        {
+          "id": "g4",
+          "texto": "Anotar la ubicación",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        }
       ]
     },
     {
@@ -4494,7 +12384,30 @@ window.__COPIA__["datos-biblioteca/biblioteca-centro.json"] = {
       "responsable": "Secretaría",
       "requisitos": [],
       "soloInformativo": false,
-      "normativa": []
+      "normativa": [],
+      "guion": [
+        {
+          "id": "g1",
+          "texto": "Anotar el motivo de la baja",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        },
+        {
+          "id": "g2",
+          "texto": "Dar de baja el bien en el inventario",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        },
+        {
+          "id": "g3",
+          "texto": "Añadir el documento que justifique la baja",
+          "explicacion": "",
+          "accion": "anadir",
+          "normativa": null
+        }
+      ]
     },
     {
       "id": "b252",
@@ -4504,7 +12417,30 @@ window.__COPIA__["datos-biblioteca/biblioteca-centro.json"] = {
       "responsable": "Secretaría",
       "requisitos": [],
       "soloInformativo": false,
-      "normativa": []
+      "normativa": [],
+      "guion": [
+        {
+          "id": "g1",
+          "texto": "Revisar las altas y bajas del año",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        },
+        {
+          "id": "g2",
+          "texto": "Comprobar que el inventario coincide con lo que hay",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        },
+        {
+          "id": "g3",
+          "texto": "Cerrar el inventario del año",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        }
+      ]
     },
     {
       "id": "b253",
@@ -4521,6 +12457,39 @@ window.__COPIA__["datos-biblioteca/biblioteca-centro.json"] = {
           "bloque": "",
           "clave": "",
           "url": ""
+        }
+      ],
+      "guion": [
+        {
+          "id": "g1",
+          "texto": "Consultar el remanente del curso anterior",
+          "explicacion": "",
+          "accion": "",
+          "normativa": {
+            "cita": "Instrucciones de gratuidad de 9 de junio de 2026",
+            "bloque": "",
+            "clave": "",
+            "url": ""
+          }
+        },
+        {
+          "id": "g2",
+          "texto": "Incorporarlo como primera partida de la dotación",
+          "explicacion": "",
+          "accion": "",
+          "normativa": {
+            "cita": "Instrucciones de gratuidad de 9 de junio de 2026",
+            "bloque": "",
+            "clave": "",
+            "url": ""
+          }
+        },
+        {
+          "id": "g3",
+          "texto": "Anotar la cifra en el asunto",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
         }
       ]
     },
@@ -4540,6 +12509,39 @@ window.__COPIA__["datos-biblioteca/biblioteca-centro.json"] = {
           "clave": "",
           "url": ""
         }
+      ],
+      "guion": [
+        {
+          "id": "g1",
+          "texto": "Revisar el estado de los libros devueltos",
+          "explicacion": "",
+          "accion": "",
+          "normativa": {
+            "cita": "Instrucciones de gratuidad de 9 de junio de 2026",
+            "bloque": "",
+            "clave": "",
+            "url": ""
+          }
+        },
+        {
+          "id": "g2",
+          "texto": "Calcular la reposición",
+          "explicacion": "8 % en 1.º, 2.º y 3.º; 5 % en 4.º.",
+          "accion": "",
+          "normativa": {
+            "cita": "Instrucciones de gratuidad de 9 de junio de 2026",
+            "bloque": "",
+            "clave": "",
+            "url": ""
+          }
+        },
+        {
+          "id": "g3",
+          "texto": "Hacer el pedido de reposición",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        }
       ]
     },
     {
@@ -4558,6 +12560,39 @@ window.__COPIA__["datos-biblioteca/biblioteca-centro.json"] = {
           "clave": "",
           "url": ""
         }
+      ],
+      "guion": [
+        {
+          "id": "g1",
+          "texto": "Comprobar el alumnado NEAE con material adaptado",
+          "explicacion": "",
+          "accion": "",
+          "normativa": {
+            "cita": "Instrucciones de gratuidad de 9 de junio de 2026",
+            "bloque": "",
+            "clave": "",
+            "url": ""
+          }
+        },
+        {
+          "id": "g2",
+          "texto": "Calcular la dotación específica",
+          "explicacion": "147 € por alumno.",
+          "accion": "",
+          "normativa": {
+            "cita": "Instrucciones de gratuidad de 9 de junio de 2026",
+            "bloque": "",
+            "clave": "",
+            "url": ""
+          }
+        },
+        {
+          "id": "g3",
+          "texto": "Anotar la cifra en el asunto",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        }
       ]
     },
     {
@@ -4568,7 +12603,30 @@ window.__COPIA__["datos-biblioteca/biblioteca-centro.json"] = {
       "responsable": "Secretaría",
       "requisitos": [],
       "soloInformativo": false,
-      "normativa": []
+      "normativa": [],
+      "guion": [
+        {
+          "id": "g1",
+          "texto": "Comprobar si hay cheque-libro electrónico",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        },
+        {
+          "id": "g2",
+          "texto": "Consultar en Séneca si la librería ha registrado la aceptación",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        },
+        {
+          "id": "g3",
+          "texto": "Si no, registrar la aceptación desde el centro",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        }
+      ]
     },
     {
       "id": "b257",
@@ -4585,6 +12643,39 @@ window.__COPIA__["datos-biblioteca/biblioteca-centro.json"] = {
           "bloque": "",
           "clave": "",
           "url": ""
+        }
+      ],
+      "guion": [
+        {
+          "id": "g1",
+          "texto": "Reunir las facturas de libros de texto",
+          "explicacion": "",
+          "accion": "",
+          "normativa": {
+            "cita": "Instrucciones de gratuidad de 9 de junio de 2026",
+            "bloque": "",
+            "clave": "",
+            "url": ""
+          }
+        },
+        {
+          "id": "g2",
+          "texto": "Grabar el estado de gastos en Séneca",
+          "explicacion": "Antes del 31 de octubre de 2026.",
+          "accion": "",
+          "normativa": {
+            "cita": "Instrucciones de gratuidad de 9 de junio de 2026",
+            "bloque": "",
+            "clave": "",
+            "url": ""
+          }
+        },
+        {
+          "id": "g3",
+          "texto": "Anotar la fecha de grabación",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
         }
       ]
     },
@@ -4604,6 +12695,46 @@ window.__COPIA__["datos-biblioteca/biblioteca-centro.json"] = {
           "clave": "",
           "url": ""
         }
+      ],
+      "guion": [
+        {
+          "id": "g1",
+          "texto": "Comprobar si la dotación no alcanza",
+          "explicacion": "",
+          "accion": "",
+          "normativa": {
+            "cita": "Instrucciones de gratuidad de 9 de junio de 2026",
+            "bloque": "",
+            "clave": "",
+            "url": ""
+          }
+        },
+        {
+          "id": "g2",
+          "texto": "Generar el Anexo VI con la memoria motivada",
+          "explicacion": "Antes del 31 de mayo de 2027.",
+          "accion": "generar",
+          "normativa": {
+            "cita": "Instrucciones de gratuidad de 9 de junio de 2026",
+            "bloque": "",
+            "clave": "",
+            "url": ""
+          }
+        },
+        {
+          "id": "g3",
+          "texto": "Recoger la firma de la dirección",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        },
+        {
+          "id": "g4",
+          "texto": "Enviar la solicitud",
+          "explicacion": "",
+          "accion": "comunicar",
+          "normativa": null
+        }
       ]
     },
     {
@@ -4622,6 +12753,44 @@ window.__COPIA__["datos-biblioteca/biblioteca-centro.json"] = {
           "clave": "",
           "url": ""
         }
+      ],
+      "guion": [
+        {
+          "id": "g1",
+          "texto": "Reunir los gastos del programa",
+          "explicacion": "",
+          "accion": "",
+          "normativa": {
+            "cita": "Instrucciones de gratuidad de 9 de junio de 2026",
+            "bloque": "",
+            "clave": "",
+            "url": ""
+          }
+        },
+        {
+          "id": "g2",
+          "texto": "Rellenar el Anexo XI en Séneca",
+          "explicacion": "",
+          "accion": "",
+          "normativa": {
+            "cita": "Instrucciones de gratuidad de 9 de junio de 2026",
+            "bloque": "",
+            "clave": "",
+            "url": ""
+          }
+        },
+        {
+          "id": "g3",
+          "texto": "Presentar la justificación antes del 30 de junio de 2027",
+          "explicacion": "",
+          "accion": "",
+          "normativa": {
+            "cita": "Instrucciones de gratuidad de 9 de junio de 2026",
+            "bloque": "",
+            "clave": "",
+            "url": ""
+          }
+        }
       ]
     },
     {
@@ -4632,7 +12801,30 @@ window.__COPIA__["datos-biblioteca/biblioteca-centro.json"] = {
       "responsable": "Dirección",
       "requisitos": [],
       "soloInformativo": true,
-      "normativa": []
+      "normativa": [],
+      "guion": [
+        {
+          "id": "g1",
+          "texto": "Comprobar quién forma la Junta Electoral",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        },
+        {
+          "id": "g2",
+          "texto": "Generar la convocatoria de constitución",
+          "explicacion": "",
+          "accion": "generar",
+          "normativa": null
+        },
+        {
+          "id": "g3",
+          "texto": "Celebrar la sesión y levantar acta",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        }
+      ]
     },
     {
       "id": "b261",
@@ -4642,7 +12834,30 @@ window.__COPIA__["datos-biblioteca/biblioteca-centro.json"] = {
       "responsable": "Secretaría",
       "requisitos": [],
       "soloInformativo": false,
-      "normativa": []
+      "normativa": [],
+      "guion": [
+        {
+          "id": "g1",
+          "texto": "Generar el censo de cada sector desde Séneca",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        },
+        {
+          "id": "g2",
+          "texto": "Publicar el censo en el tablón",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        },
+        {
+          "id": "g3",
+          "texto": "Recoger y resolver las reclamaciones",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        }
+      ]
     },
     {
       "id": "b262",
@@ -4652,7 +12867,30 @@ window.__COPIA__["datos-biblioteca/biblioteca-centro.json"] = {
       "responsable": "Secretaría",
       "requisitos": [],
       "soloInformativo": false,
-      "normativa": []
+      "normativa": [],
+      "guion": [
+        {
+          "id": "g1",
+          "texto": "Recoger las candidaturas de cada sector",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        },
+        {
+          "id": "g2",
+          "texto": "Registrar la entrada de cada candidatura",
+          "explicacion": "",
+          "accion": "registrar",
+          "normativa": null
+        },
+        {
+          "id": "g3",
+          "texto": "Comprobar que las personas están en el censo",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        }
+      ]
     },
     {
       "id": "b263",
@@ -4662,7 +12900,30 @@ window.__COPIA__["datos-biblioteca/biblioteca-centro.json"] = {
       "responsable": "Junta Electoral",
       "requisitos": [],
       "soloInformativo": true,
-      "normativa": []
+      "normativa": [],
+      "guion": [
+        {
+          "id": "g1",
+          "texto": "Revisar las candidaturas con la Junta Electoral",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        },
+        {
+          "id": "g2",
+          "texto": "Proclamar las candidaturas",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        },
+        {
+          "id": "g3",
+          "texto": "Publicar la lista en el tablón",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        }
+      ]
     },
     {
       "id": "b264",
@@ -4672,7 +12933,30 @@ window.__COPIA__["datos-biblioteca/biblioteca-centro.json"] = {
       "responsable": "Secretaría",
       "requisitos": [],
       "soloInformativo": false,
-      "normativa": []
+      "normativa": [],
+      "guion": [
+        {
+          "id": "g1",
+          "texto": "Preparar las mesas, las papeletas y las urnas",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        },
+        {
+          "id": "g2",
+          "texto": "Celebrar la votación de cada sector",
+          "explicacion": "Profesorado, familias, alumnado y personal de administración y servicios.",
+          "accion": "",
+          "normativa": null
+        },
+        {
+          "id": "g3",
+          "texto": "Recoger las actas de las mesas",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        }
+      ]
     },
     {
       "id": "b265",
@@ -4682,7 +12966,30 @@ window.__COPIA__["datos-biblioteca/biblioteca-centro.json"] = {
       "responsable": "Secretaría",
       "requisitos": [],
       "soloInformativo": false,
-      "normativa": []
+      "normativa": [],
+      "guion": [
+        {
+          "id": "g1",
+          "texto": "Generar el acta de escrutinio de cada sector",
+          "explicacion": "",
+          "accion": "generar",
+          "normativa": null
+        },
+        {
+          "id": "g2",
+          "texto": "Recoger las firmas de la mesa",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        },
+        {
+          "id": "g3",
+          "texto": "Publicar los resultados",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        }
+      ]
     },
     {
       "id": "b266",
@@ -4692,7 +12999,30 @@ window.__COPIA__["datos-biblioteca/biblioteca-centro.json"] = {
       "responsable": "Dirección",
       "requisitos": [],
       "soloInformativo": true,
-      "normativa": []
+      "normativa": [],
+      "guion": [
+        {
+          "id": "g1",
+          "texto": "Generar la convocatoria de constitución",
+          "explicacion": "",
+          "accion": "generar",
+          "normativa": null
+        },
+        {
+          "id": "g2",
+          "texto": "Enviarla a los miembros electos",
+          "explicacion": "",
+          "accion": "comunicar",
+          "normativa": null
+        },
+        {
+          "id": "g3",
+          "texto": "Celebrar la sesión de constitución y levantar acta",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        }
+      ]
     },
     {
       "id": "b267",
@@ -4702,7 +13032,30 @@ window.__COPIA__["datos-biblioteca/biblioteca-centro.json"] = {
       "responsable": "Secretaría",
       "requisitos": [],
       "soloInformativo": false,
-      "normativa": []
+      "normativa": [],
+      "guion": [
+        {
+          "id": "g1",
+          "texto": "Grabar los resultados en Séneca",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        },
+        {
+          "id": "g2",
+          "texto": "Comprobar que el nuevo Consejo aparece correctamente",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        },
+        {
+          "id": "g3",
+          "texto": "Anotar la fecha de grabación",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        }
+      ]
     },
     {
       "id": "b268",
@@ -4720,6 +13073,34 @@ window.__COPIA__["datos-biblioteca/biblioteca-centro.json"] = {
           "clave": "ROC-52.3",
           "url": ""
         }
+      ],
+      "guion": [
+        {
+          "id": "g1",
+          "texto": "Fijar la fecha y la hora de la sesión",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        },
+        {
+          "id": "g2",
+          "texto": "Generar la convocatoria",
+          "explicacion": "La extraordinaria, con 48 horas de antelación.",
+          "accion": "generar",
+          "normativa": {
+            "cita": "Decreto 327/2010, art. 52.3",
+            "bloque": "",
+            "clave": "",
+            "url": ""
+          }
+        },
+        {
+          "id": "g3",
+          "texto": "Enviar la convocatoria a los miembros del Consejo Escolar",
+          "explicacion": "",
+          "accion": "comunicar",
+          "normativa": null
+        }
       ]
     },
     {
@@ -4730,7 +13111,30 @@ window.__COPIA__["datos-biblioteca/biblioteca-centro.json"] = {
       "responsable": "Secretaría",
       "requisitos": [],
       "soloInformativo": false,
-      "normativa": []
+      "normativa": [],
+      "guion": [
+        {
+          "id": "g1",
+          "texto": "Redactar el orden del día",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        },
+        {
+          "id": "g2",
+          "texto": "Reunir la documentación de cada punto",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        },
+        {
+          "id": "g3",
+          "texto": "Enviar la documentación con la convocatoria",
+          "explicacion": "",
+          "accion": "comunicar",
+          "normativa": null
+        }
+      ]
     },
     {
       "id": "b270",
@@ -4740,7 +13144,30 @@ window.__COPIA__["datos-biblioteca/biblioteca-centro.json"] = {
       "responsable": "Dirección",
       "requisitos": [],
       "soloInformativo": true,
-      "normativa": []
+      "normativa": [],
+      "guion": [
+        {
+          "id": "g1",
+          "texto": "Comprobar el quórum",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        },
+        {
+          "id": "g2",
+          "texto": "Celebrar la sesión según el orden del día",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        },
+        {
+          "id": "g3",
+          "texto": "Tomar nota de los acuerdos y las votaciones",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        }
+      ]
     },
     {
       "id": "b271",
@@ -4750,7 +13177,30 @@ window.__COPIA__["datos-biblioteca/biblioteca-centro.json"] = {
       "responsable": "Secretaría",
       "requisitos": [],
       "soloInformativo": false,
-      "normativa": []
+      "normativa": [],
+      "guion": [
+        {
+          "id": "g1",
+          "texto": "Redactar el acta de la sesión",
+          "explicacion": "",
+          "accion": "generar",
+          "normativa": null
+        },
+        {
+          "id": "g2",
+          "texto": "Recoger la firma de la secretaría y el visto bueno de la dirección",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        },
+        {
+          "id": "g3",
+          "texto": "Añadir el acta al asunto",
+          "explicacion": "",
+          "accion": "anadir",
+          "normativa": null
+        }
+      ]
     },
     {
       "id": "b272",
@@ -4760,7 +13210,30 @@ window.__COPIA__["datos-biblioteca/biblioteca-centro.json"] = {
       "responsable": "Secretaría",
       "requisitos": [],
       "soloInformativo": false,
-      "normativa": []
+      "normativa": [],
+      "guion": [
+        {
+          "id": "g1",
+          "texto": "Preparar el certificado de los acuerdos",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        },
+        {
+          "id": "g2",
+          "texto": "Comunicar los acuerdos a quien corresponda",
+          "explicacion": "",
+          "accion": "comunicar",
+          "normativa": null
+        },
+        {
+          "id": "g3",
+          "texto": "Publicarlos, si procede",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        }
+      ]
     },
     {
       "id": "b273",
@@ -4770,7 +13243,30 @@ window.__COPIA__["datos-biblioteca/biblioteca-centro.json"] = {
       "responsable": "Secretaría",
       "requisitos": [],
       "soloInformativo": false,
-      "normativa": []
+      "normativa": [],
+      "guion": [
+        {
+          "id": "g1",
+          "texto": "Registrar el documento en Séneca",
+          "explicacion": "Con su número y su fecha.",
+          "accion": "registrar",
+          "normativa": null
+        },
+        {
+          "id": "g2",
+          "texto": "Anotar el número de registro en el asunto",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        },
+        {
+          "id": "g3",
+          "texto": "Añadir el documento al asunto",
+          "explicacion": "",
+          "accion": "anadir",
+          "normativa": null
+        }
+      ]
     },
     {
       "id": "b274",
@@ -4780,7 +13276,30 @@ window.__COPIA__["datos-biblioteca/biblioteca-centro.json"] = {
       "responsable": "Secretaría",
       "requisitos": [],
       "soloInformativo": false,
-      "normativa": []
+      "normativa": [],
+      "guion": [
+        {
+          "id": "g1",
+          "texto": "Comprobar a quién va dirigido",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        },
+        {
+          "id": "g2",
+          "texto": "Hacerlo llegar a la persona que corresponde o remitirlo fuera",
+          "explicacion": "",
+          "accion": "comunicar",
+          "normativa": null
+        },
+        {
+          "id": "g3",
+          "texto": "Anotar la fecha de reparto o de envío",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        }
+      ]
     },
     {
       "id": "b275",
@@ -4790,7 +13309,30 @@ window.__COPIA__["datos-biblioteca/biblioteca-centro.json"] = {
       "responsable": "Secretaría",
       "requisitos": [],
       "soloInformativo": false,
-      "normativa": []
+      "normativa": [],
+      "guion": [
+        {
+          "id": "g1",
+          "texto": "Añadir la convocatoria al asunto",
+          "explicacion": "",
+          "accion": "anadir",
+          "normativa": null
+        },
+        {
+          "id": "g2",
+          "texto": "Anotar los plazos de solicitud y de justificación",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        },
+        {
+          "id": "g3",
+          "texto": "Publicarla o difundirla a quien interese",
+          "explicacion": "",
+          "accion": "comunicar",
+          "normativa": null
+        }
+      ]
     },
     {
       "id": "b276",
@@ -4813,7 +13355,37 @@ window.__COPIA__["datos-biblioteca/biblioteca-centro.json"] = {
         }
       ],
       "soloInformativo": false,
-      "normativa": []
+      "normativa": [],
+      "guion": [
+        {
+          "id": "g1",
+          "texto": "Preparar la solicitud y la documentación de la convocatoria",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        },
+        {
+          "id": "g2",
+          "texto": "Recoger la firma de la dirección",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        },
+        {
+          "id": "g3",
+          "texto": "Presentarla antes del fin del plazo",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        },
+        {
+          "id": "g4",
+          "texto": "Añadir el justificante de presentación al asunto",
+          "explicacion": "",
+          "accion": "anadir",
+          "normativa": null
+        }
+      ]
     },
     {
       "id": "b277",
@@ -4823,7 +13395,30 @@ window.__COPIA__["datos-biblioteca/biblioteca-centro.json"] = {
       "responsable": "Secretaría",
       "requisitos": [],
       "soloInformativo": false,
-      "normativa": []
+      "normativa": [],
+      "guion": [
+        {
+          "id": "g1",
+          "texto": "Recibir la resolución",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        },
+        {
+          "id": "g2",
+          "texto": "Registrar la entrada en Séneca",
+          "explicacion": "",
+          "accion": "registrar",
+          "normativa": null
+        },
+        {
+          "id": "g3",
+          "texto": "Añadir la resolución al asunto",
+          "explicacion": "",
+          "accion": "anadir",
+          "normativa": null
+        }
+      ]
     },
     {
       "id": "b278",
@@ -4833,7 +13428,30 @@ window.__COPIA__["datos-biblioteca/biblioteca-centro.json"] = {
       "responsable": "Secretaría",
       "requisitos": [],
       "soloInformativo": false,
-      "normativa": []
+      "normativa": [],
+      "guion": [
+        {
+          "id": "g1",
+          "texto": "Anotar el importe concedido y su finalidad",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        },
+        {
+          "id": "g2",
+          "texto": "Hacer los gastos solo para esa finalidad",
+          "explicacion": "Lo finalista no se puede mover.",
+          "accion": "",
+          "normativa": null
+        },
+        {
+          "id": "g3",
+          "texto": "Añadir las facturas al asunto",
+          "explicacion": "",
+          "accion": "anadir",
+          "normativa": null
+        }
+      ]
     },
     {
       "id": "b279",
@@ -4843,7 +13461,37 @@ window.__COPIA__["datos-biblioteca/biblioteca-centro.json"] = {
       "responsable": "Secretaría",
       "requisitos": [],
       "soloInformativo": false,
-      "normativa": []
+      "normativa": [],
+      "guion": [
+        {
+          "id": "g1",
+          "texto": "Comprobar el plazo y la forma de justificación",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        },
+        {
+          "id": "g2",
+          "texto": "Reunir facturas y justificantes de pago",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        },
+        {
+          "id": "g3",
+          "texto": "Presentar la justificación",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        },
+        {
+          "id": "g4",
+          "texto": "Añadir el justificante de presentación al asunto",
+          "explicacion": "",
+          "accion": "anadir",
+          "normativa": null
+        }
+      ]
     },
     {
       "id": "b280",
@@ -4853,7 +13501,30 @@ window.__COPIA__["datos-biblioteca/biblioteca-centro.json"] = {
       "responsable": "Jefatura de Estudios",
       "requisitos": [],
       "soloInformativo": true,
-      "normativa": []
+      "normativa": [],
+      "guion": [
+        {
+          "id": "g1",
+          "texto": "Recoger la propuesta del departamento",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        },
+        {
+          "id": "g2",
+          "texto": "Comprobar fechas, grupos, profesorado acompañante y coste",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        },
+        {
+          "id": "g3",
+          "texto": "Añadir la propuesta al asunto",
+          "explicacion": "",
+          "accion": "anadir",
+          "normativa": null
+        }
+      ]
     },
     {
       "id": "b281",
@@ -4863,7 +13534,30 @@ window.__COPIA__["datos-biblioteca/biblioteca-centro.json"] = {
       "responsable": "Dirección",
       "requisitos": [],
       "soloInformativo": true,
-      "normativa": []
+      "normativa": [],
+      "guion": [
+        {
+          "id": "g1",
+          "texto": "Incluir la actividad en el orden del día del Consejo Escolar",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        },
+        {
+          "id": "g2",
+          "texto": "Recoger la aprobación en el acta",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        },
+        {
+          "id": "g3",
+          "texto": "Añadir el certificado de aprobación al asunto",
+          "explicacion": "",
+          "accion": "anadir",
+          "normativa": null
+        }
+      ]
     },
     {
       "id": "b282",
@@ -4880,7 +13574,37 @@ window.__COPIA__["datos-biblioteca/biblioteca-centro.json"] = {
         }
       ],
       "soloInformativo": false,
-      "normativa": []
+      "normativa": [],
+      "guion": [
+        {
+          "id": "g1",
+          "texto": "Generar la autorización para las familias",
+          "explicacion": "",
+          "accion": "generar",
+          "normativa": null
+        },
+        {
+          "id": "g2",
+          "texto": "Enviarla por iPasen",
+          "explicacion": "",
+          "accion": "comunicar",
+          "normativa": null
+        },
+        {
+          "id": "g3",
+          "texto": "Recoger la autorización firmada de cada alumno",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        },
+        {
+          "id": "g4",
+          "texto": "Añadir las autorizaciones al asunto",
+          "explicacion": "",
+          "accion": "anadir",
+          "normativa": null
+        }
+      ]
     },
     {
       "id": "b283",
@@ -4890,7 +13614,30 @@ window.__COPIA__["datos-biblioteca/biblioteca-centro.json"] = {
       "responsable": "Secretaría",
       "requisitos": [],
       "soloInformativo": false,
-      "normativa": []
+      "normativa": [],
+      "guion": [
+        {
+          "id": "g1",
+          "texto": "Indicar a las familias el importe y la forma de pago",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        },
+        {
+          "id": "g2",
+          "texto": "Controlar los ingresos de cada alumno",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        },
+        {
+          "id": "g3",
+          "texto": "Anotar los ingresos en la aplicación de gestión económica",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        }
+      ]
     },
     {
       "id": "b284",
@@ -4913,7 +13660,37 @@ window.__COPIA__["datos-biblioteca/biblioteca-centro.json"] = {
         }
       ],
       "soloInformativo": false,
-      "normativa": []
+      "normativa": [],
+      "guion": [
+        {
+          "id": "g1",
+          "texto": "Recoger las facturas y los justificantes de gasto",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        },
+        {
+          "id": "g2",
+          "texto": "Comprobar ingresos y gastos",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        },
+        {
+          "id": "g3",
+          "texto": "Anotar la liquidación en la aplicación de gestión económica",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        },
+        {
+          "id": "g4",
+          "texto": "Añadir la liquidación al asunto",
+          "explicacion": "",
+          "accion": "anadir",
+          "normativa": null
+        }
+      ]
     },
     {
       "id": "b285",
@@ -4923,7 +13700,30 @@ window.__COPIA__["datos-biblioteca/biblioteca-centro.json"] = {
       "responsable": "Secretaría",
       "requisitos": [],
       "soloInformativo": false,
-      "normativa": []
+      "normativa": [],
+      "guion": [
+        {
+          "id": "g1",
+          "texto": "Registrar la entrada del requerimiento o de la visita en Séneca",
+          "explicacion": "",
+          "accion": "registrar",
+          "normativa": null
+        },
+        {
+          "id": "g2",
+          "texto": "Añadir el requerimiento al asunto",
+          "explicacion": "",
+          "accion": "anadir",
+          "normativa": null
+        },
+        {
+          "id": "g3",
+          "texto": "Anotar el plazo de respuesta",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        }
+      ]
     },
     {
       "id": "b286",
@@ -4933,7 +13733,30 @@ window.__COPIA__["datos-biblioteca/biblioteca-centro.json"] = {
       "responsable": "Dirección",
       "requisitos": [],
       "soloInformativo": true,
-      "normativa": []
+      "normativa": [],
+      "guion": [
+        {
+          "id": "g1",
+          "texto": "Leer con la dirección qué se pide",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        },
+        {
+          "id": "g2",
+          "texto": "Redactar la respuesta",
+          "explicacion": "",
+          "accion": "generar",
+          "normativa": null
+        },
+        {
+          "id": "g3",
+          "texto": "Recoger la firma de la dirección",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        }
+      ]
     },
     {
       "id": "b287",
@@ -4943,7 +13766,30 @@ window.__COPIA__["datos-biblioteca/biblioteca-centro.json"] = {
       "responsable": "Secretaría",
       "requisitos": [],
       "soloInformativo": false,
-      "normativa": []
+      "normativa": [],
+      "guion": [
+        {
+          "id": "g1",
+          "texto": "Comprobar el plazo que fija el requerimiento",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        },
+        {
+          "id": "g2",
+          "texto": "Registrar la salida en Séneca",
+          "explicacion": "",
+          "accion": "registrar",
+          "normativa": null
+        },
+        {
+          "id": "g3",
+          "texto": "Remitir la respuesta al Servicio de Inspección",
+          "explicacion": "",
+          "accion": "comunicar",
+          "normativa": null
+        }
+      ]
     },
     {
       "id": "b288",
@@ -4953,7 +13799,30 @@ window.__COPIA__["datos-biblioteca/biblioteca-centro.json"] = {
       "responsable": "Dirección",
       "requisitos": [],
       "soloInformativo": true,
-      "normativa": []
+      "normativa": [],
+      "guion": [
+        {
+          "id": "g1",
+          "texto": "Recoger el borrador de la entidad",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        },
+        {
+          "id": "g2",
+          "texto": "Revisar el texto con la dirección",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        },
+        {
+          "id": "g3",
+          "texto": "Añadir el texto final al asunto",
+          "explicacion": "",
+          "accion": "anadir",
+          "normativa": null
+        }
+      ]
     },
     {
       "id": "b289",
@@ -4963,7 +13832,30 @@ window.__COPIA__["datos-biblioteca/biblioteca-centro.json"] = {
       "responsable": "Dirección",
       "requisitos": [],
       "soloInformativo": true,
-      "normativa": []
+      "normativa": [],
+      "guion": [
+        {
+          "id": "g1",
+          "texto": "Comprobar quién tiene que aprobarlo",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        },
+        {
+          "id": "g2",
+          "texto": "Llevarlo al Consejo Escolar o a la Delegación, según corresponda",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        },
+        {
+          "id": "g3",
+          "texto": "Añadir la aprobación al asunto",
+          "explicacion": "",
+          "accion": "anadir",
+          "normativa": null
+        }
+      ]
     },
     {
       "id": "b290",
@@ -4980,7 +13872,30 @@ window.__COPIA__["datos-biblioteca/biblioteca-centro.json"] = {
         }
       ],
       "soloInformativo": false,
-      "normativa": []
+      "normativa": [],
+      "guion": [
+        {
+          "id": "g1",
+          "texto": "Preparar los ejemplares del convenio",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        },
+        {
+          "id": "g2",
+          "texto": "Recoger las firmas de las dos partes",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        },
+        {
+          "id": "g3",
+          "texto": "Añadir el convenio firmado al asunto",
+          "explicacion": "",
+          "accion": "anadir",
+          "normativa": null
+        }
+      ]
     },
     {
       "id": "b291",
@@ -4990,7 +13905,30 @@ window.__COPIA__["datos-biblioteca/biblioteca-centro.json"] = {
       "responsable": "Dirección",
       "requisitos": [],
       "soloInformativo": true,
-      "normativa": []
+      "normativa": [],
+      "guion": [
+        {
+          "id": "g1",
+          "texto": "Anotar las fechas y las actuaciones del proyecto",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        },
+        {
+          "id": "g2",
+          "texto": "Recoger las evidencias del desarrollo",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        },
+        {
+          "id": "g3",
+          "texto": "Añadir las evidencias al asunto",
+          "explicacion": "",
+          "accion": "anadir",
+          "normativa": null
+        }
+      ]
     },
     {
       "id": "b292",
@@ -5013,7 +13951,37 @@ window.__COPIA__["datos-biblioteca/biblioteca-centro.json"] = {
         }
       ],
       "soloInformativo": false,
-      "normativa": []
+      "normativa": [],
+      "guion": [
+        {
+          "id": "g1",
+          "texto": "Pedir la memoria a quien coordina el proyecto",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        },
+        {
+          "id": "g2",
+          "texto": "Reunir la justificación del gasto, si lo hubo",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        },
+        {
+          "id": "g3",
+          "texto": "Presentar la memoria en plazo",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        },
+        {
+          "id": "g4",
+          "texto": "Añadir la memoria y el justificante al asunto",
+          "explicacion": "",
+          "accion": "anadir",
+          "normativa": null
+        }
+      ]
     },
     {
       "id": "b293",
@@ -5023,7 +13991,30 @@ window.__COPIA__["datos-biblioteca/biblioteca-centro.json"] = {
       "responsable": "Dirección",
       "requisitos": [],
       "soloInformativo": true,
-      "normativa": []
+      "normativa": [],
+      "guion": [
+        {
+          "id": "g1",
+          "texto": "Recoger lo que la dirección quiere comunicar",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        },
+        {
+          "id": "g2",
+          "texto": "Redactar el comunicado",
+          "explicacion": "",
+          "accion": "generar",
+          "normativa": null
+        },
+        {
+          "id": "g3",
+          "texto": "Recoger el visto bueno de la dirección",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        }
+      ]
     },
     {
       "id": "b294",
@@ -5033,7 +14024,30 @@ window.__COPIA__["datos-biblioteca/biblioteca-centro.json"] = {
       "responsable": "Secretaría",
       "requisitos": [],
       "soloInformativo": false,
-      "normativa": []
+      "normativa": [],
+      "guion": [
+        {
+          "id": "g1",
+          "texto": "Decidir a quién va y por qué canal",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        },
+        {
+          "id": "g2",
+          "texto": "Enviar el comunicado",
+          "explicacion": "Por iPasen, correo o Séneca.",
+          "accion": "comunicar",
+          "normativa": null
+        },
+        {
+          "id": "g3",
+          "texto": "Publicarlo en el tablón o en la web, si procede",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        }
+      ]
     },
     {
       "id": "b295",
@@ -5043,7 +14057,30 @@ window.__COPIA__["datos-biblioteca/biblioteca-centro.json"] = {
       "responsable": "Dirección",
       "requisitos": [],
       "soloInformativo": true,
-      "normativa": []
+      "normativa": [],
+      "guion": [
+        {
+          "id": "g1",
+          "texto": "Comprobar el domicilio y la distancia a la parada",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        },
+        {
+          "id": "g2",
+          "texto": "Generar el informe del centro",
+          "explicacion": "",
+          "accion": "generar",
+          "normativa": null
+        },
+        {
+          "id": "g3",
+          "texto": "Recoger la firma de la dirección",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        }
+      ]
     },
     {
       "id": "b296",
@@ -5053,7 +14090,30 @@ window.__COPIA__["datos-biblioteca/biblioteca-centro.json"] = {
       "responsable": "Secretaría",
       "requisitos": [],
       "soloInformativo": false,
-      "normativa": []
+      "normativa": [],
+      "guion": [
+        {
+          "id": "g1",
+          "texto": "Recibir la resolución de la Delegación",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        },
+        {
+          "id": "g2",
+          "texto": "Añadir la resolución al asunto",
+          "explicacion": "",
+          "accion": "anadir",
+          "normativa": null
+        },
+        {
+          "id": "g3",
+          "texto": "Comunicar la resolución a la familia",
+          "explicacion": "",
+          "accion": "comunicar",
+          "normativa": null
+        }
+      ]
     }
   ],
   "guiasPorTipo": {
