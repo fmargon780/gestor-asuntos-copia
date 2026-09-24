@@ -1,5 +1,5 @@
 {
-  "version": "24-sep-2026 · 07:32",
+  "version": "24-sep-2026 · 07:35",
   "ficheros": {
     "js/lib/pdf.worker.iife.js": "2625d8f61aa344f26e609832fd19f48de2ddbc341de8bbfc39698912e635b1a3",
     "js/lib/pdf.iife.js": "ba8b6dfa292fda90d765bd48329c229f58f347c68b40b6bd9afa008ccbff395c",
@@ -110,7 +110,7 @@
     "js/correo.js": "78dc83bd127fabcdcad24c90a70e38f31b194207cce93f9586b4528f118f552f",
     "js/cuentas.js": "b1ddd0fb1459e35fb24a0302cd4bb50a5ae1e01d01b3fd10501e2d84c950ba48",
     "js/datos-tutores.js": "05fa1d6a656aee6107e39ef878338320b61281835bec3020f53784e1a5f9f498",
-    "js/datos.js": "ed6db01142a787c41a2a0b7d25f840cefb18c8a3bb4c6f7a350218777ebd3ffd",
+    "js/datos.js": "db22ad33f9968ed85de72a4a969b9763d4d433852adfd74846bf3f7a54aae9b4",
     "js/dni.js": "1ae56701ccde941a6283865f7656453d4ab7f1bb482e996e298ca99b54256a9a",
     "js/documentos-campos.js": "e41d70a0720318910f4ae99c9a02c50dcde56f62e47ddc88ab1f65df4f7a0f11",
     "js/documentos-sueltos-lector.js": "b7752b2eaa036c274f52ce86b96771981aa6bdaa4642648bd1fd9b3c8d0ba285",
@@ -215,7 +215,7 @@
     "js/usuarios.js": "234d062441823a594ba18bc7fad54a542567e693f99e35f1335c3d138dceef23",
     "js/util.js": "e1eba2c807ad802d029788d49b0e852088b67c0db244478ec23d80dc1bfab17a",
     "js/verificacion.js": "7bae57add882f3738d3eb3a75585781d32ed4c5389714339f99708eba5337ccc",
-    "js/version.js": "e28b721e8f87d0f47790fd6e8c01b422d2ecf2a060e74f2adc06927b1b9d834b",
+    "js/version.js": "f30e36d60061496701abf3ad0239475c5095ada20ad3315ef6e3af70dbd0e4c1",
     "js/via-contacto.js": "c4ff0004c9954b3303515a5c0aa971597b8deb668c48df4069758c60b5487767",
     "js/visor.js": "87ae0f938a8fd2c3ff7f8c183b8f1373d68da7729cd0c9b66a9f86a4cc3fbd13",
     "js/vista.js": "cb32e57f87d5e8a255af1141b5fc1df289df020366262d055740e467c6ba2d4c"
