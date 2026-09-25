@@ -1,5 +1,5 @@
 {
-  "version": "25-sep-2026 · 06:57",
+  "version": "25-sep-2026 · 10:47",
   "ficheros": {
     "js/lib/pdf.worker.iife.js": "1b783f0bbc7559bda0640fbd1c77cf122cec3d4c6d8f3ddb55c6bc430bab5af7",
     "js/lib/pdf.iife.js": "0569af2aad6e5236994a94dbc68e309d38b95af43c4fe42eb66d16c982f4a96b",
@@ -131,7 +131,7 @@
     "js/correo-cuadro.js": "9485f70e8c381ff265411457151597d45866451ec7cce144e4b1bd5fd84ec6ed",
     "js/correo-enviar.js": "95f7329b4f78ecaab98d05227fc77baa6f938d76e1b11f16317515aea905a2fb",
     "js/correo-grupos.js": "ccb599d7383c0a45b692f09aa017c4eeccbbe80a7d242e3e99eb6880b0cc7c95",
-    "js/correo-rastro.js": "48490805b157cfb26e2d23fd3812efb686ac9d26d1863a91e4a025725073b532",
+    "js/correo-rastro.js": "f7b1c7bddffdb48ae41ea20a41236b1e4d2fad19ce8c456e8604112c29562a5b",
     "js/correo.js": "e499823799aafd62995fde0df9678fc28817970cc7ececf7ddd20e1b57f92961",
     "js/cuentas-tiempos.js": "c08daca33f3005f70df7e742464a237a9a5e4e0f4657dce64744e39f7706631b",
     "js/cuentas.js": "3c6ec6d608c233efa59e4931210e8461a25af3129c26a5acd6f9d55e4d9a4132",
@@ -200,7 +200,7 @@
     "js/guias.js": "37459227eb66b431556909906626fec31d00395afd53fa412e3245a8bd650471",
     "js/hito-mesa-comunicar.js": "4ee021e0fe40a8732b6afd1b549129b6559b01afd7099e13d8d4c3acb2c8acca",
     "js/hito-mesa-documentos.js": "b84dff7c5c292fdc203d410647043182bc478e8c7ba4b49a9ef6eed5d033b84c",
-    "js/hito-mesa-guion.js": "d2b758dc9e7a6f729d5166fa88439558296fc48596777c5c1f268b0921e57ad0",
+    "js/hito-mesa-guion.js": "2952f5b8a17b50de6c34f3afd581163a4c761ad1bb6a56a63f83bf5897695fc1",
     "js/hito-mesa-tarjetas.js": "cd63399a6ca60a15020e56fd3c6ccde741bf60cb1b52bb98e1fd2e18dc78047f",
     "js/hito-mesa.js": "73051618b687134694ade6a95047c005a4e2f1eff498a15c1e4fab56f072c18a",
     "js/hitos-a-quien.js": "70a50629d48a81d1d03f7bc8ce4466e0a3fe6512139b6eb7c9d09a67707ddc1f",
@@ -209,7 +209,7 @@
     "js/hitos-archivo.js": "d1c4bc0a79b66cf00563dcbdf03bf67d9a4311c7b0486f5cf6322f92ee08d2bc",
     "js/hitos-biblioteca.js": "8bc6d08f0174b01bb55caaf096ced22d9e278e290841922e736af42c8149de01",
     "js/hitos-cambio-de-tipo.js": "34cdae130b02aab4643c681d16088dd12e688458f90c57285844b6eff7f4638d",
-    "js/hitos-comunicar.js": "741fe489f426f80a8c653e2d027779b5247b539f37697ece93662a2ff3a5e7c5",
+    "js/hitos-comunicar.js": "b6e3993f0cb32adaf62a4f1a2db98d20edbe2c2875b04b8a747dbf62c1f43b6e",
     "js/hitos-documento-menu.js": "37b5d719274beda540328532c5381e60fac62222b856b2e0d67585252cf4650c",
     "js/hitos-documentos.js": "c813b612d8f850e4985c21c0336002840039c1965a94daade5eed15f325e58f0",
     "js/hitos-generar.js": "9ae43b69ca698f92f71e5415a40f74f3838c12e713f094621a3c074198570664",
@@ -293,7 +293,7 @@
     "js/util-parecidos.js": "c64ece65fd235e6b3e0b45c9b9d9a2ca3074100e905571bd7ff4fb2b6078af97",
     "js/util.js": "a2173328a8178f8ed4a12d5cf6e3c7ef1a34c82819a4ded592e94149a75e01bd",
     "js/verificacion.js": "7bae57add882f3738d3eb3a75585781d32ed4c5389714339f99708eba5337ccc",
-    "js/version.js": "87031e55b613f56cc974fda6b85d8d0ed7cd15f4a5d22aa34a921096d45de38d",
+    "js/version.js": "fc7aa3373004a0594e82862ec0ee89bc58866123327c059f9d6b0b5357c39025",
     "js/via-contacto.js": "c4ff0004c9954b3303515a5c0aa971597b8deb668c48df4069758c60b5487767",
     "js/visor.js": "87ae0f938a8fd2c3ff7f8c183b8f1373d68da7729cd0c9b66a9f86a4cc3fbd13",
     "js/vista.js": "fbfb0b4769b4ba34ff19da051556d2c3851efb79a80d2b0bbef9779da0281587"
