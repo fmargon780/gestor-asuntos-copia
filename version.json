@@ -1,5 +1,5 @@
 {
-  "version": "28-sep-2026 · 08:05",
+  "version": "28-sep-2026 · 09:51",
   "ficheros": {
     "js/lib/pdf.worker.iife.js": "1b783f0bbc7559bda0640fbd1c77cf122cec3d4c6d8f3ddb55c6bc430bab5af7",
     "js/lib/pdf.iife.js": "0569af2aad6e5236994a94dbc68e309d38b95af43c4fe42eb66d16c982f4a96b",
@@ -340,7 +340,7 @@
     "js/tablon-compacto.js": "0e3de0d94df9ed84629c1afafd47b99366144d922790bd0ae9ffe3f9e65028f8",
     "js/tablon.js": "b032175fdd1d7288230a180f2db7a9baf5ea61caef7436c71db7af32a4aea52d",
     "js/tipo-al-vuelo.js": "7324c3cc86cd2954c56aaa2bbb1a1b0846149ec125457b02807092a85bb6f9e9",
-    "js/tipos-buscador.js": "5be895444e709be95e3f54fb2db25307ec509217052217cc25727f78cda3ef8f",
+    "js/tipos-buscador.js": "037b4f91cceb2add733987f838195381be6eed6628c2c292ea7e1e430606217a",
     "js/tipos-nombre.js": "1ef3a14539e65adaccefd08cfa319f87fbbd1e09ebd0bf837bd3fb5602aa8f10",
     "js/tipos-organo.js": "cc80dd82e59157338069b82032f652d34590ab1954eeeff35509a5fced608abc",
     "js/tipos-unir.js": "1fa63f7fc213288ecbf3e643c8dd0bf2a51fc9b9d88083a3504458f908299ac6",
@@ -355,7 +355,7 @@
     "js/util-parecidos.js": "79387602481dda251ce2a9f8afa69f8fda2813122821625cd9cd3761fcaa8991",
     "js/util.js": "a2173328a8178f8ed4a12d5cf6e3c7ef1a34c82819a4ded592e94149a75e01bd",
     "js/verificacion.js": "7bae57add882f3738d3eb3a75585781d32ed4c5389714339f99708eba5337ccc",
-    "js/version.js": "4bf79f6077b3b016432e59e82925c646d849f069e6813f3f4a5750aa96a09e56",
+    "js/version.js": "57fe31b8eead2410745664cf780e6d03af82153ee5ebde98e6ec2b25de767a46",
     "js/versiones-previas.js": "6309ecac4580cd0c9a7bf370b7e77b07612907df777245ba6b45de1edc672590",
     "js/via-contacto.js": "2765fce39dd899badad5664b3a27ac0f857d9a2bf440e56e7998e1c57b4722f1",
     "js/visor.js": "03ec6998e90321611e412e6fd987e2d39fed7ae8cb4bdd707b041ad3b1a51aa5",
