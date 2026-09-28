@@ -1,5 +1,5 @@
 {
-  "version": "28-sep-2026 · 14:15",
+  "version": "28-sep-2026 · 14:38",
   "ficheros": {
     "js/lib/pdf.worker.iife.js": "1b783f0bbc7559bda0640fbd1c77cf122cec3d4c6d8f3ddb55c6bc430bab5af7",
     "js/lib/pdf.iife.js": "0569af2aad6e5236994a94dbc68e309d38b95af43c4fe42eb66d16c982f4a96b",
@@ -335,7 +335,7 @@
     "js/seneca-cuadro.js": "8b0d713c51e452f50c6595eb626ac019286dd2ef9ad9b2afc2179d5e6c964c75",
     "js/seneca-destinatarios.js": "93227ac8a1d31adccd1a261761b2acbfbcc68f4ab57bb1ef030830fb98b9ae7c",
     "js/tablas-datos-cursos.js": "cb5fc1ce6b2b9ed19ca809350966b628940dfd0800ff487a094e5eae1ee2e8ab",
-    "js/tablas-datos-leer.js": "f745fdb5ab8c9c75e38140d8191bc9569724e6559d60f5e43a67182d9e73bcba",
+    "js/tablas-datos-leer.js": "de7c90092c7d536fcbfcb18d8258fa6805022e80cc00506a952079e831b0c2e6",
     "js/tablas-datos-pantalla.js": "5aec4c9547db5eceb9a1abcd123aa6b21e0dde4c3d8e9e60073af8828e18be99",
     "js/tablas-datos.js": "89af648e671f9d7b2485ddbe78e73650f38b7b69087aea4447627cd59ebc65d5",
     "js/tablon-compacto.js": "0e3de0d94df9ed84629c1afafd47b99366144d922790bd0ae9ffe3f9e65028f8",
@@ -356,7 +356,7 @@
     "js/util-parecidos.js": "79387602481dda251ce2a9f8afa69f8fda2813122821625cd9cd3761fcaa8991",
     "js/util.js": "a2173328a8178f8ed4a12d5cf6e3c7ef1a34c82819a4ded592e94149a75e01bd",
     "js/verificacion.js": "7bae57add882f3738d3eb3a75585781d32ed4c5389714339f99708eba5337ccc",
-    "js/version.js": "413ba16043b71c6298953e6700d203933a837b1316c77cec801dc68eef4654c9",
+    "js/version.js": "8417bfbe0387cf95f757b6ec9fa9db51d24b4041651159fe93b1ffda8b333a53",
     "js/versiones-previas.js": "6309ecac4580cd0c9a7bf370b7e77b07612907df777245ba6b45de1edc672590",
     "js/via-contacto.js": "2765fce39dd899badad5664b3a27ac0f857d9a2bf440e56e7998e1c57b4722f1",
     "js/visor.js": "03ec6998e90321611e412e6fd987e2d39fed7ae8cb4bdd707b041ad3b1a51aa5",
