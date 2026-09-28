@@ -1,5 +1,5 @@
 {
-  "version": "28-sep-2026 · 06:51",
+  "version": "28-sep-2026 · 08:05",
   "ficheros": {
     "js/lib/pdf.worker.iife.js": "1b783f0bbc7559bda0640fbd1c77cf122cec3d4c6d8f3ddb55c6bc430bab5af7",
     "js/lib/pdf.iife.js": "0569af2aad6e5236994a94dbc68e309d38b95af43c4fe42eb66d16c982f4a96b",
@@ -112,7 +112,7 @@
     "css/vista.css": "fa1f94aeb2b66df16609603bb0e2edd66ba1e449a128d174253b88122a590631",
     "css/word-visor.css": "e511ea67080040ebca426551e02f659635849d61e826ecf2a307bbdff040b3d5",
     "favicon.svg": "b19dd6178a27404df9b5b1601a6f484e3e0ab516166e1d81b0ec3d5f6765cbac",
-    "index.html": "7259e8a16c4bb161caa1342f604b2eec6fc8035467ad9846a69cc476b219871c",
+    "index.html": "0ef24cd74135ae339f780870fc2e7cf91b50ef7e20b30e921e8c942866f3ae26",
     "js/actualizar-copia.js": "7e002b2774be3ebb70aaaf1672183b32850add83188dc8d69f60cdd432ac3c4c",
     "js/administraciones-ficha.js": "48c73bfadc5c24b6db6c7a2a8f7e3ff751622bbb238cedfd4e566b0b700a678f",
     "js/administraciones-traer.js": "2708e3495d80004290c3a34e11c1611928a590523a7c5765c503f0660d5e630e",
@@ -355,7 +355,7 @@
     "js/util-parecidos.js": "79387602481dda251ce2a9f8afa69f8fda2813122821625cd9cd3761fcaa8991",
     "js/util.js": "a2173328a8178f8ed4a12d5cf6e3c7ef1a34c82819a4ded592e94149a75e01bd",
     "js/verificacion.js": "7bae57add882f3738d3eb3a75585781d32ed4c5389714339f99708eba5337ccc",
-    "js/version.js": "e6de92b24bd115254f007ccefdba9d514d2fdbf58e2daa986b566f0115eb38cd",
+    "js/version.js": "4bf79f6077b3b016432e59e82925c646d849f069e6813f3f4a5750aa96a09e56",
     "js/versiones-previas.js": "6309ecac4580cd0c9a7bf370b7e77b07612907df777245ba6b45de1edc672590",
     "js/via-contacto.js": "2765fce39dd899badad5664b3a27ac0f857d9a2bf440e56e7998e1c57b4722f1",
     "js/visor.js": "03ec6998e90321611e412e6fd987e2d39fed7ae8cb4bdd707b041ad3b1a51aa5",
