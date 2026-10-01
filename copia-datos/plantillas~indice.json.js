@@ -158,6 +158,17 @@ window.__COPIA__["plantillas/indice.json"] = [
     "vistoBueno": "direccion"
   },
   {
+    "nombre": "Certificado de miembro del Consejo Escolar",
+    "categoria": "PERSONAL",
+    "tipo": "CERTIFICADO MIEMBRO CONSEJO ESCOLAR",
+    "clase": "documento",
+    "fichero": "certificado-miembro-consejo-escolar.docx",
+    "tipoDocumento": "CERTIFICADO",
+    "texto": "consejo escolar",
+    "firmante": "secretaria",
+    "vistoBueno": "direccion"
+  },
+  {
     "nombre": "Asistencia del profesorado en septiembre",
     "categoria": "PERSONAL",
     "tipo": "CERTIFICADO PERSONAL",

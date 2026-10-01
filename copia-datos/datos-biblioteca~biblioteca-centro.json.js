@@ -291,6 +291,12 @@ window.__COPIA__["datos-biblioteca/biblioteca-centro.json"] = {
       "nuevo": false
     },
     {
+      "nombreCorto": "CertConsEsc",
+      "nombreLargo": "CERTIFICADO MIEMBRO CONSEJO ESCOLAR",
+      "categoria": "PERSONAL",
+      "nuevo": true
+    },
+    {
       "nombreCorto": "INSUFICIENCIA HORARIA",
       "nombreLargo": "Insuficiencia de horario y reubicación",
       "categoria": "PERSONAL",
@@ -681,6 +687,13 @@ window.__COPIA__["datos-biblioteca/biblioteca-centro.json"] = {
     "Certificado de desempeño de la función tutorial": [
       {
         "nombre": "Cursos que pide",
+        "clase": "texto",
+        "valores": []
+      }
+    ],
+    "CERTIFICADO MIEMBRO CONSEJO ESCOLAR": [
+      {
+        "nombre": "DNI para el certificado",
         "clase": "texto",
         "valores": []
       }
