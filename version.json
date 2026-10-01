@@ -1,5 +1,5 @@
 {
-  "version": "01-oct-2026 · 05:58",
+  "version": "01-oct-2026 · 06:17",
   "ficheros": {
     "js/lib/pdf.worker.iife.js": "1b783f0bbc7559bda0640fbd1c77cf122cec3d4c6d8f3ddb55c6bc430bab5af7",
     "js/lib/pdf.iife.js": "0569af2aad6e5236994a94dbc68e309d38b95af43c4fe42eb66d16c982f4a96b",
@@ -183,7 +183,7 @@
     "js/copias.js": "1a67256a1d2b3d6504db1f8d6378091c7c27250307a9f088ecdf5844e4afa65b",
     "js/correo-adjuntos.js": "d292c998dc763860991ef418085b7bcf2cda585fb78ce234a8c1d507c03c779e",
     "js/correo-cuadro.js": "e8ff01a94b575c16242a5303e6574eb32b3a0eb67dbbb6d004f015ef1eae24c9",
-    "js/correo-enviar.js": "465f2a87ea56cdba5544112ef1e215adc296a891659d37de9a6108268bc36f77",
+    "js/correo-enviar.js": "2ac0488bd8355236ddefa67c0d541fdc4f40fad551964fc256f491d8d8ebe490",
     "js/correo-grupos.js": "ccb599d7383c0a45b692f09aa017c4eeccbbe80a7d242e3e99eb6880b0cc7c95",
     "js/correo-rastro.js": "3c2f992c1143d0bb755e904fcf9a8e06de39f1940cddb24d7609c1cea2966cd8",
     "js/correo.js": "5da8b984cc5bdb3fc4bec964b7b9bb86c41f10664455104f98f3691f14602ced",
@@ -385,7 +385,7 @@
     "js/util-parecidos.js": "79387602481dda251ce2a9f8afa69f8fda2813122821625cd9cd3761fcaa8991",
     "js/util.js": "a2173328a8178f8ed4a12d5cf6e3c7ef1a34c82819a4ded592e94149a75e01bd",
     "js/verificacion.js": "7bae57add882f3738d3eb3a75585781d32ed4c5389714339f99708eba5337ccc",
-    "js/version.js": "5d03749717f8574f1ca0beba253af13f622691c50af860dc02c3e9408da03046",
+    "js/version.js": "a219c243b953ee0e7293c6df3879110f4c96c24c1a2cea044e977efbeb9a177a",
     "js/versiones-previas.js": "90a296e332302f7b5011797d98a95130ac057d4c03d4f5af165d211160e6384e",
     "js/via-contacto.js": "2765fce39dd899badad5664b3a27ac0f857d9a2bf440e56e7998e1c57b4722f1",
     "js/visor.js": "03ec6998e90321611e412e6fd987e2d39fed7ae8cb4bdd707b041ad3b1a51aa5",
