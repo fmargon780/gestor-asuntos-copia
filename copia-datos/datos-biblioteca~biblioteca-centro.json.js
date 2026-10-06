@@ -1,6 +1,6 @@
 window.__COPIA__ = window.__COPIA__ || {};
 window.__COPIA__["datos-biblioteca/biblioteca-centro.json"] = {
-  "version": 1,
+  "version": 2,
   "tipos": [
     {
       "nombreCorto": "ABSENTISMO",
@@ -1625,7 +1625,11 @@ window.__COPIA__["datos-biblioteca/biblioteca-centro.json"] = {
             "url": ""
           }
         }
-      ]
+      ],
+      "plazo": {
+        "dias": 2,
+        "cuenta": "lectivos"
+      }
     },
     {
       "id": "b16",
@@ -2708,7 +2712,11 @@ window.__COPIA__["datos-biblioteca/biblioteca-centro.json"] = {
           "accion": "anadir",
           "normativa": null
         }
-      ]
+      ],
+      "plazo": {
+        "dias": 10,
+        "cuenta": "habiles"
+      }
     },
     {
       "id": "b33",
@@ -7093,7 +7101,11 @@ window.__COPIA__["datos-biblioteca/biblioteca-centro.json"] = {
           "accion": "anadir",
           "normativa": null
         }
-      ]
+      ],
+      "plazo": {
+        "dias": 2,
+        "cuenta": "habiles"
+      }
     },
     {
       "id": "b121",
@@ -7190,7 +7202,11 @@ window.__COPIA__["datos-biblioteca/biblioteca-centro.json"] = {
           "reunir": "documento",
           "obligatorio": false
         }
-      ]
+      ],
+      "plazo": {
+        "dias": 3,
+        "cuenta": "habiles"
+      }
     },
     {
       "id": "b122",
@@ -8690,7 +8706,11 @@ window.__COPIA__["datos-biblioteca/biblioteca-centro.json"] = {
           "accion": "comunicar",
           "normativa": null
         }
-      ]
+      ],
+      "plazo": {
+        "dias": 1,
+        "cuenta": "meses"
+      }
     },
     {
       "id": "b158",
@@ -14420,6 +14440,274 @@ window.__COPIA__["datos-biblioteca/biblioteca-centro.json"] = {
           "normativa": null
         }
       ]
+    },
+    {
+      "id": "b-comun-requerir",
+      "nombre": "Requerir que completen la solicitud",
+      "titulo": "Requerir que completen la solicitud",
+      "explicacion": "Cuando a la solicitud le falta un documento o un dato obligatorio. Se le dan 10 días hábiles para traerlo y se le avisa de que, si no lo hace, se le tendrá por desistido. Después de este hito va «Esperar a que completen la solicitud».",
+      "responsable": "Administración",
+      "revision": 1,
+      "requisitos": [],
+      "soloInformativo": false,
+      "normativa": [
+        {
+          "id": "n0",
+          "cita": "Ley 39/2015, art. 68.1",
+          "bloque": "",
+          "clave": "",
+          "url": ""
+        }
+      ],
+      "guion": [
+        {
+          "id": "g1",
+          "texto": "Generar el requerimiento",
+          "explicacion": "Con lo que falta, el plazo de 10 días hábiles y el aviso de desistimiento.",
+          "accion": "generar",
+          "normativa": null
+        },
+        {
+          "id": "g2",
+          "texto": "Registrar la salida en Séneca",
+          "explicacion": "",
+          "accion": "registrar",
+          "normativa": null
+        },
+        {
+          "id": "g3",
+          "texto": "Enviarlo por un medio que deje constancia de que lo recibe",
+          "explicacion": "PASEN con acuse o recibí firmado. Un correo normal no prueba que lo recibió.",
+          "accion": "comunicar",
+          "normativa": null
+        }
+      ]
+    },
+    {
+      "id": "b-comun-esperar-solicitud",
+      "nombre": "Esperar a que completen la solicitud",
+      "titulo": "Esperar a que completen la solicitud",
+      "explicacion": "El plazo legal cuenta desde el día siguiente a aquel en que recibe el requerimiento. La aplicación lo cuenta desde que das por hecho el hito de arriba: si lo recibió más tarde, cambia la fecha a mano. Si le cuesta reunirlo, se puede ampliar hasta 5 días más.",
+      "responsable": "tercero",
+      "revision": 1,
+      "requisitos": [],
+      "soloInformativo": false,
+      "normativa": [
+        {
+          "id": "n0",
+          "cita": "Ley 39/2015, art. 68.1",
+          "bloque": "",
+          "clave": "",
+          "url": ""
+        }
+      ],
+      "guion": [
+        {
+          "id": "g1",
+          "texto": "Añadir lo que traiga",
+          "explicacion": "",
+          "accion": "anadir",
+          "normativa": null
+        },
+        {
+          "id": "g2",
+          "texto": "Si pasa el plazo sin traerlo, anotarlo y seguir por el desistimiento",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        }
+      ],
+      "plazo": {
+        "dias": 10,
+        "cuenta": "habiles"
+      }
+    },
+    {
+      "id": "b-comun-audiencia",
+      "nombre": "Dar audiencia al interesado",
+      "titulo": "Dar audiencia al interesado",
+      "explicacion": "Antes de proponer la resolución, se le enseña el expediente y se le dan entre 10 y 15 días hábiles para alegar. Aquí van 10; si el centro quiere dar más, se cambia el plazo del hito siguiente. Después va «Esperar las alegaciones».",
+      "responsable": "Administración",
+      "revision": 1,
+      "requisitos": [],
+      "soloInformativo": false,
+      "normativa": [
+        {
+          "id": "n0",
+          "cita": "Ley 39/2015, art. 82",
+          "bloque": "",
+          "clave": "",
+          "url": ""
+        }
+      ],
+      "guion": [
+        {
+          "id": "g1",
+          "texto": "Generar el escrito de audiencia",
+          "explicacion": "Con el plazo para alegar y dónde ver el expediente.",
+          "accion": "generar",
+          "normativa": null
+        },
+        {
+          "id": "g2",
+          "texto": "Registrar la salida en Séneca",
+          "explicacion": "",
+          "accion": "registrar",
+          "normativa": null
+        },
+        {
+          "id": "g3",
+          "texto": "Enviarlo por un medio que deje constancia de que lo recibe",
+          "explicacion": "",
+          "accion": "comunicar",
+          "normativa": null
+        }
+      ]
+    },
+    {
+      "id": "b-comun-esperar-alegaciones",
+      "nombre": "Esperar las alegaciones",
+      "titulo": "Esperar las alegaciones",
+      "explicacion": "El plazo legal cuenta desde el día siguiente a aquel en que recibe el escrito. La aplicación lo cuenta desde que das por hecho el hito de arriba: si lo recibió más tarde, cambia la fecha a mano. Si antes de que acabe dice que no va a alegar, el hito se da por hecho.",
+      "responsable": "tercero",
+      "revision": 1,
+      "requisitos": [],
+      "soloInformativo": false,
+      "normativa": [
+        {
+          "id": "n0",
+          "cita": "Ley 39/2015, art. 82.2",
+          "bloque": "",
+          "clave": "",
+          "url": ""
+        }
+      ],
+      "guion": [
+        {
+          "id": "g1",
+          "texto": "Añadir las alegaciones, o la renuncia a alegar",
+          "explicacion": "",
+          "accion": "anadir",
+          "normativa": null
+        }
+      ],
+      "plazo": {
+        "dias": 10,
+        "cuenta": "habiles"
+      }
+    },
+    {
+      "id": "b-comun-pedir-informe",
+      "nombre": "Pedir informe a otro órgano",
+      "titulo": "Pedir informe a otro órgano",
+      "explicacion": "Cuando para resolver hace falta el informe de otro órgano. Salvo que una norma diga otra cosa, tiene 10 días hábiles para emitirlo. Después va «Esperar el informe».",
+      "responsable": "Administración",
+      "revision": 1,
+      "requisitos": [],
+      "soloInformativo": false,
+      "normativa": [
+        {
+          "id": "n0",
+          "cita": "Ley 39/2015, art. 80.2",
+          "bloque": "",
+          "clave": "",
+          "url": ""
+        }
+      ],
+      "guion": [
+        {
+          "id": "g1",
+          "texto": "Generar la petición de informe",
+          "explicacion": "Citando la norma que lo exige, o por qué hace falta.",
+          "accion": "generar",
+          "normativa": null
+        },
+        {
+          "id": "g2",
+          "texto": "Registrar la salida en Séneca",
+          "explicacion": "",
+          "accion": "registrar",
+          "normativa": null
+        },
+        {
+          "id": "g3",
+          "texto": "Enviarla al órgano",
+          "explicacion": "",
+          "accion": "comunicar",
+          "normativa": null
+        }
+      ]
+    },
+    {
+      "id": "b-comun-esperar-informe",
+      "nombre": "Esperar el informe",
+      "titulo": "Esperar el informe",
+      "explicacion": "Si pasa el plazo sin informe y no es de los que la norma obliga a esperar, se puede seguir sin él. Pon como responsable al órgano al que se le pide.",
+      "responsable": "",
+      "revision": 1,
+      "requisitos": [],
+      "soloInformativo": false,
+      "normativa": [
+        {
+          "id": "n0",
+          "cita": "Ley 39/2015, art. 80.2",
+          "bloque": "",
+          "clave": "",
+          "url": ""
+        }
+      ],
+      "guion": [
+        {
+          "id": "g1",
+          "texto": "Añadir el informe",
+          "explicacion": "",
+          "accion": "anadir",
+          "normativa": null
+        }
+      ],
+      "plazo": {
+        "dias": 10,
+        "cuenta": "habiles"
+      }
+    },
+    {
+      "id": "b-comun-esperar-alzada",
+      "nombre": "Esperar el plazo de recurso de alzada",
+      "titulo": "Esperar el plazo de recurso de alzada",
+      "explicacion": "Un mes desde el día siguiente a la notificación. Si no recurre, la resolución queda firme. Si recurre, el centro manda el recurso, con su informe y una copia del expediente, a quien tiene que resolverlo, en 10 días hábiles. La aplicación cuenta el mes desde que das por hecho el hito de arriba: si la notificación la recibió más tarde, cambia la fecha a mano.",
+      "responsable": "tercero",
+      "revision": 1,
+      "requisitos": [],
+      "soloInformativo": false,
+      "normativa": [
+        {
+          "id": "n0",
+          "cita": "Ley 39/2015, arts. 121 y 122",
+          "bloque": "",
+          "clave": "",
+          "url": ""
+        }
+      ],
+      "guion": [
+        {
+          "id": "g1",
+          "texto": "Si llega un recurso, añadirlo y registrar la entrada",
+          "explicacion": "",
+          "accion": "anadir",
+          "normativa": null
+        },
+        {
+          "id": "g2",
+          "texto": "Si no llega, anotar que la resolución es firme",
+          "explicacion": "",
+          "accion": "",
+          "normativa": null
+        }
+      ],
+      "plazo": {
+        "dias": 1,
+        "cuenta": "meses"
+      }
     }
   ],
   "guiasPorTipo": {
@@ -14944,6 +15232,24 @@ window.__COPIA__["datos-biblioteca/biblioteca-centro.json"] = {
       "b162",
       "b296"
     ]
+  },
+  "plazosPorTipo": {
+    "Corrección por conducta contraria a la convivencia": {
+      "b15": "b13"
+    },
+    "Medida disciplinaria por conducta gravemente perjudicial": {
+      "b15": "b21"
+    },
+    "Expediente de cambio de centro docente": {
+      "b32": "b31"
+    },
+    "Reclamación de calificaciones": {
+      "b120": "b118",
+      "b121": "b120"
+    },
+    "Solicitud de acceso a datos personales": {
+      "b157": "b154"
+    }
   }
 }
 ;
