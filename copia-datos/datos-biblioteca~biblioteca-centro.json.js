@@ -2781,7 +2781,12 @@ window.__COPIA__["datos-biblioteca/biblioteca-centro.json"] = {
           "texto": "Convocar a la tutoría y a la orientación",
           "explicacion": "",
           "accion": "comunicar",
-          "normativa": null
+          "normativa": null,
+          "receta": {
+            "a": "tutoria",
+            "via": "",
+            "plantilla": ""
+          }
         },
         {
           "id": "g2",
@@ -3846,6 +3851,11 @@ window.__COPIA__["datos-biblioteca/biblioteca-centro.json"] = {
             "bloque": "",
             "clave": "",
             "url": ""
+          },
+          "receta": {
+            "a": "tutoria",
+            "via": "",
+            "plantilla": ""
           }
         },
         {
@@ -4737,7 +4747,12 @@ window.__COPIA__["datos-biblioteca/biblioteca-centro.json"] = {
           "texto": "Avisar a la tutoría",
           "explicacion": "",
           "accion": "comunicar",
-          "normativa": null
+          "normativa": null,
+          "receta": {
+            "a": "tutoria",
+            "via": "",
+            "plantilla": ""
+          }
         },
         {
           "id": "g4",
@@ -4796,7 +4811,12 @@ window.__COPIA__["datos-biblioteca/biblioteca-centro.json"] = {
           "texto": "Pedir el informe a la tutoría",
           "explicacion": "",
           "accion": "comunicar",
-          "normativa": null
+          "normativa": null,
+          "receta": {
+            "a": "tutoria",
+            "via": "",
+            "plantilla": ""
+          }
         },
         {
           "id": "g2",
@@ -5116,7 +5136,12 @@ window.__COPIA__["datos-biblioteca/biblioteca-centro.json"] = {
           "texto": "Comunicar la baja a la tutoría",
           "explicacion": "",
           "accion": "comunicar",
-          "normativa": null
+          "normativa": null,
+          "receta": {
+            "a": "tutoria",
+            "via": "",
+            "plantilla": ""
+          }
         },
         {
           "id": "g2",
@@ -5475,6 +5500,11 @@ window.__COPIA__["datos-biblioteca/biblioteca-centro.json"] = {
             "bloque": "",
             "clave": "",
             "url": ""
+          },
+          "receta": {
+            "a": "tutoria",
+            "via": "",
+            "plantilla": ""
           }
         },
         {
@@ -8500,7 +8530,12 @@ window.__COPIA__["datos-biblioteca/biblioteca-centro.json"] = {
           "texto": "Comunicarlo a la tutoría",
           "explicacion": "",
           "accion": "comunicar",
-          "normativa": null
+          "normativa": null,
+          "receta": {
+            "a": "tutoria",
+            "via": "",
+            "plantilla": ""
+          }
         },
         {
           "id": "g3",
