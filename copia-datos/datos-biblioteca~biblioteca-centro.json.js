@@ -297,6 +297,12 @@ window.__COPIA__["datos-biblioteca/biblioteca-centro.json"] = {
       "nuevo": true
     },
     {
+      "nombreCorto": "CertActExtra",
+      "nombreLargo": "CERTIFICADO ACTIVIDADES EXTRAESCOLARES",
+      "categoria": "PERSONAL",
+      "nuevo": true
+    },
+    {
       "nombreCorto": "INSUFICIENCIA HORARIA",
       "nombreLargo": "Insuficiencia de horario y reubicación",
       "categoria": "PERSONAL",
@@ -695,6 +701,18 @@ window.__COPIA__["datos-biblioteca/biblioteca-centro.json"] = {
       {
         "nombre": "DNI para el certificado",
         "clase": "texto",
+        "valores": []
+      }
+    ],
+    "CERTIFICADO ACTIVIDADES EXTRAESCOLARES": [
+      {
+        "nombre": "Actividades desde",
+        "clase": "fecha",
+        "valores": []
+      },
+      {
+        "nombre": "Actividades hasta",
+        "clase": "fecha",
         "valores": []
       }
     ]

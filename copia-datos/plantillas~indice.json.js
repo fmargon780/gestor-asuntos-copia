@@ -158,6 +158,17 @@ window.__COPIA__["plantillas/indice.json"] = [
     "vistoBueno": "direccion"
   },
   {
+    "nombre": "Certificado de actividades extraescolares",
+    "categoria": "PERSONAL",
+    "tipo": "CERTIFICADO ACTIVIDADES EXTRAESCOLARES",
+    "clase": "documento",
+    "fichero": "certificado-actividades-extraescolares.docx",
+    "tipoDocumento": "CERTIFICADO",
+    "texto": "actividades extraescolares",
+    "firmante": "secretaria",
+    "vistoBueno": "direccion"
+  },
+  {
     "nombre": "Certificado de miembro del Consejo Escolar",
     "categoria": "PERSONAL",
     "tipo": "CERTIFICADO MIEMBRO CONSEJO ESCOLAR",
