@@ -1,0 +1,30 @@
+{
+  "permissions": {
+    "defaultMode": "acceptEdits",
+    "allow": [
+      "Bash",
+      "Read",
+      "Edit",
+      "Write",
+      "Glob",
+      "Grep",
+      "Agent",
+      "NotebookEdit",
+      "WebFetch",
+      "WebSearch",
+      "mcp__github__*",
+      "mcp__GitHub__*",
+      "mcp__vercel__*",
+      "mcp__Vercel__*",
+      "mcp__supabase__*",
+      "mcp__Supabase__*"
+    ],
+    "deny": [
+      "Bash(git push --force *)",
+      "Bash(git push -f *)",
+      "Bash(rm -rf / *)",
+      "Bash(rm -rf ~ *)",
+      "Bash(sudo rm *)"
+    ]
+  }
+}
