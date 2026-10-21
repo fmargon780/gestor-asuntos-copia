@@ -1,5 +1,5 @@
 {
-  "version": "20-oct-2026 · 09:40",
+  "version": "21-oct-2026 · 09:28",
   "ficheros": {
     "js/lib/pdf.worker.iife.js": "1b783f0bbc7559bda0640fbd1c77cf122cec3d4c6d8f3ddb55c6bc430bab5af7",
     "js/lib/pdf.iife.js": "0569af2aad6e5236994a94dbc68e309d38b95af43c4fe42eb66d16c982f4a96b",
@@ -169,10 +169,10 @@
     "js/asuntos-lista-montones.js": "ffe78db59a10aff9082e3c09ef55718a3e7e48dad5402f1aaaa3ffb6685c3f8b",
     "js/asuntos-lista-pintar.js": "2cca1c98ae57ff8c60b3c2c6f18da04ea11d1ff2508e6c6f647e29951046b5a8",
     "js/asuntos-lista.js": "f1974801393175a95cac315c4bd26ff80f721e0d121add30c1f1333b2e765dfb",
-    "js/asuntos-nuevo-alta.js": "a8adc6eff942999db83bbe2c38a00726e5c1ca0023a2cb50a0fc88a346522f51",
+    "js/asuntos-nuevo-alta.js": "a80ec6e8f1587a7553de70ac44b5bc1b535236ae15d7818eaaec12b48fb62837",
     "js/asuntos-nuevo-campos.js": "fd4e738aca1ad4c4436d53cef5476fb319f5cfc62f77f26de174743a9db86c4c",
     "js/asuntos-nuevo-crear.js": "e90880bd775ea56983f996364b754b0606e95098886f2f6154dfdf6dfcc4a3ed",
-    "js/asuntos-nuevo.js": "bcfe5ca1b668795695dd7df520f45247c31d3efc60f84b8f5553053e893e9014",
+    "js/asuntos-nuevo.js": "80eda7b9fe6ce0ff082c2b8536f542dafafa6ac1ac455e463d3391e504a616da",
     "js/aviso-version-web.js": "0d99e2e54442c16908e649edaea0bba4b510e39a3cc6394e4c5202ac3eb6207f",
     "js/avisos-linea.js": "a73255639ebc57164420ddf75de11360a9cf3db8f6f35d9b4468593d9457e7bb",
     "js/avisos-lo-pide.js": "e7ff0d48a0f448fe4a95de236fd9c070344fa9d7080c2ecc996f91488bef4942",
@@ -559,7 +559,7 @@
     "js/util.js": "a1a2d37b54cce115bf6d95e328feb614264c78813ec6410a7951ba0a0316a348",
     "js/varios-cuadro.js": "e83cc35c892ad21bb0e84f3a49ab52cb7d4176fe3eb165f537331ab756930642",
     "js/verificacion.js": "7bae57add882f3738d3eb3a75585781d32ed4c5389714339f99708eba5337ccc",
-    "js/version.js": "67a6772edcd10ea5f158959b6b79b26e604429461559108dbcba372713405988",
+    "js/version.js": "fb3a4678e9880e8d8eb5748918e257e61be6b730f79959854554f4c0718d88d5",
     "js/versiones-previas.js": "90a296e332302f7b5011797d98a95130ac057d4c03d4f5af165d211160e6384e",
     "js/via-contacto.js": "2765fce39dd899badad5664b3a27ac0f857d9a2bf440e56e7998e1c57b4722f1",
     "js/visor.js": "03ec6998e90321611e412e6fd987e2d39fed7ae8cb4bdd707b041ad3b1a51aa5",
