@@ -88,8 +88,9 @@
 .dato .campo { width: 100%; }
 .cuadro-guia .dato-titulo { flex: 2 1 240px; }
 .cuadro-guia .dato-responsable { flex: 1 1 170px; }
-.cuadro-guia .paso-toca-bloque { flex: 1 1 200px; }
+.cuadro-guia .paso-toca-bloque { flex: 1 1 300px; }
 .cuadro-guia .paso-toca-bloque .paso-toca-fila { display: flex; gap: 6px; }
+.cuadro-guia .paso-toca-bloque .paso-toca-fila .campo { flex: 1 1 140px; min-width: 130px; width: auto; }   /* «Esperamos a…» se lee entero */
 .cuadro-guia .dato-plazo-dias { flex: 0 0 90px; }
 .cuadro-guia .dato-cuenta { flex: 1 1 140px; }
 .cuadro-guia .dato-desde { flex: 2 1 260px; }   /* lo bastante ancho para leer el hito elegido */
@@ -215,3 +216,15 @@
 .cuadro-guia .guia-aviso { flex: 0 0 auto; margin: 0 0 8px; }
 .guion-fila.guion-fila-resaltada:not(.guion-subfila) { background: #fff8e6; border-color: #e6c377; }
 .guion-fila.guion-fila-resaltada:not(.guion-subfila) > .guion-resumen { background: transparent; }
+
+/* Fila 465, parte C: el editor de plantillas dentro de la columna derecha («Ver y cambiar el texto»).
+   Mientras está abierto no se ve la guía (sigue en su sitio, con lo escrito), ni los paneles de mapa y de
+   traer un hito, y la lista de hitos y los botones de arriba no responden (no se cambia de hito a medias). */
+.guia-col-der:has(#guia-plantilla-panel:not(.oculto)) > #guia-pasos,
+.guia-col-der:has(#guia-plantilla-panel:not(.oculto)) > .guia-mapa-panel,
+.guia-col-der:has(#guia-plantilla-panel:not(.oculto)) > .biblioteca-panel { display: none; }
+.guia-dos-col:has(#guia-plantilla-panel:not(.oculto)) > .guia-col-izq,
+.cuadro-guia:has(#guia-plantilla-panel:not(.oculto)) .guia-cab-herr { pointer-events: none; opacity: .5; }
+.guia-plantilla-cab { display: flex; align-items: center; gap: 12px; margin-bottom: 10px; }
+.guia-plantilla-pie { margin-top: 14px; }
+.guion-receta .guia-plantilla-ver, .paso-avisar-lopide-plantilla .guia-plantilla-ver { align-self: flex-end; }
