@@ -81,7 +81,7 @@ var TutorDelGrupo = (function () {
   function textoDelMotivo(motivo, unidad) {
     if (motivo === 'sin-unidad') return 'Este alumno no tiene unidad este curso.';
     if (motivo === 'sin-tabla' || motivo === 'sin-tutor') {
-      return 'No sé quién es el tutor o tutora de ' + unidad + '. Sube la relación de tutorías de Séneca en Herramientas → Tablas de datos.';
+      return 'No sé quién es el tutor o tutora de ' + unidad + '. Las tutorías se suben al Centro de datos.';
     }
     return '';
   }
@@ -164,7 +164,8 @@ var TutorDelGrupo = (function () {
           if (!vistos[c.toLowerCase()]) { vistos[c.toLowerCase()] = true; correos.push(c); }
         });
       });
-      if (sin) faltan.push('Falta el correo del tutor/a de ' + u.unidad);
+      if (!u.tutores.length) faltan.push('No sé quién es el tutor o tutora de ' + u.unidad + '. Las tutorías se suben al Centro de datos.');   /* fila 376 */
+      else if (sin) faltan.push('Falta el correo del tutor/a de ' + u.unidad);
     });
     return { aplica: (porUnidad || []).length > 0, unidades: porUnidad || [], correos: correos, faltan: faltan };
   }
