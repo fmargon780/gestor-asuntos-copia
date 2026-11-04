@@ -535,6 +535,17 @@ window.__COPIA__["plantillas/indice.json"] = [
     "vistoBueno": ""
   },
   {
+    "nombre": "Ficha de entrega de libros",
+    "categoria": "ALUMNADO",
+    "tipo": "FICHA ENTREGA LIBROS",
+    "clase": "documento",
+    "fichero": "ficha-entrega-libros.docx",
+    "tipoDocumento": "FICHA ENTREGA LIBROS",
+    "texto": "",
+    "firmante": "",
+    "vistoBueno": ""
+  },
+  {
     "nombre": "Reclamación al proveedor",
     "categoria": "EMPRESAS",
     "tipo": "GARANTIA",
