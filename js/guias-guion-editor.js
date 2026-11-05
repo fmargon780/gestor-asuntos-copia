@@ -46,6 +46,7 @@
     if (g.accion === 'firmar') return 'Firmar un documento' + (GG.firmasNecesarias(g) > 1 ? ' · ' + GG.firmasNecesarias(g) + ' firmas' : '');
     if (g.accion === 'registrar') return 'Registrar un documento';
     if (g.accion === 'anadir') return 'Añadir un documento';
+    if (g.accion === 'pedir') return 'Pedir datos' + (r.campos && r.campos.length ? ' · ' + r.campos.length + (r.campos.length === 1 ? ' campo' : ' campos') : '');   /* fila 530 */
     return 'Sin acción';
   }
 
@@ -93,6 +94,10 @@
       (dentro
         ? '' :
         '<div class="guion-fila-linea guion-linea-accion"><label class="dato"><span class="etiqueta">Qué se hace</span>' + accionSelectHTML(g) + '</label></div>');
+    /* Fila 531: una tarea de la lista común lo dice y se cambia con «Cambiar la tarea» (js/comunes-guia.js); cambiar aquí su texto o su plantilla la suelta de la lista. */
+    var comunHTML = (!dentro && !pregunta && g.comun)
+      ? '<div class="guion-fila-linea guion-comun"><span class="suave pequeno">Tarea de la lista común. Si cambias aquí su texto o su plantilla, deja de serlo.</span>' +
+        '<button type="button" class="boton boton-chico comunes-cambiar-tarea" data-comun="' + U.escapar(g.comun) + '">Cambiar la tarea</button></div>' : '';
     var opcionesHTML2 = pregunta ? '<div class="guion-opciones">' + (g.opciones || []).map(function (o) {
       return '<div class="guion-opcion" data-id="' + U.escapar(o.id) + '">' +
         '<div class="guion-fila-linea guion-opcion-cabecera"><input class="campo guion-opcion-texto" value="' +
@@ -112,11 +117,12 @@
         recetaHTML(g, true) + explicacionHTML + normaHTML + reunirHTML + '</div>';
     }
     return '<div class="guion-fila' + (pregunta ? ' guion-fila-pregunta' : '') + (abierta ? ' guion-abierta' : '') +
-        (masAbierto ? ' guion-mas-abierto' : '') + '" data-id="' + U.escapar(g.id) + '">' +
+        (masAbierto ? ' guion-mas-abierto' : '') + '" data-id="' + U.escapar(g.id) + '"' +
+        (!dentro && !pregunta && g.comun ? ' data-comun="' + U.escapar(g.comun) + '"' : '') + '>' +
       cabeza +
       '<div class="guion-fila-linea guion-linea-texto">' + lineaTexto + mandos + '</div>' +
-      queSeHace +
-      (pregunta ? '' : recetaHTML(g, false)) +
+      queSeHace + comunHTML +
+      (pregunta ? '' : recetaHTML(Object.assign({ editorGuia: true }, g), false)) +   /* fila 530: «Pedir datos» se edita aquí */
       opcionesHTML2 +
       '<button type="button" class="enlace guion-mas-cab" aria-expanded="' + (masAbierto ? 'true' : 'false') + '"><span class="guion-mas-flecha"></span> Más de esta tarea</button>' +
       '<div class="guion-mas">' + explicacionHTML + normaHTML + reunirHTML + preguntaFilaHTML + '</div>' +
@@ -137,6 +143,7 @@
       'la aplicación la ve desde el hito; los demás, a mano.</p>' +
       '<div class="guion-lista">' + lista.map(function (g) { return filaHTML(g, false); }).join('') + '</div>' +
       '<button type="button" class="boton boton-ancho guion-anadir">+ Añadir una tarea</button>' +
+      (window.ComunesGuia ? '<button type="button" class="boton boton-ancho comunes-anadir-tarea-guia">+ Añadir una tarea de la lista</button>' : '') +   /* fila 531 */
       '</details>';
   }
 
@@ -168,9 +175,12 @@
       var leida = {};
       [['a', '.guion-receta-a'], ['via', '.guion-receta-via'], ['plantilla', '.guion-receta-plantilla'], ['sentido', '.guion-receta-sentido'], ['firmas', '.guion-receta-firmas']]
         .forEach(function (x) { var c = receta.querySelector(x[1]); if (c) leida[x[0]] = c.value; });
+      if (receta.dataset.campos) { try { leida.campos = JSON.parse(receta.dataset.campos); } catch (e) { /* sin campos */ } }   /* fila 530 */
       var limpia = normalizarReceta(base.accion, leida);
       if (limpia) base.receta = limpia;
     }
+    /* Fila 531: sigue siendo de la lista común mientras no se cambie su texto, lo que hace ni su plantilla. */
+    if (f.dataset.comun) { base.comun = f.dataset.comun; if (window.ComunesGuia && !ComunesGuia.sigueIgual(base)) delete base.comun; }
     base.normativa = (cita && cita.value.trim())
       ? { cita: cita.value.trim(), bloque: '', clave: '', url: m('.guion-norma > .guion-url').value.trim() } : null;
     var reunir = m('.guion-reunir-fila .guion-reunir');
@@ -251,6 +261,22 @@
       if (reunirMarca) reunirMarca.addEventListener('change', function () {
         reunirMarca.closest('.guion-reunir-fila').classList.toggle('con-reunir', reunirMarca.checked);
       });
+      /* Fila 530: los campos de una tarea «Pedir datos»: quitar y «+ Añadir campo» (la ventana de elegir). */
+      Array.prototype.forEach.call(fila.querySelectorAll(':scope > .guion-receta-pedir .guion-pedir-quitar'), function (q) {
+        q.onclick = function () { alCambiar(function (l) { l[idx].receta.campos.splice(+q.dataset.i, 1); }); };
+      });
+      var anadirCampo = fila.querySelector(':scope > .guion-receta-pedir .guion-pedir-anadir');
+      if (anadirCampo) anadirCampo.onclick = function () {
+        CamposElegir.abrir({ tipo: '', soloGuardables: true, alElegir: async function (campo) {
+          try {
+            var entrada = await DatosDelAsunto.entradaDeCampoDeLista(campo, null);
+            alCambiar(function (l) {
+              var r = l[idx].receta = l[idx].receta || {};
+              r.campos = GG.normalizarCampos((r.campos || []).concat([entrada]));
+            });
+          } catch (e) { U.fallo('No he podido añadir el campo', e); }
+        } });
+      };
       /* Fila 164: al cambiar la acción, sale (o se va) su receta. */
       var accionSel = fila.querySelector(':scope > .guion-fila-linea .guion-accion');
       if (accionSel) accionSel.onchange = function () { alCambiar(function () { /* solo repintar con lo leído */ }); };
