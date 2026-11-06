@@ -1,5 +1,5 @@
 {
-  "version": "6-nov-2026 · 03:40",
+  "version": "6-nov-2026 · 12:30",
   "ficheros": {
     "js/lib/pdf.worker.iife.js": "1b783f0bbc7559bda0640fbd1c77cf122cec3d4c6d8f3ddb55c6bc430bab5af7",
     "js/lib/pdf.iife.js": "0569af2aad6e5236994a94dbc68e309d38b95af43c4fe42eb66d16c982f4a96b",
@@ -654,7 +654,7 @@
     "js/tipos-parecidos.js": "f11f8480e23e3eef1dde4dc37eac0d95dbb37f5c3283d33012477b100044c5b9",
     "js/tipos-unir.js": "1646645e62ec2f253b34c4881e5cd52a58f7bf401afe959ab9720963cb9db82e",
     "js/tipos-y-su-uso-enviar.js": "d16a0d342807b4f98d764712b5d65b6f4795ae3961ff7b59ffc1a61791f5f602",
-    "js/tipos-y-su-uso.js": "332078b336422bc048ec1712b6d781229d56453576318c8f59b72a654462d83b",
+    "js/tipos-y-su-uso.js": "c687263fef8aee5c5552b6f03d967e93666778c00588da968ba8a99aa73a84c3",
     "js/traer-datos.js": "8dc2fa3939cbe5cbb143c126dab8dd0a0d85e8daa4212faf9d8366d07f7ad4ca",
     "js/tutor-del-grupo.js": "5b7f41cb625f3b0370edc15f9736e211a7a0ab73c0673d10535d654a19ff83e6",
     "js/tutores-legales.js": "efd3abdc0eb7cb7ae8c8dd43b3a7f83dd6fad11681b051de500193ff85f51dd5",
@@ -668,7 +668,7 @@
     "js/util.js": "81258da61f4e59665e2d25e42c518ad75c4fc82c40bac7571a839db974b4722e",
     "js/varios-cuadro.js": "c38cb7e94b6f0748ef14d081251e4e155087215c19fb7d9333a8ead674d02c3d",
     "js/verificacion.js": "7bae57add882f3738d3eb3a75585781d32ed4c5389714339f99708eba5337ccc",
-    "js/version.js": "cc43f5b6496323e5654ad0580531a07598427b28505bf616955720239ee8ecc6",
+    "js/version.js": "aae4e250f73cdef7cc1a9ff815fcc52010ad343d0544f48dede5e8f9650b95f3",
     "js/versiones-previas.js": "8a71e15214cb1e4dff932e6d2ebb4ff69296c622daea975f177d441e19e85b51",
     "js/via-contacto.js": "2765fce39dd899badad5664b3a27ac0f857d9a2bf440e56e7998e1c57b4722f1",
     "js/visor.js": "dc094c1f5a8f95c2e95e082d4398040cb2d25f5f288dc2f956e15a48a939fcfb",
