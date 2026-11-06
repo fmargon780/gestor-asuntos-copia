@@ -1,5 +1,5 @@
 {
-  "version": "6-nov-2026 · 02:35",
+  "version": "6-nov-2026 · 02:56",
   "ficheros": {
     "js/lib/pdf.worker.iife.js": "1b783f0bbc7559bda0640fbd1c77cf122cec3d4c6d8f3ddb55c6bc430bab5af7",
     "js/lib/pdf.iife.js": "0569af2aad6e5236994a94dbc68e309d38b95af43c4fe42eb66d16c982f4a96b",
@@ -537,7 +537,7 @@
     "js/notas-migracion.js": "7ce2b1a9b9f3b2d074feb2137c072dab6c8b580b0d1bfac09439297f6a3cce07",
     "js/notas.js": "9448b94f1b3353733f06b3cf91b6ba5bf28ac3d5552ab3eebcde30fdf246816b",
     "js/novedades-ventana.js": "ef2d730794b0424a156f4b351a81d8f4e107feedba2560b08cc4c1b7531f1f57",
-    "js/novedades.js": "ce60130fb67c0e85d4b6d4b2d9b589a1ed2b5ba033a2b9cc08955c24fafd23ab",
+    "js/novedades.js": "66f0c2dd47d89d55cf936eb38fb0ca230932928791ac30240d7b80b6eb7a6b22",
     "js/nucleo-registro.js": "9fe58008dad80161e846aade0f35d5cfb54bfd5a9c710dcbaefe3677d838a64d",
     "js/nucleo-tipos.js": "ffe5a0379e22339b5a55d13a9fccee48528b8587664f1cd2b256a29e830ff14e",
     "js/nucleo.js": "a1e73d832c0a2902a17f4f95c52c7572f603c3b5f712a5e2e40d7758b58117fc",
@@ -580,7 +580,7 @@
     "js/plantillas-fuera-de-uso.js": "1b4bf803da1c9cd23d1fc5df0c323a22e7b1f895e4a8cf6c6d756a4e5961dade",
     "js/plantillas-pantalla.js": "a57ce99f899c169a4acfb10cf5ee46ec9f18d161bcf133bfcf4814516479393d",
     "js/plantillas-uso.js": "57418d65a1e1fd7c88b46edb73297fa57bc5cf2b51154232ad72358d4435014f",
-    "js/plantillas-valores.js": "53f9d2900358503721c77dfaa96899e1e197a3c88abf1618783d28f4179aa9c6",
+    "js/plantillas-valores.js": "871cd3d3862f75071f10cbb975a7f45b59c71dc2f8553fd411574cec53aed5ff",
     "js/plantillas.js": "518ba0922bec16bf34c8631497f8619a672183e2a377e42beacfeb424d490090",
     "js/plazos-del-centro.js": "386f9f20b1e1f26d3edbf838afa404263e6304ae26c72b98e91b05a9afcf5a9b",
     "js/plazos.js": "df0b99d8fd2e1ee6ec37267abd42bd62895687f10ce795d2b94dc4b4d9c52c76",
@@ -665,7 +665,7 @@
     "js/util.js": "81258da61f4e59665e2d25e42c518ad75c4fc82c40bac7571a839db974b4722e",
     "js/varios-cuadro.js": "c38cb7e94b6f0748ef14d081251e4e155087215c19fb7d9333a8ead674d02c3d",
     "js/verificacion.js": "7bae57add882f3738d3eb3a75585781d32ed4c5389714339f99708eba5337ccc",
-    "js/version.js": "2d8a0e2ff640364be2945632928fddb9245d6f8e289a986757005fca0e064f73",
+    "js/version.js": "da04e7e07179389aaaaede9a5519ae7a7c52e685f05e96117ff15b8cd07809af",
     "js/versiones-previas.js": "8a71e15214cb1e4dff932e6d2ebb4ff69296c622daea975f177d441e19e85b51",
     "js/via-contacto.js": "2765fce39dd899badad5664b3a27ac0f857d9a2bf440e56e7998e1c57b4722f1",
     "js/visor.js": "dc094c1f5a8f95c2e95e082d4398040cb2d25f5f288dc2f956e15a48a939fcfb",
