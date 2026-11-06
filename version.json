@@ -1,5 +1,5 @@
 {
-  "version": "5-nov-2026 · 18:23",
+  "version": "6-nov-2026 · 02:35",
   "ficheros": {
     "js/lib/pdf.worker.iife.js": "1b783f0bbc7559bda0640fbd1c77cf122cec3d4c6d8f3ddb55c6bc430bab5af7",
     "js/lib/pdf.iife.js": "0569af2aad6e5236994a94dbc68e309d38b95af43c4fe42eb66d16c982f4a96b",
@@ -260,7 +260,7 @@
     "js/comunes-guardado.js": "0028d6692a489586e816be2b12056c2743acb95ac2e882eb41bf8220aeab16cd",
     "js/comunes-guia.js": "10301263e42c8570de1044aadc1005f507593a6583d8c11b06fa6d02dd7c96a9",
     "js/comunes-propuesta.js": "7e2716a7015ce7958d10dad5a228ccc7f2a5a819c07050e0f6403ad70a83bc19",
-    "js/comunes-ventana-nuevo.js": "feaede88998d3978897c3f469beefa0aa832e5517356323d61f0b51633fff8f5",
+    "js/comunes-ventana-nuevo.js": "2ddab0e48c6bede38b58a1a333559d95cd1c20671e330f2868252d7a6ddb9323",
     "js/comunes-ventana.js": "fb125ea29f4bcb6107433f6bb3b8e7c3e7507bfea721858a004f994c7207a101",
     "js/comunes.js": "8cae6b9229c0f5808c55e3df0de18bf4886add7a8dff9c84c3e628a83fd80175",
     "js/conflictos-datos.js": "c82185b69a756a440f33ef2e46a95b908d20af986a7495b0acd99086ef3d270b",
@@ -665,7 +665,7 @@
     "js/util.js": "81258da61f4e59665e2d25e42c518ad75c4fc82c40bac7571a839db974b4722e",
     "js/varios-cuadro.js": "c38cb7e94b6f0748ef14d081251e4e155087215c19fb7d9333a8ead674d02c3d",
     "js/verificacion.js": "7bae57add882f3738d3eb3a75585781d32ed4c5389714339f99708eba5337ccc",
-    "js/version.js": "0bd8fa26187d36c8fd592a53be5de85bcd240dc8313d05d7f9d1023b501cb837",
+    "js/version.js": "2d8a0e2ff640364be2945632928fddb9245d6f8e289a986757005fca0e064f73",
     "js/versiones-previas.js": "8a71e15214cb1e4dff932e6d2ebb4ff69296c622daea975f177d441e19e85b51",
     "js/via-contacto.js": "2765fce39dd899badad5664b3a27ac0f857d9a2bf440e56e7998e1c57b4722f1",
     "js/visor.js": "dc094c1f5a8f95c2e95e082d4398040cb2d25f5f288dc2f956e15a48a939fcfb",
