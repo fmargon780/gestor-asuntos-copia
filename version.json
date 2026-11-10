@@ -1,5 +1,5 @@
 {
-  "version": "9-nov-2026 · 14:18",
+  "version": "10-nov-2026 · 09:46",
   "ficheros": {
     "js/lib/pdf.worker.iife.js": "1b783f0bbc7559bda0640fbd1c77cf122cec3d4c6d8f3ddb55c6bc430bab5af7",
     "js/lib/pdf.iife.js": "0569af2aad6e5236994a94dbc68e309d38b95af43c4fe42eb66d16c982f4a96b",
@@ -236,7 +236,7 @@
     "js/campos.js": "353c13345ad8e3be42a7c9fb578d449e7b8ea3cfaa1212f46006194e107fe80d",
     "js/candidaturas-ficha.js": "a7d1d8550d2a3bc0172531f74062a322a6e3bbfaae41f715ea77d9f042e235db",
     "js/candidaturas-lista.js": "5ae858f8740ebac9e85e05d5d2cc3c3a85cf4ee9b4fd5ff4fe226fac895f3081",
-    "js/candidaturas-papeletas.js": "2db07924fd6f1bdaeda231cbb731f55e676211c7a3fcb44fec853299f5559c77",
+    "js/candidaturas-papeletas.js": "aee99fdf7b7fe038c0e3e1ad482a800ac02097a122330fb2bcf3ef4f9a539a6e",
     "js/candidaturas.js": "e7dbf32cd7942cba3dcc98b26f0f20069b6e8fee5b785c175b7581c45df3ec71",
     "js/cargar-biblioteca.js": "f703a820d028218ba79fb3a45281824a9324753d27abac9474c5d9a43aba9db6",
     "js/cargar-fichero.js": "8f079db7c5b1a04f754f6fd33cd5c671b5b2e2faf119f99d8a360182a1aca242",
@@ -545,7 +545,7 @@
     "js/notas-migracion.js": "7ce2b1a9b9f3b2d074feb2137c072dab6c8b580b0d1bfac09439297f6a3cce07",
     "js/notas.js": "9448b94f1b3353733f06b3cf91b6ba5bf28ac3d5552ab3eebcde30fdf246816b",
     "js/novedades-ventana.js": "ef2d730794b0424a156f4b351a81d8f4e107feedba2560b08cc4c1b7531f1f57",
-    "js/novedades.js": "dee1d4e8e41abbb522a6cf1ae5cb7d3909ddce13c635fbcdf92d23345f50edc3",
+    "js/novedades.js": "17f1c8f97f113d20ab76efd88fbee7a223bbdb893bd9f0da02e9b60331a151e6",
     "js/nucleo-registro.js": "9fe58008dad80161e846aade0f35d5cfb54bfd5a9c710dcbaefe3677d838a64d",
     "js/nucleo-tipos.js": "ffe5a0379e22339b5a55d13a9fccee48528b8587664f1cd2b256a29e830ff14e",
     "js/nucleo.js": "a1e73d832c0a2902a17f4f95c52c7572f603c3b5f712a5e2e40d7758b58117fc",
@@ -681,7 +681,7 @@
     "js/util.js": "81258da61f4e59665e2d25e42c518ad75c4fc82c40bac7571a839db974b4722e",
     "js/varios-cuadro.js": "c38cb7e94b6f0748ef14d081251e4e155087215c19fb7d9333a8ead674d02c3d",
     "js/verificacion.js": "7bae57add882f3738d3eb3a75585781d32ed4c5389714339f99708eba5337ccc",
-    "js/version.js": "0d367ed822ff2629d5ae295c03c7d96feff5ae1f077bbe200ac4e97be8330ac8",
+    "js/version.js": "bf8a420875c9e449617e57571280566cfebcaea5420224598a9291cd582c3971",
     "js/versiones-previas.js": "8a71e15214cb1e4dff932e6d2ebb4ff69296c622daea975f177d441e19e85b51",
     "js/via-contacto.js": "2765fce39dd899badad5664b3a27ac0f857d9a2bf440e56e7998e1c57b4722f1",
     "js/visor.js": "dc094c1f5a8f95c2e95e082d4398040cb2d25f5f288dc2f956e15a48a939fcfb",
