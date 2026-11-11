@@ -1,5 +1,5 @@
 {
-  "version": "11-nov-2026 · 10:36",
+  "version": "11-nov-2026 · 11:13",
   "ficheros": {
     "js/lib/pdf.worker.iife.js": "1b783f0bbc7559bda0640fbd1c77cf122cec3d4c6d8f3ddb55c6bc430bab5af7",
     "js/lib/pdf.iife.js": "0569af2aad6e5236994a94dbc68e309d38b95af43c4fe42eb66d16c982f4a96b",
@@ -567,10 +567,10 @@
     "js/notas-migracion.js": "7ce2b1a9b9f3b2d074feb2137c072dab6c8b580b0d1bfac09439297f6a3cce07",
     "js/notas.js": "9448b94f1b3353733f06b3cf91b6ba5bf28ac3d5552ab3eebcde30fdf246816b",
     "js/novedades-ventana.js": "ef2d730794b0424a156f4b351a81d8f4e107feedba2560b08cc4c1b7531f1f57",
-    "js/novedades.js": "480be68a12e6bae01d557d944c8dcfdd1d0f9933f6be934bd29492a2741906cf",
+    "js/novedades.js": "c9265a25224cbff0aa8f3c2d658e5fdbda08a3c58656036394596bbf31172173",
     "js/nucleo-registro.js": "9fe58008dad80161e846aade0f35d5cfb54bfd5a9c710dcbaefe3677d838a64d",
     "js/nucleo-tipos.js": "ffe5a0379e22339b5a55d13a9fccee48528b8587664f1cd2b256a29e830ff14e",
-    "js/nucleo.js": "a1e73d832c0a2902a17f4f95c52c7572f603c3b5f712a5e2e40d7758b58117fc",
+    "js/nucleo.js": "22aa9f0f04086c0bba216133414468994a1ee3f19eca0d76e4d4e5649ce8ecf8",
     "js/nuevo-siguiente-hueco.js": "5f15ef3ee675a6dbc1330de518f15039283df38fd1ee73d5276831a8edb47707",
     "js/nuevo-unidad.js": "ecfee6872c1ced970c3155aa4e3d0b1c188817b3340104417ccc116ea1c2c617",
     "js/numeros.js": "dbf8478cd4bc88300df4f356d2371c1d58e1fccef7188ed3898b5cbb2aadf99c",
@@ -709,7 +709,7 @@
     "js/util.js": "81258da61f4e59665e2d25e42c518ad75c4fc82c40bac7571a839db974b4722e",
     "js/varios-cuadro.js": "c38cb7e94b6f0748ef14d081251e4e155087215c19fb7d9333a8ead674d02c3d",
     "js/verificacion.js": "7bae57add882f3738d3eb3a75585781d32ed4c5389714339f99708eba5337ccc",
-    "js/version.js": "4cdf57d16494fcfd7b96d341b30575aacec94040ef50e475b863804ed58da614",
+    "js/version.js": "e17901a5f346ae947c8ade154ba55da54a867b42a74b80a884ac1eef55b505a5",
     "js/versiones-previas.js": "8a71e15214cb1e4dff932e6d2ebb4ff69296c622daea975f177d441e19e85b51",
     "js/via-contacto.js": "2765fce39dd899badad5664b3a27ac0f857d9a2bf440e56e7998e1c57b4722f1",
     "js/visor.js": "dc094c1f5a8f95c2e95e082d4398040cb2d25f5f288dc2f956e15a48a939fcfb",
