@@ -1,8 +1,9 @@
 {
-  "version": "12-nov-2026 · 20:45",
+  "version": "12-nov-2026 · 20:52",
   "ficheros": {
     "js/lib/pdf.worker.iife.js": "1b783f0bbc7559bda0640fbd1c77cf122cec3d4c6d8f3ddb55c6bc430bab5af7",
     "js/lib/pdf.iife.js": "0569af2aad6e5236994a94dbc68e309d38b95af43c4fe42eb66d16c982f4a96b",
+    "copia-datos/datos-biblioteca~baja-matricula.json.js": "203a96f9ca36fddebb258e12a358e72871cb004ecb95aef74de9eaa93adb1db8",
     "copia-datos/datos-biblioteca~biblioteca-centro.json.js": "ec21685c1fe3907f1ab6cb00d0f906a22d7fa16e0b2cc13fc92c06bd32452e4a",
     "copia-datos/datos-biblioteca~plan-guias.json.js": "27a53750b4d938a275addaf1a665547b5c3dc953893c9b7b0b2e2bf1d969a904",
     "copia-datos/datos~formularios.json.js": "35aabd723ed78a3962aa736b8ea0b32cdc1f1bc24153219430c505b632fb33db",
@@ -718,7 +719,7 @@
     "js/util.js": "81258da61f4e59665e2d25e42c518ad75c4fc82c40bac7571a839db974b4722e",
     "js/varios-cuadro.js": "c38cb7e94b6f0748ef14d081251e4e155087215c19fb7d9333a8ead674d02c3d",
     "js/verificacion.js": "7bae57add882f3738d3eb3a75585781d32ed4c5389714339f99708eba5337ccc",
-    "js/version.js": "bba8cde6080dcdf3009692a257b6f5de271526fd2a4ecb9fc2156e3749925f23",
+    "js/version.js": "c73c06e138bd13701c4450d4b021a210730e0ef324d3c411ea5f70313b9d3df4",
     "js/versiones-previas.js": "8a71e15214cb1e4dff932e6d2ebb4ff69296c622daea975f177d441e19e85b51",
     "js/via-contacto.js": "2765fce39dd899badad5664b3a27ac0f857d9a2bf440e56e7998e1c57b4722f1",
     "js/visor.js": "dc094c1f5a8f95c2e95e082d4398040cb2d25f5f288dc2f956e15a48a939fcfb",
