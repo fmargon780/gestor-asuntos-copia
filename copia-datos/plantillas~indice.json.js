@@ -337,7 +337,7 @@ window.__COPIA__["plantillas/indice.json"] = [
     "tipo": "CERTIFICADO",
     "clase": "documento",
     "fichero": "certificacion-academica.docx",
-    "tipoDocumento": "CERTIFICACION",
+    "tipoDocumento": "CERTIFICADO",
     "texto": "academica",
     "firmante": "secretaria",
     "vistoBueno": "direccion"
