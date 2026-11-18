@@ -1,5 +1,5 @@
 {
-  "version": "17-nov-2026 · 22:23",
+  "version": "18-nov-2026 · 02:22",
   "ficheros": {
     "js/lib/pdf.worker.iife.js": "1b783f0bbc7559bda0640fbd1c77cf122cec3d4c6d8f3ddb55c6bc430bab5af7",
     "js/lib/pdf.iife.js": "0569af2aad6e5236994a94dbc68e309d38b95af43c4fe42eb66d16c982f4a96b",
@@ -398,7 +398,7 @@
     "js/documentos-sueltos.js": "b336162042e4f3fdd44cf6b9889ab7355ea5db81e6887451f64f254d5c24b5b4",
     "js/documentos-tipo-nuevo.js": "77f76447bce344c340b94807581ea61b6acd5698ca68c03c43b3a7180684159d",
     "js/documentos-vigilancia.js": "a77a36b4c9566011f4c9388f336be7902cdde478a5e4f4432df6a1c220f96392",
-    "js/documentos.js": "7026389a71e54a66ec7cd10879f88517b78dbeaa3c3e0ca40020602ff0e6c518",
+    "js/documentos.js": "8c464bd637320a42fd0fe87ed125f44de450b0993a86b1137b2caa9314fee9d8",
     "js/docx-crear.js": "ac7192ef4a4161103088726076e8606f34e25a2e2428afffc99fb196e8ba446e",
     "js/docx-imagen.js": "79c48d237b42e4b238f2dfdc1b976dd9da7b01698deb199a0f8768dbc48ef09b",
     "js/docx-pie.js": "3a61deb95e6b338a6560e033dadb870cc9c29371485f27419eb577c49b63604f",
@@ -759,7 +759,7 @@
     "js/util.js": "81258da61f4e59665e2d25e42c518ad75c4fc82c40bac7571a839db974b4722e",
     "js/varios-cuadro.js": "c38cb7e94b6f0748ef14d081251e4e155087215c19fb7d9333a8ead674d02c3d",
     "js/verificacion.js": "7bae57add882f3738d3eb3a75585781d32ed4c5389714339f99708eba5337ccc",
-    "js/version.js": "427b9c4bef2086563c7842df10ace3ac1a31350edbd7e1f31fb12ef30dab3594",
+    "js/version.js": "45acb31ccf954242ce1bac2f51e9957da27035dbbf54c11330a019fe39f698ab",
     "js/versiones-previas.js": "8a71e15214cb1e4dff932e6d2ebb4ff69296c622daea975f177d441e19e85b51",
     "js/via-contacto.js": "2765fce39dd899badad5664b3a27ac0f857d9a2bf440e56e7998e1c57b4722f1",
     "js/visor.js": "dc094c1f5a8f95c2e95e082d4398040cb2d25f5f288dc2f956e15a48a939fcfb",
