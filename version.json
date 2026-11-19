@@ -1,5 +1,5 @@
 {
-  "version": "19-nov-2026 · 05:12",
+  "version": "19-nov-2026 · 06:09",
   "ficheros": {
     "js/lib/pdf.worker.iife.js": "1b783f0bbc7559bda0640fbd1c77cf122cec3d4c6d8f3ddb55c6bc430bab5af7",
     "js/lib/pdf.iife.js": "0569af2aad6e5236994a94dbc68e309d38b95af43c4fe42eb66d16c982f4a96b",
@@ -381,7 +381,7 @@
     "js/demo/disco.js": "1b1f1e67f51a9ef2b18581bec14d6704e679d152e8113760c0b6a263d356fed0",
     "js/demo/entrada.js": "f3a7ef68ad92e804dbb28a695fa1aa47a4df089698c2016ce0c72af46313ba4e",
     "js/demo/entrega.js": "fb697aed4ce97003045aefca9712746957dbacb74e44d19c07528247b8e43b9d",
-    "js/demo/franja.js": "a0affc20c9b13c3bce1c39689b698c1a4d82abcb10251899b1dd605ca4340b94",
+    "js/demo/franja.js": "0d999ffa8b9cc6227c496385c54a774d532f510a01e0fe1e35bb9e86e3d2129f",
     "js/demo/mas-nuevo.js": "40d907816f5ff21a5547310b4eab5fb8b4ab09791999e2c1489501d90a6cff0f",
     "js/demo/permisos.js": "eb0c854a7aa799a914bb43cda81f0182a5ddc809105baf492e7873c84ecfa22f",
     "js/demo/personal-hecho.js": "a0b927fda92db12917a250d4ebd82a1699ed2b205a05351a5f1f2b64d3bb0f54",
@@ -770,7 +770,7 @@
     "js/util.js": "81258da61f4e59665e2d25e42c518ad75c4fc82c40bac7571a839db974b4722e",
     "js/varios-cuadro.js": "c38cb7e94b6f0748ef14d081251e4e155087215c19fb7d9333a8ead674d02c3d",
     "js/verificacion.js": "7bae57add882f3738d3eb3a75585781d32ed4c5389714339f99708eba5337ccc",
-    "js/version.js": "2e5222ce86d77a3a6c8ed9ce3ab6025edad3e58f8ced234923c0c3fd5e36833c",
+    "js/version.js": "5263a04ab99de86dd2ba5c496596d857d83a882289b3d913cdee1996067f69fb",
     "js/versiones-previas.js": "8a71e15214cb1e4dff932e6d2ebb4ff69296c622daea975f177d441e19e85b51",
     "js/via-contacto.js": "2765fce39dd899badad5664b3a27ac0f857d9a2bf440e56e7998e1c57b4722f1",
     "js/visor.js": "dc094c1f5a8f95c2e95e082d4398040cb2d25f5f288dc2f956e15a48a939fcfb",
