@@ -1,5 +1,5 @@
 {
-  "version": "19-nov-2026 · 06:49",
+  "version": "19-nov-2026 · 11:23",
   "ficheros": {
     "js/lib/pdf.worker.iife.js": "1b783f0bbc7559bda0640fbd1c77cf122cec3d4c6d8f3ddb55c6bc430bab5af7",
     "js/lib/pdf.iife.js": "0569af2aad6e5236994a94dbc68e309d38b95af43c4fe42eb66d16c982f4a96b",
@@ -351,7 +351,7 @@
     "js/datos-resumen.js": "1e34140dd9c60a747f1f26d6c0997b090c8f56215fb4ac328d3468af9f99c595",
     "js/datos-tutores.js": "03e4f92af93d85da6dae19f7da1a1731c174fb4391fd496f3f4a58fe1f72104e",
     "js/datos.js": "9315def58c5c436bfbf99109f56520a2ea43dd9041d7d54d0de6e5fc85b063c1",
-    "js/demo/arrancar.js": "a3584732b778dfc9b79f605fdf5a27f5060929a81ded3745cd9d4a228ba0eae3",
+    "js/demo/arrancar.js": "71d47063718a013d545099e7601338bb015c3afda7866e831f6b916bc9b9ca0f",
     "js/demo/copia-alumnado.js": "f1fb344587fb346e9bfef86a7b2a8d8bf39174ce196461ce8d441db5d466f8be",
     "js/demo/datos-actividades.js": "040e049286c5108a0918a2bf9fcbbe45990010eda617e9ddb6d0ac1c5eddb9de",
     "js/demo/datos-administraciones.js": "7ccfaeb2194b3feed0e57462ec936d05c32d901e59092467c7e2d13bbfedb96b",
@@ -383,7 +383,7 @@
     "js/demo/disco.js": "1b1f1e67f51a9ef2b18581bec14d6704e679d152e8113760c0b6a263d356fed0",
     "js/demo/entrada.js": "f3a7ef68ad92e804dbb28a695fa1aa47a4df089698c2016ce0c72af46313ba4e",
     "js/demo/entrega.js": "fb697aed4ce97003045aefca9712746957dbacb74e44d19c07528247b8e43b9d",
-    "js/demo/franja.js": "0d999ffa8b9cc6227c496385c54a774d532f510a01e0fe1e35bb9e86e3d2129f",
+    "js/demo/franja.js": "06978e0bb15b0cfa0f6b4701ce6eef3553c63d4a1a955f3346f7a9cd039d89e8",
     "js/demo/mas-nuevo.js": "40d907816f5ff21a5547310b4eab5fb8b4ab09791999e2c1489501d90a6cff0f",
     "js/demo/permisos.js": "eb0c854a7aa799a914bb43cda81f0182a5ddc809105baf492e7873c84ecfa22f",
     "js/demo/personal-hecho.js": "a0b927fda92db12917a250d4ebd82a1699ed2b205a05351a5f1f2b64d3bb0f54",
@@ -772,7 +772,7 @@
     "js/util.js": "81258da61f4e59665e2d25e42c518ad75c4fc82c40bac7571a839db974b4722e",
     "js/varios-cuadro.js": "c38cb7e94b6f0748ef14d081251e4e155087215c19fb7d9333a8ead674d02c3d",
     "js/verificacion.js": "7bae57add882f3738d3eb3a75585781d32ed4c5389714339f99708eba5337ccc",
-    "js/version.js": "1ca0ee17cac0d0af612da6d835f45b9bb599d53a602e87fbc3de5bf6e9574626",
+    "js/version.js": "6c48b01ca5a0a18856580e08e20c065b1dba507b9b1663e30ec193398ba2d919",
     "js/versiones-previas.js": "8a71e15214cb1e4dff932e6d2ebb4ff69296c622daea975f177d441e19e85b51",
     "js/via-contacto.js": "2765fce39dd899badad5664b3a27ac0f857d9a2bf440e56e7998e1c57b4722f1",
     "js/visor.js": "dc094c1f5a8f95c2e95e082d4398040cb2d25f5f288dc2f956e15a48a939fcfb",
