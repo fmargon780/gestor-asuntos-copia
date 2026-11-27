@@ -712,15 +712,28 @@ window.__COPIA__["plantillas/indice.json"] = [
     "vistoBueno": ""
   },
   {
-    "nombre": "Devolución de libros de gratuidad por traslado",
+    "nombre": "Devolución de libros de gratuidad",
     "categoria": "ALUMNADO",
-    "tipo": "TRASLADO",
+    "tipo": "ANULACIÓN MATRÍCULA",
     "clase": "documento",
     "fichero": "devolucion-libros.docx",
     "tipoDocumento": "CERTIFICADO",
     "texto": "libros",
     "firmante": "secretaria",
-    "vistoBueno": "direccion"
+    "vistoBueno": "direccion",
+    "antes": "Devolución de libros de gratuidad por traslado"
+  },
+  {
+    "nombre": "Devolución de libros de gratuidad",
+    "categoria": "ALUMNADO",
+    "tipo": "TRAS. MATR. VIVA",
+    "clase": "documento",
+    "fichero": "devolucion-libros.docx",
+    "tipoDocumento": "CERTIFICADO",
+    "texto": "libros",
+    "firmante": "secretaria",
+    "vistoBueno": "direccion",
+    "antes": "Devolución de libros de gratuidad por traslado"
   },
   {
     "nombre": "Petición del historial al centro de procedencia",
