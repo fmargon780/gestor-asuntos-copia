@@ -1,5 +1,5 @@
 {
-  "version": "27-nov-2026 · 08:00",
+  "version": "27-nov-2026 · 10:32",
   "ficheros": {
     "js/lib/pdf.worker.iife.js": "1b783f0bbc7559bda0640fbd1c77cf122cec3d4c6d8f3ddb55c6bc430bab5af7",
     "js/lib/pdf.iife.js": "0569af2aad6e5236994a94dbc68e309d38b95af43c4fe42eb66d16c982f4a96b",
@@ -463,7 +463,7 @@
     "js/exportar-informe-comprobar.js": "0486de3fc0a6066c9b38fcf449b40030ee3c4a2471b611d911179a4dd6c7710a",
     "js/exportar-informe.js": "62b6730b25b1e0773c81b3694aacbf0392e159972651309036564d31d55fa633",
     "js/exportar-ventana.js": "d8a201f79b1e7ab96e686f2d8768b009dbe5b0c115506bb8d668c230bc39a079",
-    "js/extracto-documento.js": "219d27b3aa77e5761ec1d3041364a065446168640808b783446d44a452f4eb6a",
+    "js/extracto-documento.js": "f34199d55b0ca96869b96a1bf5ca22e60af6796172267d189a12303a194474b6",
     "js/fases.js": "8ddfb90bfc64d4db82412d42af9db3d43adbfcedeac87fa7c7393efc774e86da",
     "js/fecha-de-registro-plazos.js": "8efcb05e34ef7c45bcec4043956abaf0c89396f2eccf15122e07b4fcabb6e648",
     "js/fecha-de-registro.js": "36ba6e99f4e72f32ae849c3518051f8a7cd60d3d500fae59474ee02e4979724d",
@@ -809,7 +809,7 @@
     "js/util.js": "81258da61f4e59665e2d25e42c518ad75c4fc82c40bac7571a839db974b4722e",
     "js/varios-cuadro.js": "c38cb7e94b6f0748ef14d081251e4e155087215c19fb7d9333a8ead674d02c3d",
     "js/verificacion.js": "7bae57add882f3738d3eb3a75585781d32ed4c5389714339f99708eba5337ccc",
-    "js/version.js": "1b86dd5091f5a1f307b170684f2ebc3ce959b260d941ea61d23e1bd725fba65f",
+    "js/version.js": "9a3d87e196dc1901259ce22cf74643bbf39f9e019d180644880b991ce9a57cd2",
     "js/versiones-previas.js": "8a71e15214cb1e4dff932e6d2ebb4ff69296c622daea975f177d441e19e85b51",
     "js/via-contacto.js": "2765fce39dd899badad5664b3a27ac0f857d9a2bf440e56e7998e1c57b4722f1",
     "js/visor.js": "dc094c1f5a8f95c2e95e082d4398040cb2d25f5f288dc2f956e15a48a939fcfb",
